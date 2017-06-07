@@ -1,7 +1,7 @@
 ##### [See in english below](#the-journey-of-food-to-your-pantry)
 
 
-# Se cultivan allá, se consumen aquí: la travesía de los alimentos hacia tu despensa
+# Se cultivan allá, se consumen aquí: </br> la travesía de los alimentos hacia tu despensa
 ##### Propuesta de proyecto para el taller "Visualizar 17" del Medialab Prado
 
 
