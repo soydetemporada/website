@@ -49,12 +49,12 @@ Es importante tener en el equipo un desarrollador especializado en apps o webapp
 
 
 ## Perfiles de colaboradores necesarios
-- Periodistas (investigación sobre los calendarios equivocados del Estado)
-- Climatólogos (investigación sobre el clima por región)
-- Agricultores o grupos de consumo (nadie mejor para saber qué se cultiva cuando)
-- Ilustradores (para los dibujos del calendario y de los alimentos)
-- Diseñadores (para el diseño de la aplicación)
-- Programadores (estructura de la web e integración del formulario al mapa)
+- **Periodistas** (investigación sobre los calendarios equivocados del Estado)
+- **Climatólogos** (investigación sobre el clima por región)
+- **Agricultores** o grupos de consumo (nadie mejor para saber qué se cultiva cuando)
+- **Ilustradores** (para los dibujos del calendario y de los alimentos)
+- **Diseñadores** (para el diseño de la aplicación)
+- **Programadores** (estructura de la web e integración del formulario al mapa)
 
 
 ----------------------------------------------------------------------------------------------------
@@ -65,13 +65,13 @@ Es importante tener en el equipo un desarrollador especializado en apps o webapp
 ##### Project proposal for the workshop "Visualizar 17" at Medialab Prado (Madrid)
 
 ## Project summary
-It’s been decades that citizens of urban centers disconnected from the agricultural world and the natural rhythm of plants. Summer or winter, there’s always exotic fruits in the supermarkets stands. There are two methods to consume one type of fruit or vegetable during the whole year: importing it or cultivating it in a heated greenhouse. Both ways generate greenhouse gases, damaging more and more our environment.
+It’s been decades that citizens of urban centers disconnected from the agricultural world and the natural rhythm of plants. Summer or winter, there’s always exotic fruits in the supermarkets stands. There are two methods to consume one type of fruit or vegetable during the whole year: **importing it** or **cultivating it in a heated greenhouse**. Both ways generate greenhouse gases, damaging more and more our environment.
 
-Although Spain is a great fruits and vegetables producer, we keep finding foreign products in the Spanish supermarkets, not because they are better quality but because they’re cheaper for the food industry. We find ourselves in a surrealist situation where fruits and vegetables produced nationally are exported while the same ones are imported at a lower price from a country where wages are lower and employment laws sloppier.
+Although Spain is a great fruits and vegetables producer, we keep finding foreign products in the Spanish supermarkets, not because they are better quality but because they’re **cheaper for the food industry**. We find ourselves in a surrealist situation where fruits and vegetables produced nationally are exported while the same ones are imported at a lower price from a country where wages are lower and employment laws sloppier.
 
-A food product that traveled thousands of kilometers and was conserved during the way will likely be less tasty than a local product. But we’re so used to have them all at any time that we forget about the natural cycle of plants. We have to be aware that foreign products and out of season products have a massive carbon footprint. We have to get rid of this habit of eating anything anytime and go back to consume food like our grandparents used to do: following mother nature’s rhythm.
+A food product that traveled thousands of kilometers and was conserved during the way will likely be **less tasty than a local product**. But we’re so used to have them all at any time that we forget about the natural cycle of plants. We have to be aware that foreign products and out of season products have a **massive carbon footprint**. We have to get rid of this habit of eating anything anytime and go back to consume food like our grandparents used to do: following mother nature’s rhythm.
 
-Now, how do we know what to eat and when? Looking at Spanish seasonal calendars on the web, we are confronted to a big blend of contradictory information. The reason is that a seasonal calendar can be elaborated from different variables, and every author picks whichever he wants: national or local climate, open air or greenhouse farming, heated greenhouse or not, etc.
+Now, how do we know what to eat and when? Looking at Spanish seasonal calendars on the web, we are confronted to a big blend of contradictory information. The reason is that a seasonal calendar can be elaborated from **different variables**, and every author picks whichever he wants: national or local climate, open air or greenhouse farming, heated greenhouse or not, etc.
 
 We need a tool that shows what can be eaten from local farming and in-season. This project’s goal is to elaborate an app (or webapp) which allows to know what ar the fruits and vegetables than are being harvested in every region of Spain, at any time, to stop with the excessive transport of food.
 
@@ -84,10 +84,10 @@ It's important that the team includes a programmer specialised in apps or webapp
 
 
 ## Profile of collaborators needed
-- Journalists (investigation on incorrect calendars and the national situation)
-- Climatologists (investigation on weather in each region of Spain)
-- Agricultors o people with experience in the farming world
-- Illustrators (drawings of products and of seasonal calendar)
-- Designers (app design)
-- Programmers (web structure and form integration)
+- **Journalists** (investigation on incorrect calendars and the national situation)
+- **Climatologists** (investigation on weather in each region of Spain)
+- **Agricultors** o people with experience in the farming world
+- **Illustrators** (drawings of products and of seasonal calendar)
+- **Designers** (app design)
+- **Programmers** (web structure and form integration)
 
