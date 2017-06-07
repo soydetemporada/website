@@ -31,6 +31,7 @@ Tendremos que cruzar estos datos con una tabla que habremos elaborado de manera 
  
 Aún estamos pensando en encontrar una manera de poder actualizar la herramienta en tiempo real. Por ejemplo, cuando ha habido una temporada muy fría y que se han retrasado los cultivos, o bien el contrario, deberíamos poder avisar a los usuarios de la situación. Sin embargo, parece complicado realizarlo y quizás que no podremos lograr la actualización automática.
 
+
 #### 3. Visualización
 Aquí entra el trabajo de los diseñadores e ilustradores. Diseñaremos un calendario que se puede visitar fácilmente desde el móvil. El usuario podrá buscar la información a través de un formulario que tendrá cuatro preguntas:
 - **Comunidad autónoma**
@@ -39,7 +40,8 @@ Aquí entra el trabajo de los diseñadores e ilustradores. Diseñaremos un calen
 - **Fruta o hortaliza**
  
 Para cada input, se podrá seleccionar varias respuestas. Es decir que el usuario podrá hacer este tipo de búsqueda: *Todas las frutas y hortalizas* con tipo de cultivo *secano y regadío* en *otoño* en *Cataluña, Aragón y Castilla y León*.
- 
+
+
 #### 4. Programación
 El resultado final tendrá que ser una aplicación móvil o una webapp para que cada uno tenga un acceso fácil mientras haciendo sus compras.
 
