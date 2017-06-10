@@ -10,18 +10,16 @@ Desde hace décadas, los habitantes de centros urbanos se desconectaron del mund
 
 Aunque en España se producen muchas variedades de frutas y hortalizas, seguimos encontrando productos extranjeros en los mercados, no por una razón de calidad ni de existencia sino simplemente **por razones económicas**. Llegamos a una situación surrealista donde alimentos producidos en el país se exportan y los mismos alimentos se importan de otros países que tienen menos regulaciones laborales y costes salariales más bajos. Es el caso por ejemplo de las naranjas y de los pimientos, dos productos que se exportan a nivel muy grande y que a la vez, se importan en miles de toneladas de Marruecos.
 
-Alimentos que han viajado miles de kilómetros y han sido conservados durante el camino tienen una **calidad mucho menor** a la de los producidos localmente. Sin embargo, estamos tan acostumbrados a tenerlos en cualquier época que nos olvidamos del ciclo natural de las plantas. Hay que ser conscientes que los alimentos extranjeros o de fuera de temporada que consumimos tienen una **huella ecológica muy grande**. Debemos deshacernos de la comodidad a la que nos hemos acostumbrado y volver a consumir como lo hacían nuestros abuelos: siguiendo el ritmo de la naturaleza.
+Alimentos que han viajado miles de kilómetros y han sido conservados durante el camino tienen una **calidad mucho menor** a la de los producidos localmente. Sin embargo, estamos tan acostumbrados a tenerlos en cualquier época que nos olvidamos del ciclo natural de las plantas. Hay que ser conscientes que los alimentos extranjeros o de fuera de temporada que consumimos tienen una **huella ecológica muy grande**. Debemos deshacernos de la comodidad a la que nos hemos acostumbrado y volver a consumir como lo hacían nuestros abuelos: **siguiendo el ritmo de la naturaleza**.
 
-Ahora, ¿*cómo saber qué comer y cuando*? Buscando calendarios en la web, uno se enfrenta a una gran mezcla de datos e informaciones contradictorias. La razón es que hay **diferentes variables** para elaborar un calendario de temporada, y cada autor escoge las que tener en cuenta: el clima local o nacional, el cultivo en invernadero o al aire libre, el invernadero con o sin climatización, etcétera.
-
-Es necesaria una herramienta que permita saber **qué comer de cultivo local y de temporada**. Este proyecto tiene por objetivo elaborar una aplicación (o webapp) que permita saber con precisión cuáles son las frutas y verduras que se están cosechando en cada región de España en cada época para acabar con el transporte excesivo de alimentos.
+Ahora, ¿*cómo saber qué comer y cuando*? Buscando calendarios en la web, uno se enfrenta a una gran mezcla de datos e informaciones contradictorias. La razón es que hay **diferentes variables** para elaborar un calendario de temporada, y cada autor escoge las que tener en cuenta: el clima local o nacional, el cultivo en invernadero o al aire libre, el invernadero con o sin climatización, etcétera. Es necesaria una herramienta que permita saber **qué comer de cultivo local y de temporada**. Este proyecto tiene por objetivo elaborar una aplicación (o webapp) que permita saber con precisión cuáles son las frutas y verduras que se están cosechando en cada *región de España* en cada *época* y su *tipo de cultivo* para acabar con el transporte excesivo de alimentos así que su cultivo constante en invernaderos climatizados.
 
 ## Descripción del proyecto
 
-#### 1. Análisis de la situación
-Primero, tendremos que investigar los calendarios de temporada oficiales. Están erróneos y queremos entender el porqué de estas inexactitudes. ¿Cuáles son los criterios que han tenido en cuenta para elaborarlos? ¿Realmente se puede considerar “de temporada” si ha sido cultivado en un invernadero climatizado? ¿Se puede hacer un calendario igual para todo España aunque las regiones tengan climas muy variados? Me voy a poner en contacto ahora con el Ministerio de Agricultura y si no me contestan, haré una petición a Transparencia. El objetivo es que **rectifiquen sus calendarios**.
+#### 1. Análisis de la situación para sensibilizar el público
+Primero, tendremos que investigar los calendarios de temporada oficiales. Están erróneos y queremos entender el porqué de estas inexactitudes. ¿Cuáles son los criterios que han tenido en cuenta para elaborarlos? ¿Se considera “de temporada” si ha sido cultivado en un invernadero climatizado? ¿Se puede hacer un calendario igual para todo España aunque las regiones tengan climas variados? El objetivo es que **rectifiquen sus calendarios**. Me voy a poner en contacto con el Ministerio de Agricultura y si no me contestan, haré una petición a Transparencia. 
  
-De otra parte, analizaremos los [datos de importación y exportación de frutas y hortalizas de FEPEX](http://www.fepex.es/datos-del-sector/exportacion-importacion-espa%C3%B1ola-frutas-hortalizas). La análisis nos permitirá saber cuales son los alimentos que más se importan y cuáles son los que ya tenemos producidos aquí. Tener esta información es necesaria para **concientizar** al público.
+De otra parte, analizaremos los [datos de importación y exportación de frutas y hortalizas de FEPEX](http://www.fepex.es/datos-del-sector/exportacion-importacion-espa%C3%B1ola-frutas-hortalizas). La análisis nos permitirá saber cuales son los alimentos que más se importan y cuáles son los que ya tenemos producidos aquí. Tener esta información es necesaria para **concienciar** al público.
 
   
 #### 2. Recopilación de los datos para la herramienta
@@ -71,7 +69,7 @@ It’s been decades that citizens of urban centers disconnected from the agricul
 
 Although Spain is a great fruits and vegetables producer, we keep finding foreign products in the Spanish supermarkets, not because they are better quality but because they’re **cheaper for the food industry**. We find ourselves in a surrealist situation where fruits and vegetables produced nationally are exported while the same ones are imported at a lower price from a country where wages are lower and employment laws sloppier.
 
-A food product that traveled thousands of kilometers and was conserved during the way will likely be **less tasty than a local product**. But we’re so used to have them all at any time that we forget about the natural cycle of plants. We have to be aware that foreign products and out of season products have a **massive carbon footprint**. We have to get rid of this habit of eating anything anytime and go back to consume food like our grandparents used to do: following mother nature’s rhythm.
+A food product that traveled thousands of kilometers and was conserved during the way will likely be **less tasty than a local product**. But we’re so used to have them all at any time that we forget about the natural cycle of plants. We have to be aware that foreign products and out of season products have a **massive carbon footprint**. We have to get rid of this habit of eating anything anytime and go back to consume food like our grandparents used to do: **following mother nature’s rhythm**.
 
 Now, how do we know what to eat and when? Looking at Spanish seasonal calendars on the web, we are confronted to a big blend of contradictory information. The reason is that a seasonal calendar can be elaborated from **different variables**, and every author picks whichever he wants: national or local climate, open air or greenhouse farming, heated greenhouse or not, etc.
 
@@ -79,7 +77,9 @@ We need a tool that shows what can be eaten from local farming and in-season. Th
 
 
 ## Project description
-
+.
+.
+.
 
 ## Technical requirements
 It's important that the team includes a programmer specialised in apps or webapps. An illustrator is not essential but it would be really appreciated.
