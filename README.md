@@ -6,55 +6,61 @@
 
 
 ## Resumen del proyecto
-Desde hace décadas, los habitantes de centros urbanos se desconectaron del mundo agrícola y del ritmo natural de la tierra. Sea verano o invierno, sur o norte, hoy en día en Europa siempre hay fruta exótica en los estantes de supermercados. Hay dos maneras de tener un tipo de fruta o verdura todo el año: **importando** o **cultivando en invernaderos climatizados**. Los dos métodos generan gases de efecto invernadero, destrozando cada vez más el medio ambiente.
+Desde hace décadas, los habitantes de centros urbanos se desconectaron del mundo agrícola y del ritmo natural de la tierra. Sea verano o invierno, sur o norte, hoy en día en Europa siempre hay fruta exótica en los estantes de supermercados. Hay dos maneras de tener todo tipo de fruta y verdura todo el año: **importando** o **cultivando en invernaderos climatizados**. Los dos métodos generan gases de efecto invernadero, destrozando cada vez más el medio ambiente.
 
-Aunque en España se producen muchas variedades de frutas y hortalizas, seguimos encontrando productos extranjeros en los mercados, no por una razón de calidad ni de existencia sino simplemente **por razones económicas**. Llegamos a una situación surrealista donde alimentos producidos en el país se exportan y los mismos alimentos se importan de otros países que tienen menos regulaciones laborales y costes salariales más bajos. Es el caso por ejemplo de las naranjas y de los pimientos, dos productos que se exportan a nivel muy grande y que a la vez, se importan en miles de toneladas de Marruecos.
+Aunque en España se producen muchas variedades de frutas y hortalizas, seguimos encontrando productos importados en los mercados, no por una razón de calidad ni de existencias sino simplemente **por razones económicas**. Llegamos a una situación surrealista donde alimentos producidos en el país se exportan y a la vez se importan los mismos alimentos de otros países que tienen menos regulaciones laborales y costes salariales más bajos. Es el caso por ejemplo de las naranjas: se exportan en grandes cantidades a toda Europa y a la vez, se importan miles de toneladas de Marruecos.
 
-Alimentos que han viajado miles de kilómetros y han sido conservados durante el camino tienen una **calidad mucho menor** a la de los producidos localmente. Sin embargo, estamos tan acostumbrados a tenerlos en cualquier época que nos olvidamos del ciclo natural de las plantas. Hay que ser conscientes que los alimentos extranjeros o de fuera de temporada que consumimos tienen una **huella ecológica muy grande**. Debemos deshacernos de la comodidad a la que nos hemos acostumbrado y volver a consumir como lo hacían nuestros abuelos: **siguiendo el ritmo de la naturaleza**.
+Alimentos que han viajado millares de kilómetros y han sido conservados durante el camino tienen una **calidad mucho menor** que la de los producidos localmente. Sin embargo, estamos tan acostumbrados a tenerlos en cualquier época que nos olvidamos del ciclo natural de las plantas. Hay que ser conscientes que los alimentos importados o de fuera de temporada que consumimos tienen una **huella ecológica muy grande**. Debemos deshacernos de la comodidad a la que nos hemos acostumbrado y volver a consumir como lo hacían nuestros abuelos: **siguiendo el ritmo de la naturaleza**.
 
-Ahora, ¿*cómo saber qué comer y cuando*? Buscando calendarios en la web, uno se enfrenta a una gran mezcla de datos e informaciones contradictorias. La razón es que hay **diferentes variables** para elaborar un calendario de temporada, y cada autor escoge las que tener en cuenta: el clima local o nacional, el cultivo en invernadero o al aire libre, el invernadero con o sin climatización, etcétera. Es necesaria una herramienta que permita saber **qué comer de cultivo local y de temporada**. Este proyecto tiene por objetivo elaborar una aplicación (o webapp) que permita saber con precisión cuáles son las frutas y verduras que se están cosechando en cada *región de España* en cada *época* y su *tipo de cultivo* para acabar con el transporte excesivo de alimentos así que su cultivo constante en invernaderos climatizados.
+Ahora, ¿*cómo saber qué comer y cuándo*? Buscando calendarios en la web, uno se enfrenta a una gran mezcla de datos e informaciones contradictorias. La razón es que hay **diferentes variables** para elaborar un calendario de temporada y cada autor escoge las que tener en cuenta: el clima local o nacional, el cultivo en invernadero o al aire libre, el invernadero con o sin climatización, etcétera. Es necesaria una herramienta que permita saber **qué comer de cultivo local y de temporada**. Este proyecto tiene por objetivo elaborar una aplicación que permita saber con precisión qué frutas y verduras se están cosechando en cada *región de España* según la *época* y el *tipo de cultivo*. Así aportamos una herramienta para quien quiera consumir responsablemente, limitando el transporte excesivo de alimentos y el cultivo en invernaderos climatizados.
 
 ## Descripción del proyecto
 
-#### 1. Análisis de la situación para sensibilizar el público
-Primero, tendremos que investigar los calendarios de temporada oficiales. Están erróneos y queremos entender el porqué de estas inexactitudes. ¿Cuáles son los criterios que han tenido en cuenta para elaborarlos? ¿Se considera “de temporada” si ha sido cultivado en un invernadero climatizado? ¿Se puede hacer un calendario igual para todo España aunque las regiones tengan climas variados? El objetivo es que **rectifiquen sus calendarios**. Me voy a poner en contacto con el Ministerio de Agricultura y si no me contestan, haré una petición a Transparencia. 
- 
-De otra parte, analizaremos los [datos de importación y exportación de frutas y hortalizas de FEPEX](http://www.fepex.es/datos-del-sector/exportacion-importacion-espa%C3%B1ola-frutas-hortalizas). La análisis nos permitirá saber cuales son los alimentos que más se importan y cuáles son los que ya tenemos producidos aquí. Tener esta información es necesaria para **concienciar** al público.
+#### 1. Análisis de la situación y sensibilización del público
+Primero, nos pondremos en contacto con los autores del [calendario de temporada oficial del Ministerio de Agricultura](http://www.alimentacion.es/es/campanas/frutas/frutas_verduras_temporada/) para que nos aclaren los criterios que han tenido en cuenta para elaborarlo. ¿Se puede considerar “de temporada” si ha sido cultivado en un invernadero climatizado? ¿Se puede hacer un calendario igual para todo España aunque las regiones tengan climas muy dispares? El objetivo es que **especifiquen en sus calendarios el tipo y la zona de cultivo**.
+
+Por otra parte, analizaremos los [datos de importación y exportación de frutas y hortalizas de FEPEX](http://www.fepex.es/datos-del-sector/exportacion-importacion-espa%C3%B1ola-frutas-hortalizas). El análisis nos permitirá saber cuáles son los alimentos que más se importan y de éstos cuáles se producen en España. Tener esta información es necesaria para **concienciar** al público.
 
   
 #### 2. Recopilación de los datos para la herramienta
-La [Encuesta sobre Superficies y Rendimientos de Cultivos (ESYRCE)](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/espana2016web_tcm7-452544.pdf ) del Ministerio de Agricultura nos ofrece los datos necesarios para realizar la herramienta: la producción de cada verdura y fruta por comunidad autónoma y por tipo de cultivo (secano, regadío o invernadero). 
+La [Encuesta sobre Superficies y Rendimientos de Cultivos (ESYRCE)](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/espana2016web_tcm7-452544.pdf) del Ministerio de Agricultura nos ofrece los siguientes datos: la producción de cada verdura y fruta por comunidad autónoma y por tipo de cultivo (secano, regadío o invernadero). 
  
-Tendremos que cruzar estos datos con una tabla que habremos elaborado de manera propia: un calendario de lo que se puede cultivar sin invernadero en cada región según su clima. Una vez los datos cruzados, tendremos todo lo necesario para poner la herramiento en forma.
+Tendremos que cruzar estos datos con una tabla de elaboración propia: un calendario de lo que se puede cultivar sin invernadero en cada región según su clima. Después de cruzar los datos tendremos lo necesario para desarrollar la herramienta.
  
-Aún estamos pensando en encontrar una manera de poder actualizar la herramienta en tiempo real. Por ejemplo, cuando ha habido una temporada muy fría y que se han retrasado los cultivos, o bien el contrario, deberíamos poder avisar a los usuarios de la situación. Sin embargo, parece complicado realizarlo y quizás que no podremos lograr la actualización automática.
-
 
 #### 3. Visualización
-Aquí entra el trabajo de los diseñadores e ilustradores. Diseñaremos un calendario que se puede visitar fácilmente desde el móvil. El usuario podrá buscar la información a través de un formulario que tendrá cuatro preguntas:
+Diseñaremos un calendario interactivo, simple y claro que se podrá usar fácilmente desde el móvil. El usuario podrá buscar la información a través de un formulario con cuatro preguntas:
 - **Comunidad autónoma**
 - **Época**
 - **Tipo de cultivo**
 - **Fruta o hortaliza**
- 
+
+Sería ideal poder conseguir automáticamente la localización del usuario y así evitar que tenga que responder la primera pregunta. Por defecto seleccionaremos la época actual para facilitar el uso inmediato de la herramienta.
+
 Para cada input, se podrá seleccionar varias respuestas. Es decir que el usuario podrá hacer este tipo de búsqueda: *Todas las frutas y hortalizas* con tipo de cultivo *secano y regadío* en *otoño* en *Cataluña, Aragón y Castilla y León*.
 
-
 #### 4. Programación
-El resultado final tendrá que ser una aplicación móvil o una webapp para que cada uno tenga un acceso fácil mientras haciendo sus compras.
+El resultado final será una aplicación web interactiva adaptada especialmente a los dispositivos móviles, para permitir el acceso **rápido** y **fácil** en cualquier momento.
+
+#### 5. Para rizar el rizo
+Como plus, nos gustaría poder informar al usuario de variaciones en el calendario por causas meteorológicas. Por ejemplo, cuando ha habido una temporada muy fría y se han retrasado los cultivos en una zona, o bien al contrario, cuando se haya adelantado la recogida de fruta y ya está disponible en los mercados.
+
+También sería interesante que la aplicación funcione en offline cuando el usuario no tenga cobertura.
+
+Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un calendario anual personalizado (zona y tipo de cultivo).
 
 
 ## Requisitos técnicos
-Es importante tener en el equipo un desarrollador especializado en apps o webapps. Un ilustrador no es indispensable pero sería interesante.
+Es importante que el equipo técnico tenga experiencia en aplicaciones web o nativas.
 
 
 ## Perfiles de colaboradores necesarios
-- **Periodistas** (investigación sobre los calendarios equivocados del Estado)
+- **Periodistas** (investigación sobre los calendarios erróneos)
 - **Climatólogos** (investigación sobre el clima por región)
-- **Agricultores** o grupos de consumo (nadie mejor para saber qué se cultiva cuando)
+- **Agricultores** o grupos de consumo (nadie mejor para saber qué se cultiva y cuándo)
 - **Ilustradores** (para los dibujos del calendario y de los alimentos)
-- **Diseñadores** (para el diseño de la aplicación)
-- **Programadores** (estructura de la web e integración del formulario al mapa)
+- **Diseñadores**
+- **Programadores** 
 
 
 ----------------------------------------------------------------------------------------------------
@@ -71,9 +77,9 @@ Although Spain is a great fruits and vegetables producer, we keep finding foreig
 
 A food product that traveled thousands of kilometers and was conserved during the way will likely be **less tasty than a local product**. But we’re so used to have them all at any time that we forget about the natural cycle of plants. We have to be aware that foreign products and out of season products have a **massive carbon footprint**. We have to get rid of this habit of eating anything anytime and go back to consume food like our grandparents used to do: **following mother nature’s rhythm**.
 
-Now, how do we know what to eat and when? Looking at Spanish seasonal calendars on the web, we are confronted to a big blend of contradictory information. The reason is that a seasonal calendar can be elaborated from **different variables**, and every author picks whichever he wants: national or local climate, open air or greenhouse farming, heated greenhouse or not, etc.
+Now, *how do we know what to eat and when*? Looking at Spanish seasonal calendars on the web, we are confronted to a big blend of contradictory information. The reason is that a seasonal calendar can be elaborated from **different variables**, and every author picks whichever he wants: national or local climate, open air or greenhouse farming, heated greenhouse or not, etc.
 
-We need a tool that shows what can be eaten from local farming and in-season. This project’s goal is to elaborate an app (or webapp) which allows to know what ar the fruits and vegetables than are being harvested in every region of Spain, at any time, to stop with the excessive transport of food.
+We need a tool that shows what can be eaten from local farming and in-season. This project’s goal is to elaborate an app that allows to know what are the fruits and vegetables than are being harvested in every *region of Spain*, depending on the *season* and the *type of culture*. That way, we’ll offer a tool for the ones who want to eat responsibly, limiting the excessive transport of food and the farming in heated greenhouses.
 
 
 ## Project description
@@ -82,14 +88,13 @@ We need a tool that shows what can be eaten from local farming and in-season. Th
 .
 
 ## Technical requirements
-It's important that the team includes a programmer specialised in apps or webapps. An illustrator is not essential but it would be really appreciated.
+It's important that the team includes a programmer specialised in webapps. An illustrator is not essential but it would be really appreciated.
 
 
 ## Profile of collaborators needed
 - **Journalists** (investigation on incorrect calendars and the national situation)
 - **Climatologists** (investigation on weather in each region of Spain)
-- **Agricultors** o people with experience in the farming world
+- **Farmers** o people with experience in the farming world
 - **Illustrators** (drawings of products and of seasonal calendar)
-- **Designers** (app design)
-- **Programmers** (web structure and form integration)
-
+- **Designers**
+- **Programmers**
