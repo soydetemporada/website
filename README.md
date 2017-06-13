@@ -21,12 +21,10 @@ Primero, nos pondremos en contacto con los autores del [calendario de temporada 
 
 Por otra parte, analizaremos los [datos de importación y exportación de frutas y hortalizas de FEPEX](http://www.fepex.es/datos-del-sector/exportacion-importacion-espa%C3%B1ola-frutas-hortalizas). El análisis nos permitirá saber cuáles son los alimentos que más se importan y de éstos cuáles se producen en España. Tener esta información es necesaria para **concienciar** al público.
 
-  
 #### 2. Recopilación de los datos para la herramienta
 La [Encuesta sobre Superficies y Rendimientos de Cultivos (ESYRCE)](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/espana2016web_tcm7-452544.pdf) del Ministerio de Agricultura nos ofrece los siguientes datos: la producción de cada verdura y fruta por comunidad autónoma y por tipo de cultivo (secano, regadío o invernadero). 
  
 Tendremos que cruzar estos datos con una tabla de elaboración propia: un calendario de lo que se puede cultivar sin invernadero en cada región según su clima. Después de cruzar los datos tendremos lo necesario para desarrollar la herramienta.
- 
 
 #### 3. Visualización
 Diseñaremos un calendario interactivo, simple y claro que se podrá usar fácilmente desde el móvil. El usuario podrá buscar la información a través de un formulario con cuatro preguntas:
@@ -83,9 +81,7 @@ We need a tool that shows what can be eaten from local farming and in-season. Th
 
 
 ## Project description
-.
-.
-.
+
 
 ## Technical requirements
 It's important that the team includes a programmer specialised in webapps. An illustrator is not essential but it would be really appreciated.
