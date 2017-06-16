@@ -62,7 +62,7 @@ Es importante que el equipo técnico tenga experiencia en aplicaciones web o nat
 
 
 ## Pruebas de visualización
-https://user-images.githubusercontent.com/22743273/27224917-065297dc-5298-11e7-8b33-6752adb8a382.png
+![journey-of-food-01](https://user-images.githubusercontent.com/22743273/27224977-4e939a00-5298-11e7-96f0-cb6e8447197d.png)
 ----------------------------------------------------------------------------------------------------
 
 
