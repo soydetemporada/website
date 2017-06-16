@@ -33,12 +33,12 @@ Diseñaremos un calendario interactivo, simple y claro que se podrá usar fácil
 - **Tipo de cultivo**
 - **Fruta o hortaliza**
 
-Sería ideal poder conseguir automáticamente la localización del usuario y así evitar que tenga que responder la primera pregunta. Por defecto seleccionaremos la época actual para facilitar el uso inmediato de la herramienta.
-
-Para cada input, se podrá seleccionar varias respuestas. Es decir que el usuario podrá hacer este tipo de búsqueda: *Todas las frutas y hortalizas* con tipo de cultivo *secano y regadío* en *otoño* en *Cataluña, Aragón y Castilla y León*.
+Para cada input, se podrá seleccionar varias respuestas. Es decir que el usuario podrá hacer este tipo de búsqueda: *Todas las frutas y hortalizas* con tipo de cultivo *secano y regadío* en *Cataluña, Aragón y Castilla y León*. Por defecto, no se visualizará más de una época a la vez para simplificar el trabajo de diseño y no tener que mostrar la información de todo un año en un solo visual.
 
 #### 4. Programación
 El resultado final será una aplicación web interactiva adaptada especialmente a los dispositivos móviles, para permitir el acceso **rápido** y **fácil** en cualquier momento.
+
+Sería ideal poder conseguir automáticamente la localización del usuario y así evitar que tenga que entrar la comunidad autónoma que quiere ver. Por defecto seleccionaremos la época actual para facilitar el uso inmediato de la herramienta.
 
 #### 5. Para rizar el rizo
 Como plus, nos gustaría poder informar al usuario de variaciones en el calendario por causas meteorológicas. Por ejemplo, cuando ha habido una temporada muy fría y se han retrasado los cultivos en una zona, o bien al contrario, cuando se haya adelantado la recogida de fruta y ya está disponible en los mercados.
@@ -61,6 +61,8 @@ Es importante que el equipo técnico tenga experiencia en aplicaciones web o nat
 - **Programadores** 
 
 
+## Pruebas de visualización
+https://user-images.githubusercontent.com/22743273/27224917-065297dc-5298-11e7-8b33-6752adb8a382.png
 ----------------------------------------------------------------------------------------------------
 
 
