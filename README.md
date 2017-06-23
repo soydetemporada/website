@@ -53,7 +53,7 @@ Es importante que el equipo técnico tenga experiencia en aplicaciones web o nat
 
 
 ## Perfiles de colaboradores necesarios
-- **Periodistas** (investigación sobre los calendarios erróneos)
+- **Periodistas** (investigación sobre los calendarios existentes)
 - **Climatólogos** (investigación sobre el clima por región)
 - **Agricultores** o grupos de consumo (nadie mejor para saber qué se cultiva y cuándo)
 - **Ilustradores** (para los dibujos del calendario y de los alimentos)
