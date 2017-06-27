@@ -63,6 +63,10 @@ Es importante que el equipo técnico tenga experiencia en aplicaciones web o nat
 
 ## Pruebas de visualización
 ![journey-of-food-01](https://user-images.githubusercontent.com/22743273/27224977-4e939a00-5298-11e7-96f0-cb6e8447197d.png)
+
+
+## Referencias
+- **[The Rythm of Food](http://rhythm-of-food.net/)**
 ----------------------------------------------------------------------------------------------------
 
 
