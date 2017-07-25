@@ -2,7 +2,7 @@
 
 
 # Se cultivan allá, se consumen aquí: </br> la travesía de los alimentos hacia tu despensa
-##### Propuesta de proyecto para el taller "Visualizar 17" del Medialab Prado
+##### Proyecto seleccionado para el taller "Visualizar 17" del Medialab Prado
 
 
 ## Resumen del proyecto
