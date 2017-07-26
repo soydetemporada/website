@@ -4,8 +4,16 @@
 # Se cultivan allá, se consumen aquí: </br> la travesía de los alimentos hacia tu despensa
 ##### Proyecto seleccionado para el taller "Visualizar 17" del Medialab Prado
 
+## Índice
 
-## Resumen del proyecto
+* [El proyecto](#el-proyecto)
+* [Descripción detallada](#descripción-detallada)
+* [Los datos](#los-datos)
+* [Perfiles de colaboradores](#perfiles-de-colaboradores)
+* [Pruebas de visualización](#pruebas-de-visualización)
+* [Referencias](#referencias)
+
+## El proyecto
 Desde hace décadas, los habitantes de centros urbanos se desconectaron del mundo agrícola y del ritmo natural de la tierra. Sea verano o invierno, sur o norte, hoy en día en Europa siempre hay fruta exótica en los estantes de supermercados. Hay dos maneras de tener todo tipo de fruta y verdura todo el año: **importando** o **cultivando en invernaderos climatizados**. Los dos métodos generan gases de efecto invernadero, destrozando cada vez más el medio ambiente.
 
 Aunque en España se producen muchas variedades de frutas y hortalizas, seguimos encontrando productos importados en los mercados, no por una razón de calidad ni de existencias sino simplemente **por razones económicas**. Llegamos a una situación surrealista donde alimentos producidos en el país se exportan y a la vez se importan los mismos alimentos de otros países que tienen menos regulaciones laborales y costes salariales más bajos. Es el caso por ejemplo de las naranjas: se exportan en grandes cantidades a toda Europa y a la vez, se importan miles de toneladas de Marruecos.
@@ -14,9 +22,9 @@ Alimentos que han viajado millares de kilómetros y han sido conservados durante
 
 Ahora, ¿*cómo saber qué comer y cuándo*? Buscando calendarios en la web, uno se enfrenta a una gran mezcla de datos e informaciones contradictorias. La razón es que hay **diferentes variables** para elaborar un calendario de temporada y cada autor escoge las que tener en cuenta: el clima local o nacional, el cultivo en invernadero o al aire libre, el invernadero con o sin climatización, etcétera. Es necesaria una herramienta que permita saber **qué comer de cultivo local y de temporada**. Este proyecto tiene por objetivo elaborar una aplicación que permita saber con precisión qué frutas y verduras se están cosechando en cada *región de España* según la *época* y el *tipo de cultivo*. Así aportamos una herramienta para quien quiera consumir responsablemente, limitando el transporte excesivo de alimentos y el cultivo en invernaderos climatizados.
 
-## Descripción del proyecto
+## Descripción detallada
 
-#### 1. Análisis de la situación y sensibilización del público
+#### 1. Análisis de la situación
 Primero, nos pondremos en contacto con los autores del [calendario de temporada oficial del Ministerio de Agricultura](http://www.alimentacion.es/es/campanas/frutas/frutas_verduras_temporada/) para que nos aclaren los criterios que han tenido en cuenta para elaborarlo. ¿Se puede considerar “de temporada” si ha sido cultivado en un invernadero climatizado? ¿Se puede hacer un calendario igual para todo España aunque las regiones tengan climas muy dispares? El objetivo es que **especifiquen en sus calendarios el tipo y la zona de cultivo**.
 
 Por otra parte, analizaremos los [datos de importación y exportación de frutas y hortalizas de FEPEX](http://www.fepex.es/datos-del-sector/exportacion-importacion-espa%C3%B1ola-frutas-hortalizas). El análisis nos permitirá saber cuáles son los alimentos que más se importan y de éstos cuáles se producen en España. Tener esta información es necesaria para **concienciar** al público.
@@ -47,12 +55,10 @@ También sería interesante que la aplicación funcione en offline cuando el usu
 
 Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un calendario anual personalizado (zona y tipo de cultivo).
 
-
-## Requisitos técnicos
-Es importante que el equipo técnico tenga experiencia en aplicaciones web o nativas.
+## Los datos
 
 
-## Perfiles de colaboradores necesarios
+## Perfiles de colaboradores
 - **Periodistas** (investigación sobre los calendarios existentes)
 - **Climatólogos** (investigación sobre el clima por región)
 - **Agricultores** o grupos de consumo (nadie mejor para saber qué se cultiva y cuándo)
