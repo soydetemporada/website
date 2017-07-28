@@ -8,7 +8,6 @@
 
 * [El proyecto](#el-proyecto)
 * [Descripción detallada](#descripción-detallada)
-* [Los datos](#los-datos)
 * [Perfiles de colaboradores](#perfiles-de-colaboradores)
 * [Pruebas de visualización](#pruebas-de-visualización)
 * [Referencias](#referencias)
@@ -25,14 +24,14 @@ Ahora, ¿*cómo saber qué comer y cuándo*? Buscando calendarios en la web, uno
 ## Descripción detallada
 
 #### 1. Análisis de la situación
-Primero, nos pondremos en contacto con los autores del [calendario de temporada oficial del Ministerio de Agricultura](http://www.alimentacion.es/es/campanas/frutas/frutas_verduras_temporada/) para que nos aclaren los criterios que han tenido en cuenta para elaborarlo. ¿Se puede considerar “de temporada” si ha sido cultivado en un invernadero climatizado? ¿Se puede hacer un calendario igual para todo España aunque las regiones tengan climas muy dispares? El objetivo es que **especifiquen en sus calendarios el tipo y la zona de cultivo**.
+Nos hemos puesto en contacto con los autores del [calendario de temporada oficial del Ministerio de Agricultura](http://www.alimentacion.es/es/campanas/frutas/frutas_verduras_temporada/) para que nos aclaren la metodología usada para elaborarlo. ¿Se puede considerar “de temporada” si ha sido cultivado en un invernadero climatizado? ¿Se puede hacer un calendario igual para todo España aunque las regiones tengan climas muy dispares? El objetivo es que de ahora en adelante, **se especifique en los calendarios el tipo y la zona de cultivo**.
 
-Por otra parte, analizaremos los [datos de importación y exportación de frutas y hortalizas de FEPEX](http://www.fepex.es/datos-del-sector/exportacion-importacion-espa%C3%B1ola-frutas-hortalizas). El análisis nos permitirá saber cuáles son los alimentos que más se importan y de éstos cuáles se producen en España. Tener esta información es necesaria para **concienciar** al público.
+Por otra parte, analizaremos los [datos de importación y exportación de frutas y hortalizas de FEPEX](http://www.fepex.es/datos-del-sector/exportacion-importacion-espa%C3%B1ola-frutas-hortalizas). El análisis nos permitirá saber cuáles son los alimentos que más se importan y de éstos cuáles se producen en España. Tener esta información es necesario para **concienciar** al público.
 
-#### 2. Recopilación de los datos para la herramienta
-La [Encuesta sobre Superficies y Rendimientos de Cultivos (ESYRCE)](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/espana2016web_tcm7-452544.pdf) del Ministerio de Agricultura nos ofrece los siguientes datos: la producción de cada verdura y fruta por comunidad autónoma y por tipo de cultivo (secano, regadío o invernadero). 
+#### 2. Los datos
+La [Encuesta sobre Superficies y Rendimientos de Cultivos (ESYRCE)](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/espana2016web_tcm7-452544.pdf) del Ministerio de Agricultura nos ofrece los siguientes datos: la producción de cada verdura y fruta por comunidad autónoma y por tipo de cultivo (secano, regadío o invernadero) en hectarios cultivados. 
  
-Tendremos que cruzar estos datos con una tabla de elaboración propia: un calendario de lo que se puede cultivar sin invernadero en cada región según su clima. Después de cruzar los datos tendremos lo necesario para desarrollar la herramienta.
+Los [Avances de superficies y producciones de cultivos] (http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/avances-superficies-producciones-agricolas/) del Ministerio de Agricultura determinan con periodicidad mensual los avances de superficies y producciones, dentro de un calendario establecido al efecto en función de las épocas de siembra y recolección a lo largo de la geografía española.
 
 #### 3. Visualización
 Diseñaremos un calendario interactivo, simple y claro que se podrá usar fácilmente desde el móvil. El usuario podrá buscar la información a través de un formulario con cuatro preguntas:
@@ -54,8 +53,6 @@ Como plus, nos gustaría poder informar al usuario de variaciones en el calendar
 También sería interesante que la aplicación funcione en offline cuando el usuario no tenga cobertura.
 
 Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un calendario anual personalizado (zona y tipo de cultivo).
-
-## Los datos
 
 
 ## Perfiles de colaboradores
