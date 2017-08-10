@@ -9,6 +9,7 @@
 * [El proyecto](#el-proyecto)
 * [Descripción detallada](#descripción-detallada)
 * [Perfiles de colaboradores](#perfiles-de-colaboradores)
+* [Expertos y contactos](#expertos-y-contactos)
 * [Pruebas de visualización](#pruebas-de-visualización)
 * [Referencias](#referencias)
 
@@ -62,6 +63,14 @@ Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un cale
 - **Ilustradores** (para los dibujos del calendario y de los alimentos)
 - **Diseñadores**
 - **Programadores** 
+
+## Expertos y contactos
+
+Organismo | Nombre | Razón | Situación
+--- | --- | --- | --- 
+Ministerio de Agricultura | José Luis Moreno Calleja | Elaboración calendario oficial | Contestado
+DGPMA | / | Elaboración calendario oficial | /
+Cooperativas agro-alimentarias | / | Elaboración calendario oficial | /
 
 
 ## Pruebas de visualización
