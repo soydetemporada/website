@@ -32,7 +32,7 @@ Por otra parte, analizaremos los [datos de importación y exportación de frutas
 #### 2. Los datos
 La [Encuesta sobre Superficies y Rendimientos de Cultivos (ESYRCE)](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/espana2016web_tcm7-452544.pdf) del Ministerio de Agricultura nos ofrece los siguientes datos: la producción de cada verdura y fruta por comunidad autónoma y por tipo de cultivo (secano, regadío o invernadero) en hectarios cultivados. 
  
-Los [Avances de superficies y producciones de cultivos] (http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/avances-superficies-producciones-agricolas/) del Ministerio de Agricultura determinan con periodicidad mensual los avances de superficies y producciones, dentro de un calendario establecido al efecto en función de las épocas de siembra y recolección a lo largo de la geografía española.
+Los [Avances de superficies y producciones de cultivos](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/avances-superficies-producciones-agricolas/) del Ministerio de Agricultura determinan con periodicidad mensual los avances de superficies y producciones, dentro de un calendario establecido al efecto en función de las épocas de siembra y recolección a lo largo de la geografía española.
 
 #### 3. Visualización
 Diseñaremos un calendario interactivo, simple y claro que se podrá usar fácilmente desde el móvil. El usuario podrá buscar la información a través de un formulario con cuatro preguntas:
