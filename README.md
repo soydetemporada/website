@@ -69,8 +69,9 @@ Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un cale
 Organismo | Nombre | Razón | Situación
 --- | --- | --- | --- 
 Ministerio de Agricultura | José Luis Moreno Calleja | Elaboración calendario oficial | Contestado
-DGPMA | / | Elaboración calendario oficial | /
-Cooperativas agro-alimentarias | / | Elaboración calendario oficial | /
+DGPMA | / | Elaboración calendario oficial | Esperando respuesta
+Cooperativas agro-alimentarias | / | Elaboración calendario oficial | Esperando respuesta
+ASAJA | / | Solicitud de base de datos | Esperando respuesta
 
 
 ## Pruebas de visualización
