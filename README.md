@@ -79,7 +79,7 @@ Mumumio | Claudia | Solicitud de colaboración | Esperando respuesta
 El calendario oficial del Ministerio de Agricultura tiene varios datos erróneos. Entre otros, informan que el tomate y la berenjena son productos que se pueden consumir todo el año excepto durante los meses de verano. **Esto es una información falsa**.
 ![tomate y berenjena](https://user-images.githubusercontent.com/22743273/29875652-f482c2f0-8d9a-11e7-9c4b-ff9e8b759dfc.jpg)
 
-Hemos contactado con ellos para pedirles tener acceso a la base de datos usada en la elaboración del calendario pero han rechazado nuestra solicitud. Queremos lanzar, al mismo momento que la herramienta, una campaña ciudadana en las redes sociales para presionar el Ministerio y que actualice este calendario.
+El calendario es de 2008, significa que hace casi 10 años que están ofreciendo datos falsos a la ciudadanía y siguen sin querer solucionar la situación. Hemos contactado con ellos para tener acceso a la base de datos usada en la elaboración del calendario pero han rechazado nuestra solicitud. Por eso queremos lanzar, al mismo momento que la herramienta, una campaña ciudadana en las redes sociales para presionar el Ministerio en actualizar este calendario.
 
 
 ## Referencias
