@@ -8,9 +8,11 @@
 
 * [El proyecto](#el-proyecto)
 * [Descripción detallada](#descripción-detallada)
+   * [Análisis de la situación](#análisis-de-la-situación)
+   * [Los datos](#los-datos)
+   * [La herramienta](#la-herramienta)
 * [Perfiles de colaboradores](#perfiles-de-colaboradores)
 * [Expertos y contactos](#expertos-y-contactos)
-* [Campaña para actualizar el calendario oficial](#campaña-para-actualizar-el-calendario-oficial)
 * [Referencias](#referencias)
 
 ## El proyecto
@@ -32,14 +34,14 @@ Por otra parte, analizaremos los [datos de importación y exportación de frutas
 #### Los datos
 Como faltan datos oficiales, tenemos que hablar con agricultores para saber cual es la temporada de cultivo de cada producto, y así coger la información la fuente. A nivél oficial, existen dos conjuntos de datos:
 
-La [Encuesta sobre Superficies y Rendimientos de Cultivos (ESYRCE)](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/espana2016web_tcm7-452544.pdf) del Ministerio de Agricultura nos ofrece los siguientes datos: la producción de cada verdura y fruta por comunidad autónoma y por tipo de cultivo (secano, regadío o invernadero) en hectarios cultivados. 
+- La [Encuesta sobre Superficies y Rendimientos de Cultivos (ESYRCE)](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/espana2016web_tcm7-452544.pdf) del Ministerio de Agricultura nos ofrece los siguientes datos: la producción de cada verdura y fruta por comunidad autónoma y por tipo de cultivo (secano, regadío o invernadero) en hectarios cultivados. 
  
-Los [Avances de superficies y producciones de cultivos](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/avances-superficies-producciones-agricolas/) del Ministerio de Agricultura determinan con periodicidad mensual los avances de superficies y producciones, dentro de un calendario establecido al efecto en función de las épocas de siembra y recolección a lo largo de la geografía española.
+- Los [Avances de superficies y producciones de cultivos](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/avances-superficies-producciones-agricolas/) del Ministerio de Agricultura determinan con periodicidad mensual los avances de superficies y producciones, dentro de un calendario establecido al efecto en función de las épocas de siembra y recolección a lo largo de la geografía española.
 
 
 
 #### La herramienta
-El resultado final será una aplicación web interactiva adaptada especialmente a los dispositivos móviles, para permitir el acceso **rápido** y **fácil** en cualquier momento. Tendrá cuatro secciones principales:
+El resultado final será una aplicación web interactiva adaptada especialmente a los dispositivos móviles, para permitir el acceso **rápido** y **fácil** en cualquier momento. Los textos de la web se pueden ver [aquí](https://docs.google.com/document/d/1Q_kjXxQRTprcux5-8Xn2GaocAWU2sQz_S8_BC18yZSk/edit?usp=sharing). Tendrá cuatro secciones principales:
 
 ##### 1. Buscador
 El usuario podrá buscar la información a través de un formulario con dos preguntas:
@@ -48,7 +50,14 @@ El usuario podrá buscar la información a través de un formulario con dos preg
 
 ##### 2. Proyecto
 ##### 3. Campaña
+El calendario oficial del Ministerio de Agricultura tiene varios datos erróneos. Entre otros, informan que el tomate y la berenjena son productos que se pueden consumir todo el año excepto durante los meses de verano. **Esto es una información falsa**.
+![tomate y berenjena](https://user-images.githubusercontent.com/22743273/29875652-f482c2f0-8d9a-11e7-9c4b-ff9e8b759dfc.jpg)
+
+El calendario es de 2008, significa que hace casi 10 años que están ofreciendo datos falsos a la ciudadanía y siguen sin querer solucionar la situación. Hemos contactado con ellos para tener acceso a la base de datos usada en la elaboración del calendario pero han rechazado nuestra solicitud. Por eso queremos lanzar, al mismo momento que la herramienta, una campaña ciudadana en las redes sociales para presionar el Ministerio en actualizar este calendario.
+
 ##### 4. Recetas
+Estamos pensando en colaborar con algún blog de recetas con productos de temporada para proponer ideas culinarias al usuario.
+
 
 #### Para rizar el rizo
 Como plus, nos gustaría poder informar al usuario de variaciones en el calendario por causas meteorológicas. Por ejemplo, cuando ha habido una temporada muy fría y se han retrasado los cultivos en una zona, o bien al contrario, cuando se haya adelantado la recogida de fruta y ya está disponible en los mercados.
@@ -77,14 +86,6 @@ DGPMA | / | Elaboración calendario oficial | Esperando respuesta
 Cooperativas agro-alimentarias | Nerea Lerchundi | Elaboración calendario oficial | Esperando respuesta (4 de septiembre)
 ASAJA | / | Solicitud de base de datos | Esperando respuesta
 Mumumio | Claudia | Solicitud de colaboración | Esperando respuesta
-
-
-## Campaña para actualizar el calendario oficial
-El calendario oficial del Ministerio de Agricultura tiene varios datos erróneos. Entre otros, informan que el tomate y la berenjena son productos que se pueden consumir todo el año excepto durante los meses de verano. **Esto es una información falsa**.
-![tomate y berenjena](https://user-images.githubusercontent.com/22743273/29875652-f482c2f0-8d9a-11e7-9c4b-ff9e8b759dfc.jpg)
-
-El calendario es de 2008, significa que hace casi 10 años que están ofreciendo datos falsos a la ciudadanía y siguen sin querer solucionar la situación. Hemos contactado con ellos para tener acceso a la base de datos usada en la elaboración del calendario pero han rechazado nuestra solicitud. Por eso queremos lanzar, al mismo momento que la herramienta, una campaña ciudadana en las redes sociales para presionar el Ministerio en actualizar este calendario.
-
 
 ## Referencias
 - **[The Rythm of Food](http://rhythm-of-food.net/)**
