@@ -84,7 +84,7 @@ Organismo | Nombre | Razón | Situación
 Ministerio de Agricultura | José Luis Moreno Calleja | Elaboración calendario oficial | Contestado, no quieren colaborar
 DGPMA | / | Elaboración calendario oficial | Esperando respuesta
 Cooperativas agro-alimentarias | Nerea Lerchundi | Elaboración calendario oficial | Esperando respuesta (4 de septiembre)
-ASAJA | / | Solicitud de base de datos | Esperando respuesta
+ASAJA (asociación agraria de jóvenes agricultores) | / | Solicitud de base de datos | Esperando respuesta
 Mumumio | Claudia | Solicitud de colaboración | Esperando respuesta
 FEPECO (federación española de empresas con productos ecológicos) | / | Solicitud de base de datos | Esperando respuesta
 SEAE (sociedad española de agricultura ecológica) | / | Solicitud de base de datos | Esperando respuesta
