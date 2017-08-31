@@ -88,6 +88,7 @@ ASAJA (asociación agraria de jóvenes agricultores) | / | Solicitud de base de 
 Mumumio | Claudia | Solicitud de colaboración | Esperando respuesta
 FEPECO (federación española de empresas con productos ecológicos) | / | Solicitud de base de datos | Esperando respuesta
 SEAE (sociedad española de agricultura ecológica) | / | Solicitud de base de datos | Esperando respuesta
+Plataforma Tecnológica de Agricultura Sostenible | / | Solicitud de base de datos | Esperando respuesta
 
 ## Referencias
 - **[The Rythm of Food](http://rhythm-of-food.net/)**
