@@ -86,7 +86,8 @@ DGPMA | / | Elaboración calendario oficial | Esperando respuesta
 Cooperativas agro-alimentarias | Nerea Lerchundi | Elaboración calendario oficial | Esperando respuesta (4 de septiembre)
 ASAJA | / | Solicitud de base de datos | Esperando respuesta
 Mumumio | Claudia | Solicitud de colaboración | Esperando respuesta
-FEPECO | Claudia | Solicitud de base de datos | Esperando respuesta
+FEPECO (federación española de empresas con productos ecológicos) | Claudia | Solicitud de base de datos | Esperando respuesta
+SEAE (sociedad española de agricultura ecológica) | Claudia | Solicitud de base de datos | Esperando respuesta
 
 ## Referencias
 - **[The Rythm of Food](http://rhythm-of-food.net/)**
