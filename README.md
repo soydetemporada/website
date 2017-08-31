@@ -24,32 +24,36 @@ Ahora, ¿*cómo saber qué comer y cuándo*? Buscando calendarios en la web, uno
 
 ## Descripción detallada
 
-#### 1. Análisis de la situación
-Nos hemos puesto en contacto con los autores del [calendario de temporada oficial del Ministerio de Agricultura](http://www.alimentacion.es/es/campanas/frutas/frutas_verduras_temporada/) para que nos aclaren la metodología usada para elaborarlo. ¿Se puede considerar “de temporada” si ha sido cultivado en un invernadero climatizado? ¿Se puede hacer un calendario igual para todo España aunque las regiones tengan climas muy dispares? El objetivo es que de ahora en adelante, **se especifique en los calendarios el tipo y la zona de cultivo**.
+#### Análisis de la situación
+Nos hemos puesto en contacto con los autores del [calendario de temporada oficial del Ministerio de Agricultura](http://www.alimentacion.es/es/campanas/frutas/frutas_verduras_temporada/) para que nos aclaren la metodología usada para elaborarlo. Nuestra solicitud ha sido rechazada, por eso vamos a lanzar una campaña en las redes sociales para presionarles en cambiar los errores en su calendario. El objetivo es que de ahora en adelante, **se especifique en todos los calendarios el tipo y la zona de cultivo**. 
 
 Por otra parte, analizaremos los [datos de importación y exportación de frutas y hortalizas de FEPEX](http://www.fepex.es/datos-del-sector/exportacion-importacion-espa%C3%B1ola-frutas-hortalizas). El análisis nos permitirá saber cuáles son los alimentos que más se importan y de éstos cuáles se producen en España. Tener esta información es necesario para **concienciar** al público.
 
-#### 2. Los datos
+#### Los datos
+Como faltan datos oficiales, tenemos que hablar con agricultores para saber cual es la temporada de cultivo de cada producto, y así coger la información la fuente. A nivél oficial, existen dos conjuntos de datos:
+
 La [Encuesta sobre Superficies y Rendimientos de Cultivos (ESYRCE)](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/espana2016web_tcm7-452544.pdf) del Ministerio de Agricultura nos ofrece los siguientes datos: la producción de cada verdura y fruta por comunidad autónoma y por tipo de cultivo (secano, regadío o invernadero) en hectarios cultivados. 
  
 Los [Avances de superficies y producciones de cultivos](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/avances-superficies-producciones-agricolas/) del Ministerio de Agricultura determinan con periodicidad mensual los avances de superficies y producciones, dentro de un calendario establecido al efecto en función de las épocas de siembra y recolección a lo largo de la geografía española.
 
-#### 3. Visualización
-Diseñaremos un calendario interactivo, simple y claro que se podrá usar fácilmente desde el móvil. El usuario podrá buscar la información a través de un formulario con cuatro preguntas:
+
+
+#### La herramienta
+El resultado final será una aplicación web interactiva adaptada especialmente a los dispositivos móviles, para permitir el acceso **rápido** y **fácil** en cualquier momento. Tendrá cuatro secciones principales:
+
+##### 1. Buscador
+El usuario podrá buscar la información a través de un formulario con dos preguntas:
 - **Comunidad autónoma**
-- **Época**
-- **Tipo de cultivo**
-- **Fruta o hortaliza**
+- **Por mes** o **Por producto**
 
-Para cada input, se podrá seleccionar varias respuestas. Es decir que el usuario podrá hacer este tipo de búsqueda: *Todas las frutas y hortalizas* con tipo de cultivo *secano y regadío* en *Cataluña, Aragón y Castilla y León*. Por defecto, no se visualizará más de una época a la vez para simplificar el trabajo de diseño y no tener que mostrar la información de todo un año en un solo visual.
+##### 2. Proyecto
+##### 3. Campaña
+##### 4. Recetas
 
-#### 4. Programación
-El resultado final será una aplicación web interactiva adaptada especialmente a los dispositivos móviles, para permitir el acceso **rápido** y **fácil** en cualquier momento.
-
-Sería ideal poder conseguir automáticamente la localización del usuario y así evitar que tenga que entrar la comunidad autónoma que quiere ver. Por defecto seleccionaremos la época actual para facilitar el uso inmediato de la herramienta.
-
-#### 5. Para rizar el rizo
+#### Para rizar el rizo
 Como plus, nos gustaría poder informar al usuario de variaciones en el calendario por causas meteorológicas. Por ejemplo, cuando ha habido una temporada muy fría y se han retrasado los cultivos en una zona, o bien al contrario, cuando se haya adelantado la recogida de fruta y ya está disponible en los mercados.
+
+Habrá que poder conseguir automáticamente la localización del usuario y así evitar que tenga que entrar la comunidad autónoma que quiere ver. Por defecto seleccionaremos la época actual para facilitar el uso inmediato de la herramienta.
 
 También sería interesante que la aplicación funcione en offline cuando el usuario no tenga cobertura.
 
