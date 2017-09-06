@@ -85,10 +85,12 @@ Ministerio de Agricultura | José Luis Moreno Calleja | Elaboración calendario 
 DGPMA | / | Elaboración calendario oficial | Esperando respuesta
 Cooperativas agro-alimentarias | Nerea Lerchundi | Elaboración calendario oficial | Esperando respuesta (4 de septiembre)
 ASAJA (asociación agraria de jóvenes agricultores) | / | Solicitud de base de datos | Esperando respuesta
-Mumumio | Claudia | Solicitud de colaboración | Esperando respuesta
+Mumumio | Claudia | Solicitud de colaboración | Contestado
 FEPECO (federación española de empresas con productos ecológicos) | / | Solicitud de base de datos | Esperando respuesta
 SEAE (sociedad española de agricultura ecológica) | / | Solicitud de base de datos | Esperando respuesta
 Plataforma Tecnológica de Agricultura Sostenible | / | Solicitud de base de datos | Esperando respuesta
+Come Fruta | Jose Luis Montesino | Solicitud de colaboración | Contestado
+Huertoencasa.org | Juan Antonio Diaz | Solicitud de colaboración | Esperando respuesta
 
 ## Referencias
 - **[The Rythm of Food](http://rhythm-of-food.net/)**
