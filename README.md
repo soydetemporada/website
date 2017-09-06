@@ -79,18 +79,7 @@ Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un cale
 
 ## Expertos y contactos
 
-Organismo | Nombre | Razón | Situación
---- | --- | --- | --- 
-Ministerio de Agricultura | José Luis Moreno Calleja | Elaboración calendario oficial | Contestado, no quieren colaborar
-DGPMA | / | Elaboración calendario oficial | Esperando respuesta
-Cooperativas agro-alimentarias | Nerea Lerchundi | Elaboración calendario oficial | Esperando respuesta (4 de septiembre)
-ASAJA (asociación agraria de jóvenes agricultores) | / | Solicitud de base de datos | Esperando respuesta
-Mumumio | Claudia | Solicitud de colaboración | Contestado
-FEPECO (federación española de empresas con productos ecológicos) | / | Solicitud de base de datos | Esperando respuesta
-SEAE (sociedad española de agricultura ecológica) | / | Solicitud de base de datos | Esperando respuesta
-Plataforma Tecnológica de Agricultura Sostenible | / | Solicitud de base de datos | Esperando respuesta
-Come Fruta | Jose Luis Montesino | Solicitud de colaboración | Contestado
-Huertoencasa.org | Juan Antonio Diaz | Solicitud de colaboración | Esperando respuesta
+[Ver en drive](https://docs.google.com/spreadsheets/d/1ffl7EIHYFqzYovSqHU0k1Z80oJwk1rda-_tDTUkiP3s/edit?usp=sharing)
 
 ## Referencias
 - **[The Rythm of Food](http://rhythm-of-food.net/)**
