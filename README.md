@@ -114,6 +114,9 @@ It's important that the team includes a programmer specialised in webapps. An il
 
 
 ## Profile of collaborators needed
+Anyone with motivation and who likes teamwork!
+
+These specific profiles could be useful:
 - **Journalists** (investigation on incorrect calendars and the national situation)
 - **Climatologists** (investigation on weather in each region of Spain)
 - **Farmers** o people with experience in the farming world
