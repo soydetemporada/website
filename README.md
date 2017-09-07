@@ -70,6 +70,10 @@ Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un cale
 
 
 ## Perfiles de colaboradores
+¡Cualquier persona con motivación y ganas de aprender!
+
+Más especificamente, pueden servir los siguientes perfiles:
+
 - **Periodistas** (investigación sobre los calendarios existentes)
 - **Climatólogos** (investigación sobre el clima por región)
 - **Agricultores** o grupos de consumo (nadie mejor para saber qué se cultiva y cuándo)
