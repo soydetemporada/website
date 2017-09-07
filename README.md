@@ -70,7 +70,7 @@ Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un cale
 
 
 ## Perfiles de colaboradores
-¡Cualquier persona con motivación y ganas de aprender!
+¡Cualquier persona con motivación y ganas de trabajar en equipo!
 
 Más especificamente, pueden servir los siguientes perfiles:
 
