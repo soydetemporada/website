@@ -1,8 +1,8 @@
-##### [See in english below](#the-journey-of-food-to-your-pantry)
+[See in english below](#the-journey-of-food-to-your-pantry)
 
 
-# Se cultivan allá, se consumen aquí: </br> la travesía de los alimentos hacia tu despensa
-##### Proyecto seleccionado para el taller "Visualizar 17" del Medialab Prado
+# Se cultivan allá, se consumen aquí: <br /> la travesía de los alimentos hacia tu despensa
+**Proyecto seleccionado para el taller "Visualizar 17" del Medialab Prado**
 
 ## Índice
 
