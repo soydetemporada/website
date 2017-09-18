@@ -93,7 +93,7 @@ Más especificamente, pueden servir los siguientes perfiles:
 - [Raimundo Abril](https://twitter.com/Raiskv/)
 - [Diego Andrés Ramírez Aragon](https://twitter.com/lowfill/)
 - [Pau Valiente](https://twitter.com/paucc/)
-- Flora Fosset(https://twitter.com/florafosset/)
+- [Flora Fosset](https://twitter.com/florafosset/)
 
 ----------------------------------------------------------------------------------------------------
 
