@@ -87,6 +87,14 @@ Más especificamente, pueden servir los siguientes perfiles:
 
 ## Referencias
 - **[The Rythm of Food](http://rhythm-of-food.net/)**
+
+## Equipo
+- [Jimena García]
+- [Raimundo Abril](https://twitter.com/Raiskv/)
+- [Diego Andrés Ramírez Aragon](https://twitter.com/lowfill/)
+- [Pau Valiente](https://twitter.com/paucc/)
+- Flora Fosset(https://twitter.com/florafosset/)
+
 ----------------------------------------------------------------------------------------------------
 
 
