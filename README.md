@@ -87,6 +87,7 @@ Más especificamente, pueden servir los siguientes perfiles:
 
 ## Referencias
 - **[The Rythm of Food](http://rhythm-of-food.net/)**
+- **[Data Cuisine](http://data-cuisine.net/)**
 
 ## Equipo
 - [Jimena García]
