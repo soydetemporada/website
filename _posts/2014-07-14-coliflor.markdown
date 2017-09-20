@@ -4,8 +4,6 @@ modal-id: 5
 date: 2014-07-14
 img: coliflor.png
 alt: image-alt
-project-date: April 2014
-client: Coliflor
 category: Verdura
 description: Este producto es de temporada este mes, ¡disfrútalo!
 

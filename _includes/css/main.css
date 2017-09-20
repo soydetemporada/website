@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.primary-complement}};
 }
 
 h1,
@@ -58,11 +58,11 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #{{site.color.primary-complement}};
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #{{site.color.primary-complement}};
     background-color: #{{ site.color.primary }};
 }
 
@@ -72,7 +72,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
+    background-color: #{{site.color.primary}};
 }
 
 .img-centered {
@@ -81,7 +81,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #{{site.color.primary-complement}};
     background: #{{ site.color.primary }};
 }
 
@@ -101,7 +101,6 @@ header .intro-text .name {
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
-    color: #3F3F3F;
 }
 
 header .intro-text .skills {
@@ -181,7 +180,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #{{site.color.primary-complement}};
     background: #{{ site.color.primary }};
 }
 
@@ -254,9 +253,9 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #{{ site.color.primary-complement}};
     font-size: 20px;
-    color: #fff;
+    color: #{{ site.color.primary-complement}};
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -352,11 +351,12 @@ footer .footer-below {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
+    border: 2px solid #{{site.color.primary}};
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
     line-height: 45px;
+    color: #{{ site.color.primary}}
 }
 
 .btn:focus,

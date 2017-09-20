@@ -4,8 +4,6 @@ modal-id: 6
 date: 2014-07-15
 img: lechuga.png
 alt: image-alt
-project-date: April 2014
-client: Lechuga
 category: Verdura
 description: Este producto es de temporada este mes, ¡disfrútalo!
 
