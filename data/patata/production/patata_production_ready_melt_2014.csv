@@ -1,0 +1,229 @@
+,Provincia,Variable,Cantidad,Unit
+0,A Coruña,15/12-15/4,32,S-ha
+3,Pontevedra,15/12-15/4,40,S-ha
+11,Girona,15/12-15/4,13,S-ha
+30,Valencia,15/12-15/4,21,S-ha
+33,Almería,15/12-15/4,53,S-ha
+34,Cádiz,15/12-15/4,529,S-ha
+36,Granada,15/12-15/4,114,S-ha
+37,Huelva,15/12-15/4,25,S-ha
+39,Málaga,15/12-15/4,316,S-ha
+40,Sevilla,15/12-15/4,324,S-ha
+41,Las Palmas,15/12-15/4,810,S-ha
+42,S.C. de Tenerife,15/12-15/4,832,S-ha
+43,A Coruña,15/12-15/4,587,P-t
+46,Pontevedra,15/12-15/4,699,P-t
+54,Girona,15/12-15/4,260,P-t
+73,Valencia,15/12-15/4,501,P-t
+76,Almería,15/12-15/4,1113,P-t
+77,Cádiz,15/12-15/4,12716,P-t
+79,Granada,15/12-15/4,4497,P-t
+80,Huelva,15/12-15/4,450,P-t
+82,Málaga,15/12-15/4,8216,P-t
+83,Sevilla,15/12-15/4,7290,P-t
+84,Las Palmas,15/12-15/4,15959,P-t
+85,S.C. de Tenerife,15/12-15/4,14791,P-t
+86,A Coruña,15/4-15/6,612,S-ha
+87,Lugo,15/4-15/6,142,S-ha
+88,Ourense,15/4-15/6,89,S-ha
+89,Pontevedra,15/4-15/6,762,S-ha
+91,Guipúzcoa,15/4-15/6,25,S-ha
+92,Vizcaya,15/4-15/6,80,S-ha
+96,Barcelona,15/4-15/6,119,S-ha
+97,Girona,15/4-15/6,28,S-ha
+98,Lleida,15/4-15/6,9,S-ha
+99,Tarragona,15/4-15/6,86,S-ha
+100,Avila,15/4-15/6,8,S-ha
+110,Ciudad Real,15/4-15/6,8,S-ha
+113,Toledo,15/4-15/6,210,S-ha
+114,Alicante,15/4-15/6,191,S-ha
+115,Castellón,15/4-15/6,168,S-ha
+116,Valencia,15/4-15/6,736,S-ha
+119,Almería,15/4-15/6,177,S-ha
+120,Cádiz,15/4-15/6,465,S-ha
+121,Córdoba,15/4-15/6,140,S-ha
+122,Granada,15/4-15/6,70,S-ha
+123,Huelva,15/4-15/6,225,S-ha
+124,Jaén,15/4-15/6,17,S-ha
+125,Málaga,15/4-15/6,355,S-ha
+126,Sevilla,15/4-15/6,3701,S-ha
+127,Las Palmas,15/4-15/6,734,S-ha
+128,S.C. de Tenerife,15/4-15/6,1860,S-ha
+129,A Coruña,15/4-15/6,11615,P-t
+130,Lugo,15/4-15/6,2517,P-t
+131,Ourense,15/4-15/6,2158,P-t
+132,Pontevedra,15/4-15/6,14051,P-t
+134,Guipúzcoa,15/4-15/6,565,P-t
+135,Vizcaya,15/4-15/6,1710,P-t
+139,Barcelona,15/4-15/6,2383,P-t
+140,Girona,15/4-15/6,570,P-t
+141,Lleida,15/4-15/6,177,P-t
+142,Tarragona,15/4-15/6,1720,P-t
+143,Avila,15/4-15/6,244,P-t
+153,Ciudad Real,15/4-15/6,240,P-t
+156,Toledo,15/4-15/6,5880,P-t
+157,Alicante,15/4-15/6,5157,P-t
+158,Castellón,15/4-15/6,4032,P-t
+159,Valencia,15/4-15/6,26521,P-t
+162,Almería,15/4-15/6,3970,P-t
+163,Cádiz,15/4-15/6,10712,P-t
+164,Córdoba,15/4-15/6,4900,P-t
+165,Granada,15/4-15/6,1631,P-t
+166,Huelva,15/4-15/6,7650,P-t
+167,Jaén,15/4-15/6,356,P-t
+168,Málaga,15/4-15/6,10314,P-t
+169,Sevilla,15/4-15/6,134940,P-t
+170,Las Palmas,15/4-15/6,18875,P-t
+171,S.C. de Tenerife,15/4-15/6,33864,P-t
+172,A Coruña,15/6-15/9,5319,S-ha
+173,Lugo,15/6-15/9,3450,S-ha
+174,Ourense,15/6-15/9,6114,S-ha
+175,Pontevedra,15/6-15/9,2333,S-ha
+176,Alava,15/6-15/9,385,S-ha
+177,Guipúzcoa,15/6-15/9,140,S-ha
+178,Vizcaya,15/6-15/9,120,S-ha
+180,Teruel,15/6-15/9,5,S-ha
+181,Zaragoza,15/6-15/9,89,S-ha
+182,Barcelona,15/6-15/9,147,S-ha
+183,Girona,15/6-15/9,138,S-ha
+184,Lleida,15/6-15/9,254,S-ha
+185,Tarragona,15/6-15/9,157,S-ha
+186,Avila,15/6-15/9,250,S-ha
+187,Burgos,15/6-15/9,850,S-ha
+188,León,15/6-15/9,60,S-ha
+190,Salamanca,15/6-15/9,1200,S-ha
+191,Segovia,15/6-15/9,500,S-ha
+193,Valladolid,15/6-15/9,1725,S-ha
+194,Zamora,15/6-15/9,364,S-ha
+195,Albacete,15/6-15/9,1000,S-ha
+196,Ciudad Real,15/6-15/9,168,S-ha
+197,Cuenca,15/6-15/9,59,S-ha
+198,Guadalajara,15/6-15/9,11,S-ha
+199,Toledo,15/6-15/9,108,S-ha
+200,Alicante,15/6-15/9,227,S-ha
+201,Castellón,15/6-15/9,232,S-ha
+202,Valencia,15/6-15/9,100,S-ha
+203,Badajoz,15/6-15/9,602,S-ha
+204,Cáceres,15/6-15/9,380,S-ha
+205,Almería,15/6-15/9,224,S-ha
+206,Cádiz,15/6-15/9,529,S-ha
+207,Córdoba,15/6-15/9,485,S-ha
+208,Granada,15/6-15/9,762,S-ha
+209,Huelva,15/6-15/9,136,S-ha
+210,Jaén,15/6-15/9,116,S-ha
+211,Málaga,15/6-15/9,492,S-ha
+212,Sevilla,15/6-15/9,498,S-ha
+213,Las Palmas,15/6-15/9,224,S-ha
+214,S.C. de Tenerife,15/6-15/9,154,S-ha
+215,A Coruña,15/6-15/9,116539,P-t
+216,Lugo,15/6-15/9,70856,P-t
+217,Ourense,15/6-15/9,232702,P-t
+218,Pontevedra,15/6-15/9,56032,P-t
+219,Alava,15/6-15/9,13955,P-t
+220,Guipúzcoa,15/6-15/9,3080,P-t
+221,Vizcaya,15/6-15/9,2700,P-t
+223,Teruel,15/6-15/9,40,P-t
+224,Zaragoza,15/6-15/9,3454,P-t
+225,Barcelona,15/6-15/9,2713,P-t
+226,Girona,15/6-15/9,4402,P-t
+227,Lleida,15/6-15/9,6292,P-t
+228,Tarragona,15/6-15/9,3140,P-t
+229,Avila,15/6-15/9,11750,P-t
+230,Burgos,15/6-15/9,32300,P-t
+231,León,15/6-15/9,1920,P-t
+233,Salamanca,15/6-15/9,52200,P-t
+234,Segovia,15/6-15/9,22500,P-t
+236,Valladolid,15/6-15/9,77625,P-t
+237,Zamora,15/6-15/9,15050,P-t
+238,Albacete,15/6-15/9,30000,P-t
+239,Ciudad Real,15/6-15/9,5040,P-t
+240,Cuenca,15/6-15/9,859,P-t
+241,Guadalajara,15/6-15/9,264,P-t
+242,Toledo,15/6-15/9,2700,P-t
+243,Alicante,15/6-15/9,6129,P-t
+244,Castellón,15/6-15/9,4042,P-t
+245,Valencia,15/6-15/9,4200,P-t
+246,Badajoz,15/6-15/9,24389,P-t
+247,Cáceres,15/6-15/9,14524,P-t
+248,Almería,15/6-15/9,5394,P-t
+249,Cádiz,15/6-15/9,10838,P-t
+250,Córdoba,15/6-15/9,19400,P-t
+251,Granada,15/6-15/9,18562,P-t
+252,Huelva,15/6-15/9,4012,P-t
+253,Jaén,15/6-15/9,2590,P-t
+254,Málaga,15/6-15/9,14772,P-t
+255,Sevilla,15/6-15/9,14478,P-t
+256,Las Palmas,15/6-15/9,3763,P-t
+257,S.C. de Tenerife,15/6-15/9,3113,P-t
+258,A Coruña,15/9-15/1,54,S-ha
+259,Lugo,15/9-15/1,609,S-ha
+260,Ourense,15/9-15/1,679,S-ha
+261,Pontevedra,15/9-15/1,24,S-ha
+262,Alava,15/9-15/1,890,S-ha
+264,Vizcaya,15/9-15/1,10,S-ha
+266,Teruel,15/9-15/1,235,S-ha
+268,Barcelona,15/9-15/1,91,S-ha
+269,Girona,15/9-15/1,73,S-ha
+270,Lleida,15/9-15/1,62,S-ha
+272,Avila,15/9-15/1,1005,S-ha
+273,Burgos,15/9-15/1,1588,S-ha
+274,León,15/9-15/1,1700,S-ha
+275,Palencia,15/9-15/1,944,S-ha
+276,Salamanca,15/9-15/1,3600,S-ha
+277,Segovia,15/9-15/1,1786,S-ha
+278,Soria,15/9-15/1,518,S-ha
+279,Valladolid,15/9-15/1,4054,S-ha
+280,Zamora,15/9-15/1,547,S-ha
+281,Albacete,15/9-15/1,270,S-ha
+282,Ciudad Real,15/9-15/1,286,S-ha
+283,Cuenca,15/9-15/1,80,S-ha
+285,Toledo,15/9-15/1,194,S-ha
+286,Alicante,15/9-15/1,274,S-ha
+287,Castellón,15/9-15/1,144,S-ha
+288,Valencia,15/9-15/1,67,S-ha
+291,Almería,15/9-15/1,81,S-ha
+292,Cádiz,15/9-15/1,218,S-ha
+293,Córdoba,15/9-15/1,70,S-ha
+294,Granada,15/9-15/1,130,S-ha
+295,Huelva,15/9-15/1,80,S-ha
+296,Jaén,15/9-15/1,80,S-ha
+297,Málaga,15/9-15/1,366,S-ha
+298,Sevilla,15/9-15/1,67,S-ha
+299,Las Palmas,15/9-15/1,313,S-ha
+300,S.C. de Tenerife,15/9-15/1,533,S-ha
+301,A Coruña,15/9-15/1,1066,P-t
+302,Lugo,15/9-15/1,11436,P-t
+303,Ourense,15/9-15/1,14443,P-t
+304,Pontevedra,15/9-15/1,465,P-t
+305,Alava,15/9-15/1,30259,P-t
+307,Vizcaya,15/9-15/1,280,P-t
+309,Teruel,15/9-15/1,6860,P-t
+311,Barcelona,15/9-15/1,1544,P-t
+312,Girona,15/9-15/1,1420,P-t
+313,Lleida,15/9-15/1,1260,P-t
+315,Avila,15/9-15/1,59883,P-t
+316,Burgos,15/9-15/1,55580,P-t
+317,León,15/9-15/1,82450,P-t
+318,Palencia,15/9-15/1,40831,P-t
+319,Salamanca,15/9-15/1,156600,P-t
+320,Segovia,15/9-15/1,97330,P-t
+321,Soria,15/9-15/1,20720,P-t
+322,Valladolid,15/9-15/1,219561,P-t
+323,Zamora,15/9-15/1,26910,P-t
+324,Albacete,15/9-15/1,7830,P-t
+325,Ciudad Real,15/9-15/1,8580,P-t
+326,Cuenca,15/9-15/1,1059,P-t
+328,Toledo,15/9-15/1,3996,P-t
+329,Alicante,15/9-15/1,6028,P-t
+330,Castellón,15/9-15/1,1632,P-t
+331,Valencia,15/9-15/1,2804,P-t
+334,Almería,15/9-15/1,1538,P-t
+335,Cádiz,15/9-15/1,4122,P-t
+336,Córdoba,15/9-15/1,2450,P-t
+337,Granada,15/9-15/1,1988,P-t
+338,Huelva,15/9-15/1,1920,P-t
+339,Jaén,15/9-15/1,1682,P-t
+340,Málaga,15/9-15/1,6344,P-t
+341,Sevilla,15/9-15/1,1273,P-t
+342,Las Palmas,15/9-15/1,4436,P-t
+343,S.C. de Tenerife,15/9-15/1,9921,P-t
