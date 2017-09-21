@@ -29,36 +29,34 @@ color:
   primary: FAFAFA #80B3FF
   primary-complement: 3F3F3F
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
+  secondary: 3F3F3F #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
   copyright: Medialab Prado
-  location: Location
-  social: Around the Web
-  credits: Credits
+  location: Equipo
+  social: Redes
+  credits: Contacto
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/ffosset/journey-of-food/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+    - line: Diego
+    - line: Jimena
+    - line: Rai
+    - line: Pau
+    - line: Flora
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'visualizar@medialab-prado.es'
+
 
 # Build settings
 markdown: kramdown
