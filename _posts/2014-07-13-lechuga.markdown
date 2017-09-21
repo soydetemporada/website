@@ -1,10 +1,6 @@
 ---
 layout: default
-<<<<<<< HEAD
-modal-id: 31
-=======
-modal-id: 12
->>>>>>> origin/master
+modal-id: 1
 date: 2014-07-15
 img: lechuga.png
 alt: image-alt

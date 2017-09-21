@@ -1,10 +1,6 @@
 ---
 layout: default
-<<<<<<< HEAD
-modal-id: 20
-=======
-modal-id: 8
->>>>>>> origin/master
+modal-id: 6
 date: 2014-07-14
 img: coliflor.png
 alt: image-alt

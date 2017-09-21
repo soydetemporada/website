@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 36
+modal-id: 2
 date: 2014-07-15
 img: manzana.jpg
 alt: image-alt
