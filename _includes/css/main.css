@@ -33,7 +33,7 @@ h5,
 h6 {
     text-transform: capitalize;
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 200;
 }
 
 hr.star-light,
@@ -100,7 +100,7 @@ header .intro-text .name {
     text-transform: capitalize;
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 200;
 }
 
 header .intro-text .skills {
@@ -150,7 +150,7 @@ header .intro-text .skills {
 .navbar {
     text-transform: capitalize;
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 200;
 }
 
 .navbar a:focus {
