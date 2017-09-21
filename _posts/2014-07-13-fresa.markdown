@@ -2,7 +2,7 @@
 layout: default
 modal-id: 25
 date: 2014-07-15
-img: fresa.png
+img: fresa.jpg
 alt: image-alt
 category: Fruta
 description: Este producto es de temporada este mes, ¡disfrútalo!
