@@ -97,7 +97,7 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -148,8 +148,8 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
