@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body id="page-top" class="index">
+  {% include nav-page.html %}
+  <section id="product">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h1>{{ page.title }}</h1>
+          <hr class="star-primary">
+          <img src="{{ "/img/portfolio/" | prepend: site.url | append:page.img }}" class="img-responsive img-centered" alt="{{ product.alt }}">
+          <p>{{ page.description }}</p>
+          <ul class="list-inline item-details">
+            <li>Category:
+              <strong><a href="http://startbootstrap.com">{{ page.category }}</a>
+                              </strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% include footer.html %} {% include js.html %}
+</body>
+
+</html>

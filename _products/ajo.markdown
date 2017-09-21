@@ -1,8 +1,7 @@
 ---
 layout: default
-modal-id: 6
-date: 2014-07-14
-img: coliflor.png
+modal-id: 3
+img: ajo.png
 alt: image-alt
 category: Verdura
 description: Este producto es de temporada este mes, ¡disfrútalo!

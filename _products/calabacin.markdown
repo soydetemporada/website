@@ -1,10 +1,9 @@
 ---
 layout: default
-modal-id: 3
-date: 2014-07-15
-img: naranja.jpg
+modal-id: 10
+img: calabacin.png
 alt: image-alt
-category: Fruta
+category: Verdura
 description: Este producto es de temporada este mes, ¡disfrútalo!
 
 ---

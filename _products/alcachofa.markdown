@@ -1,7 +1,6 @@
 ---
 layout: default
-modal-id: 9
-date: 2014-07-17
+modal-id: 5
 img: alcachofa.png
 alt: image-alt
 category: Verdura

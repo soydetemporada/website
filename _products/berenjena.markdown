@@ -1,8 +1,7 @@
 ---
 layout: default
-modal-id: 10
-date: 2014-07-18
-img: acelga.jpg
+modal-id: 8
+img: berenjena.png
 alt: image-alt
 category: Verdura
 description: Este producto es de temporada este mes, ¡disfrútalo!

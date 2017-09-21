@@ -1,10 +1,9 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-15
-img: lechuga.png
+img: acelga.jpg
 alt: image-alt
 category: Verdura
 description: Este producto es de temporada este mes, ¡disfrútalo!
-
+layout: product
 ---

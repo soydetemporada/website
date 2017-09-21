@@ -1,10 +1,9 @@
 ---
 layout: default
-modal-id: 11
-date: 2014-07-18
-img: ajo.png
+modal-id: 41
+img: naranja.jpg
 alt: image-alt
-category: Verdura
+category: Fruta
 description: Este producto es de temporada este mes, ¡disfrútalo!
 
 ---

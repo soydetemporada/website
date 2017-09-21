@@ -1,8 +1,7 @@
 ---
 layout: default
-modal-id: 7
-date: 2014-07-15
-img: calabacin.png
+modal-id: 31
+img: lechuga.png
 alt: image-alt
 category: Verdura
 description: Este producto es de temporada este mes, ¡disfrútalo!

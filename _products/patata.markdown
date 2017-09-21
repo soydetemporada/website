@@ -1,8 +1,7 @@
 ---
 layout: default
-modal-id: 12
-date: 2014-07-18
-img: batata.jpg
+modal-id: 44
+img: patata.jpg
 alt: image-alt
 category: Verdura
 description: Este producto es de temporada este mes, ¡disfrútalo!

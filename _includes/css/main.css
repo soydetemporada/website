@@ -245,6 +245,13 @@ section.success {
     z-index: 2;
 }
 
+#product {
+  text-align:center;
+}
+#product p{
+  margin: 1em 0;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;

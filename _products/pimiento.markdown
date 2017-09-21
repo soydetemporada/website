@@ -1,7 +1,6 @@
 ---
 layout: default
-modal-id: 5
-date: 2014-07-15
+modal-id: 47
 img: pimiento.png
 alt: image-alt
 category: Verdura
