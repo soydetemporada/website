@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 47
+date: 2014-07-15
+img: pimiento.png
+alt: image-alt
+category: Verdura
+description: Picantón y divertido, los pimientos son fantásticos.
+
+---
