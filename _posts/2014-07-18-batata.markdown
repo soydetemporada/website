@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: ajo.png
+img: batata.jpg
 alt: image-alt
 category: Verdura
 description: Este producto es de temporada este mes, ¡disfrútalo!
