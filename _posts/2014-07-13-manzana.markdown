@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 6
+date: 2014-07-15
+img: manzana.png
+alt: image-alt
+category: Verdura
+description: Este producto es de temporada este mes, ¡disfrútalo!
+
+---
