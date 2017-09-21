@@ -4,7 +4,7 @@ modal-id: 6
 date: 2014-07-15
 img: manzana.jpg
 alt: image-alt
-category: Fruta
+category: Verduras
 description: Las manzanas están de temporada. ¡Disfrútalas!
 
 ---
