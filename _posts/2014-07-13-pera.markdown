@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 6
+date: 2014-07-15
+img: pera.png
+alt: image-alt
+category: Fruta
+description: Esto es una pera.
+
+---
