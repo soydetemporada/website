@@ -1,9 +1,9 @@
 ---
 layout: default
-modal-id: 37
-img: melocoton.jpg
+modal-id: 38
+img: melon.jpg
 alt: image-alt
 category: Fruta
-description: Esto es una manzana.
+description: Esto es un melón.
 
 ---
