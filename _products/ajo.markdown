@@ -11,14 +11,18 @@ description: Este producto es de temporada este mes, ¡disfrútalo!
 El ajo se produce solamente una vez al año pero se alamacena y esta disponible todo el año.
 
 
+
 ### Tiempo de cosecha
 Tres meses y medio
+
+
 
 
 ### Anécdotas
 La historia del ajo en Europa es muy curiosa, ya que ha pasado de ser un enemigo a un poderoso aliado. Y es que el prestigio que tiene hoy en día no siempre le ha acompañado.
 
 Los europeos han tenido desde la Antigüedad una relación muy distinta con este producto. (Ejemplo copiado)
+
 
 
 ### Principales provincias productoras
@@ -29,8 +33,10 @@ Los europeos han tenido desde la Antigüedad una relación muy distinta con este
 - Huelva
 
 
+
 ### Cuántas temporadas tiene al año
 Una
+
 
 
 ### Principal importador
