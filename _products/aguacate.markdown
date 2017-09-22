@@ -1,9 +1,9 @@
 ---
 layout: default
-modal-id: 44
-img: patata.png
+modal-id: 2
+img: aguacate.jpg
 alt: image-alt
-category: Verdura
+category: Fruta
 description: Este producto es de temporada este mes, ¡disfrútalo!
-
+layout: product
 ---
