@@ -47,11 +47,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-    - line: Diego
+    - line: <a href="https://twitter.com/lowfill/">Diego Andrés</a>
+    - line: <a href="http://fosset.co">Flora Fosset<a/>
     - line: Jimena
-    - line: Rai
-    - line: Pau
-    - line: Flora
+    - line: <a href="https://twitter.com/paucc/">Pau Valiente<a/>
+    - line: <a href="https://twitter.com/Raiskv">Rai Abril<a/>
 
 # Credits content
 credits: 'visualizar@medialab-prado.es'
