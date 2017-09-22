@@ -9,6 +9,7 @@
                 </div>
             </div>
             <div class="row">
+                {% assign month = 'now' | date: "%b" %}
                 {% for product in site.products %}
                     <div class="col-sm-2 col-xs-4 portfolio-item">
                         <a href="#portfolioModal-{{ product.modal-id }}" class="portfolio-link" data-toggle="modal">
@@ -18,6 +19,18 @@
                                 </div>
                             </div>
                             <img src="img/portfolio/{{ product.img }}" class="img-responsive" alt="{{ product.alt }}">
+                            {% for temporada in site.data.andalucia %}
+                              {% assign id = temporada.ID | plus: 0 %}
+                              {% if id == product.modal-id %}
+                                {% if temporada[month]=='Y' %}
+                                  <i class="fa fa-clock-o yellow"></i>
+                                {% elsif temporada[month]=='X' %}
+                                  <i class="fa fa-clock-o green"></i>
+                                {% else %}
+                                  <i class="fa fa-clock-o red"></i>
+                                {% endif %}
+                              {% endif %}
+                            {% endfor %}
                         </a>
                     </div>
                 {% endfor %}

@@ -1,5 +1,5 @@
 ---
-^modal-id: 4
+modal-id: 4
 img: albaricoque.jpg
 alt: image-alt
 category: Fruta

@@ -8,6 +8,15 @@ body {
     overflow-x: hidden;
 }
 
+.green{
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+.red{
+  color: red;
+}
 p {
     font-size: 20px;
 }
