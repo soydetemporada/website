@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 12
 img: cardo.jpg
 alt: image-alt

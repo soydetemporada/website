@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 45
 img: pepino.jpg
 alt: image-alt

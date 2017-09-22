@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 57
 img: zanahoria.jpg
 alt: image-alt

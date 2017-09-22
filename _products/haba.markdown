@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 27
 img: haba.jpg
 alt: image-alt

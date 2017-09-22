@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 33
 img: lima.jpg
 alt: image-alt

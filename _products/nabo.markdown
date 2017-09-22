@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 40
 img: nabo.jpg
 alt: image-alt

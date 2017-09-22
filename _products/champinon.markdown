@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 16
 img: champinon.jpg
 alt: image-alt

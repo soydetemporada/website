@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 29
 img: judia.jpg
 alt: image-alt

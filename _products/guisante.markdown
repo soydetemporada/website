@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 26
 img: guisante.jpg
 alt: image-alt

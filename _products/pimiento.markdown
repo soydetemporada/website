@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 47
 img: pimiento.png
 alt: image-alt

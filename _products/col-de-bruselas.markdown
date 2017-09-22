@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 19
 img: col-de-bruselas.jpg
 alt: image-alt

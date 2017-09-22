@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 14
 img: cebolla.jpg
 alt: image-alt

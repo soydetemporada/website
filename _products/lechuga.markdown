@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 31
 img: lechuga.png
 alt: image-alt

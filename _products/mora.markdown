@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 39
 img: mora.jpg
 alt: image-alt

@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 9
 img: brocoli.jpg
 alt: image-alt

@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 22
 img: esparrago.jpg
 alt: image-alt

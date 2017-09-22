@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 20
 img: coliflor.png
 alt: image-alt

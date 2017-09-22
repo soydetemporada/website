@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 18
 img: col.jpg
 alt: image-alt

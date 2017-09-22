@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 56
 img: uva.jpg
 alt: image-alt

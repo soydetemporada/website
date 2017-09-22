@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 5
 img: alcachofa.png
 alt: image-alt

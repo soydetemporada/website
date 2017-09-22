@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 8
 img: berenjena.png
 alt: image-alt

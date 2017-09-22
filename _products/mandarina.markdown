@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 35
 img: mandarina.jpg
 alt: image-alt

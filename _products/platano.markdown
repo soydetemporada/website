@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 49
 img: platano.jpg
 alt: image-alt

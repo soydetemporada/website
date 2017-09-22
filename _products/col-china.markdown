@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 17
 img: col-china.jpg
 alt: image-alt

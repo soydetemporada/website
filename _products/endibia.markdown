@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 21
 img: endibia.jpg
 alt: image-alt

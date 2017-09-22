@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 23
 img: espinaca.jpg
 alt: image-alt

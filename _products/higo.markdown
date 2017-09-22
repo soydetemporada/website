@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 28
 img: higo.jpg
 alt: image-alt

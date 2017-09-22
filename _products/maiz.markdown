@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 34
 img: maiz.jpg
 alt: image-alt

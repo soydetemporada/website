@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 15
 img: cereza.jpg
 alt: image-alt

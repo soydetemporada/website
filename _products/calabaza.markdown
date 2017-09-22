@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 11
 img: calabaza.jpg
 alt: image-alt

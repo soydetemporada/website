@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 6
 img: apio.jpg
 alt: image-alt
