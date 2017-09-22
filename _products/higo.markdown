@@ -1,7 +1,7 @@
 ---
 layout: default
-modal-id: 25
-img: fresa.jpg
+modal-id: 28
+img: kiwi.jpg
 alt: image-alt
 category: Fruta
 description: Este producto es de temporada este mes, ¡disfrútalo!
