@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 50
-img: pina.jpg
+img: pomelo.jpg
 alt: image-alt
 category: Fruta
 description: Esto es un pomelo.
