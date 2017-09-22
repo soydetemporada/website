@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 41
 img: naranja.jpg
 alt: image-alt

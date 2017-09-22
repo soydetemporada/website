@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 44
 img: patata.png
 alt: image-alt

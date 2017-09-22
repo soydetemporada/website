@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 55
 img: tomate.jpg
 alt: image-alt

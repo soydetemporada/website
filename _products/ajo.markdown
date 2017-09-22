@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 3
 img: ajo.png
 alt: image-alt

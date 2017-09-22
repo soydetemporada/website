@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 32
 img: limon.jpg
 alt: image-alt

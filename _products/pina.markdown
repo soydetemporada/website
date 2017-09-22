@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 48
 img: pina.jpg
 alt: image-alt

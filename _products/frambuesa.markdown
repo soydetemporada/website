@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 24
 img: fresa.jpg
 alt: image-alt

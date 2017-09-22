@@ -1,9 +1,8 @@
 ---
-layout: default
-modal-id: 36
-img: manzana.jpg
+modal-id: 35
+img: mandarina.jpg
 alt: image-alt
 category: Fruta
-description: Esto es una manzana.
+description: Esto es una mandarina.
 
 ---

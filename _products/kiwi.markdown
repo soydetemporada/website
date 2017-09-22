@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 30
 img: kiwi.jpg
 alt: image-alt
