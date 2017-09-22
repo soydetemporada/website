@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 40
-img: puerro.png
+img: nabo.jpg
 alt: image-alt
 category: Verdura
 description: Este producto es de temporada este mes, ¡disfrútalo!
