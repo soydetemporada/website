@@ -66,7 +66,7 @@ $(document).ready(function() {
   }
   function loadData(province, callback) {
     console.log("Cargando datos de " + province);
-    d3.csv("../data/temporadas/" + province + ".csv", function(data) {
+    d3.csv("data/temporadas/" + province + ".csv", function(data) {
       comunidades[province] = data;
       callback();
     });
