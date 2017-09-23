@@ -462,6 +462,9 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+.section-label{
+  border-bottom: 1px solid;
+}
 .id,
 .temporada{
   display: none;
@@ -480,16 +483,14 @@ footer .footer-below {
   margin: 1em;
 }
 .month-filter{
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
+  margin: 1em;
 }
-.month-filter > li{
-  float: left;
-  position:relative;
-  display: block;
-  padding:1em;
+.month-filter > div{
+  padding: 1em;
+  cursor:pointer;
 }
-.month-filter a.active{
+.month-filter .month:hover,
+.month-filter .active{
   text-decoration: underline;
+  background: #c0c0c0;
 }

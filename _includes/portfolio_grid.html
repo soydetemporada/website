@@ -7,24 +7,28 @@
         <hr class="star-primary">
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-4 text-center">
-        <select class="comunidad">
-                    {% for comunidad in site.data.comunidades %}
-                      <option {{comunidad.estado | default: "disabled"}} value="{{comunidad.comunidad | downcase | replace: ' ','_' | replace: 'í','i' | replace: 'ó','o' | replace: 'ñ','n'}}">{{comunidad.comunidad}}</option>
-                    {% endfor %}
-                  </select>
-      </div>
-      <div class="col-lg-8 text-center">
-        {% assign currentMonth = 'now' | date: "%_m" | plus: 0%} {% assign months = "Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic" | split: ',' %} {{month}}
-        <ul class="month-filter">
-          {% for month in months %} {% assign current = '' %} {% if forloop.index == currentMonth %} {% assign current = 'active' %} {% endif%}
-          <li><a class="month {{current}}" href="#">{{month}}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
+    <div class="row month-filter">
+      {% assign currentMonth = 'now' | date: "%_m" | plus: 0%}
+      {% assign months = "Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic" | split: ',' %}
+      {% for month in months %}
+        {% assign current = '' %}
+        {% if forloop.index == currentMonth %}
+          {% assign current = 'active' %}
+        {% endif%}
+        <div class="col-lg-1 text-center month {{current}}">{{month}}</div>
+      {% endfor %}
     </div>
-    <div class="grid">
+    <div class="grid row">
+      <div class="portfolio-item col-sm-12 section-label">
+        <h3>TEMPORADA</h3>
+        <span class="id">0</span>
+        <span class="temporada">1</span>
+      </div>
+      <div class="portfolio-item col-sm-12 section-label">
+        <h3>FUERA DE TEMPORADA</h3>
+        <span class="id">0</span>
+        <span class="temporada">4</span>
+      </div>
       {% for product in site.products %}
       <!-- col-sm-2 col-xs-4  -->
       <div class="portfolio-item col-sm-2 col-xs-4" id="product-{{ product.modal-id }}">
@@ -35,11 +39,11 @@
             </div>
           </div>
           <img src="img/portfolio/{{ product.img }}" class="img-responsive" alt="{{ product.alt }}">
-          <i class="fa fa-2x fa-clock-o"></i>
+          <i class="fa fa-2x icon-temporada"></i>
         </a>
         <span class="id">{{product.modal-id}}</span>
         <span class="temporada">{{forloop.index}}</span>
-    </div>
+      </div>
       {% endfor %}
     </div>
   </div>
