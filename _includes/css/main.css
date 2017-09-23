@@ -8,15 +8,7 @@ body {
     overflow-x: hidden;
 }
 
-.green{
-  color: green;
-}
-.yellow {
-  color: yellow;
-}
-.red{
-  color: red;
-}
+
 p {
     font-size: 20px;
 }
@@ -470,4 +462,32 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.temporada{
+  color: green;
+}
+.inicio-temporada,
+.fin-temporada {
+  color: yellow;
+}
+.fuera-temporada{
+  color: red;
+}
+.comunidad{
+  margin: 1em;
+}
+.month-filter{
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.month-filter > li{
+  float: left;
+  position:relative;
+  display: block;
+  padding:1em;
+}
+.month-filter a.active{
+  text-decoration: underline;
 }

@@ -1,17 +1,38 @@
-
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Buscador</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                {% assign month = 'now' | date: "%b" %}
+                <div class="col-lg-4 text-center">
+                  <select class="comunidad">
+                    {% for comunidad in site.data.comunidades %}
+                      <option {{comunidad.estado | default: "disabled"}} value="{{comunidad.comunidad | downcase | replace: ' ','_' | replace: 'í','i' | replace: 'ó','o' | replace: 'ñ','n'}}">{{comunidad.comunidad}}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="col-lg-8 text-center">
+                    {% assign currentMonth = 'now' | date: "%_m" | plus: 0%}
+                    {% assign months = "Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic" | split: ',' %}
+                    {{month}}
+                    <ul class="month-filter">
+                      {% for month in months %}
+                        {% assign current = '' %}
+                        {% if forloop.index == currentMonth %}
+                          {% assign current = 'active' %}
+                        {% endif%}
+                        <li><a class="month {{current}}" href="#">{{month}}</a></li>
+                      {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
                 {% for product in site.products %}
-                    <div class="col-sm-2 col-xs-4 portfolio-item">
+                    <div class="col-sm-2 col-xs-4 portfolio-item" id="product-{{ product.modal-id }}">
                         <a href="#portfolioModal-{{ product.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
@@ -19,18 +40,7 @@
                                 </div>
                             </div>
                             <img src="img/portfolio/{{ product.img }}" class="img-responsive" alt="{{ product.alt }}">
-                            {% for temporada in site.data.andalucia %}
-                              {% assign id = temporada.ID | plus: 0 %}
-                              {% if id == product.modal-id %}
-                                {% if temporada[month]=='Y' %}
-                                  <i class="fa fa-clock-o yellow"></i>
-                                {% elsif temporada[month]=='X' %}
-                                  <i class="fa fa-clock-o green"></i>
-                                {% else %}
-                                  <i class="fa fa-clock-o red"></i>
-                                {% endif %}
-                              {% endif %}
-                            {% endfor %}
+                            <i class="fa fa-2x fa-clock-o"></i>
                         </a>
                     </div>
                 {% endfor %}

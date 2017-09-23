@@ -1,0 +1,23 @@
+{
+  "name": "journey-of-food",
+  "version": "1.0.0",
+  "description": "Una herramienta de búsqueda de productos de temporada en tu región",
+  "dependencies": {
+    "moment": "^2.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffosset/journey-of-food.git"
+  },
+  "keywords": [
+    "food",
+    "app",
+    "spain"
+  ],
+  "author": "Flora Fosset",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ffosset/journey-of-food/issues"
+  },
+  "homepage": "https://github.com/ffosset/journey-of-food#readme"
+}

@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                        <div class="modal-body" id="product-{{ product.modal-id }}">
                             <h2>{{ product.title }}</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ product.img }}" class="img-responsive img-centered" alt="{{ product.alt }}">
@@ -22,8 +22,12 @@
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+                            <div>
+                              <i class="fa fa-2x fa-clock-o"></i>
+                            </div>
+                            <a class="btn btn-default" href="{{ product.url }}"><i class="fa fa-times"></i> Detalles</a>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Cerrar</button>
+                          </div>
                     </div>
                 </div>
             </div>

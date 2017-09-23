@@ -13,14 +13,12 @@
     <script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.url }}"></script>
     {% if site.contact == "static" %}
     <script src="{{ "/js/contact_me_static.js" | prepend: site.url }}"></script>
-    {% else %}
-     <script src="{{ "/js/contact_me.js" | prepend: site.url }}"></script>
     {% endif %}
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="{{ "/js/moment/moment.js" | prepend: site.url }}"></script>
+    <script src="{{ "/js/moment/locale/es.js" | prepend: site.url }}"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/freelancer.js" | prepend: site.url }}"></script>
-
-    {% if site.contact == "disqus" %}
-    <!-- Disqus Stuff -->
-    {% include js_disqus.html %}
-    {% endif %}
+    <script src="{{ "/js/buscador.js" | prepend: site.url }}"></script>
