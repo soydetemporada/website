@@ -14,7 +14,9 @@ $(document).ready(function() {
     filterProducts();
   }
   function filterProducts() {
-    var activeMonth = $(".month.active").text().trim();
+    var activeMonth = $(".month.active")
+      .text()
+      .trim();
     console.log(activeMonth);
     filterActive(activeMonth);
   }
@@ -51,12 +53,16 @@ $(document).ready(function() {
       }
       var $grid = $(".grid").isotope({
         itemSelector: ".portfolio-item",
-        layoutMode: "fitRows",
         getSortData: {
           id: ".id parseInt",
           temporada: ".temporada parseInt"
         },
-        sortBy: "temporada"
+        percentPosition: true,
+        masonry: {
+          // use element for option
+          columnWidth: ".col-sm-2"
+        },
+        sortBy: ["temporada", "id"]
       });
       $grid.isotope("updateSortData").isotope();
     });
