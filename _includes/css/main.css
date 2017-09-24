@@ -335,6 +335,14 @@ form .row:first-child .floating-label-form-group {
 footer {
     color: #fff;
 }
+footer a,
+footer a:hover,
+footer a:focus,
+footer a:active,
+footer a.active {
+    outline: 0;
+    color: #fff;
+}
 
 footer h3 {
     margin-bottom: 30px;
@@ -464,6 +472,7 @@ footer .footer-below {
 }
 .section-label{
   border-bottom: 1px solid;
+  clear:both;
 }
 .id,
 .temporada{
