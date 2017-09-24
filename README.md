@@ -12,7 +12,6 @@
    * [Los datos](#los-datos)
    * [La herramienta](#la-herramienta)
 * [Perfiles de colaboradores](#perfiles-de-colaboradores)
-* [Expertos y contactos](#expertos-y-contactos)
 * [Referencias](#referencias)
 
 ## El proyecto
@@ -38,17 +37,21 @@ Como faltan datos oficiales, tenemos que hablar con agricultores para saber cual
  
 - Los [Avances de superficies y producciones de cultivos](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/avances-superficies-producciones-agricolas/) del Ministerio de Agricultura determinan con periodicidad mensual los avances de superficies y producciones, dentro de un calendario establecido al efecto en función de las épocas de siembra y recolección a lo largo de la geografía española.
 
-
+- [La encuesta](https://docs.google.com/forms/d/e/1FAIpQLSe-ysO45blE7-ADPvRiqTWUlGIr00dXId429akjXojanchIoA/viewform). Para elaborar un nuevo calendario, hemos creado un formulario a rellenar por agricultores y gente que tiene conocimientos en huertos comunicando la mejor temporada de recolección de cada producto.
 
 #### La herramienta
-El resultado final será una aplicación web interactiva adaptada especialmente a los dispositivos móviles, para permitir el acceso **rápido** y **fácil** en cualquier momento. Los textos de la web se pueden ver [aquí](https://docs.google.com/document/d/1Q_kjXxQRTprcux5-8Xn2GaocAWU2sQz_S8_BC18yZSk/edit?usp=sharing). Tendrá cuatro secciones principales:
+El resultado final será una aplicación web interactiva adaptada especialmente a los dispositivos móviles, para permitir el acceso **rápido** y **fácil** en cualquier momento. Tendrá cuatro secciones principales:
 
 ##### 1. Buscador
 El usuario podrá buscar la información a través de un formulario con dos preguntas:
 - **Comunidad autónoma**
 - **Por mes** o **Por producto**
 
-##### 2. Proyecto
+##### 2. Investigación
+- **Cómo afecta la importación masiva a los agricultores**
+- **Las subvenciones europeas**
+- **El impacto sobre el medio ambiente**
+
 ##### 3. Campaña
 El calendario oficial del Ministerio de Agricultura tiene varios datos erróneos. Entre otros, informan que el tomate y la berenjena son productos que se pueden consumir todo el año excepto durante los meses de verano. **Esto es una información falsa**.
 ![tomate y berenjena](https://user-images.githubusercontent.com/22743273/29875652-f482c2f0-8d9a-11e7-9c4b-ff9e8b759dfc.jpg)
@@ -67,23 +70,6 @@ Habrá que poder conseguir automáticamente la localización del usuario y así 
 También sería interesante que la aplicación funcione en offline cuando el usuario no tenga cobertura.
 
 Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un calendario anual personalizado (zona y tipo de cultivo).
-
-
-## Perfiles de colaboradores
-¡Cualquier persona con motivación y ganas de trabajar en equipo!
-
-Más especificamente, pueden servir los siguientes perfiles:
-
-- **Periodistas** (investigación sobre los calendarios existentes)
-- **Climatólogos** (investigación sobre el clima por región)
-- **Agricultores** o grupos de consumo (nadie mejor para saber qué se cultiva y cuándo)
-- **Ilustradores** (para los dibujos del calendario y de los alimentos)
-- **Diseñadores**
-- **Programadores** 
-
-## Expertos y contactos
-
-[Ver en drive](https://docs.google.com/spreadsheets/d/1ffl7EIHYFqzYovSqHU0k1Z80oJwk1rda-_tDTUkiP3s/edit?usp=sharing)
 
 ## Referencias
 - **[The Rythm of Food](http://rhythm-of-food.net/)**
