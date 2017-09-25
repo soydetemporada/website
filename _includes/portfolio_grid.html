@@ -1,30 +1,13 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Buscador</h2>
-        <hr class="star-primary">
-      </div>
-    </div>
-    <div class="row month-filter">
-      {% assign currentMonth = 'now' | date: "%_m" | plus: 0%}
-      {% assign months = "Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic" | split: ',' %}
-      {% for month in months %}
-        {% assign current = '' %}
-        {% if forloop.index == currentMonth %}
-          {% assign current = 'active' %}
-        {% endif%}
-        <div class="col-lg-1 col-xs-3 text-center month {{current}}">{{month}}</div>
-      {% endfor %}
-    </div>
     <div class="grid row">
-      <div class="portfolio-item col-sm-12 col-xs-12 section-label">
+      <div class="portfolio-item col-sm-12 col-xs-12 section-label section-en-temporada">
         <h3>TEMPORADA</h3>
         <span class="id">0</span>
         <span class="temporada">1</span>
       </div>
-      <div class="portfolio-item col-sm-12 col-xs-12 section-label">
+      <div class="portfolio-item col-sm-12 col-xs-12 section-label section-fuera-temporada">
         <h3>FUERA DE TEMPORADA</h3>
         <span class="id">0</span>
         <span class="temporada">4</span>
@@ -39,7 +22,7 @@
             </div>
           </div>
           <img src="img/portfolio/{{ product.img }}" class="img-responsive" alt="{{ product.alt }}">
-          <i class="fa fa-2x icon-temporada"></i>
+          <i class="fa icon-temporada"></i>
         </a>
         <span class="id">{{product.modal-id}}</span>
         <span class="temporada">{{forloop.index}}</span>

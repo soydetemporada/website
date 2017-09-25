@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -33,7 +34,7 @@ h4,
 h5,
 h6 {
     text-transform: capitalize;
-    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Roboto Light,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 200;
 }
 
@@ -82,13 +83,20 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #{{site.color.primary-complement}};
-    background: #{{ site.color.primary }};
+    color: #{{site.color.primary}};
+    background: url('{{"/img/cabezote.jpg" | prepend: site.url}}');
+    background-size: cover;
+    background-position: center;
 }
 
+header h1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 3.5em;
+  text-transform: lowercase;
+}
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 8em;
+    padding-bottom: 5em;
 }
 
 header img {
@@ -109,49 +117,18 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
-@media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
-
-    header .intro-text .name {
-        font-size: 4.75em;
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em;
-    }
-}
-
-@media(min-width:768px) {
-    .navbar-fixed-top {
-        padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
-
 .navbar {
-    text-transform: capitalize;
-    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 200;
+    text-transform: capitalize;
+    font-family: 'RobotoLight', sans-serif;
+}
+.navbar-header .navbar-brand{
+  font-family: 'Amatic SC', cursive;
+  text-transform: lowercase;
+  color: #{{ site.color.primary-complement }};
+}
+.navbar-inverse .navbar-nav > li > a{
+  color: #{{ site.color.primary-complement }};
 }
 
 .navbar a:focus {
@@ -172,7 +149,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 2em 0;
 }
 
 section h2 {
@@ -185,15 +162,6 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
-@media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
-
-    section.first {
-        padding-top: 75px;
-    }
-}
 
 #portfolio .portfolio-item {
     right: 0;
@@ -470,10 +438,20 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
 .section-label{
-  border-bottom: 1px solid;
+  border-bottom: 10px  solid;
   clear:both;
 }
+
+.section-en-temporada{
+  border-color: #89bc10;
+}
+
+.section-fuera-temporada{
+  border-color: #E04435;
+}
+
 .id,
 .temporada{
   display: none;
@@ -493,6 +471,7 @@ footer .footer-below {
 }
 .month-filter{
   margin-bottom: : 1em;
+  text-transform: uppercase;
 }
 .month-filter > div{
   padding: 1em;
@@ -501,5 +480,62 @@ footer .footer-below {
 .month-filter .month:hover,
 .month-filter .active{
   text-decoration: underline;
-  background: #c0c0c0;
+}
+
+.mobile{
+  display: none;
+}
+@media(min-width:768px) {
+    header .container {
+        padding-top: 8em;
+        padding-bottom: 5em;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+@media(max-width:767px) {
+    section {
+        padding: 1em 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+}
+
+@media(max-width:768px) {
+  .mobile{
+    display: block;
+  }
+  .desktop{
+    display: none;
+  }
 }

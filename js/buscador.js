@@ -15,14 +15,12 @@ $(document).ready(function() {
   }
   function filterProducts() {
     var activeMonth = $(".month.active")
-      .text()
+      .data('month')
       .trim();
-    console.log(activeMonth);
     filterActive(activeMonth);
   }
   function filterActive(month) {
     month = month || $(".month.active").text();
-    console.log("Cargando datos");
     d3.csv("data/temporadas/calendario.csv", function(calendario) {
       for (var i = 0; i < calendario.length; i++) {
         var product = $("#product-" + calendario[i].ID + " .icon-temporada");
@@ -33,7 +31,7 @@ $(document).ready(function() {
         );
         switch (calendario[i][month.toUpperCase()]) {
           case "X":
-            //product.addClass("en-temporada");
+            product.addClass("en-temporada fa-clock-o");
             time.text(1);
             break;
           //TODO remove
@@ -47,7 +45,7 @@ $(document).ready(function() {
             time.text(3);
             break;
           default:
-            //product.addClass("fuera-temporada");
+            product.addClass("fuera-temporada fa-clock-o");
             time.text(4);
         }
       }
