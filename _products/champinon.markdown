@@ -1,4 +1,5 @@
 ---
+title: Champiñon
 modal-id: 16
 img: champinon.png
 alt: image-alt

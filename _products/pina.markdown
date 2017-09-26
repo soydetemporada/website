@@ -1,4 +1,5 @@
 ---
+title: Piña
 modal-id: 48
 img: pina.png
 alt: image-alt

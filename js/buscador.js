@@ -23,7 +23,8 @@ $(document).ready(function() {
     month = month || $(".month.active").text();
     d3.csv("data/temporadas/calendario.csv", function(calendario) {
       for (var i = 0; i < calendario.length; i++) {
-        var product = $("#product-" + calendario[i].ID + " .icon-temporada");
+        //var product = $("#product-" + calendario[i].ID + " .icon-temporada");
+        var product = $("#product-" + calendario[i].ID);
         var time = $("#product-" + calendario[i].ID + " .temporada");
 
         product.removeClass(
@@ -31,21 +32,21 @@ $(document).ready(function() {
         );
         switch (calendario[i][month.toUpperCase()]) {
           case "X":
-            product.addClass("en-temporada fa-clock-o");
+            product.addClass("en-temporada");
             time.text(1);
             break;
           //TODO remove
           case "Y":
           case "I":
-            product.addClass("inicio-temporada fa-clock-o");
+            product.addClass("inicio-temporada");
             time.text(2);
             break;
           case "F":
-            product.addClass("fin-temporada fa-clock-o");
+            product.addClass("fin-temporada");
             time.text(3);
             break;
           default:
-            product.addClass("fuera-temporada fa-clock-o");
+            product.addClass("fuera-temporada");
             time.text(4);
         }
       }
