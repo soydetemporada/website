@@ -1,5 +1,12 @@
-Provincia,P-t,INE,Percent
-Málaga,45816,29,52.88332794681195
-Granada,24222,18,27.958354494667343
-S.C de Tenerife,8584,38,9.9081213352417
-Otros,8014,0,9.250196223279005
+,Provincia,P-t,INE
+14,Málaga,45816,29
+12,Granada,24222,18
+11,Cádiz,4326,11
+5,Alacant/Alicante,1116,3
+7,Valencia/València,285,46
+13,Huelva,278,21
+3,Illes Balears,107,7
+6,Castellón/Castelló,30,12
+10,Almería,20,4
+15,Sevilla,20,41
+0,Tarragona,0,43
