@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[95]:
+# In[1]:
 
 import os
 import pandas as pd
@@ -12,9 +12,11 @@ get_ipython().magic('matplotlib inline')
 matplotlib.style.use('ggplot')
 
 
-# In[96]:
+# In[9]:
 
-pwd = '/Volumes/Macintosh HD/_Drive/journey-of-food/data/calendario/'
+dwd = '/Volumes/Macintosh HD/_Github/journey-of-food/data/temporadas/'
+aux = '/Volumes/Macintosh HD/_Github/journey-of-food/data/aux/'
+pwd = '/Volumes/Macintosh HD/_Github/journey-of-food/data/calendario/'
 os.chdir(pwd)
 files = os.listdir()
 filesCSV = []
@@ -23,34 +25,35 @@ for file in files:
         filesCSV.append(file)
 
 
-# In[97]:
+# In[10]:
 
 dataList = []
 data = pd.DataFrame()
 for file in filesCSV:
     data = pd.read_csv(file, encoding ='utf-8', delimiter = ',', index_col=0)
+    data['Ciudad'] = file.split('.')[0]
     dataList.append(data)
     
 data = pd.concat(dataList)
 data.fillna(0, inplace=True)
 
 
-# In[98]:
+# In[11]:
 
 data.ENE.unique()
 
 
-# In[99]:
+# In[14]:
 
-weight = pd.read_csv(pwd+'aux/weight.csv', encoding ='utf-8', delimiter = ',', index_col=0)
+weight = pd.read_csv(aux+'weight.csv', encoding ='utf-8', delimiter = ',', index_col=0)
 
 
-# In[100]:
+# In[15]:
 
 data.loc[data['TIPO DE PRODUCTO'] == 'ACELGA']
 
 
-# In[101]:
+# In[16]:
 
 data.ENE = data.ENE.map(weight.score) 
 data.FEB = data.FEB.map(weight.score) 
@@ -66,53 +69,95 @@ data.NOV = data.NOV.map(weight.score)
 data.DIC = data.DIC.map(weight.score) 
 
 
-# In[102]:
+# In[17]:
 
 data.fillna(0,inplace=True)
 
 
-# In[103]:
+# In[18]:
 
 data['SCORE'] = data.ENE+data.FEB+data.MAR+data.ABR+data.MAY+data.JUN+data.JUL+data.AGO+data.SEP+data.OCT+data.NOV+data.DIC
 
 
-# In[104]:
+# In[19]:
 
 data.head(10)
 
 
-# In[105]:
+# In[20]:
 
 data = data.loc[data.SCORE>0]
 
 
-# In[106]:
+# In[21]:
 
-data.head(10)
+data.head(3)
 
 
-# In[107]:
+# In[22]:
 
 pivot = data.groupby('TIPO DE PRODUCTO').mean()
 pivot = pivot.round(2)
 
 
-# In[108]:
+# In[23]:
 
-pivot
-
-
-# In[109]:
-
-pivot.columns = [1,2,3,4,5,6,7,8,9,10,11,12,'SCORE']
+pivot.head(5)
 
 
-# In[110]:
+# In[24]:
 
 pivot.transpose().UVA.plot('bar',ylim=[0,1])
 
 
-# In[111]:
+# In[25]:
 
-pivot.to_csv(pwd+'results/full.csv')
+def mapear(x):
+    if x > 0.5:
+        return 'X'
+    elif x > 0.3:
+        return 'Y'
+    else:
+        return None
+
+
+# In[26]:
+
+pivot.ENE = pivot.ENE.apply(lambda x: mapear(x))
+pivot.FEB = pivot.FEB.apply(lambda x: mapear(x))
+pivot.MAR = pivot.MAR.apply(lambda x: mapear(x))
+pivot.ABR = pivot.ABR.apply(lambda x: mapear(x))
+pivot.MAY = pivot.MAY.apply(lambda x: mapear(x))
+pivot.JUN = pivot.JUN.apply(lambda x: mapear(x))
+pivot.JUL = pivot.JUL.apply(lambda x: mapear(x))
+pivot.AGO = pivot.AGO.apply(lambda x: mapear(x))
+pivot.SEP = pivot.SEP.apply(lambda x: mapear(x))
+pivot.OCT = pivot.OCT.apply(lambda x: mapear(x))
+pivot.NOV = pivot.NOV.apply(lambda x: mapear(x))
+pivot.DIC = pivot.DIC.apply(lambda x: mapear(x))
+
+
+# In[27]:
+
+pivot
+
+
+# In[28]:
+
+pivot.to_csv(dwd+'calendario_py.csv')
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
 
