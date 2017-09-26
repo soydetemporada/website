@@ -1,0 +1,58 @@
+ID,TIPO DE PRODUCTO,ENE,FEB,MAR,ABR,MAY,JUN,JUL,AGO,SEP,OCT,NOV,DIC
+1,ACELGA,Y,X,X,X,X,X,X,X,X,X,Y,
+2,AGUACATE,X,X,X,X,Y,,,,,Y,X,X
+3,AJO,,,,,Y,Y,,,,,,
+4,ALBARICOQUE,,,,Y,X,X,X,X,Y,,,
+5,ALCACHOFA,,,Y,X,X,Y,,,,,,
+6,APIO,,,,,,,,Y,Y,,,
+7,BATATA,,,,,,,,,,Y,Y,
+8,BERENJENA,,,,,,Y,X,X,X,Y,,
+9,BRÓCOLI,,,,,,,,,,Y,X,Y
+10,CALABACIN,,,,,Y,X,X,Y,,,,
+11,CALABAZA,,,,,,,,,,,Y,Y
+12,CARDO,,,,,,,,,,,,
+13,CAQUÍ,,,,,,,,,Y,X,X,Y
+14,CEBOLLA,,,,,,Y,X,X,Y,,,
+15,CEREZA,,,,Y,X,X,Y,,,,,
+16,CHAMPIÑÓN,,,,,,,,,,,X,
+17,COL CHINA,,,,,,,,,,,,
+18,COL COMÚN,,,,,,,,,,Y,X,Y
+19,COL DE BRUSELAS,,,,,,,,,,,,
+20,COLIFLOR,,,,,,,,,,Y,X,Y
+21,ENDÍBIA,,,,,,,,,,,,
+22,ESPÁRRAGO,,,Y,X,Y,,,,,,,
+23,ESPINACA,,,Y,X,Y,,,,,,,
+24,FRAMBUESA,,,,,,,,,,,,
+25,FRESA,,,Y,X,Y,,,,,,,
+26,GUISANTES,,,Y,X,Y,,,,,,,
+27,HABAS,,,,Y,X,Y,,,,,,
+28,HIGOS,,,,,,Y,X,X,X,Y,,
+29,JUDÍAS,,,,,,Y,X,Y,,,,
+30,KIWI,X,X,X,Y,,,,,Y,X,X,X
+31,LECHUGA,,,Y,X,Y,,,,,,,
+32,LIMÓN,X,X,X,X,X,Y,,,,Y,X,X
+33,LIMA,,,,,,,,,,,,
+34,MAIZ DULCE,,,,,,,,,,,,
+35,MANDARINA,X,X,X,Y,,,,,,Y,X,X
+36,MANZANA,X,Y,,,,,Y,X,X,X,X,X
+37,MELOCOTÓN,,,,,Y,X,X,X,X,Y,,
+38,MELÓN,,,,,Y,X,X,X,X,Y,,
+39,MORA,,,,,,,,,,,,
+40,NABO,,,,,,,,,,,,
+41,NARANJA,X,X,X,X,Y,,,,,Y,X,X
+42,NECTARINA,,,,Y,X,X,X,X,X,Y,,
+43,PAPAYA,,,,,,,,,,,,
+44,PATATA,,,,,X,X,,,,,,
+45,PEPINO,,,,,Y,X,X,X,Y,,,
+46,PERA,,,,,,Y,X,X,X,X,X,Y
+47,PIMIENTO,,,,,Y,X,X,X,Y,,,
+48,PIÑA,,,,,,,,,,,,
+49,PLATANO,,,,,,,,,,,,
+50,POMELO,X,X,X,X,Y,,,,,,Y,X
+51,PUERRO,,,,,Y,X,X,X,Y,,,
+52,RÁBANO,,,,,,,,,,,,
+53,REMOLACHA,,,,,,,,,,,,
+54,SANDÍA,,,,,Y,X,X,X,Y,,,
+55,TOMATE,,,,,Y,X,X,X,X,X,Y,
+56,UVA,,,,,,,,Y,X,X,X,Y
+57,ZANAHORIA,,,,Y,X,X,X,X,Y,,,

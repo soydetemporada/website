@@ -1,0 +1,54 @@
+TIPO DE PRODUCTO,ENE,FEB,MAR,ABR,MAY,JUN,JUL,AGO,SEP,OCT,NOV,DIC,SCORE
+ACELGA,X,X,X,X,X,X,X,X,X,X,X,X,8.17
+AGUACATE,X,X,X,X,Y,,,,,Y,X,X,7.0
+AJO,,Y,Y,Y,Y,X,Y,,,,Y,Y,3.67
+ALBARICOQUE,,,,,Y,X,Y,Y,,,,,3.0
+ALCACHOFA,,,,Y,X,Y,,,,Y,Y,,3.5
+APIO,X,X,Y,Y,,Y,Y,Y,Y,Y,Y,Y,5.2
+BATATA,,,,,,,,,,X,X,,1.5
+BERENJENA,,,,,,,X,X,X,Y,,,3.5
+BRÓCOLI,,,,,,,,,,X,X,Y,2.7
+CALABACIN,,,,,,X,X,X,Y,,,,2.83
+CALABAZA,,,,,,,,,Y,X,,,2.58
+CAQUÍ,,,,,,,,,,X,X,,2.5
+CARDO,,,,,,,,,,X,X,,2.0
+CEBOLLA,,,Y,Y,Y,X,Y,X,X,X,Y,Y,5.42
+CEREZA,,,,,X,X,,,,,,,2.1
+CHAMPIÑÓN,,,,,,,,,,,X,,1.0
+COL CHINA,,,,,,,,,,Y,Y,,1.0
+COL COMÚN,Y,Y,Y,Y,,Y,Y,Y,,X,X,X,6.25
+COL DE BRUSELAS,Y,Y,Y,Y,,,,,,,Y,Y,3.0
+COLIFLOR,X,X,Y,Y,,,,,,Y,X,X,4.4
+ESPINACA,X,X,Y,X,Y,Y,,,,,X,X,5.0
+ESPÁRRAGO,,,Y,X,Y,,,,,,,,2.0
+FRAMBUESA,,,,Y,Y,X,X,Y,Y,,,,4.0
+FRESA,,,,Y,X,Y,X,X,X,,,,3.88
+GUISANTES,,,,X,X,,,,,,,,2.25
+HABAS,,,,Y,Y,Y,,,,,,,1.5
+HIGOS,,,,,,,X,X,X,,,,2.67
+JUDÍAS,,,,,Y,X,X,Y,Y,,,,3.0
+KIWI,X,X,X,,,,,,,Y,Y,Y,5.0
+LECHUGA,Y,Y,X,X,X,X,X,X,X,Y,Y,Y,6.9
+LIMA,,,,,,,,Y,Y,Y,X,Y,4.25
+LIMÓN,X,X,X,Y,Y,,,,,,X,X,6.5
+MAIZ DULCE,,,,,,Y,Y,Y,X,Y,Y,,2.67
+MANDARINA,Y,Y,Y,,,,,,,,X,Y,3.5
+MANZANA,Y,,,,,,,Y,X,Y,X,Y,4.0
+MELOCOTÓN,,,,,,,Y,X,X,,,,3.0
+MELÓN,,,,,,Y,X,X,X,,,,3.0
+MORA,,,,,,,X,X,X,,,,3.0
+NABO,Y,Y,Y,Y,Y,,,,Y,Y,Y,Y,4.5
+NARANJA,Y,Y,Y,Y,,,,,,,X,Y,4.0
+NECTARINA,,,,,Y,Y,Y,X,X,,,,4.0
+PATATA,,,,,X,X,X,X,X,,,,4.14
+PEPINO,,,,,,X,X,X,Y,Y,,,3.29
+PERA,,,,,,,X,X,X,X,Y,,4.2
+PIMIENTO,,,,,,Y,X,X,X,Y,,,3.42
+POMELO,X,X,X,X,Y,,,,,,Y,X,6.0
+PUERRO,Y,Y,Y,Y,,,Y,Y,X,Y,Y,Y,4.75
+REMOLACHA,Y,Y,Y,Y,,,Y,Y,Y,X,X,Y,6.12
+RÁBANO,,,,,,,,,,X,X,,2.0
+SANDÍA,,,,,,Y,Y,X,Y,,,,2.25
+TOMATE,,,,,,X,X,X,X,X,,,4.21
+UVA,,,,,,,,,X,Y,Y,,2.0
+ZANAHORIA,Y,Y,Y,Y,X,X,X,X,X,Y,Y,Y,6.07
