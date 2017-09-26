@@ -1,6 +1,6 @@
 ---
 modal-id: 43
-img: papaya.jpg
+img: papaya.png
 alt: image-alt
 category: Fruta
 description: Esto es una papaya.

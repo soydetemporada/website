@@ -1,6 +1,6 @@
 ---
 modal-id: 49
-img: platano.jpg
+img: platano.png
 alt: image-alt
 category: Fruta
 description: Esto es un platano.

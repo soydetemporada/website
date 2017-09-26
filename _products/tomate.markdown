@@ -1,6 +1,6 @@
 ---
 modal-id: 55
-img: tomate.jpg
+img: tomate.png
 alt: image-alt
 category: Fruta
 description: Esto es un tomate.

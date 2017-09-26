@@ -1,6 +1,6 @@
 ---
 modal-id: 13
-img: caqui.jpg
+img: caqui.png
 alt: image-alt
 category: Fruta
 description: Este producto es de temporada este mes, ¡disfrútalo!

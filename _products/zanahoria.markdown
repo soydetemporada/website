@@ -1,6 +1,6 @@
 ---
 modal-id: 57
-img: zanahoria.jpg
+img: zanahoria.png
 alt: image-alt
 category: Verdura
 description: Esto es una zanahoria.

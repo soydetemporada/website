@@ -1,6 +1,6 @@
 ---
 modal-id: 48
-img: pina.jpg
+img: pina.png
 alt: image-alt
 category: Fruta
 description: Esto es una piña.

@@ -1,6 +1,6 @@
 ---
 modal-id: 50
-img: pomelo.jpg
+img: pomelo.png
 alt: image-alt
 category: Fruta
 description: Esto es un pomelo.
