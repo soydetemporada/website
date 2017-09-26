@@ -17,6 +17,7 @@
       <div class="col-lg-3">
         <form>
           <select placeholder="Filtrar por producto" class="form-control">
+              <option></option>
             {% for product in site.products %}
               <option value="{{product.modal-id}}">{{product.title}}</option>
             {% endfor %}

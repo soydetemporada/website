@@ -1,5 +1,5 @@
 ---
-modal-id: 24
+modal-id: 25
 img: fresa.png
 alt: image-alt
 category: Fruta
