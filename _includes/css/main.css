@@ -442,6 +442,7 @@ footer .footer-below {
 .section-label{
   border-bottom: 10px  solid;
   clear:both;
+  position:fixed;
 }
 .section-label h3{
   font-size: 20px;
