@@ -29,32 +29,22 @@ El freno más grande al cual nos hemos enfrentado hasta ahora es la falta de dat
 Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o comentario estará bienvenido para mejorar la herramienta.
 
 ## Equipo
+Diego Ramírez, Flora Fosset, Jimena García, Pau Valiente, Rai Abril
 
 ## Agradecimientos
 #### MENTORES
-Alejandro Zappala
-Jesusda
-Sergio Galán
+Alejandro Zappala, Jesusda, Sergio Galán
 
 #### ILUSTRADORAS
-[Hannah Williams]()
-[Sofía Prosper]()
+Hannah Williams, Sofía Prosper
 
 #### Agricultores
-[Cerezas del Bierzo]()
-Limas Hortanazar
-Familia Martín 
-Familia Galán
-Raúl Gonzalez
-Antonio Ocaña
-[CPAEN NNPEK]()
-[ENEEK]()
-[COPAE]()
+Cerezas del Bierzo, Limas Hortanazar, Familia Martín , Familia Galán, Raúl Gonzalez, Antonio Ocaña, CPAEN NNPEK, ENEEK, COPAE
 
 #### MEDIALAB PRADO
-La organzación de Visualizar 17
-Samuel Granados
-Pablo Martín
+La organzación de Visualizar 17, Samuel Granados, Pablo Martín
 
 #### OTROS
 Mumumío
+
+#### ÍCONOS Y FOTOGRAFÍAS
