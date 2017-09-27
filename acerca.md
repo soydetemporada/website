@@ -27,3 +27,34 @@ El freno más grande al cual nos hemos enfrentado hasta ahora es la falta de dat
 
 ### Valores
 Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o comentario estará bienvenido para mejorar la herramienta.
+
+## Equipo
+
+## Agradecimientos
+#### MENTORES
+Alejandro Zappala
+Jesusda
+Sergio Galán
+
+#### ILUSTRADORAS
+[Hannah Williams]()
+[Sofía Prosper]()
+
+#### Agricultores
+[Cerezas del Bierzo]()
+Limas Hortanazar
+Familia Martín 
+Familia Galán
+Raúl Gonzalez
+Antonio Ocaña
+[CPAEN NNPEK]()
+[ENEEK]()
+[COPAE]()
+
+#### MEDIALAB PRADO
+La organzación de Visualizar 17
+Samuel Granados
+Pablo Martín
+
+#### OTROS
+Mumumío
