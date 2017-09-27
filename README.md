@@ -4,6 +4,9 @@
 # Se cultivan allá, se consumen aquí: <br /> la travesía de los alimentos hacia tu despensa
 **Proyecto seleccionado para el taller "Visualizar 17" del Medialab Prado**
 
+
+[Web del proyecto](https://medialab-prado.github.io/journey-of-food/)
+
 ## Índice
 
 * [El proyecto](#el-proyecto)
