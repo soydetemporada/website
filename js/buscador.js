@@ -65,9 +65,9 @@ $(document).ready(function() {
   function filterActive(month) {
     month = month || $(".month.active").text();
     d3.csv("data/temporadas/calendario.csv", function(calendario) {
-      for (var i = 0; i < calendario.length; i++) {
-        var product = $("#product-" + calendario[i].ID);
-        var time = $("#product-" + calendario[i].ID + " .temporada");
+      for (var i = 0,id=1; i < calendario.length; i++,id++) {
+        var product = $("#product-" + id);
+        var time = $("#product-" + id + " .temporada");
 
         product.removeClass(
           "temporada inicio-temporada fin-temporada fuera-temporada fa-clock-o"
