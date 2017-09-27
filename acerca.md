@@ -33,7 +33,7 @@ Diego Ramírez, Flora Fosset, Jimena García, Pau Valiente, Rai Abril
 
 ## Agradecimientos
 #### MENTORES
-Alejandro Zappala, Jesusda, Sergio Galán
+Alejandro Zappala, Jesús David Navarro, Sergio Galán
 
 #### ILUSTRADORAS
 Hannah Williams, Sofía Prosper
