@@ -17,10 +17,7 @@
             <img src="img/products/{{ product.img }}" class="img-responsive img-centered" alt="{{ product.alt }}">
             <p>{{ product.description }}</p>
             <ul class="list-inline item-details">
-              <li>Category:
-                <strong>{{ product.category }}
-                                    </strong>
-              </li>
+              <li><strong>{{ product.category }}</strong></li>
             </ul>
             <div class="chart chart-{{forloop.index}}"></div>
             <script>

@@ -1,7 +1,7 @@
 ---
-title: Campaña
+title: Petición
 layout: page
-css-id: campana
+css-id: peticion
 cabezote: /img/campana-cabezote.jpg
 ---
 

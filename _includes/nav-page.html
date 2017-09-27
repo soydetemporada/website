@@ -1,5 +1,5 @@
    <!-- Navigation -->
-     <nav class="navbar navbar-inverse ">
+     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -18,14 +18,14 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="page-scroll">
+                    <li class="page-scroll {% if page.path contains 'products' %} active {% endif %}">
                         <a href="{{ site.url }}#products">Buscador</a>
                     </li>
                     <li class="page-scroll {% if page.css-id == 'investigacion' %} active {% endif %}">
                         <a href="{{site.url}}/investigacion">Investigación</a>
                     </li>
                     <li class="page-scroll {% if page.css-id == 'campana' %} active {% endif %}">
-                        <a href="{{site.url}}/campana">Campaña </a>
+                        <a href="{{site.url}}/peticion">Petición </a>
                     </li>
                     <li class="page-scroll {% if page.css-id == 'acerca' %} active {% endif %}">
                         <a href="{{site.url}}/acerca">Acerca</a>
