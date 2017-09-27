@@ -71,7 +71,6 @@ function dibujaGrafico(container,ficheroDeDatos) {
             numbers.push(+el.Percent)
         })
 
-        console.log(ficheroDeDatos);
 
         var x = d3.scaleLinear()
         .domain([0, d3.max(numbers)])

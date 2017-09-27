@@ -6,7 +6,7 @@
   {% include nav-page.html %}
   <!-- Header -->
   {% assign cabezote = "/img/products/cabezotes/" | append: page.img | replace: 'png', 'jpg' %}
-  <header id="product-header-{{page.index}}" style="background:url('{{ cabezote | prepend: site.url }}')">
+  <header id="product-header-{{page.index}}" style="background-image:url('{{ cabezote | prepend: site.url }}')">
     <div class="container">
       <div class="row ">
         <div class="col-lg-12 text-center">
@@ -34,7 +34,9 @@
   {% include footer.html %} {% include js.html %}
   <script>
   $(document).ready(function(){
-    dibujaGrafico(".chart","{{site.url}}/data/producto/{{page.img | replace: '.png','' }}/production/grafico.csv");
+    {% assign product_name = page.img | replace: '.png','' %}
+    dibujaGrafico(".chart","{{site.url}}/data/producto/{{product_name}}/production/grafico.csv");
+    graficaImportExport(".import-export","{{site.url}}/data/producto/{{product_name}}/{{product_name}}_import_export_mes.csv");
   });
   </script>
 </body>
