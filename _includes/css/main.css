@@ -494,6 +494,17 @@ footer .footer-below {
 .product-filter{
   margin-bottom: 2em;
 }
+.colaborador img{
+  padding-bottom: 1em;
+}
+#acerca-header{
+  background-size: cover;
+  background-position: 0 -22em;
+}
+#acerca ul{
+  list-style: none;
+  padding-left: 0.2em;
+}
 .mobile{
   display: none;
 }
