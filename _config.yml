@@ -2,6 +2,7 @@
 title: Se cultivan allá se consumen aquí
 email: your-email@domain.com
 url: https://ffosset.github.io/journey-of-food
+github: https://github.com/ffosset/journey-of-food/
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "food, journey, comida, españa, temporada, visualizar"
 skills: "Una herramienta de búsqueda de productos de temporada en tu región"
@@ -35,11 +36,14 @@ footer:
   credits: Contacto
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+
 social:
+  - title: facebook
+    url: http://www.facebook.com/sharer.php?u=[url]
   - title: twitter
-    url: http://twitter.com/
-  - title: github
-    url: https://github.com/ffosset/journey-of-food/
+    url: https://twitter.com/intent/tweet?text=Come%20con%20ritmo%20[url]
+  - title: linkedin
+    url: http://www.linkedin.com/shareArticle?url=[url]
 
 # Postal address (add as many lines as necessary)
 address:
