@@ -1,6 +1,7 @@
 ---
 title: Campaña
 layout: page
+cabezote: /img/products/cabezotes/acelga.jpg
 ---
 
 Este proyecto nace de una observación singular : decenas de calendarios de frutas y verduras de temporada en España presentan datos erróneos. Inversan la temporada de muchos productos, presentando por ejemplo el tomate, el calabacín y la berenjena como productos que tienen su temporada alta en pleno invierno.
