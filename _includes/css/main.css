@@ -497,6 +497,20 @@ footer .footer-below {
 .mobile{
   display: none;
 }
+.chart{
+  text-align: center;
+}
+.chart div {
+  font: 14px sans-serif;
+  background-color: #CA7947; /* color barra */
+  text-align: right;
+  padding: 10px; /*define ancho de la barra */
+  margin: 3px; /* separación entre barras */
+  color: rgba(0,0,0,0);
+  font-weight: lighter;
+  font-family: 'Roboto';
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 11em;

@@ -18,10 +18,17 @@
             <p>{{ product.description }}</p>
             <ul class="list-inline item-details">
               <li>Category:
-                <strong><a href="http://startbootstrap.com">{{ product.category }}</a>
+                <strong>{{ product.category }}
                                     </strong>
               </li>
             </ul>
+            <div class="chart chart-{{forloop.index}}"></div>
+            <script>
+            $(document).ready(function(){
+              dibujaGrafico(".chart-{{forloop.index}}","{{site.url}}/data/producto/{{product.title | downcase }}/production/grafico.csv");
+            });
+            </script>
+
             <a class="btn btn-default" href="{{ product.url | prepend: site.url }}"><i class="fa fa-info"></i> Detalles</a>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Cerrar</button>
           </div>
