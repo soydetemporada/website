@@ -22,7 +22,7 @@
             <div class="chart chart-{{forloop.index}}"></div>
             <script>
             $(document).ready(function(){
-              dibujaGrafico(".chart-{{forloop.index}}","{{site.url}}/data/producto/{{product.title | downcase }}/production/grafico.csv");
+              dibujaGrafico(".chart-{{forloop.index}}","{{site.url}}/data/producto/{{product.img | replace: '.png','' }}/production/grafico.csv");
             });
             </script>
 

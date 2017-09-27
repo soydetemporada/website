@@ -4,7 +4,6 @@
 function dibujaGrafico(container,ficheroDeDatos) {
     var colorTexto="#333"
     var largoGrafico=400;
-    console.log(ficheroDeDatos);
     if(ficheroDeDatos===undefined)
          ficheroDeDatos="data/grafico.csv"
 
@@ -15,7 +14,7 @@ function dibujaGrafico(container,ficheroDeDatos) {
             numbers.push(+el.Percent)
         })
 
-        console.log(numbers);
+        console.log(ficheroDeDatos);
 
         var x = d3.scaleLinear()
         .domain([0, d3.max(numbers)])
