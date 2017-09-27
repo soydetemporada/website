@@ -26,11 +26,8 @@ Los europeos han tenido desde la Antigüedad una relación muy distinta con este
 
 
 ### Principales provincias productoras
-- Almería
-- Cádiz
-- Córdoba
-- Granada
-- Huelva
+<div class="chart"></div>
+
 
 
 

@@ -15,7 +15,7 @@
       </div>
     </div>
   </header>
-  <section id="product">
+  <section id="product-page">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
@@ -32,6 +32,11 @@
     </div>
   </section>
   {% include footer.html %} {% include js.html %}
+  <script>
+  $(document).ready(function(){
+    dibujaGrafico(".chart","{{site.url}}/data/producto/{{page.title | downcase }}/production/grafico.csv");
+  });
+  </script>
 </body>
 
 </html>
