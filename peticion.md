@@ -1,7 +1,7 @@
 ---
 title: Campaña
 layout: page
-css-id: campana 
+css-id: campana
 cabezote: /img/campana-cabezote.jpg
 ---
 
