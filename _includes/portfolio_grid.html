@@ -19,7 +19,7 @@
           <select placeholder="Filtrar por producto" class="form-control">
               <option></option>
             {% for product in site.products %}
-              <option value="{{product.modal-id}}">{{product.title}}</option>
+              <option value="{{forloop.index}}">{{product.title}}</option>
             {% endfor %}
           </select>
         </form>
@@ -33,8 +33,8 @@
       </div>
       {% for product in site.products %}
       <!-- col-sm-2 col-xs-4  -->
-      <div class="portfolio-item col-sm-2 col-xs-4 icon-temporada" id="product-{{ product.modal-id }}">
-        <a href="#portfolioModal-{{ product.modal-id }}" class="portfolio-link" data-toggle="modal">
+      <div class="portfolio-item col-sm-2 col-xs-4 icon-temporada" id="product-{{ forloop.index }}">
+        <a href="#portfolioModal-{{ forloop.index }}" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
@@ -43,7 +43,7 @@
           <img src="img/products/{{ product.img }}" class="img-responsive" alt="{{ product.alt }}">
           {{product.title}}
         </a>
-        <span class="id">{{product.modal-id}}</span>
+        <span class="id">{{forloop.index}}</span>
         <span class="temporada">{{forloop.index}}</span>
       </div>
       {% endfor %}

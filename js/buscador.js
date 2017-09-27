@@ -5,45 +5,35 @@ $(document).ready(function() {
   $(".month").on("click", filterByMonth);
   $(".comunidad").on("change", filterProducts);
   $(".product-filter select").select2({
-      placeholder: "Filtrar por producto",
-      allowClear: true,
-      minimumInputLength: 2
-    });
-  /*
-  $(".product-filter select").on('select2:select', function (e) {
-      console.log(e.params.data);
+    placeholder: "Filtrar por producto",
+    allowClear: true,
+    minimumInputLength: 2
+  });
+
+  $(".product-filter select").on("change.select2", function(e) {
+    var selected = parseInt($(e.target).val());
+    if (selected) {
       var $grid = $(".grid").isotope({
-        filter: function(){
-          var id = parseInt($(this).find('.id').text());
-          return id == e.params.data.id;
+        filter: function() {
+          var id = parseInt(
+            $(this)
+              .find(".id")
+              .text()
+          );
+          return id == selected;
         }
       });
-    });
-    */
+    } else {
+      var $grid = $(".grid").isotope({
+        filter: "*"
+      });
+      organizeProducts();
+    }
+  });
 
-    $(".product-filter select").on('change.select2', function (e) {
-      console.log("Unselecting");
-      console.log($(e.target).val());
-      var selected = parseInt($(e.target).val());
-      if(selected){
-        var $grid = $(".grid").isotope({
-          filter: function(){
-            var id = parseInt($(this).find('.id').text());
-            return id == selected;
-          }
-        });
-      }
-      else{
-        console.log("organizeProducts");
-        var $grid = $(".grid").isotope({
-          filter: "*"
-        });
-        organizeProducts();
-      }
-    });
   filterProducts();
 
-  function organizeProducts(){
+  function organizeProducts() {
     var $grid = $(".grid").isotope({
       itemSelector: ".portfolio-item",
       getSortData: {
@@ -68,7 +58,7 @@ $(document).ready(function() {
 
   function filterProducts() {
     var activeMonth = $(".month.active")
-      .data('month')
+      .data("month")
       .trim();
     filterActive(activeMonth);
   }
@@ -76,7 +66,6 @@ $(document).ready(function() {
     month = month || $(".month.active").text();
     d3.csv("data/temporadas/calendario.csv", function(calendario) {
       for (var i = 0; i < calendario.length; i++) {
-        //var product = $("#product-" + calendario[i].ID + " .icon-temporada");
         var product = $("#product-" + calendario[i].ID);
         var time = $("#product-" + calendario[i].ID + " .temporada");
 
@@ -106,5 +95,4 @@ $(document).ready(function() {
       organizeProducts();
     });
   }
-  function loadData() {}
 });
