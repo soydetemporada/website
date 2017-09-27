@@ -1,54 +1,54 @@
-TIPO DE PRODUCTO,ABR,AGO,DIC,ENE,ENERO,FEB,FEBRERO,ID,JUL,JUN,MAR,MAY,NOV,OCT,SEP,SCORE
-ACELGA,X,Y,Y,X,0.0,X,0.0,1,Y,Y,X,Y,X,X,X,8.36
-AGUACATE,X,,X,X,0.0,X,0.0,2,,,X,Y,X,Y,,7.0
-AJO,Y,,Y,,0.0,Y,0.0,3,Y,Y,Y,Y,Y,,,3.83
-ALBARICOQUE,,Y,,,0.0,,0.0,4,Y,X,,Y,,,,3.0
-ALCACHOFA,Y,,Y,,0.0,,0.0,5,,,,X,Y,Y,,3.42
-APIO,Y,Y,Y,Y,0.0,Y,0.0,6,Y,Y,Y,,Y,Y,Y,5.2
-BATATA,,,,,0.0,,0.0,7,,,,,X,X,,1.5
-BERENJENA,,X,,,0.0,,0.0,8,X,,,,,Y,X,3.29
-BRÓCOLI,,,Y,Y,0.0,,0.0,9,,Y,,Y,X,Y,,3.0
-CALABACIN,,X,,,0.0,,0.0,10,X,Y,,,,,Y,2.92
-CALABAZA,,,,,0.0,,0.0,11,,,,,,X,Y,2.5
-CAQUÍ,,,,,0.0,,0.0,13,,,,,X,X,,2.5
-CARDO,,,Y,Y,0.0,Y,0.0,12,,,Y,,Y,Y,,3.25
-CEBOLLA,Y,X,,,0.0,,0.0,14,Y,Y,Y,Y,Y,X,X,5.5
-CEREZA,Y,,,,0.0,,0.0,15,Y,X,,X,,,,2.25
-CHAMPIÑÓN,,,,,0.0,,0.0,16,,,,,X,,,1.0
-COL CHINA,,,,,0.0,,0.0,17,,,,,Y,Y,,1.0
-COL COMÚN,Y,Y,Y,Y,0.0,Y,0.0,18,Y,Y,Y,,X,Y,,6.25
-COL DE BRUSELAS,Y,,Y,Y,0.0,Y,0.0,19,,,Y,,Y,,,3.0
-COLIFLOR,Y,,X,X,0.0,X,0.0,20,,,Y,Y,X,Y,,4.75
-ESPINACA,X,Y,X,X,0.0,X,0.0,23,,Y,Y,Y,X,Y,Y,6.0
-ESPÁRRAGO,X,,,,0.0,,0.0,22,,,Y,Y,,,,2.0
-FRAMBUESA,Y,X,,,0.0,,0.0,24,X,X,,X,,,X,4.33
-FRESA,Y,Y,,,0.0,,0.0,25,Y,Y,,Y,,,X,3.6
-GUISANTES,X,,,,0.0,,0.0,26,,Y,,X,,,,2.6
-HABAS,,,,,0.0,,0.0,27,,Y,,Y,,,,1.6
-HIGOS,,X,,,0.0,,0.0,28,Y,,,,,,X,2.5
-JUDÍAS,,Y,,,0.0,,0.0,29,X,X,,Y,,,Y,3.5
-KIWI,Y,,X,X,0.0,X,0.0,30,,,X,,X,X,Y,5.67
-LECHUGA,X,Y,Y,Y,0.0,Y,0.0,31,Y,Y,Y,X,Y,Y,X,6.75
-LIMA,,Y,Y,,0.0,,0.0,33,,,,,X,Y,Y,4.25
-LIMÓN,X,,X,X,0.0,X,0.0,32,,Y,X,X,X,Y,,7.67
-MAIZ DULCE,,Y,,,0.0,,0.0,34,Y,Y,,,Y,Y,X,2.67
-MANDARINA,,,Y,Y,0.0,Y,0.0,35,,,Y,,X,,,3.5
-MANZANA,,Y,Y,Y,0.0,,0.0,36,Y,,,,X,Y,X,4.17
-MELOCOTÓN,,X,,,0.0,,0.0,37,Y,,,,,,X,2.75
-MELÓN,,X,,,0.0,,0.0,38,X,Y,,,,,X,3.0
-MORA,,X,,,0.0,,0.0,39,Y,,,,,,X,2.5
-NABO,Y,,Y,Y,0.0,Y,0.0,40,,,Y,Y,Y,Y,Y,4.5
-NARANJA,Y,,Y,Y,0.0,Y,0.0,41,,,Y,,X,,,4.0
-NECTARINA,,X,,,0.0,,0.0,42,Y,Y,,Y,,,X,4.0
-PATATA,,Y,,,0.0,,0.0,44,Y,Y,,Y,,Y,Y,3.75
-PEPINO,,X,,,0.0,,0.0,45,X,Y,,,,Y,Y,3.5
-PERA,,Y,,,0.0,,0.0,46,Y,,,,Y,Y,X,4.2
-PIMIENTO,,X,,,0.0,,0.0,47,X,Y,,,,Y,Y,3.36
-POMELO,Y,,X,Y,0.0,Y,0.0,50,,,Y,,,,,3.5
-PUERRO,,Y,Y,Y,0.0,Y,0.0,51,,,,,Y,Y,Y,5.07
-REMOLACHA,Y,Y,Y,Y,0.0,Y,0.0,53,Y,,Y,,X,X,Y,5.9
-RÁBANO,,,,,0.0,,0.0,52,,,,,X,X,,2.0
-SANDÍA,,X,,,0.0,,0.0,54,X,X,,,,,Y,2.67
-TOMATE,,X,,,0.0,,0.0,55,X,Y,,,,X,X,4.12
-UVA,,,,,0.0,,0.0,56,,,,,Y,Y,X,2.0
-ZANAHORIA,Y,Y,Y,Y,0.0,Y,0.0,57,Y,Y,Y,Y,Y,Y,X,6.06
+TIPO DE PRODUCTO,ENE,FEB,MAR,ABR,MAY,JUN,JUL,AGO,SEP,OCT,NOV,DIC,SCORE
+ACELGA,X,X,X,X,Y,X,X,X,X,X,X,Y,8.71
+AGUACATE,X,X,X,X,Y,,,,,Y,X,X,7.0
+AJO,,,,,Y,Y,Y,,,,,,3.43
+ALBARICOQUE,,,,,Y,X,Y,Y,,,,,3.0
+ALCACHOFA,,,,Y,X,Y,,,,Y,Y,Y,3.92
+APIO,Y,Y,Y,Y,,Y,Y,Y,Y,Y,Y,Y,5.2
+BATATA,,,,,,,,,,X,X,,1.5
+BERENJENA,,,,,,,X,X,X,Y,,,3.57
+BRÓCOLI,Y,,,,Y,Y,,,,Y,X,Y,3.0
+CALABACIN,,,,,,Y,X,X,Y,,,,2.86
+CALABAZA,,,,,,,,,Y,X,,,2.5
+CAQUÍ,,,,,,,,,,X,X,,2.5
+CARDO,Y,Y,Y,,,,,,,Y,Y,Y,3.25
+CEBOLLA,,,Y,Y,Y,Y,Y,X,X,X,Y,,5.5
+CEREZA,,,,,X,X,,,,,,,2.1
+CHAMPIÑÓN,,,,,,,,,,,X,,1.0
+COL CHINA,,,,,,,,,,Y,Y,,1.0
+COL COMÚN,Y,Y,Y,Y,,Y,Y,Y,,Y,X,Y,6.25
+COL DE BRUSELAS,Y,Y,Y,Y,,,,,,,Y,Y,3.0
+COLIFLOR,X,X,Y,Y,Y,,,,,Y,X,X,4.75
+ESPINACA,X,X,Y,X,Y,Y,,Y,Y,Y,X,X,6.0
+ESPÁRRAGO,,,Y,X,Y,,,,,,,,2.0
+FRAMBUESA,,,,Y,X,X,X,X,X,,,,4.33
+FRESA,,,,Y,X,Y,X,X,X,,,,4.2
+GUISANTES,,,,X,X,Y,,,,,,,2.6
+HABAS,,,,Y,Y,Y,,,,,,,1.5
+HIGOS,,,,,,,Y,X,X,,,,2.5
+JUDÍAS,,,,,Y,X,X,Y,Y,,,,3.5
+KIWI,X,X,X,Y,,,,,Y,X,X,X,5.67
+LECHUGA,Y,Y,X,X,X,X,X,X,X,Y,Y,Y,7.75
+LIMA,,,,,,,,Y,Y,Y,X,Y,4.25
+LIMÓN,X,X,X,X,X,Y,,,,Y,X,X,7.67
+MAIZ DULCE,,,,,,Y,Y,Y,X,Y,Y,,2.67
+MANDARINA,Y,Y,Y,,,,,,,,X,Y,3.5
+MANZANA,Y,,,,,,Y,Y,X,Y,X,Y,4.33
+MELOCOTÓN,,,,,,,Y,X,X,,,,3.0
+MELÓN,,,,,,Y,X,X,X,,,,3.0
+MORA,,,,,,,Y,X,X,,,,2.5
+NABO,Y,Y,Y,Y,Y,,,,Y,Y,Y,Y,4.5
+NARANJA,Y,Y,Y,Y,,,,,,,X,Y,4.0
+NECTARINA,,,,,Y,Y,Y,X,X,,,,4.0
+PATATA,,,,,Y,Y,Y,Y,Y,Y,,,4.0
+PEPINO,,,,,,X,X,X,Y,Y,,,3.44
+PERA,,,,,,,Y,Y,X,Y,Y,,4.2
+PIMIENTO,,,,,,Y,X,X,Y,Y,,,3.64
+POMELO,Y,Y,Y,Y,,,,,,,,X,3.5
+PUERRO,Y,Y,,,,,,Y,Y,Y,Y,Y,5.07
+REMOLACHA,Y,Y,Y,Y,,,Y,Y,Y,X,X,Y,5.9
+RÁBANO,,,,,,,,,,X,X,,2.0
+SANDÍA,,,,,,Y,Y,X,Y,,,,2.25
+TOMATE,,,,,,Y,X,X,X,X,,,4.25
+UVA,,,,,,,,,X,Y,Y,,2.0
+ZANAHORIA,Y,Y,Y,Y,Y,Y,Y,X,X,Y,Y,Y,6.19
