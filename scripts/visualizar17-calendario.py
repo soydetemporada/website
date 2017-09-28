@@ -6,9 +6,9 @@ import numpy as np
 YLIM = 0.3
 XLIM = 0.65
 
-dwd = '/Volumes/Macintosh HD/_Github/journey-of-food/data/temporadas/'
-aux = '/Volumes/Macintosh HD/_Github/journey-of-food/data/aux/'
-pwd = '/Volumes/Macintosh HD/_Github/journey-of-food/data/calendario/'
+dwd = '../data/temporadas/'
+aux = '../data/aux/'
+pwd = '../data/calendario/'
 os.chdir(pwd)
 files = os.listdir()
 filesCSV = []
