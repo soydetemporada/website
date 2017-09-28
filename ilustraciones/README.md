@@ -35,10 +35,10 @@ Contenido del repositorio:
 - [x] Coliflor
 - [x] Endivia
 - [ ] Espárrago
-- [ ] Espinaca -> working... jEsuSdA
+- [x] Espinaca 
 - [ ] Frambuesa
 - [ ] Fresa
-- [ ] Guisante -> working... jEsuSdA
+- [x] Guisante
 - [x] Haba
 - [ ] Higo
 - [x] Judía
@@ -66,8 +66,8 @@ Contenido del repositorio:
 - [x] Puerro
 - [x] Rábano
 - [x] Remolacha
-- [ ] Sandía
+- [ ] Sandía -> working... jEsuSdA
 - [x] Tomate
-- [ ] Uva
+- [ ] Uva -> working... jEsuSdA
 - [x] Zanahoria
 
