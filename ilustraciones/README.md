@@ -13,62 +13,61 @@ Contenido del repositorio:
 
 ## To do
 
-Producto | Situación
---- | --- | 
-Acelga | Done
-Aguacate | Done
-Ajo | Done 
-Albaricoque | 
-Alcachofa | Done
-Apio | 
-Batata | Done
-Berenjena | Done
-Brócoli | Done
-Calabacín | Done
-Calabaza | Done 
-Cardo | Done 
-Caquí | 
-Cebolla | 
-Cereza | Done
-Champiñon | 
-Col china | 
-Col común | 
-Col de Bruselas | 
-Coliflor | 
-Endibía | 
-Espárrago | 
-Espinaca | 
-Frambuesa | 
-Fresa | 
-Guisante | 
-Haba | 
-Higo | 
-Judía | 
-Kiwi | 
-Lechuga | 
-Limón | 
-Lima | 
-Maíz dulce | 
-Mandarina | 
-Manzana | 
-Melocotón | 
-Melón | 
-Mora | 
-Nabo | 
-Naranja | 
-Nectarina | 
-Papaya | 
-Patata | 
-Pepino | 
-Pera | 
-Pimiento | 
-Piña | 
-Platano | 
-Pomelo | 
-Puerro | Done 
-Rábano | Done 
-Remolacha | Done 
-Sandía | 
-Tomate | Done 
-Uva | 
-Zanahoria | 
+- [x] Acelga
+- [x] Aguacate
+- [x] Ajo
+- [ ] Albaricoque
+- [x] Alcachofa
+- [x] Apio
+- [x] Batata / Boniato
+- [x] Berenjena
+- [x] Brócoli
+- [x] Calabacín
+- [x] Calabaza
+- [x] Cardo
+- [ ] Caqui
+- [ ] Cebolla
+- [x] Cereza
+- [x] Champiñon
+- [ ] Col china
+- [ ] Col común
+- [ ] Col de Bruselas
+- [ ] Coliflor
+- [ ] Endibía
+- [ ] Espárrago
+- [ ] Espinaca
+- [ ] Frambuesa
+- [ ] Fresa
+- [ ] Guisante
+- [ ] Haba
+- [ ] Higo
+- [ ] Judía
+- [ ] Kiwi
+- [ ] Lechuga
+- [ ] Limón
+- [ ] Lima
+- [ ] Maíz dulce
+- [ ] Mandarina
+- [ ] Manzana
+- [ ] Melocotón
+- [ ] Melón
+- [ ] Mora
+- [ ] Nabo
+- [ ] Naranja
+- [ ] Nectarina
+- [ ] Papaya
+- [ ] Patata
+- [x] Pepino
+- [ ] Pera
+- [x] Pimiento
+- [ ] Piña
+- [ ] Platano
+- [ ] Pomelo
+- [x] Puerro
+- [x] Rábano
+- [x] Remolacha
+- [ ] Sandía
+- [x] Tomate
+- [ ] Uva
+- [ ] Zanahoria
+
