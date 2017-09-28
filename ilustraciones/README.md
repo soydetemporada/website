@@ -33,7 +33,7 @@ Contenido del repositorio:
 - [x] Col común
 - [x] Col de Bruselas
 - [x] Coliflor
-- [ ] Endibía
+- [ ] Endivia
 - [ ] Espárrago
 - [ ] Espinaca
 - [ ] Frambuesa
@@ -69,5 +69,5 @@ Contenido del repositorio:
 - [ ] Sandía
 - [x] Tomate
 - [ ] Uva
-- [ ] Zanahoria
+- [ ] Zanahoria -> working... jEsuSdA
 
