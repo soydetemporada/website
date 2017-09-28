@@ -32,7 +32,7 @@ Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o c
 <div class="row">
 
 {% for colaborador in site.data.colaboradores %}
-  <div class="col-sm-4 col-xs-8 colaborador" >
+  <div class="col-sm-4 col-xs-6 colaborador" >
     {% if colaborador.foto %}
     {% else %}
       <img class="img-responsive " src="https://robohash.org/{{colaborador.nombre | url_encode}}" alt="{{colaborador.nombre}}" title="{{colaborador.nombre}}">
@@ -61,7 +61,7 @@ Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o c
 
 ### Agradecimientos
 <div class="row">
-  <div class="col-sm-4 col-xs-8" >
+  <div class="col-sm-4 col-xs-12" >
   <h5>MENTORES</h5>
   <ul>
     <li> <a href="https://twitter.com/alayzappala" target="_blank"> Alejandro Zappala </a> </li>
@@ -76,7 +76,7 @@ Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o c
   </ul>
 
   </div>
-  <div class="col-sm-4 col-xs-8" >
+  <div class="col-sm-4 col-xs-12" >
   <h5>AGRICULTORES</h5>
   <ul>
     {% for agricultor in site.data.agricultores %}
@@ -90,7 +90,7 @@ Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o c
     {% endfor %}
   </ul>
   </div>
-  <div class="col-sm-4 col-xs-8" >
+  <div class="col-sm-4 col-xs-12" >
   <h5>MEDIALAB PRADO</h5>
   <ul>
     <li>La organización de Visualizar 17</li>

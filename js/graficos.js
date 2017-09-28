@@ -60,7 +60,7 @@ console.log(data)
 
 function dibujaGrafico(container,ficheroDeDatos) {
     var colorTexto="#333"
-    var largoGrafico=400;
+    var largoGrafico=$(container).width();
     if(ficheroDeDatos===undefined)
          ficheroDeDatos="data/grafico.csv"
 
@@ -71,12 +71,12 @@ function dibujaGrafico(container,ficheroDeDatos) {
             numbers.push(+el.Percent)
         })
 
+        data = data.slice(0,3);
 
         var x = d3.scaleLinear()
         .domain([0, d3.max(numbers)])
         .range([0, largoGrafico]);
 
-        data = data.slice(0,3);
 
         var enterSel=d3.select(container)
           .selectAll("div")
