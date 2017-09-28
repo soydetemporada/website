@@ -25,7 +25,7 @@ Contenido del repositorio:
 - [x] Calabacín
 - [x] Calabaza
 - [x] Cardo
-- [ ] Caqui
+- [x] Caqui
 - [x] Cebolla
 - [x] Cereza
 - [x] Champiñon
@@ -36,8 +36,8 @@ Contenido del repositorio:
 - [x] Endivia ->... alayzappala
 - [ ] Espárrago
 - [ ] Espinaca
-- [ ] Frambuesa
-- [ ] Fresa
+- [x] Frambuesa
+- [x] Fresa
 - [ ] Guisante
 - [ ] Haba -> working... jEsuSdA
 - [ ] Higo
