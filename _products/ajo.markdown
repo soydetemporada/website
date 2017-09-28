@@ -3,38 +3,20 @@ modal-id: 3
 img: ajo.png
 alt: image-alt
 category: Verdura
-description: Este producto es de temporada este mes, ¡disfrútalo!
-
+description:
+layout: product
 ---
 # Descripción
-
-El ajo se produce solamente una vez al año pero se alamacena y esta disponible todo el año.
-
-
+El ajo se recolecta en primavera y se almacena para poder consumirlo todo el año. En buenas condiciones, se puede conservar durante mucho tiempo.
 
 ### Tiempo de cosecha
-Tres meses y medio
-
-
-
+Tres o cuatro meses
 
 ### Anécdotas
-La historia del ajo en Europa es muy curiosa, ya que ha pasado de ser un enemigo a un poderoso aliado. Y es que el prestigio que tiene hoy en día no siempre le ha acompañado.
-
-Los europeos han tenido desde la Antigüedad una relación muy distinta con este producto. (Ejemplo copiado)
-
-
+La historia del ajo en Europa es muy curiosa, ya que ha pasado de ser un enemigo a un poderoso aliado. Y es que el prestigio que tiene hoy en día no siempre le ha acompañado. Los europeos han tenido desde la Antigüedad una relación muy distinta con este producto. (Ejemplo copiado)
 
 ### Principales provincias productoras
 <div class="chart"></div>
-
-
-
-
-### Cuántas temporadas tiene al año
-Una
-
-
 
 ### Principal importador
 Italia

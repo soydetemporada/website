@@ -3,6 +3,19 @@ modal-id: 2
 img: aguacate.png
 alt: image-alt
 category: Fruta
-description: Este producto es de temporada este mes, ¡disfrútalo!
+description:
 layout: product
 ---
+
+# Descripción
+Es un fruto tropical que requiere temperaturas muy cálidas, por lo cual se cultiva muy poco en la península. Truco para saber su punto de madurez: quitarle el botón superior y mirar el color del fruto. Si es verde, aún será duro; marron, pasado; amarillo, ¡perfecto!
+
+### Tiempo de cultivo
+Un año
+
+### Curiosidad
+
+### Principales provincias productoras
+<div class="chart"></div>
+
+### Import-export
