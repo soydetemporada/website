@@ -19,4 +19,15 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/freelancer.js" | prepend: site.url }}"></script>
-    <script src="{{ "/js/grafico.js" | prepend: site.url }}"></script>
+    <script src="{{ "/js/graficos.js" | prepend: site.url }}"></script>
+    <script>
+    d3.json("https://unpkg.com/d3-time-format@2/locale/es-ES.json", function(error, locale) {
+  if (error) throw error;
+
+  d3.timeFormatDefaultLocale(locale);
+
+  var format = d3.timeFormat("%c");
+
+  console.log(format(new Date)); // понедельник,  5 декабря 2016 г. 10:31:59
+});
+    </script>

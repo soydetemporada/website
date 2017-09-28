@@ -42,7 +42,6 @@ $(document).ready(function() {
       },
       percentPosition: true,
       masonry: {
-        // use element for option
         columnWidth: ".col-sm-2"
       },
       sortBy: ["temporada", "id"]

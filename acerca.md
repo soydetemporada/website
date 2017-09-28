@@ -28,23 +28,82 @@ El freno más grande al cual nos hemos enfrentado hasta ahora es la falta de dat
 ### Valores
 Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o comentario estará bienvenido para mejorar la herramienta.
 
-## Equipo
-Diego Ramírez, Flora Fosset, Jimena García, Pau Valiente, Rai Abril
+### Equipo
+<div class="row">
 
-## Agradecimientos
-#### MENTORES
-Alejandro Zappala, Jesús David Navarro, Sergio Galán
+{% for colaborador in site.data.colaboradores %}
+  <div class="col-sm-4 col-xs-8 colaborador" >
+    {% if colaborador.foto %}
+    {% else %}
+      <img class="img-responsive " src="https://robohash.org/{{colaborador.nombre | url_encode}}" alt="{{colaborador.nombre}}" title="{{colaborador.nombre}}">
+    {% endif %}
+    <div class="pull-left">
+    {{colaborador.nombre | upcase }}<br>
+    {{colaborador.rol}}<br>
+    </div>
+    <div class="pull-right">
+    {% if colaborador.url %}
+      <a href="{{colaborador.url}}" target="_blank"><i class="fa fa-home"></i></a>
+    {% endif %}
+    {% if colaborador.twitter %}
+      <a href="https://twitter.com/{{colaborador.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
+    {% endif %}
+    {% if colaborador.facebook %}
+      <a href="{{colaborador.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a>
+    {% endif %}
+    {% if colaborador.linkedin %}
+      <a href="{{colaborador.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
+    {% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
 
-#### ILUSTRADORAS
-Hannah Williams, Sofía Prosper
+### Agradecimientos
+<div class="row">
+  <div class="col-sm-4 col-xs-8" >
+  <h5>MENTORES</h5>
+  <ul>
+    <li>Alejandro Zappala</li>
+    <li>Jesús David Navarro</li>
+    <li>Sergio Galán</li>
+  </ul>
+  <br>
+  <h5>ILUSTRADORAS</h5>
+  <ul>
+    <li>Hannah Williams</li>
+    <li>Sofía Prosper</li>
+  </ul>
 
-#### Agricultores
-Cerezas del Bierzo, Limas Hortanazar, Familia Martín , Familia Galán, Raúl Gonzalez, Antonio Ocaña, CPAEN NNPEK, ENEEK, COPAE
+  </div>
+  <div class="col-sm-4 col-xs-8" >
+  <h5>AGRICULTORES</h5>
+  <ul>
+    {% for agricultor in site.data.agricultores %}
+    <li>
+      {% if agricultor.url %}
+        <a href="{{agricultor.url}}">{{agricultor.nombre}}</a>
+      {% else %}
+        {{agricultor.nombre}}
+      {% endif%}
+    </li>
+    {% endfor %}
+  </ul>
+  </div>
+  <div class="col-sm-4 col-xs-8" >
+  <h5>MEDIALAB PRADO</h5>
+  <ul>
+    <li>La organización de Visualizar 17</li>
+    <li>Samuel Granados</li>
+    <li>Pablo Martín</li>
+  </ul>
+  <br>
+  <h5>OTROS</h5>
+  <ul>
+    <li>Mumomío</li>
+  </ul>
+  </div>
+</div>
 
-#### MEDIALAB PRADO
-La organzación de Visualizar 17, Samuel Granados, Pablo Martín
 
-#### OTROS
-Mumumío
-
-#### ÍCONOS Y FOTOGRAFÍAS
+##### ÍCONOS Y FOTOGRAFÍAS
