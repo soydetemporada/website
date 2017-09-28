@@ -52,8 +52,8 @@ Contenido del repositorio:
 - [x] Judía
 - [x] Kiwi 
 - [x] Lechuga
-- [ ] Limón -> working ... Hannah
-- [ ] Lima
+- [x] Limón
+- [ ] Lima -> working... hannah
 - [x] Maíz dulce
 - [ ] Mandarina
 - [ ] Manzana
