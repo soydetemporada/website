@@ -53,8 +53,8 @@ Contenido del repositorio:
 - [x] Lima
 - [x] Maíz dulce
 - [x] Mandarina
-- [ ] Manzana -> working... hannah
-- [ ] Melocotón
+- [x] Manzana 
+- [ ] Melocotón -> working... hannah
 - [ ] Melón
 - [ ] Mora
 - [x] Nabo
