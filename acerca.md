@@ -46,7 +46,7 @@ Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o c
       <a href="{{colaborador.url}}" target="_blank"><i class="fa fa-home"></i></a>
     {% endif %}
     {% if colaborador.twitter %}
-      <a href="{{colaborador.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://twitter.com/{{colaborador.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
     {% endif %}
     {% if colaborador.facebook %}
       <a href="{{colaborador.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a>
