@@ -1,5 +1,5 @@
 ---
-title: Acerca
+title: acerca del proyecto
 layout: page
 css-id: acerca
 cabezote: /img/acerca-cabezote.jpg
@@ -64,7 +64,7 @@ Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o c
   <div class="col-sm-4 col-xs-8" >
   <h5>MENTORES</h5>
   <ul>
-    <li>Alejandro Zappala</li>
+    <li> <a href="https://twitter.com/alayzappala" target="_blank"> Alejandro Zappala </a> </li>
     <li>Jesús David Navarro</li>
     <li>Sergio Galán</li>
   </ul>
