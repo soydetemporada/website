@@ -33,30 +33,30 @@ Contenido del repositorio:
 - [x] Col común
 - [x] Col de Bruselas
 - [x] Coliflor
-- [x] Endivia
+- [ ] Endivia
 - [ ] Espárrago
 - [ ] Espinaca
 - [ ] Frambuesa
 - [ ] Fresa
 - [ ] Guisante
-- [ ] Haba
+- [ ] Haba -> working... jEsuSdA
 - [ ] Higo
-- [ ] Judía
+- [ ] Judía -> working... jEsuSdA
 - [ ] Kiwi
-- [ ] Lechuga
+- [x Lechuga
 - [ ] Limón
 - [ ] Lima
-- [ ] Maíz dulce
+- [x] Maíz dulce
 - [ ] Mandarina
 - [ ] Manzana
 - [ ] Melocotón
 - [ ] Melón
 - [ ] Mora
-- [ ] Nabo
+- [x] Nabo
 - [ ] Naranja
 - [ ] Nectarina
 - [ ] Papaya
-- [ ] Patata
+- [x] Patata
 - [x] Pepino
 - [ ] Pera
 - [x] Pimiento
@@ -69,5 +69,5 @@ Contenido del repositorio:
 - [ ] Sandía
 - [x] Tomate
 - [ ] Uva
-- [ ] Zanahoria
+- [x] Zanahoria
 
