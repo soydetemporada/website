@@ -50,9 +50,9 @@ Contenido del repositorio:
 - [x] Kiwi 
 - [x] Lechuga
 - [x] Limón
-- [ ] Lima -> working... hannah
+- [x] Lima
 - [x] Maíz dulce
-- [ ] Mandarina
+- [ ] Mandarina -> working... hannah
 - [ ] Manzana
 - [ ] Melocotón
 - [ ] Melón
