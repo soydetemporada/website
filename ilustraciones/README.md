@@ -47,9 +47,9 @@ Contenido del repositorio:
 - [x] Haba
 - [ ] Higo
 - [x] Judía
-- [ ] Kiwi -> working ... Hannah
+- [x] Kiwi 
 - [x] Lechuga
-- [ ] Limón
+- [ ] Limón -> working ... Hannah
 - [ ] Lima
 - [x] Maíz dulce
 - [ ] Mandarina
