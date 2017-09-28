@@ -41,8 +41,8 @@ Contenido del repositorio:
 - [x] Guisante
 - [x] Habas
 - [x] Espinaca 
-- [ ] Frambuesa
-- [ ] Fresa
+- [x] Frambuesa
+- [x] Fresa
 - [x] Guisante
 - [x] Haba
 - [x] Higo
