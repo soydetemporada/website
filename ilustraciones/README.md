@@ -59,7 +59,7 @@ Contenido del repositorio:
 - [x] Mora 
 - [x] Nabo
 - [ ] Naranja -> working... jEsuSdA
-- [x] Nectarina -> working... hannah
+- [x] Nectarina 
 - [ ] Papaya
 - [x] Patata
 - [x] Pepino
