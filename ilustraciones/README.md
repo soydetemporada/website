@@ -16,7 +16,7 @@ Contenido del repositorio:
 - [x] Acelga
 - [x] Aguacate
 - [x] Ajo
-- [ ] Albaricoque
+- [x] Albaricoque
 - [x] Alcachofa
 - [x] Apio
 - [x] Batata / Boniato
