@@ -43,20 +43,20 @@ Contenido del repositorio:
 - [ ] Higo
 - [ ] Judía
 - [ ] Kiwi
-- [ ] Lechuga
+- [ ] Lechuga   -> working... jEsuSdA
 - [ ] Limón
 - [ ] Lima
-- [ ] Maíz dulce
+- [ ] Maíz dulce -> working... jEsuSdA
 - [ ] Mandarina
 - [ ] Manzana
 - [ ] Melocotón
 - [ ] Melón
 - [ ] Mora
-- [ ] Nabo  -> working... jEsuSdA
+- [x] Nabo
 - [ ] Naranja
 - [ ] Nectarina
 - [ ] Papaya
-- [ ] Patata  -> working... jEsuSdA
+- [x] Patata
 - [x] Pepino
 - [ ] Pera
 - [x] Pimiento
