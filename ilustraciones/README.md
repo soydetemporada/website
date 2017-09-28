@@ -65,7 +65,7 @@ Contenido del repositorio:
 - [x] Pepino
 - [x] Pera
 - [x] Pimiento
-- [ ] Piña -> working... jEsuSdA
+- [x] Piña
 - [x] Platano 
 - [x] Pomelo 
 - [x] Puerro
