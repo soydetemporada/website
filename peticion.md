@@ -2,7 +2,7 @@
 title: Petición
 layout: page
 css-id: peticion
-cabezote: /img/campana-cabezote.jpg
+cabezote: /img/peticion-cabezote.jpg
 ---
 
 Este proyecto nace de una observación singular : decenas de calendarios de frutas y verduras de temporada en España presentan datos erróneos. Indican que la temporada plena de varios productos es la opuesta a la rea, presentando por ejemplo el tomate, el calabacín y la berenjena como productos que tienen su temporada alta en pleno invierno.
