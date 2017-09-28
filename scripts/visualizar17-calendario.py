@@ -6,9 +6,9 @@ import numpy as np
 YLIM = 0.3
 XLIM = 0.65
 
-dwd = '../data/temporadas/'
-aux = '../data/aux/'
-pwd = '../data/calendario/'
+dwd = '/Volumes/Macintosh HD/_GitHub/journey-of-food/data/temporadas/'
+aux = '/Volumes/Macintosh HD/_GitHub/journey-of-food/data/aux/'
+pwd = '/Volumes/Macintosh HD/_GitHub/journey-of-food/data/calendario/'
 os.chdir(pwd)
 files = os.listdir()
 filesCSV = []
@@ -76,6 +76,7 @@ serie = pd.Series(pivot.index.values)
 serie = serie.map(names.NAME)
 pivot.index = serie
 pivot.index.name = 'PRODUCTO'
+pivto = pivot.sort_index(inplace=True)
 pivot.to_csv(dwd+'calendario_py.csv',encoding='utf-8')
 
 
