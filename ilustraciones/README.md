@@ -58,7 +58,7 @@ Contenido del repositorio:
 - [ ] Melón
 - [ ] Mora
 - [x] Nabo
-- [ ] Naranja
+- [ ] Naranja -> working... jEsuSdA
 - [ ] Nectarina
 - [ ] Papaya
 - [x] Patata
@@ -66,7 +66,7 @@ Contenido del repositorio:
 - [x] Pera -> working... alayzappala
 - [x] Pimiento
 - [ ] Piña -> working... jEsuSdA
-- [ ] Platano -> working... jEsuSdA
+- [x] Platano 
 - [x] Pomelo 
 - [x] Puerro
 - [x] Rábano
