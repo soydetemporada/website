@@ -13,7 +13,7 @@ Necesita muchas horas de sol y temperaturas elevadas, por eso se encuentra solam
 # Tiempo de cultivo
 Cinco a seis meses
 
-#Curiosidad
+# Curiosidad
 
 # Principales provincias productoras
 <div class="chart"></div>
