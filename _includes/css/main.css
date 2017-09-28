@@ -21,13 +21,10 @@ p.small {
 
 a, a:hover, a:focus, a:active, a.active {
   outline: 0;
-  color: #{{ site.color.primary-complement}
+  color: #{{ site.color.primary-complement}};
+  text-decoration: underline;
 }
 
-;
-text-decoration: underline;
-
-}
 h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
   font-family: Roboto Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -51,47 +48,28 @@ hr.star-light:after, hr.star-primary:after {
   font-size: 2em;
 }
 hr.star-light {
-  border-color: #{{site.color.primary-complement}
-}
-;
-
+  border-color: #{{site.color.primary-complement}};
 }
 hr.star-light:after {
-  color: #{{site.color.primary-complement}
-}
-;
-background-color: #{{ site.color.primary }
-}
-;
-
+  color: #{{site.color.primary-complement}};
+  background-color: #{{ site.color.primary }};
 }
 hr.star-primary {
-  border-color: #{{ site.color.secondary }
-}
-;
-
+  border-color: #{{ site.color.secondary }};
 }
 hr.star-primary:after {
-  color: #{{ site.color.secondary }
-}
-;
-background-color: #{{site.color.primary}
-}
-;
-
+  color: #{{ site.color.secondary }};
+  background-color: #{{site.color.primary}};
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  color: #{{site.color.primary}
-}
-;
-background: url('{{"/img/cabezote.jpg" | prepend: site.url}}');
-background-size: cover;
-background-position: center;
-
+  color: #{{site.color.primary}};
+  background: url('{{"/img/cabezote.jpg" | prepend: site.url}}');
+  background-size: cover;
+  background-position: center;
 }
 header h1 {
   font-family: 'Amatic SC', cursive;
@@ -125,20 +103,14 @@ header .intro-text .skills {
 .navbar-header .navbar-brand {
   font-family: 'Amatic SC', cursive;
   text-transform: lowercase;
-  color: #{{ site.color.primary-complement }
-}
-;
-
+  color: #{{ site.color.primary-complement }};
 }
 .navbar-brand {
   text-decoration: none;
 }
 .navbar-inverse .navbar-nav>li>a {
-  color: #{{ site.color.primary-complement }
-}
-;
-text-decoration:none;
-
+  color: #{{ site.color.primary-complement }};
+  text-decoration:none;
 }
 .navbar a:focus {
   outline: 0;
@@ -160,13 +132,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  color: #{{site.color.primary-complement}
-}
-;
-background: #{{ site.color.primary }
-}
-;
-
+  color: #{{site.color.primary-complement}};
+  background: #{{ site.color.primary }};
 }
 #portfolio .portfolio-item {
   right: 0;
@@ -185,12 +152,7 @@ background: #{{ site.color.primary }
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: rgba( {
-    {
-      site.color.primary-rgb
-    }
-  }
-  , .6);
+  background: rgba( {{ site.color.primary-rgb }}, .6);
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s;
@@ -210,11 +172,11 @@ background: #{{ site.color.primary }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3, #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
 #portfolio .portfolio-item img {
-  min-height: 165px;
 }
 #portfolio * {
   z-index: 2;
@@ -227,24 +189,16 @@ background: #{{ site.color.primary }
 }
 .btn-outline {
   margin-top: 15px;
-  border: solid 2px #{{ site.color.primary-complement}
-}
-;
-font-size: 20px;
-color: #{{ site.color.primary-complement}
-}
-;
-background: 0 0;
-transition: all .3s ease-in-out;
-
+  border: solid 2px #{{ site.color.primary-complement}};
+  font-size: 20px;
+  color: #{{ site.color.primary-complement}};
+  background: 0 0;
+  transition: all .3s ease-in-out;
 }
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   border: solid 2px #fff;
-  color: #{{ site.color.primary }
-}
-;
-background: #fff;
-
+  color: #{{ site.color.primary }};
+  background: #fff;
 }
 .floating-label-form-group {
   position: relative;
@@ -289,10 +243,7 @@ background: #fff;
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #{{ site.color.primary }
-}
-;
-
+  color: #{{ site.color.primary }};
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eee;
@@ -322,15 +273,12 @@ footer .footer-below {
   display: inline-block;
   width: 50px;
   height: 50px;
-  border: 2px solid #{{site.color.primary}
-}
-;
-border-radius: 100%;
-text-align: center;
-font-size: 20px;
-line-height: 45px;
-color: #3f3f3f;
-
+  border: 2px solid #{{site.color.primary}};
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+  color: #3f3f3f;
 }
 .btn:focus, .btn:active, .btn.active {
   outline: 0;
@@ -354,7 +302,7 @@ color: #3f3f3f;
   outline: 0;
 }
 .portfolio-modal .modal-content {
-  padding: 100px 0;
+  padding: 2em 0;
   min-height: 100%;
   border: 0;
   border-radius: 0;
@@ -375,10 +323,10 @@ color: #3f3f3f;
 }
 .portfolio-modal .close-modal {
   position: absolute;
-  top: 25px;
-  right: 25px;
-  width: 75px;
-  height: 75px;
+  top: 15px;
+  right: 35px;
+  width: 35px;
+  height: 35px;
   background-color: transparent;
   cursor: pointer;
 }
@@ -388,33 +336,24 @@ color: #3f3f3f;
 .portfolio-modal .close-modal .lr {
   z-index: 1051;
   width: 1px;
-  height: 75px;
+  height: 35px;
   margin-left: 35px;
-  background-color: #{{ site.color.secondary }
-}
-;
--webkit-transform: rotate(45deg);
--ms-transform: rotate(45deg);
-transform: rotate(45deg);
-
+  background-color: #{{ site.color.secondary }};
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .portfolio-modal .close-modal .lr .rl {
   z-index: 1052;
   width: 1px;
-  height: 75px;
-  background-color: #{{ site.color.secondary }
-}
-;
--webkit-transform: rotate(90deg);
--ms-transform: rotate(90deg);
-transform: rotate(90deg);
-
+  height: 35px;
+  background-color: #{{ site.color.secondary }};
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 .navbar-nav>.active>a {
-  background-color: #{{ site.color.secondary-dark }
-}
-!important;
-
+  background-color: #{{ site.color.secondary-dark }} !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -550,7 +489,6 @@ transform: rotate(90deg);
     margin: 0 0 30px;
   }
   #portfolio .portfolio-item img {
-    min-width: 76.6px;
   }
 }
 @media(max-width:767px) {
