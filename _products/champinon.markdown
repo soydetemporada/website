@@ -4,6 +4,18 @@ modal-id: 16
 img: champinon.png
 alt: image-alt
 category: Verdura
-description: Este producto es de temporada este mes, ¡disfrútalo!
-
+description:
+layout: product
 ---
+
+# Descripción
+
+### Tiempo de cultivo
+cinco a diez días
+
+### Curiosidad
+
+### Principales provincias productoras
+<div class="chart"></div>
+
+### Import-export
