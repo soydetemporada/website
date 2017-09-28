@@ -50,7 +50,7 @@ Contenido del repositorio:
 >>>>>>> 0c971bb94e719712d504ffc5cc7676afcc484ebe
 - [ ] Higo
 - [x] Judía
-- [ ] Kiwi
+- [ ] Kiwi -> working ... Hannah
 - [x] Lechuga
 - [ ] Limón
 - [ ] Lima
