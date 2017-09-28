@@ -9,6 +9,7 @@ layout: product
 ---
 
 # Descripción
+El tomate se encuentra todo el año en la península pero su plena temporada es el verano. Es allí que se encontrará más sabrosa y llena de vitaminas. Si quieres saber más sobre el producto, lee nuestra investigación.
 
 # Tiempo de cultivo
 Cinco a seis meses
