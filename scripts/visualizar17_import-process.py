@@ -43,6 +43,3 @@ for producto in data.index.values:
     datos = pd.DataFrame(datos.sum())
     datos.columns = ['P-t']
     datos.to_csv(pwd+producto+'_total.csv')
-
-
-datos.columns = ['P-t']
