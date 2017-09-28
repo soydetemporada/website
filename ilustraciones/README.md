@@ -26,13 +26,13 @@ Contenido del repositorio:
 - [x] Calabaza
 - [x] Cardo
 - [ ] Caqui
-- [ ] Cebolla
+- [x] Cebolla
 - [x] Cereza
 - [x] Champiñon
 - [ ] Col china
-- [ ] Col común
-- [ ] Col de Bruselas
-- [ ] Coliflor
+- [x] Col común
+- [x] Col de Bruselas
+- [x] Coliflor
 - [ ] Endibía
 - [ ] Espárrago
 - [ ] Espinaca
