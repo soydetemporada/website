@@ -8,7 +8,7 @@ layout: product
 ---
 
 # Descripción
-Aunque sea el producto más grande del huerto, es muy sensible a las temporadas frías. Su mejor temporada es el verano y el inició de otoño.
+La temporada del caquí, o palosanto, se inicia en otoño. 
 
 # Tiempo de cultivo
 
