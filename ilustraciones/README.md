@@ -43,7 +43,7 @@ Contenido del repositorio:
 - [ ] Higo
 - [ ] Judía -> working... jEsuSdA
 - [ ] Kiwi
-- [x Lechuga
+- [x] Lechuga
 - [ ] Limón
 - [ ] Lima
 - [x] Maíz dulce
