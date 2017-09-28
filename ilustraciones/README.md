@@ -34,7 +34,7 @@ Contenido del repositorio:
 - [x] Col de Bruselas
 - [x] Coliflor
 - [x] Endivia
-- [ ] Espárrago
+- [ ] Espárrago -> working... hannah
 - [x] Espinaca
 - [x] Frambuesa
 - [x] Fresa
@@ -60,7 +60,7 @@ Contenido del repositorio:
 - [x] Nabo
 - [ ] Naranja -> working... jEsuSdA
 - [x] Nectarina 
-- [ ] Papaya
+- [x] Papaya
 - [x] Patata
 - [x] Pepino
 - [x] Pera
