@@ -72,6 +72,7 @@ $(document).ready(function() {
         product.removeClass(
           "temporada inicio-temporada fin-temporada fuera-temporada fa-warning"
         );
+        icon.removeClass("fa-warning");
         switch (calendario[i][month.toUpperCase()]) {
           case "X":
             product.addClass("en-temporada");
