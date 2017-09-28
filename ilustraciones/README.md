@@ -33,7 +33,7 @@ Contenido del repositorio:
 - [x] Col común
 - [x] Col de Bruselas
 - [x] Coliflor
-- [ ] Endibía
+- [x] Endivia
 - [ ] Espárrago
 - [ ] Espinaca
 - [ ] Frambuesa
