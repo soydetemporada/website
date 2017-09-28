@@ -54,8 +54,8 @@ Contenido del repositorio:
 - [x] Maíz dulce
 - [x] Mandarina
 - [x] Manzana 
-- [ ] Melocotón -> working... hannah
-- [ ] Melón
+- [x] Melocotón 
+- [ ] Melón -> working... hannah
 - [ ] Mora
 - [x] Nabo
 - [ ] Naranja -> working... jEsuSdA
