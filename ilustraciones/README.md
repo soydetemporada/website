@@ -35,19 +35,16 @@ Contenido del repositorio:
 - [x] Coliflor
 - [x] Endivia
 - [ ] Espárrago
-<<<<<<< HEAD
-- [ ] Espinaca
+- [x] Espinaca
 - [x] Frambuesa
 - [x] Fresa
-- [ ] Guisante
-- [ ] Haba -> working... jEsuSdA
-=======
+- [x] Guisante
+- [x] Habas
 - [x] Espinaca 
 - [ ] Frambuesa
 - [ ] Fresa
 - [x] Guisante
 - [x] Haba
->>>>>>> 0c971bb94e719712d504ffc5cc7676afcc484ebe
 - [ ] Higo
 - [x] Judía
 - [x] Kiwi 
