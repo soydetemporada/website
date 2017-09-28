@@ -69,13 +69,13 @@ Contenido del repositorio:
 - [ ] Pera
 - [x] Pimiento
 - [ ] Piña
-- [ ] Platano
-- [ ] Pomelo
+- [ ] Platano -> working... jEsuSdA
+- [ ] Pomelo -> working... jEsuSdA
 - [x] Puerro
 - [x] Rábano
 - [x] Remolacha
-- [ ] Sandía -> working... jEsuSdA
+- [x] Sandía
 - [x] Tomate
-- [ ] Uva -> working... jEsuSdA
+- [x] Uva -> 
 - [x] Zanahoria
 
