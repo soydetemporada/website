@@ -35,13 +35,13 @@ Contenido del repositorio:
 - [x] Coliflor
 - [x] Endivia ->... alayzappala
 - [ ] Espárrago
-- [ ] Espinaca
+- [ ] Espinaca -> working... jEsuSdA
 - [ ] Frambuesa
 - [ ] Fresa
-- [ ] Guisante
-- [ ] Haba -> working... jEsuSdA
+- [ ] Guisante -> working... jEsuSdA
+- [x] Haba
 - [ ] Higo
-- [ ] Judía -> working... jEsuSdA
+- [x] Judía
 - [ ] Kiwi
 - [x] Lechuga
 - [ ] Limón
