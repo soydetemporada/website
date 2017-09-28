@@ -9,12 +9,12 @@ layout: product
 # Descripción
 Se puede encontrar acelgas de varios colores (rosas, amarillas, blancas...) dependiendo de su variedad. Esta planta se adapta bien a cualquier clima, por lo tanto se recolecta durante casi todo el año.
 
-### Tiempo de cultivo
+# Tiempo de cultivo
 Tres meses y medio
 
-### Curiosidad
+# Curiosidad
 
-### Principales provincias productoras
+# Principales provincias productoras
 <div class="chart"></div>
 
-### Import-export
+# Import-export

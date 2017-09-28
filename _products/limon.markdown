@@ -4,6 +4,17 @@ modal-id: 32
 img: limon.png
 alt: image-alt
 category: Fruta
-description: Este producto es de temporada este mes, ¡disfrútalo!
-
+description:
+layout: product
 ---
+
+# Descripción
+
+# Tiempo de cultivo
+
+# Curiosidad
+
+# Principales provincias productoras
+<div class="chart"></div>
+
+# Import-export

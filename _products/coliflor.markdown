@@ -9,11 +9,12 @@ layout: product
 
 # Descripción
 
-### Tiempo de cultivo
+# Tiempo de cultivo
+Seis a siete meses
 
-### Curiosidad
+# Curiosidad
 
-### Principales provincias productoras
+# Principales provincias productoras
 <div class="chart"></div>
 
-### Import-export
+# Import-export

@@ -11,13 +11,13 @@ layout: product
 # Descripción
 La temporada perfecta para consumirlo es el verano porque necesita climas calurosos para crecer.
 
-### Tiempo de cultivo
+# Tiempo de cultivo
 Tres a cuatro meses
 
-### Curiosidad
+# Curiosidad
 Las flores del calabacín se abren temprano por la mañana y después se quedan cerradas todo el día.
 
-### Principales provincias productoras
+# Principales provincias productoras
 <div class="chart"></div>
 
-### Import-export
+# Import-export

@@ -9,15 +9,15 @@ layout: product
 # Descripción
 El ajo se recolecta en primavera y se almacena para poder consumirlo todo el año. En buenas condiciones, se puede conservar durante mucho tiempo.
 
-### Tiempo de cosecha
+# Tiempo de cosecha
 Tres o cuatro meses
 
-### Anécdotas
+# Curiosidad
 La historia del ajo en Europa es muy curiosa, ya que ha pasado de ser un enemigo a un poderoso aliado. Y es que el prestigio que tiene hoy en día no siempre le ha acompañado. Los europeos han tenido desde la Antigüedad una relación muy distinta con este producto. (Ejemplo copiado)
 
-### Principales provincias productoras
+# Principales provincias productoras
 <div class="chart"></div>
 
-### Principal importador
+# Principal importador
 Italia
 <svg class="import-export" width="960" height="500"></svg>

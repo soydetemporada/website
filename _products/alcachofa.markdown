@@ -10,12 +10,12 @@ layout: product
 # Descripción
 La alcachofa tiene dos temporadas ideales, una en otoño y otra en primavera, dependiendo del clima de la zona donde se produce.
 
-### Tiempo de cultivo
+# Tiempo de cultivo
 Un año
 
-### Curiosidad
+# Curiosidad
 
-### Principales provincias productoras
+# Principales provincias productoras
 <div class="chart"></div>
 
-### Import-export
+# Import-export

@@ -8,12 +8,13 @@ layout: product
 ---
 
 # Descripción
+Contrariamente a lo que se suele pensar, la temporada de la fresa no es el periodo de Navidad. Se recolecta en primavera y en verano.
 
-### Tiempo de cultivo
+# Tiempo de cultivo
 
-### Curiosidad
+# Curiosidad
 
-### Principales provincias productoras
+# Principales provincias productoras
 <div class="chart"></div>
 
-### Import-export
+# Import-export

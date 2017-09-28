@@ -10,12 +10,12 @@ layout: product
 # Descripción
 Es un fruto tropical que requiere temperaturas muy cálidas, por lo cual se cultiva muy poco en la península. Truco para saber su punto de madurez: quitarle el botón superior y mirar el color del fruto. Si es verde, aún será duro; marron, pasado; amarillo, ¡perfecto!
 
-### Tiempo de cultivo
+# Tiempo de cultivo
 Un año
 
-### Curiosidad
+# Curiosidad
 
-### Principales provincias productoras
+# Principales provincias productoras
 <div class="chart"></div>
 
-### Import-export
+# Import-export
