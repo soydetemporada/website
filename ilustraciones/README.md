@@ -55,8 +55,8 @@ Contenido del repositorio:
 - [x] Mandarina
 - [x] Manzana 
 - [x] Melocotón 
-- [ ] Melón -> working... hannah
-- [ ] Mora
+- [x] Melón 
+- [ ] Mora -> working... hannah
 - [x] Nabo
 - [ ] Naranja -> working... jEsuSdA
 - [ ] Nectarina
