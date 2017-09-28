@@ -63,7 +63,7 @@ Contenido del repositorio:
 - [ ] Papaya
 - [x] Patata
 - [x] Pepino
-- [x] Pera -> working... alayzappala
+- [x] Pera
 - [x] Pimiento
 - [ ] Piña -> working... jEsuSdA
 - [x] Platano 
