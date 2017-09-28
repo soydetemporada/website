@@ -39,14 +39,14 @@ Contenido del repositorio:
 - [ ] Frambuesa
 - [ ] Fresa
 - [ ] Guisante
-- [ ] Haba
+- [ ] Haba -> working... jEsuSdA
 - [ ] Higo
-- [ ] Judía
+- [ ] Judía -> working... jEsuSdA
 - [ ] Kiwi
-- [ ] Lechuga   -> working... jEsuSdA
+- [x Lechuga
 - [ ] Limón
 - [ ] Lima
-- [ ] Maíz dulce -> working... jEsuSdA
+- [x] Maíz dulce
 - [ ] Mandarina
 - [ ] Manzana
 - [ ] Melocotón
