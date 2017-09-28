@@ -25,7 +25,7 @@ Contenido del repositorio:
 - [x] Calabacín
 - [x] Calabaza
 - [x] Cardo
-- [ ] Caqui
+- [x] Caqui
 - [x] Cebolla
 - [x] Cereza
 - [x] Champiñon
@@ -35,19 +35,24 @@ Contenido del repositorio:
 - [x] Coliflor
 - [x] Endivia
 - [ ] Espárrago
-- [ ] Espinaca -> working... jEsuSdA
+- [x] Espinaca
+- [x] Frambuesa
+- [x] Fresa
+- [x] Guisante
+- [x] Habas
+- [x] Espinaca 
 - [ ] Frambuesa
 - [ ] Fresa
-- [ ] Guisante -> working... jEsuSdA
+- [x] Guisante
 - [x] Haba
 - [x] Higo -> working... alayzappala
 - [x] Judía
-- [ ] Kiwi
+- [x] Kiwi 
 - [x] Lechuga
-- [ ] Limón
-- [ ] Lima
+- [x] Limón
+- [x] Lima
 - [x] Maíz dulce
-- [ ] Mandarina
+- [ ] Mandarina -> working... hannah
 - [ ] Manzana
 - [ ] Melocotón
 - [ ] Melón
@@ -61,13 +66,13 @@ Contenido del repositorio:
 - [ ] Pera
 - [x] Pimiento
 - [ ] Piña
-- [ ] Platano
-- [ ] Pomelo
+- [ ] Platano -> working... jEsuSdA
+- [ ] Pomelo -> working... jEsuSdA
 - [x] Puerro
 - [x] Rábano
 - [x] Remolacha
-- [ ] Sandía
+- [x] Sandía
 - [x] Tomate
-- [ ] Uva
+- [x] Uva -> 
 - [x] Zanahoria
 
