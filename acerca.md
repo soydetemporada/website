@@ -65,14 +65,14 @@ Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o c
   <h5>MENTORES</h5>
   <ul>
     <li> <a href="https://twitter.com/alayzappala" target="_blank"> Alejandro Zappala </a> </li>
-    <li>Jesús David Navarro</li>
-    <li>Sergio Galán</li>
+    <li> <a href="https://twitter.com/jesusda" target="_blank"> Jesús David Navarro </a> J</li>
+    <li> <a href="https://twitter.com/sergioeclectico" target="_blank"> Sergio Galán </a> </li>
   </ul>
   <br>
   <h5>ILUSTRADORAS</h5>
   <ul>
-    <li>Hannah Williams</li>
-    <li>Sofía Prosper</li>
+    <li> <a href="https://twitter.com/LittleMsNimbus" target="_blank"> Hannah Williams </a> </li>
+    <li> <a href="https://twitter.com/sofipros" target="_blank"> Sofía Prosper </a> </li>
   </ul>
 
   </div>
