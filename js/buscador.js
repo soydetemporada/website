@@ -65,30 +65,33 @@ $(document).ready(function() {
     month = month || $(".month.active").text();
     d3.csv("data/temporadas/calendario.csv", function(calendario) {
       for (var i = 0,id=1; i < calendario.length; i++,id++) {
-        var product = $("#product-" + id);
-        var time = $("#product-" + id + " .temporada");
+        var product = $(".product-" + id);
+        var season = $(".product-" + id + " .temporada");
+        var icon = $(".product-"+id+" .icon-temporada");
 
         product.removeClass(
-          "temporada inicio-temporada fin-temporada fuera-temporada fa-clock-o"
+          "temporada inicio-temporada fin-temporada fuera-temporada fa-warning"
         );
         switch (calendario[i][month.toUpperCase()]) {
           case "X":
             product.addClass("en-temporada");
-            time.text(1);
+            season.text(1);
             break;
           //TODO remove
           case "Y":
           case "I":
             product.addClass("inicio-temporada");
-            time.text(2);
+            season.text(2);
+            icon.addClass("fa-warning");
             break;
           case "F":
             product.addClass("fin-temporada");
-            time.text(3);
+            season.text(3);
+            icon.addClass("fa-warning");
             break;
           default:
             product.addClass("fuera-temporada");
-            time.text(4);
+            season.text(4);
         }
       }
       organizeProducts();
