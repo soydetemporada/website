@@ -45,7 +45,7 @@ Contenido del repositorio:
 - [ ] Fresa
 - [x] Guisante
 - [x] Haba
-- [x] Higo -> working... alayzappala
+- [x] Higo
 - [x] Judía
 - [x] Kiwi 
 - [x] Lechuga
