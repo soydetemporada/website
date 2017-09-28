@@ -46,7 +46,8 @@ data['SCORE']=data.ENE+data.FEB+data.MAR+data.ABR+data.MAY+data.JUN+data.JUL+dat
 
 data = data.loc[data.SCORE>0]
 
-pivot = data.groupby('TIPO DE PRODUCTO').mean()
+pivot = data.groupby(data.index).mean()
+
 pivot = pivot.round(2)
 
 def mapear(x):
@@ -70,7 +71,12 @@ pivot.OCT = pivot.OCT.apply(lambda x: mapear(x))
 pivot.NOV = pivot.NOV.apply(lambda x: mapear(x))
 pivot.DIC = pivot.DIC.apply(lambda x: mapear(x))
 
-pivot.to_csv(dwd+'calendario_py.csv')
+names = pd.read_csv(aux+'ID_name.csv', encoding ='utf-8', delimiter = ',', index_col=0)
+serie = pd.Series(pivot.index.values)
+serie = serie.map(names.NAME)
+pivot.index = serie
+pivot.index.name = 'PRODUCTO'
+pivot.to_csv(dwd+'calendario_py.csv',encoding='utf-8')
 
 
 
