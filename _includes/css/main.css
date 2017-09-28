@@ -135,6 +135,9 @@ section.success {
   color: #{{site.color.primary-complement}};
   background: #{{ site.color.primary }};
 }
+#portfolio{
+
+}
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -189,6 +192,23 @@ section.success {
 }
 #product-page h1{
   text-transform: none;
+}
+#contact{
+  background: #{{ site.color.primary }};
+  border-bottom: 1px #c0c0c0 solid;
+  padding: 4em 0;
+}
+#contact h1,
+#contact h2,
+#contact h3{
+  text-transform: none;
+}
+#contact a{
+  text-decoration: none;
+}
+.btn-success{
+  margin: 1em 0;
+  background-color: #{{site.color.highlight}};
 }
 .btn-outline {
   margin-top: 15px;
@@ -253,7 +273,7 @@ form .row:first-child .floating-label-form-group {
 }
 footer {
   color: #000;
-  background-color: #FAFAFA;
+  background-color: #{{site.color.primary}};
 }
 footer a, footer a:hover, footer a:focus, footer a:active, footer a.active {
   outline: 0;
@@ -264,7 +284,7 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #FAFAFA;
+  background-color: #{{site.color.primary}};
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -281,7 +301,7 @@ footer .footer-below {
   text-align: center;
   font-size: 20px;
   line-height: 45px;
-  color: #3f3f3f;
+  color: #{{ site.color.primary-complement}};
 }
 .btn:focus, .btn:active, .btn.active {
   outline: 0;
@@ -356,7 +376,7 @@ footer .footer-below {
   transform: rotate(90deg);
 }
 .navbar-nav>.active>a {
-  background-color: #{{ site.color.secondary-dark }} !important;
+  background-color: #{{ site.color.highlight }} !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -453,7 +473,7 @@ footer .footer-below {
 }
 .chart div {
   font: 14px sans-serif;
-  background-color: #CA7947;
+  background-color: #{{site.color.highlight}};
   /* color barra */
   text-align: right;
   padding: 10px;

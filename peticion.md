@@ -13,12 +13,12 @@ Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base 
 
 **Pedimos al MAPAMA que rectifique el calendario de su portal lo antes posible o en su defecto que lo retire de la web ya que sigue llevando a confusión a millones de personas. Ayúdanos a hacer escuchar nuestro mensaje y compártelo en las redes sociales.**
 
-## Propuestas tweet
+### Propuestas tweet
 
-@mapama ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. Cambiad vuestro calendario #visualizar17
+@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. Cambiad vuestro calendario #visualizar17. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. Cambiad vuestro calendario #visualizar17" |  url_encode }}){:target="_blank"}
 
-@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, por favor corregid vuestro calendario.
+@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, por favor corregid vuestro calendario. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, por favor corregid vuestro calendario" | url_encode }}){:target="_blank"}
 
-@mapamagob quiero tener acceso a info correcta sobre productos de temporada. Tomate no es de invierno, corríjan su calendario. #visualizar17
+@mapamagob quiero tener acceso a info correcta sobre productos de temporada. Tomate no es de invierno, corríjan su calendario. #visualizar17. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a info correcta sobre productos de temporada. Tomate no es de invierno, corríjan su calendario. #visualizar17"  | url_encode }}){:target="_blank"}
 
-@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos #visualizar17 @datalabx
+@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos #visualizar17 @datalabx. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos #visualizar17 @datalabx" |  url_encode }}){:target="_blank"}
