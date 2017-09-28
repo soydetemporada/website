@@ -56,10 +56,10 @@ Contenido del repositorio:
 - [x] Manzana 
 - [x] Melocotón 
 - [x] Melón 
-- [ ] Mora -> working... hannah
+- [x] Mora 
 - [x] Nabo
 - [ ] Naranja -> working... jEsuSdA
-- [ ] Nectarina
+- [x] Nectarina -> working... hannah
 - [ ] Papaya
 - [x] Patata
 - [x] Pepino
