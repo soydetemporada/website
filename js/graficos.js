@@ -1,6 +1,6 @@
 
 var meses={
-    'Enero':0,'Febrero':1,'Marzo':2,'Abril':3,'Mayo':4,'Junio':5,'Julio':6,'Agosto':7,'Septiembre':8,'Octubre':9,'Noviembre':10,'Diciembre':11
+    'Ene':0,'Feb':1,'Mar':2,'Abr':3,'May':4,'Jun':5,'Jul':6,'Ago':7,'Sep':8,'Oct':9,'Nov':10,'Dic':11
 }
 var mesesNuevos={
     "01-Ene-2015":0,"01-Feb-2015":1,"01-Mar-2015":2,"01-Abr-2015":3,"01-May-2015":4,"01-Jun-2015":5,"01-Jul-2015":6,'01-Ago-2015':7,'01-Sep-2015':8,'01-Oct-2015':9,'01-Nov-2015':10,'01-Dic-2015':11
