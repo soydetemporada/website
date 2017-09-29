@@ -3,9 +3,8 @@ title: Se cultivan allá se consumen aquí
 email: your-email@domain.com
 url: https://ffosset.github.io/journey-of-food
 github: https://github.com/ffosset/journey-of-food/
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Un calendario de productos de temporada fiable, evolutivo y transparente. Para uso cotidiano. Made in #visualizar17."
 keywords: "food, journey, comida, españa, temporada, visualizar"
-skills: "Una herramienta de búsqueda de productos de temporada en tu región"
 meta_author: Colaboradores Journey of Food
 
 # Google webmaster tools
@@ -27,6 +26,7 @@ color:
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 3F3F3F #FD6E8A
   secondary-dark: 233140 #A2122F
+  highlight: CA7947
 
 # Footer settings
 footer:
@@ -41,17 +41,10 @@ social:
   - title: facebook
     url: http://www.facebook.com/sharer.php?u=[url]
   - title: twitter
-    url: https://twitter.com/intent/tweet?text=Come%20con%20ritmo%20[url]
+    url: https://twitter.com/intent/tweet?text=Un%20calendario%20de%20productos%20de%20temporada%20fiable%2C%20evolutivo%20y%20transparente.%20Para%20uso%20cotidiano.%20Made%20in%20%23visualizar17%20[url]
   - title: linkedin
     url: http://www.linkedin.com/shareArticle?url=[url]
 
-# Postal address (add as many lines as necessary)
-address:
-    - line: <a href="https://twitter.com/lowfill/">Diego Andrés</a>
-    - line: <a href="http://fosset.co">Flora Fosset<a/>
-    - line: Jimena
-    - line: <a href="https://twitter.com/paucc/">Pau Valiente<a/>
-    - line: <a href="https://twitter.com/Raiskv">Rai Abril<a/>
 
 # Credits content
 credits: 'visualizar@medialab-prado.es'

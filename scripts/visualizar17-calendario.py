@@ -6,9 +6,9 @@ import numpy as np
 YLIM = 0.3
 XLIM = 0.65
 
-dwd = '/Volumes/Macintosh HD/_Github/journey-of-food/data/temporadas/'
-aux = '/Volumes/Macintosh HD/_Github/journey-of-food/data/aux/'
-pwd = '/Volumes/Macintosh HD/_Github/journey-of-food/data/calendario/'
+dwd = '/Volumes/Macintosh HD/_GitHub/journey-of-food/data/temporadas/'
+aux = '/Volumes/Macintosh HD/_GitHub/journey-of-food/data/aux/'
+pwd = '/Volumes/Macintosh HD/_GitHub/journey-of-food/data/calendario/'
 os.chdir(pwd)
 files = os.listdir()
 filesCSV = []
@@ -46,7 +46,8 @@ data['SCORE']=data.ENE+data.FEB+data.MAR+data.ABR+data.MAY+data.JUN+data.JUL+dat
 
 data = data.loc[data.SCORE>0]
 
-pivot = data.groupby('TIPO DE PRODUCTO').mean()
+pivot = data.groupby(data.index).mean()
+
 pivot = pivot.round(2)
 
 def mapear(x):
@@ -70,7 +71,13 @@ pivot.OCT = pivot.OCT.apply(lambda x: mapear(x))
 pivot.NOV = pivot.NOV.apply(lambda x: mapear(x))
 pivot.DIC = pivot.DIC.apply(lambda x: mapear(x))
 
-pivot.to_csv(dwd+'calendario_py.csv')
+names = pd.read_csv(aux+'ID_name.csv', encoding ='utf-8', delimiter = ',', index_col=0)
+serie = pd.Series(pivot.index.values)
+serie = serie.map(names.NAME)
+pivot.index = serie
+pivot.index.name = 'PRODUCTO'
+pivto = pivot.sort_index(inplace=True)
+pivot.to_csv(dwd+'calendario_py.csv',encoding='utf-8')
 
 
 

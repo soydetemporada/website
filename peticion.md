@@ -1,8 +1,8 @@
 ---
-title: Petición
+title: para calendarios fiables
 layout: page
 css-id: peticion
-cabezote: /img/campana-cabezote.jpg
+cabezote: /img/peticion-cabezote.jpg
 ---
 
 Este proyecto nace de una observación singular : decenas de calendarios de frutas y verduras de temporada en España presentan datos erróneos. Indican que la temporada plena de varios productos es la opuesta a la rea, presentando por ejemplo el tomate, el calabacín y la berenjena como productos que tienen su temporada alta en pleno invierno.
@@ -12,3 +12,13 @@ Nuestro equipo se ha puesto a investigar para intentar entender el origen de est
 Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base de datos usada en la elaboración de este calendario. Nos dijeron de contactar con las Cooperativas Agrarias, que elaboraron el calendario en su tiempo. Ninguno de los dos organismos pudo explicar el origen de los errores y no mostraron voluntad de rectificar el calendario.
 
 **Pedimos al MAPAMA que rectifique el calendario de su portal lo antes posible o en su defecto que lo retire de la web ya que sigue llevando a confusión a millones de personas. Ayúdanos a hacer escuchar nuestro mensaje y compártelo en las redes sociales.**
+
+### Propuestas tweet
+
+@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. Cambiad vuestro calendario #visualizar17. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. Cambiad vuestro calendario #visualizar17" |  url_encode }}){:target="_blank"}
+
+@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, por favor corregid vuestro calendario. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, por favor corregid vuestro calendario" | url_encode }}){:target="_blank"}
+
+@mapamagob quiero tener acceso a info correcta sobre productos de temporada. Tomate no es de invierno, corríjan su calendario. #visualizar17. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a info correcta sobre productos de temporada. Tomate no es de invierno, corríjan su calendario. #visualizar17"  | url_encode }}){:target="_blank"}
+
+@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos #visualizar17 @datalabx. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos #visualizar17 @datalabx" |  url_encode }}){:target="_blank"}

@@ -1,0 +1,317 @@
+,producto,fecha,pais,transporte,Ton,tipo,Percent
+7,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Francia,Carretera,504.9,import,0.0024110816349072277
+8,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Francia,Carretera,397.89,import,0.0019000698588101342
+9,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Francia,Carretera,471.56,import,0.0022518709759494003
+10,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Francia,Carretera,746.73,import,0.003565908079291492
+11,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Francia,Carretera,886.98,import,0.004235652977876833
+19,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Países Bajos,Marítimo,6.31,import,3.01325512304706e-05
+25,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Países Bajos,Carretera,4903.62,import,0.023416573829597505
+26,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Países Bajos,Carretera,5951.62,import,0.02842115603079135
+27,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Países Bajos,Carretera,1707.47,import,0.008153791957130212
+28,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Países Bajos,Carretera,123.7,import,0.0005907126128699229
+29,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Países Bajos,Carretera,100.83,import,0.0004815000222770762
+37,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Alemania,Carretera,125.57,import,0.0005996425448510607
+38,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Alemania,Carretera,89.75,import,0.00042858898144766027
+39,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Alemania,Carretera,5.4,import,2.5786969357296553e-05
+40,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Alemania,Carretera,16.99,import,8.113344618156822e-05
+41,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Alemania,Carretera,10.11,import,4.82789370744941e-05
+43,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Alemania,Aire,0.08,import,3.8202917566365266e-07
+44,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Alemania,Aire,0.11,import,5.252901165375224e-07
+55,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Italia,Marítimo,0.87,import,4.154567285342222e-06
+56,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Italia,Marítimo,1.1,import,5.252901165375224e-06
+57,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Italia,Marítimo,2.67,import,1.2750223737774406e-05
+58,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Italia,Marítimo,1.85,import,8.834424687221967e-06
+59,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Italia,Marítimo,2.48,import,1.1842904445573231e-05
+61,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Italia,Carretera,27.26,import,0.00013017644160738965
+62,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Italia,Carretera,30.05,import,0.00014349970910865952
+63,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Italia,Carretera,6.92,import,3.304552369490595e-05
+64,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Italia,Carretera,10.97,import,5.238575071287837e-05
+65,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Italia,Carretera,20.61,import,9.842026638034851e-05
+73,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Reino Unido,Carretera,14.98,import,7.153496314301896e-05
+74,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Reino Unido,Carretera,0.52,import,2.4831896418137422e-06
+75,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Reino Unido,Carretera,0.59,import,2.817465170519438e-06
+76,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Reino Unido,Carretera,0.96,import,4.584350107963831e-06
+77,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Reino Unido,Carretera,5.09,import,2.4306606301599896e-05
+85,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Irlanda,Carretera,1.87,import,8.92993198113788e-06
+86,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Irlanda,Carretera,0.36,import,1.7191312904864368e-06
+100,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Dinamarca,Carretera,7.92,import,3.782088839070161e-05
+111,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Grecia,Carretera,1.43,import,6.828771514987791e-06
+121,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Portugal,Carretera,3604.26,import,0.01721165595846846
+122,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Portugal,Carretera,3698.44,import,0.017661399805518493
+123,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Portugal,Carretera,1774.66,import,0.008474648711040722
+124,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Portugal,Carretera,470.68,import,0.0022476686550171004
+125,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Portugal,Carretera,486.92,import,0.002325220577676822
+133,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Bélgica,Carretera,1074.68,import,0.005131988931277678
+134,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Bélgica,Carretera,1016.33,import,0.004853346401278001
+135,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Bélgica,Carretera,268.15,import,0.0012805140431776055
+136,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Bélgica,Carretera,101.59,import,0.0004851292994458809
+137,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Bélgica,Carretera,3.83,import,1.828964678489737e-05
+145,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Luxemburgo,Carretera,22.32,import,0.00010658614001015908
+146,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Luxemburgo,Carretera,163.32,import,0.0007799125621173468
+161,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Suecia,Carretera,1.84,import,8.78667104026401e-06
+173,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Austria,Carretera,0.67,import,3.199494346183091e-06
+185,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Estonia,Carretera,13.5,import,6.446742339324138e-05
+195,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Lituania,Carretera,1.2,import,5.730437634954789e-06
+197,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Lituania,Carretera,3.0,import,1.4326094087386973e-05
+205,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Polonia,Carretera,1319.92,import,0.006303099369274605
+206,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Polonia,Carretera,466.72,import,0.0022287582108217498
+207,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Polonia,Carretera,38.06,import,0.00018175038032198276
+217,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Eslovaquia,Carretera,1.95,import,9.311961156801533e-06
+221,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Eslovaquia,Carretera,2.7,import,1.2893484678648277e-05
+229,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Rumanía,Carretera,20.74,import,9.904106379080193e-05
+230,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Rumanía,Carretera,38.55,import,0.0001840903090229226
+233,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Rumanía,Carretera,3.6,import,1.7191312904864368e-05
+241,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Eslovenia,Carretera,2.42,import,1.1556382563825492e-05
+245,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Eslovenia,Carretera,7.97,import,3.805965662549139e-05
+253,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Macedonia (d.01/01/00); R.Yug.Macedonia (h.31/12/99),Carretera,20.55,import,9.813374449860077e-05
+265,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Marruecos,Marítimo,1064.87,import,0.005085142603611922
+266,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Marruecos,Marítimo,1113.21,import,0.005315983733006685
+267,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Marruecos,Marítimo,1768.8,import,0.00844666507392336
+268,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Marruecos,Marítimo,5335.19,import,0.025477477971362034
+269,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Marruecos,Marítimo,7326.4,import,0.03498623190727731
+271,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Marruecos,Carretera,57.2,import,0.00027315086059951163
+272,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Marruecos,Carretera,68.77,import,0.0003284018301298674
+273,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Marruecos,Carretera,49.51,import,0.000236428306088843
+274,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Marruecos,Carretera,284.32,import,0.0013577316903086215
+275,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Marruecos,Carretera,328.38,import,0.001568134258805378
+287,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Egipto,Carretera,15.12,import,7.220351420043035e-05
+295,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Costa de Marfil,Carretera,158.32,import,0.0007560357386383685
+297,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Costa de Marfil,Carretera,95.4,import,0.0004555697919789058
+307,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Sudáfrica,Carretera,19.8,import,9.455222097675402e-05
+308,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Sudáfrica,Carretera,19.8,import,9.455222097675402e-05
+309,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Sudáfrica,Carretera,18.38,import,8.777120310872419e-05
+319,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, México,Carretera,0.01,import,4.775364695795658e-08
+320,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, México,Carretera,0.01,import,4.775364695795658e-08
+333,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Colombia,Carretera,0.07,import,3.342755287056961e-07
+334,0702 Tomates frescos o refrigerados,2017-04-01 00:00:00, Colombia,Carretera,0.12,import,5.730437634954789e-07
+335,0702 Tomates frescos o refrigerados,2017-03-01 00:00:00, Colombia,Carretera,0.08,import,3.8202917566365266e-07
+344,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Surinam,Carretera,3.07,import,1.4660369616092668e-05
+345,0702 Tomates frescos o refrigerados,2017-05-01 00:00:00, Surinam,Carretera,1.34,import,6.398988692366182e-06
+355,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Ecuador,Carretera,19.8,import,9.455222097675402e-05
+367,0702 Tomates frescos o refrigerados,2017-07-01 00:00:00, Nueva Zelanda,Carretera,36.18,import,0.0001727726946938869
+368,0702 Tomates frescos o refrigerados,2017-06-01 00:00:00, Nueva Zelanda,Carretera,21.84,import,0.00010429396495617716
+13,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Francia,Carretera,483.21,import,0.0023075039746554196
+14,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Francia,Carretera,809.44,import,0.0038653711993648374
+19,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Países Bajos,Carretera,322.73,import,0.0015411534482741328
+20,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Países Bajos,Carretera,67.57,import,0.00032267139249491256
+25,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Alemania,Carretera,286.95,import,0.001370290899458564
+32,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Italia,Marítimo,0.6,import,2.8652188174773946e-06
+34,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Italia,Carretera,13.29,import,6.346459680712428e-05
+35,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Italia,Carretera,11.74,import,5.6062781528641024e-05
+40,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Reino Unido,Carretera,2.83,import,1.3514282089101713e-05
+41,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Reino Unido,Carretera,0.33,import,1.5758703496125672e-06
+46,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Grecia,Carretera,5.11,import,2.4402113595515814e-05
+52,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Portugal,Carretera,589.26,import,0.002813931400644549
+53,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Portugal,Carretera,416.78,import,0.001990276497913714
+58,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Bélgica,Carretera,18.99,import,9.068417557315954e-05
+64,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Austria,Carretera,19.61,import,9.364490168455284e-05
+71,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Estonia,Carretera,1.2,import,5.730437634954789e-06
+77,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Lituania,Carretera,1.2,import,5.730437634954789e-06
+82,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Polonia,Carretera,217.91,import,0.0010405997208608319
+88,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, República Checa,Carretera,32.46,import,0.00015500833802552705
+94,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Eslovaquia,Carretera,16.69,import,7.970083677282953e-05
+100,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Hungría,Carretera,62.26,import,0.00029731420596023765
+106,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Rumanía,Carretera,8.01,import,3.825067121332322e-05
+107,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Rumanía,Carretera,45.32,import,0.0002164195280134592
+112,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Bulgaria,Carretera,0.38,import,1.81463858440235e-06
+118,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Eslovenia,Carretera,0.9,import,4.297828226216092e-06
+124,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Croacia,Carretera,1.53,import,7.306307984567356e-06
+130,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Marruecos,Marítimo,6251.97,import,0.02985543681717358
+131,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Marruecos,Marítimo,5702.66,import,0.027232281236126067
+133,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Marruecos,Carretera,186.83,import,0.0008921813861155028
+134,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Marruecos,Carretera,187.0,import,0.000892993198113788
+139,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Egipto,Carretera,48.67,import,0.00023241699974437468
+140,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Egipto,Carretera,74.79,import,0.00035714952559855726
+145,0702 Tomates frescos o refrigerados,2017-01-01 00:00:00, Colombia,Carretera,0.23,import,1.0983338800330013e-06
+146,0702 Tomates frescos o refrigerados,2017-02-01 00:00:00, Colombia,Carretera,0.23,import,1.0983338800330013e-06
+31,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Francia,Carretera,1034.92,import,0.004942120430972843
+32,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Francia,Carretera,494.14,import,0.002359698710780466
+33,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Francia,Carretera,567.62,import,0.0027105925086275315
+34,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Francia,Carretera,123.09,import,0.0005877996404054875
+35,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Francia,Carretera,178.07,import,0.0008503491913803327
+43,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Países Bajos,Carretera,473.97,import,0.002263379604866268
+44,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Países Bajos,Carretera,498.43,import,0.0023801850253254296
+45,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Países Bajos,Carretera,1758.12,import,0.008395664178972261
+46,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Países Bajos,Carretera,5164.37,import,0.02466175017402622
+47,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Países Bajos,Carretera,8039.64,import,0.0383922130229066
+55,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Alemania,Carretera,1.84,import,8.78667104026401e-06
+56,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Alemania,Carretera,21.15,import,0.00010099896331607816
+57,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Alemania,Carretera,184.73,import,0.0008821531202543318
+58,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Alemania,Carretera,310.66,import,0.0014835147963958792
+59,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Alemania,Carretera,579.33,import,0.0027665120292152986
+67,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Italia,Carretera,36.24,import,0.00017305921657563466
+68,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Italia,Carretera,4.98,import,2.3781316185062377e-05
+69,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Italia,Carretera,37.84,import,0.0001806998000889077
+70,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Italia,Carretera,29.56,import,0.00014115978040771964
+71,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Italia,Carretera,28.17,import,0.0001345220234805637
+79,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Reino Unido,Carretera,5.46,import,2.607349123904429e-05
+80,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Reino Unido,Carretera,45.33,import,0.00021646728166041716
+81,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Reino Unido,Carretera,0.64,import,3.0562334053092212e-06
+82,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Reino Unido,Carretera,19.8,import,9.455222097675402e-05
+83,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Reino Unido,Carretera,73.7,import,0.00035194437808014
+92,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Grecia,Carretera,0.03,import,1.4326094087386973e-07
+104,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Portugal,Marítimo,40.47,import,0.00019325900923885026
+105,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Portugal,Marítimo,50.15,import,0.00023948453949415225
+109,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Portugal,Carretera,1049.25,import,0.005010551407063594
+110,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Portugal,Carretera,2790.88,import,0.013327469822202186
+111,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Portugal,Carretera,13882.71,import,0.06629500321596933
+112,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Portugal,Carretera,10029.21,import,0.04789313536072076
+113,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Portugal,Carretera,16098.15,import,0.07687453717762287
+121,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Bélgica,Carretera,37.41,import,0.00017864639326971554
+122,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Bélgica,Carretera,58.0,import,0.00027697115235614814
+123,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Bélgica,Carretera,264.68,import,0.0012639435276831947
+124,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Bélgica,Carretera,633.64,import,0.0030258620858439607
+125,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Bélgica,Carretera,1174.68,import,0.005609525400857244
+134,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Austria,Carretera,4.18,import,1.996102442842585e-05
+137,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Austria,Carretera,19.58,import,9.350164074367898e-05
+145,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Estonia,Carretera,0.25,import,1.1938411739489144e-06
+158,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Lituania,Carretera,1.8,import,8.595656452432184e-06
+169,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Polonia,Carretera,96.97,import,0.0004630671145513049
+170,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Polonia,Carretera,112.1,import,0.0005353183823986932
+171,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Polonia,Carretera,551.24,import,0.0026323720349103984
+172,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Polonia,Carretera,1684.8,import,0.008045534439476525
+173,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Polonia,Carretera,1837.93,import,0.008776786035343714
+183,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Eslovaquia,Carretera,0.93,import,4.4410891670899624e-06
+194,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Albania,Carretera,21.13,import,0.00010090345602216224
+209,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Ucrania,Carretera,18.72,import,8.939482710529471e-05
+217,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Eslovenia,Carretera,5.44,import,2.597798394512838e-05
+218,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Eslovenia,Carretera,7.13,import,3.404835028102304e-05
+229,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Marruecos,Marítimo,5261.77,import,0.025126870695396722
+230,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Marruecos,Marítimo,4254.8,import,0.020318221707671367
+231,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Marruecos,Marítimo,2344.36,import,0.01119517397823551
+232,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Marruecos,Marítimo,756.62,import,0.0036131364361329105
+233,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Marruecos,Marítimo,941.89,import,0.004497868253322972
+235,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Marruecos,Carretera,222.0,import,0.001060130962466636
+236,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Marruecos,Carretera,242.6,import,0.0011585034752000266
+237,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Marruecos,Carretera,235.57,import,0.0011249326613885832
+238,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Marruecos,Carretera,51.66,import,0.0002466953401848037
+239,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Marruecos,Carretera,69.88,import,0.00033370248494220056
+241,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Marruecos,Propulsión propia,18.03,import,8.609982546519571e-05
+253,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Egipto,Carretera,8.04,import,3.839393215419708e-05
+268,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Costa de Marfil,Carretera,0.59,import,2.817465170519438e-06
+280,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Camerún,Carretera,6.1,import,2.912972464435351e-05
+292,0702 Tomates frescos o refrigerados,2016-09-01 00:00:00, Sudáfrica,Carretera,39.6,import,0.00018910444195350805
+293,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Sudáfrica,Carretera,415.8,import,0.0019855966405118346
+303,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, México,Carretera,19.8,import,9.455222097675402e-05
+305,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, México,Carretera,4.1,import,1.9578995252762197e-05
+313,0702 Tomates frescos o refrigerados,2016-12-01 00:00:00, Colombia,Carretera,0.08,import,3.8202917566365266e-07
+314,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Colombia,Carretera,0.07,import,3.342755287056961e-07
+315,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Colombia,Carretera,0.07,import,3.342755287056961e-07
+317,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Colombia,Carretera,0.02,import,9.550729391591316e-08
+327,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Ecuador,Carretera,1.44,import,6.876525161945747e-06
+329,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Ecuador,Carretera,20.97,import,0.00010013939767083494
+338,0702 Tomates frescos o refrigerados,2016-11-01 00:00:00, Líbano,Carretera,0.09,import,4.297828226216092e-07
+339,0702 Tomates frescos o refrigerados,2016-10-01 00:00:00, Líbano,Carretera,0.12,import,5.730437634954789e-07
+341,0702 Tomates frescos o refrigerados,2016-08-01 00:00:00, Líbano,Carretera,0.02,import,9.550729391591316e-08
+25,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Francia,Carretera,746.16,import,0.003563186121414888
+26,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Francia,Carretera,169.15,import,0.0008077529382938355
+27,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Francia,Carretera,808.79,import,0.00386226721231257
+28,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Francia,Carretera,662.56,import,0.0031639656328463707
+29,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Francia,Carretera,447.76,import,0.0021382172961894636
+37,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Países Bajos,Carretera,7056.96,import,0.033699557643642124
+38,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Países Bajos,Carretera,5921.32,import,0.028276462480508743
+39,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Países Bajos,Carretera,994.51,import,0.00474914794361574
+40,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Países Bajos,Carretera,3028.88,import,0.014464006619801552
+41,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Países Bajos,Carretera,1335.37,import,0.006376878753824647
+49,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Alemania,Carretera,553.04,import,0.0026409676913628304
+50,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Alemania,Carretera,484.79,import,0.002315049050874777
+51,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Alemania,Carretera,552.63,import,0.002639009791837554
+52,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Alemania,Carretera,74.59,import,0.00035619445265939814
+53,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Alemania,Carretera,1.52,import,7.2585543376094e-06
+63,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Italia,Marítimo,4.21,import,2.010428536929972e-05
+65,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Italia,Marítimo,3.7,import,1.7668849374443935e-05
+67,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Italia,Carretera,11.14,import,5.3197562711163634e-05
+68,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Italia,Carretera,15.08,import,7.201249961259853e-05
+69,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Italia,Carretera,19.23,import,9.18302631001505e-05
+70,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Italia,Carretera,32.7,import,0.00015615442555251804
+71,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Italia,Carretera,15.2,import,7.2585543376094e-05
+79,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Reino Unido,Carretera,9.08,import,4.336031143782458e-05
+80,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Reino Unido,Carretera,67.93,import,0.0003243905237853991
+81,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Reino Unido,Carretera,166.68,import,0.0007959577874952203
+82,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Reino Unido,Carretera,0.54,import,2.5786969357296553e-06
+83,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Reino Unido,Carretera,6.44,import,3.075334864092404e-05
+91,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Dinamarca,Carretera,1.03,import,4.918625636669528e-06
+92,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Dinamarca,Carretera,0.21,import,1.0028265861170882e-06
+93,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Dinamarca,Carretera,113.97,import,0.0005442483143798311
+103,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Portugal,Marítimo,80.32,import,0.0003835572923663072
+106,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Portugal,Marítimo,17.09,import,8.161098265114779e-05
+109,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Portugal,Carretera,3295.38,import,0.015736641311231096
+110,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Portugal,Carretera,3687.14,import,0.017607438184456002
+111,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Portugal,Carretera,363.29,import,0.0017348422403356046
+112,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Portugal,Carretera,1118.02,import,0.0053389532371934615
+113,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Portugal,Carretera,218.9,import,0.0010453273319096694
+121,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Bélgica,Carretera,915.05,import,0.004369697464887816
+122,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Bélgica,Carretera,1026.95,import,0.004904060774347351
+123,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Bélgica,Carretera,18.44,import,8.805772499047194e-05
+124,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Bélgica,Carretera,220.84,import,0.001054591539419513
+125,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Bélgica,Carretera,89.07,import,0.0004253417334545192
+134,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Suecia,Carretera,0.41,import,1.9578995252762198e-06
+145,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Austria,Carretera,0.02,import,9.550729391591316e-08
+159,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Lituania,Carretera,0.3,import,1.4326094087386973e-06
+160,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Lituania,Carretera,0.47,import,2.244421407023959e-06
+169,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Polonia,Carretera,60.19,import,0.0002874292010399406
+170,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Polonia,Carretera,1143.06,import,0.005458528369176184
+171,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Polonia,Carretera,0.14,import,6.685510574113922e-07
+172,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Polonia,Carretera,122.72,import,0.0005860327554680432
+183,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, República Checa,Carretera,0.6,import,2.8652188174773946e-06
+184,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, República Checa,Carretera,0.12,import,5.730437634954789e-07
+185,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, República Checa,Carretera,19.8,import,9.455222097675402e-05
+194,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Ucrania,Carretera,17.92,import,8.55745353486582e-05
+207,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Eslovenia,Carretera,4.5,import,2.148914113108046e-05
+208,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Eslovenia,Carretera,2.53,import,1.2081672680363013e-05
+209,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Eslovenia,Carretera,12.16,import,5.80684347008752e-05
+218,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Croacia,Carretera,4.15,import,1.9817763487551982e-05
+229,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Marruecos,Marítimo,941.73,import,0.004497104194971645
+230,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Marruecos,Marítimo,1071.25,import,0.005115609430371098
+231,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Marruecos,Marítimo,5080.41,import,0.024260810554167216
+232,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Marruecos,Marítimo,1140.44,import,0.0054460169136732
+233,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Marruecos,Marítimo,2144.47,import,0.010240626329192913
+235,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Marruecos,Carretera,56.73,import,0.0002709064391924877
+236,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Marruecos,Carretera,51.92,import,0.0002479369350057106
+237,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Marruecos,Carretera,307.38,import,0.0014678516001936693
+238,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Marruecos,Carretera,126.66,import,0.000604847692369478
+239,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Marruecos,Carretera,64.24,import,0.00030676942805791304
+248,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Costa de Marfil,Carretera,59.4,import,0.0002836566629302621
+259,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Sudáfrica,Carretera,19.8,import,9.455222097675402e-05
+262,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Sudáfrica,Carretera,19.8,import,9.455222097675402e-05
+275,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, México,Carretera,0.91,import,4.3455818731740485e-06
+284,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Costa Rica,Carretera,17.64,import,8.42374332338354e-05
+295,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Colombia,Carretera,0.14,import,6.685510574113922e-07
+297,0702 Tomates frescos o refrigerados,2016-03-01 00:00:00, Colombia,Carretera,0.36,import,1.7191312904864368e-06
+299,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Colombia,Carretera,0.17,import,8.118119982852619e-07
+307,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Ecuador,Carretera,6.86,import,3.2759001813158215e-05
+319,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Perú,Carretera,1.08,import,5.157393871459311e-06
+323,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Perú,Carretera,21.43,import,0.00010233606543090095
+331,0702 Tomates frescos o refrigerados,2016-06-01 00:00:00, Líbano,Carretera,0.04,import,1.9101458783182633e-07
+332,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, Líbano,Carretera,0.1,import,4.775364695795658e-07
+335,0702 Tomates frescos o refrigerados,2016-04-01 00:00:00, Líbano,Carretera,0.02,import,9.550729391591316e-08
+344,0702 Tomates frescos o refrigerados,2016-07-01 00:00:00, China,Carretera,13.09,import,6.250952386796516e-05
+358,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Nueva Zelanda,Carretera,4.62,import,2.206218489457594e-05
+370,0702 Tomates frescos o refrigerados,2016-05-01 00:00:00, Países y territorios no determinados.Intraco.,Marítimo,0.05,import,2.387682347897829e-07
+13,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Francia,Carretera,962.73,import,0.0045973868535833535
+14,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Francia,Carretera,677.39,import,0.0032347842912850205
+19,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Países Bajos,Carretera,119.85,import,0.0005723274587911096
+20,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Países Bajos,Carretera,281.11,import,0.0013424027696351175
+25,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Alemania,Carretera,2.11,import,1.0076019508128838e-05
+26,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Alemania,Carretera,2.12,import,1.0123773155086795e-05
+32,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Italia,Marítimo,0.59,import,2.817465170519438e-06
+34,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Italia,Carretera,18.67,import,8.915605887050495e-05
+35,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Italia,Carretera,6.17,import,2.946400017305921e-05
+40,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Reino Unido,Carretera,0.41,import,1.9578995252762198e-06
+41,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Reino Unido,Carretera,11.02,import,5.2624518947668146e-05
+46,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Grecia,Carretera,6.3,import,3.0084797583512644e-05
+47,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Grecia,Carretera,3.1,import,1.480363055696654e-05
+52,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Portugal,Carretera,173.59,import,0.0008289555575431682
+53,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Portugal,Carretera,168.55,import,0.0008048877194763582
+58,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Bélgica,Carretera,3.48,import,1.661826914136889e-05
+59,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Bélgica,Carretera,28.23,import,0.00013480854536231142
+64,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Austria,Carretera,4.1,import,1.9578995252762197e-05
+70,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Polonia,Carretera,21.39,import,0.00010214505084306913
+76,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Eslovenia,Carretera,0.9,import,4.297828226216092e-06
+77,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Eslovenia,Carretera,6.76,import,3.2281465343578644e-05
+82,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Marruecos,Marítimo,5519.82,import,0.026359153555146786
+83,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Marruecos,Marítimo,4269.88,import,0.020390234207283964
+85,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Marruecos,Carretera,355.6,import,0.001698119685824936
+86,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Marruecos,Carretera,199.4,import,0.0009522077203416542
+91,0702 Tomates frescos o refrigerados,2016-01-01 00:00:00, Egipto,Carretera,58.5,import,0.00027935883470404596
+98,0702 Tomates frescos o refrigerados,2016-02-01 00:00:00, Colombia,Carretera,0.12,import,5.730437634954789e-07
