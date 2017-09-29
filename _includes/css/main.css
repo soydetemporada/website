@@ -95,6 +95,12 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
+
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:hover{
+  border-color: #c0c0c0;
+  background-color: #{{site.color.highlight}}
+}
 .navbar {
   font-weight: 200;
   text-transform: capitalize;
@@ -219,7 +225,7 @@ section.success {
   font-weight: normal;
 }
 #product-page .row >div {
-    margin: 1em 0;
+    margin: 2em 0;
 }
 #product-page h3{
   text-transform: none;

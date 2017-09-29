@@ -54,7 +54,7 @@
               <h3 class="panel-title">Tiempo de cultivo</h3>
             </div>
             <div class="panel-body">
-              {{page.tiempo_cultivo}}
+              <div class="tiempo-cultivo"></div>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@
               <h3 class="panel-title">Importación y Exportación</h3>
             </div>
             <div class="panel-body">
-              <svg class="import-export" width="600" height="350"></svg>
+              <div class="import-export"></div>
             </div>
           </div>
         </div>
@@ -90,6 +90,7 @@
     dibujaGrafico(".chart","{{site.url}}/data/producto/{{product_name}}/production/grafico.csv");
     graficaImportExport(".import-export","{{site.url}}/data/producto/{{product_name}}/{{product_name}}_import_export_mes.csv");
     updateCalendario("{{page.title | downcase }}","{{site.url}}");
+    tiempoCultivo("{{product_name}}",".tiempo-cultivo","{{site.url}}/data/meses-cultivo.csv");
 });
   </script>
 </body>
