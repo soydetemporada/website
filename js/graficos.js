@@ -94,7 +94,6 @@ function graficaImportExport(container,path){
         .transition(300).delay(500)
         .attr('r',5)
 
-
 /*** export label **/
         g.append("text").text("Exportación").attr("transform", function(){
             return "translate(" + xx(data[1].Mes) + "," + (yy(data[11].Exportado) -20) + ")";
@@ -122,9 +121,6 @@ function graficaImportExport(container,path){
             $(".d3-tooltip").hide();
         //    d3.select(this).select("circle")
         })
-
-
-
     });
 }
 
@@ -140,33 +136,54 @@ function dibujaGrafico(container, ficheroDeDatos) {
       numbers.push(+el.Percent);
     });
 
-    data = data.slice(0, 3);
+    //data = data.slice(0, 3);
 
     var x = d3
       .scaleLinear()
-      .domain([0, d3.max(numbers)])
-      .range([0, largoGrafico]);
-
+      .domain([0, 100])
+      .range([0, largoGrafico-10]);
+     var arrayColores=['#000','#333','#888','#aaa']
     var enterSel = d3
       .select(container)
-      .selectAll("div")
+      .selectAll("div.grafica-barras")
       .data(data)
       .enter()
       .append("div")
-      .style("width", "0px");
+      .style("width", function(d) {
+        return x(d.Percent) + "px";
+      })
+      .style('opacity',0)
+      .style('background-color',function(d,i){
+          return arrayColores[i];
+      })
+      .classed("grafica-barras",true)
 
-    enterSel.text(function(d) {
+
+      var enterSel2 = d3
+        .select(container)
+        .selectAll("div.grafica-texto")
+        .data(data)
+        .enter()
+        .append("div")
+        .classed("grafica-texto",true)
+        .style("width", function(d) {
+          return x(d.Percent) + "px";
+        })
+        .style('opacity',0)
+        enterSel2.transition().delay(1000).style('opacity',1)
+
+
+    enterSel2.text(function(d) {
       return d.Provincia + " " + d.Percent + "%";
     });
     enterSel
       .transition()
       .delay(0)
-      .duration(1300)
-      .style("width", function(d) {
-        return x(d.Percent) + "px";
-      })
-      .delay(200)
-      .style("color", colorTexto);
+      .duration(1000)
+      .delay(100)
+      .style('opacity',1)
+
+
     //TODO poner el último a mano
   });
 }
