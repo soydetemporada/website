@@ -1,35 +1,35 @@
 PRODUCTO,ENE,FEB,MAR,ABR,MAY,JUN,JUL,AGO,SEP,OCT,NOV,DIC,SCORE
-ACELGA,X,X,X,Y,Y,Y,X,Y,Y,Y,X,X,8.25
+ACELGA,X,X,X,X,X,X,Y,Y,X,X,X,Y,7.64
 AGUACATE,X,X,X,X,Y,,,,,Y,X,X,7.0
-AJO,,Y,Y,Y,Y,X,Y,,,,Y,Y,4.5
+AJO,,,,,Y,X,Y,,,,,,3.9
 ALBARICOQUE,,,,,Y,X,Y,Y,,,,,3.0
-ALCACHOFA,,,Y,Y,X,Y,,,,Y,Y,Y,4.5
+ALCACHOFA,,,Y,X,X,Y,,,,Y,Y,Y,4.31
 APIO,X,X,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,5.5
 BATATA,,,,,,,,,,X,X,,1.5
-BERENJENA,,,,,,,X,X,X,Y,,,3.56
-BROCOLI,Y,,,,Y,Y,,,,Y,X,Y,3.0
-CALABACIN,,,,,,Y,X,X,Y,,,,3.0
-CALABAZA,,,,,,,,Y,Y,Y,,,2.69
+BERENJENA,,,,,,Y,X,X,X,Y,,,3.71
+BROCOLI,Y,,,,Y,Y,,,,X,X,Y,3.67
+CALABACIN,,,,,Y,X,X,X,Y,,,,3.62
+CALABAZA,,,,,,,,Y,X,X,,,3.04
 CAQUI,,,,,,,,,,X,X,,2.5
 CARDO,X,X,X,Y,,,,,,Y,X,X,4.17
-CEBOLLA,,,Y,Y,Y,Y,Y,X,X,X,Y,Y,6.31
+CEBOLLA,,,Y,Y,Y,Y,Y,X,X,Y,Y,,5.55
 CEREZA,,,,,X,X,,,,,,,2.1
 CHAMPINON,,,,,Y,,,,Y,Y,X,,2.0
 COL CHINA,,,,,,,,,,Y,Y,,1.0
-COL COMUN,Y,Y,Y,Y,,Y,Y,Y,,Y,X,Y,6.25
-COL DE BRUSELAS,Y,Y,Y,Y,,,,,,Y,X,X,3.0
-COLIFLOR,X,Y,Y,Y,,,,,,Y,X,X,4.79
+COL COMUN,Y,Y,Y,Y,,Y,Y,Y,Y,X,X,X,5.8
+COL DE BRUSELAS,Y,Y,,,,,,,,Y,Y,Y,3.4
+COLIFLOR,X,Y,Y,Y,,,,,,Y,X,X,4.61
 ENDIBIA,Y,Y,Y,Y,X,X,Y,,Y,Y,Y,Y,6.5
-ESPARRAGO,,,,X,Y,,,,,,,,2.0
-ESPINACA,X,X,Y,X,Y,Y,,,Y,Y,X,X,6.57
+ESPARRAGO,,,Y,X,X,,,,,,,,2.33
+ESPINACA,X,X,X,X,Y,Y,,Y,Y,Y,X,X,6.22
 FRAMBUESA,,,,Y,X,X,X,X,X,,,,4.33
 FRESA,,,,Y,X,Y,X,X,X,,,,4.2
-GUISANTE,,,,X,X,Y,,,,,,,2.6
-HABA,,,,Y,Y,Y,,,,,,,1.5
+GUISANTE,,,Y,X,X,Y,,,,,,,3.38
+HABA,,,,Y,Y,Y,,,,,,,2.5
 HIGO,,,,,,,Y,X,X,,,,2.5
-JUDIA,,,,,Y,X,X,X,Y,,,,4.0
+JUDIA,,,,,X,X,X,X,X,,,,4.12
 KIWI,X,X,X,Y,,,,,Y,X,X,X,5.67
-LECHUGA,Y,Y,X,X,X,X,Y,Y,Y,Y,Y,Y,7.64
+LECHUGA,Y,Y,X,X,X,X,Y,Y,Y,Y,Y,Y,7.45
 LIMA,,,,,,,,Y,Y,Y,X,Y,4.25
 LIMON,X,X,X,X,X,Y,,,,Y,X,X,7.67
 MAIZ DULCE,,,,,,Y,Y,Y,X,Y,Y,,2.67
@@ -42,17 +42,17 @@ NABO,Y,Y,Y,Y,Y,,,,X,X,X,X,4.33
 NARANJA,Y,Y,Y,Y,,,,,,,X,Y,4.0
 NECTARINA,,,,,Y,Y,Y,X,X,,,,4.0
 PAPAYA,,,,,,,Y,X,X,Y,,,3.0
-PATATA,,,,,Y,Y,Y,Y,Y,Y,,,4.0
-PEPINO,,,,,,X,X,X,Y,Y,,,3.5
+PATATA,,,,,Y,Y,Y,X,Y,Y,,,4.33
+PEPINO,,,,,,X,X,X,Y,,,,3.54
 PERA,,,,,,,Y,Y,X,Y,Y,,4.2
-PIMIENTO,,,,,,Y,X,X,X,Y,Y,,3.94
+PIMIENTO,,,,,,Y,X,X,X,Y,,,3.96
 PINA,,,,,,,Y,X,X,Y,,,3.0
 PLATANO,,,Y,X,X,X,Y,,,,,,4.0
 pomelo,Y,Y,Y,Y,,,,,,,,X,3.5
-puerro,Y,Y,Y,,,,,Y,X,Y,Y,Y,5.31
+puerro,X,X,Y,Y,,,,Y,X,X,Y,X,5.61
 rabano,,,,,Y,Y,Y,,,Y,Y,,2.5
-remolacha,X,X,Y,Y,Y,Y,Y,Y,Y,X,X,X,6.92
+remolacha,Y,Y,Y,Y,,,Y,Y,Y,X,X,Y,6.21
 sandia,,,,,,Y,Y,X,Y,,,,2.25
-tomate,,,,,,Y,X,X,X,X,,,4.22
+tomate,,,,,,Y,X,X,X,Y,,,4.29
 uva,,,,,,,,,X,Y,Y,,2.0
-zanahoria,Y,Y,Y,,Y,X,X,X,X,Y,Y,Y,6.28
+zanahoria,Y,Y,Y,Y,Y,Y,Y,X,X,X,X,X,6.68
