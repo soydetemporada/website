@@ -5,22 +5,22 @@
 32,Ávila,1980,5
 15,Navarra,1246,31
 59,Badajoz,818,6
-52,Alacant/Alicante,450,3
+52,Alicante,450,3
 65,Córdoba,425,14
 17,La Rioja,196,26
 68,Jaén,100,23
 70,Sevilla,97,41
 69,Málaga,87,29
-12,Bizkaia,55,48
+12,Vizcaya,55,48
 60,Cáceres,55,10
 57,Murcia,43,30
 19,Huesca,0,22
 8,Cantabria,0,39
 48,Guadalajara,0,19
 49,Toledo,0,45
-10,Araba/Álava,0,1
-53,Castellón/Castelló,0,12
-54,Valencia/València,0,46
+10,Álava,0,1
+53,Castellón,0,12
+54,Valencia,0,46
 63,Almería,0,4
 46,Ciudad Real,0,13
 6,Asturias,0,33
@@ -37,7 +37,7 @@
 25,Girona,0,17
 26,Lleida,0,25
 27,Tarragona,0,43
-30,Illes Balears,0,7
+30,Islas Baleares,0,7
 34,León,0,24
 43,Madrid,0,28
 35,Palencia,0,34

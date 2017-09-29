@@ -3,11 +3,11 @@
 69,Málaga,7923,29
 15,Navarra,5449,31
 59,Badajoz,5250,6
-54,Valencia/València,4835,46
+54,Valencia,4835,46
 64,Cádiz,4300,11
 66,Granada,4041,18
-52,Alacant/Alicante,4010,3
-53,Castellón/Castelló,2002,12
+52,Alicante,4010,3
+53,Castellón,2002,12
 57,Murcia,1866,30
 65,Córdoba,1815,14
 27,Tarragona,1632,43
@@ -17,7 +17,7 @@
 70,Sevilla,975,41
 21,Zaragoza,819,50
 26,Lleida,779,25
-30,Illes Balears,538,7
+30,Islas Baleares,538,7
 45,Albacete,405,2
 25,Girona,338,17
 17,La Rioja,294,26
@@ -33,9 +33,9 @@
 19,Huesca,0,22
 2,Ourense,0,32
 3,Pontevedra,0,36
-10,Araba/Álava,0,1
+10,Álava,0,1
 11,Gipuzkoa,0,20
-12,Bizkaia,0,48
+12,Vizcaya,0,48
 32,Ávila,0,5
 20,Teruel,0,44
 39,Valladolid,0,47

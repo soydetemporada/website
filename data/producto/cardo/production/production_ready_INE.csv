@@ -1,11 +1,11 @@
 ,Provincia,P-t,INE
 15,Navarra,12508,31
-54,Valencia/València,4592,46
+54,Valencia,4592,46
 17,La Rioja,1800,26
 65,Córdoba,520,14
-52,Alacant/Alicante,396,3
+52,Alicante,396,3
 21,Zaragoza,330,50
-53,Castellón/Castelló,250,12
+53,Castellón,250,12
 68,Jaén,230,23
 64,Cádiz,173,11
 24,Barcelona,162,8
@@ -13,10 +13,10 @@
 57,Murcia,114,30
 43,Madrid,90,28
 38,Soria,60,42
-12,Bizkaia,40,48
+12,Vizcaya,40,48
 48,Guadalajara,28,19
 25,Girona,27,17
-10,Araba/Álava,26,1
+10,Álava,26,1
 66,Granada,23,18
 49,Toledo,0,45
 47,Cuenca,0,16
@@ -39,7 +39,7 @@
 20,Teruel,0,44
 27,Tarragona,0,43
 39,Valladolid,0,47
-30,Illes Balears,0,7
+30,Islas Baleares,0,7
 32,Ávila,0,5
 33,Burgos,0,9
 34,León,0,24

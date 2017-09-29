@@ -5,15 +5,15 @@
 47,Cuenca,467024.0,16.0
 45,Albacete,457357.0,2.0
 17,La Rioja,309896.0,26.0
-54,Valencia/València,210154.0,46.0
+54,Valencia,210154.0,46.0
 57,Murcia,207415.0,30.0
 24,Barcelona,199897.0,8.0
 27,Tarragona,196858.0,43.0
 21,Zaragoza,140615.0,50.0
 15,Navarra,131786.0,31.0
 39,Valladolid,129959.0,47.0
-52,Alacant/Alicante,117859.0,3.0
-10,Araba/Álava,89995.0,1.0
+52,Alicante,117859.0,3.0
+10,Álava,89995.0,1.0
 64,Cádiz,78514.0,11.0
 33,Burgos,67120.0,9.0
 3,Pontevedra,61074.0,36.0
@@ -26,7 +26,7 @@
 19,Huesca,23510.0,22.0
 43,Madrid,15944.0,28.0
 70,Sevilla,15000.0,41.0
-30,Illes Balears,10739.0,7.0
+30,Islas Baleares,10739.0,7.0
 37,Segovia,10224.0,40.0
 69,Málaga,8138.0,29.0
 25,Girona,7793.0,17.0
@@ -40,8 +40,8 @@
 11,Gipuzkoa,3729.0,20.0
 38,Soria,3560.0,42.0
 63,Almería,3272.0,4.0
-12,Bizkaia,2681.0,48.0
-53,Castellón/Castelló,1778.0,12.0
+12,Vizcaya,2681.0,48.0
+53,Castellón,1778.0,12.0
 36,Salamanca,1620.0,37.0
 35,Palencia,1540.0,34.0
 68,Jaén,782.0,23.0

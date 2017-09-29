@@ -1,14 +1,14 @@
 ,Provincia,P-t,INE
 27,Murcia,416501.0,30
-22,Alacant/Alicante,236665.0,3
+22,Alicante,236665.0,3
 34,Málaga,72815.0,29
 29,Almería,32610.0,4
 0,A Coruña,5000.0,15
-17,Illes Balears,1972.0,7
+17,Islas Baleares,1972.0,7
 3,Pontevedra,1752.0,36
 35,Sevilla,1732.0,41
-24,Valencia/València,815.0,46
-23,Castellón/Castelló,590.0,12
+24,Valencia,815.0,46
+23,Castellón,590.0,12
 32,Granada,496.0,18
 2,Ourense,316.0,32
 30,Cádiz,314.0,11
@@ -19,5 +19,5 @@
 6,Asturias,82.0,33
 14,Tarragona,75.0,43
 13,Barcelona,30.0,8
-10,Bizkaia,18.0,48
+10,Vizcaya,18.0,48
 19,Ávila,2.0,5
