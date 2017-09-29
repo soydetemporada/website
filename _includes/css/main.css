@@ -184,6 +184,9 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
+#portfolio .month-filter{
+  padding-bottom: 3em;
+}
 #product {
   text-align:center;
 }
@@ -192,6 +195,25 @@ section.success {
 }
 #product-page h1{
   text-transform: none;
+}
+#product-page .month-filter li{
+  background-color: #e5e5e5;
+}
+#product-page li.inicio-temporada{
+  background-color: #C1DA84;
+  opacity: 1;
+}
+#product-page li.en-temporada{
+  background-color: #89BC10;
+  opacity: 1;
+}
+#product-page .month-filter li{
+  border: 1px #{{site.color.primary}} solid;
+}
+
+#product-page .month:hover{
+  text-decoration: none;
+  font-weight: normal;
 }
 #contact{
   background: #{{ site.color.primary }};
@@ -395,15 +417,7 @@ footer .footer-below {
   font-size: 20px;
 }
 
-/*
-.section-en-temporada{
-  border-color: #89bc10;
-}
 
-.section-fuera-temporada{
-  border-color: #E04435;
-}
-*/
 .id, .temporada {
   display: none;
 }
@@ -434,12 +448,20 @@ footer .footer-below {
   margin: 1em;
 }
 .month-filter {
-  margin-bottom: 2em;
   text-transform: uppercase;
   font-size: 14px;
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 2em;
+}
+.month-filter li{
+  float: left;
+  padding: 1em;
+  cursor:pointer;
+  min-width: 8%;
+  text-align: center;
 }
 .month-filter>div {
-  cursor:pointer;
 }
 .month-filter .month:hover, .month-filter .active {
   text-decoration: underline;
@@ -553,8 +575,21 @@ div.grafica-barras{
   header h1 {
     font-size: 3.5em;
   }
+  .month-filter li{
+    width: 25%;
+    padding: 0.5em;
+  }
   #acerca-header {
     background-position: bottom;
+  }
+  #portfolio .month-filter{
+    padding-bottom: 7em;
+  }
+  #product-page .month-filter li{
+    width: 23%;
+  }
+  #product-page ul.month-filter{
+    padding: 0 0 0 1em;
   }
 }
 @media(max-width:768px) {

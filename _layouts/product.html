@@ -17,7 +17,8 @@
   </header>
   <section id="product-page">
     <div class="container">
-        <div class="row month-filter">
+      <div class="row">
+        <ul class="month-filter">
           {% assign currentMonth = 'now' | date: "%_m" | plus: 0%}
           {% assign months_c = "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre" | split: ',' %}
           {% for month in months_c %}
@@ -25,10 +26,14 @@
             {% if forloop.index == currentMonth %}
               {% assign current = 'active' %}
             {% endif%}
-            <div class="col-lg-1 desktop text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month}}</div>
-            <div class="col-xs-3 mobile text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</div>
-          {% endfor %}
-        </div>
+            <li>
+              <span class="desktop text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month}}</span>
+              <span class="mobile text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</span>
+            </li>
+            {% endfor %}
+        </ul>
+      </div>
+
       <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
             {{ content }}

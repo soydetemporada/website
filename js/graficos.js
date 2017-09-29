@@ -198,12 +198,24 @@ function cleanLatin(src){
   return src;
 }
 function updateCalendario(product,source){
+  $("#product-page li").removeClass("en-temporada inicio-temporada fin-temporada");
   d3.csv(source+"/data/temporadas/calendario.csv", function(calendario) {
     product = cleanLatin(product);
     console.log(product);
     for (var i = 0,id=1; i < calendario.length; i++,id++) {
       if(calendario[i].PRODUCTO.toLowerCase() == product){
-        console.log(calendario[i]);
+        $("#product-page .month").each(function(index,item){
+          $item = $(item);
+          console.log($item.closest('li'))
+          switch(calendario[i][$item.data('month').toUpperCase()]){
+            case "Y":
+              $item.closest('li').addClass("inicio-temporada");
+          break;
+            case "X":
+              $item.closest('li').addClass("en-temporada");
+            break;
+          }
+        });
         break;
       }
     }
