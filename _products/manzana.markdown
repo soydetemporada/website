@@ -8,6 +8,7 @@ layout: product
 ---
 
 # Descripción
+La manzana es el tercer producto que se importa más en España, viene mayormente de Francia.
 
 # Tiempo de cultivo
 

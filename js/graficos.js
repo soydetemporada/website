@@ -1,6 +1,6 @@
 
 var meses={
-    'Enero':0,'Febrero':1,'Marzo':2,'Abril':3,'Mayo':4,'Junio':5,'Julio':6,'Agosto':7,'Septiembre':8,'Octubre':9,'Noviembre':10,'Diciembre':11
+    'Ene':0,'Feb':1,'Mar':2,'Abr':3,'May':4,'Jun':5,'Jul':6,'Ago':7,'Sep':8,'Oct':9,'Nov':10,'Dic':11
 }
 var mesesNuevos={
     "01-Ene-2015":0,"01-Feb-2015":1,"01-Mar-2015":2,"01-Abr-2015":3,"01-May-2015":4,"01-Jun-2015":5,"01-Jul-2015":6,'01-Ago-2015':7,'01-Sep-2015':8,'01-Oct-2015':9,'01-Nov-2015':10,'01-Dic-2015':11
@@ -94,7 +94,6 @@ function graficaImportExport(container,path){
         .transition(300).delay(500)
         .attr('r',5)
 
-
 /*** export label **/
         g.append("text").text("Exportación").attr("transform", function(){
             return "translate(" + xx(data[1].Mes) + "," + (yy(data[11].Exportado) -20) + ")";
@@ -122,9 +121,6 @@ function graficaImportExport(container,path){
             $(".d3-tooltip").hide();
         //    d3.select(this).select("circle")
         })
-
-
-
     });
 }
 
@@ -140,33 +136,54 @@ function dibujaGrafico(container, ficheroDeDatos) {
       numbers.push(+el.Percent);
     });
 
-    data = data.slice(0, 3);
+    //data = data.slice(0, 3);
 
     var x = d3
       .scaleLinear()
-      .domain([0, d3.max(numbers)])
-      .range([0, largoGrafico]);
-
+      .domain([0, 100])
+      .range([0, largoGrafico-10]);
+     var arrayColores=['#A83232','#C25C30','#D98236','#D9A036']
     var enterSel = d3
       .select(container)
-      .selectAll("div")
+      .selectAll("div.grafica-barras")
       .data(data)
       .enter()
       .append("div")
-      .style("width", "0px");
+      .style("width", function(d) {
+        return x(d.Percent) + "px";
+      })
+      .style('opacity',0)
+      .style('background-color',function(d,i){
+          return arrayColores[i];
+      })
+      .classed("grafica-barras",true)
 
-    enterSel.text(function(d) {
+
+      var enterSel2 = d3
+        .select(container)
+        .selectAll("div.grafica-texto")
+        .data(data)
+        .enter()
+        .append("div")
+        .classed("grafica-texto",true)
+        .style("width", function(d) {
+          return x(d.Percent) + "px";
+        })
+        .style('opacity',0)
+        enterSel2.transition().delay(1000).style('opacity',1)
+
+
+    enterSel2.text(function(d) {
       return d.Provincia + " " + d.Percent + "%";
     });
     enterSel
       .transition()
       .delay(0)
-      .duration(1300)
-      .style("width", function(d) {
-        return x(d.Percent) + "px";
-      })
-      .delay(200)
-      .style("color", colorTexto);
+      .duration(1000)
+      .delay(100)
+      .style('opacity',1)
+
+
     //TODO poner el último a mano
   });
 }

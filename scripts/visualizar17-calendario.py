@@ -4,7 +4,7 @@ import numpy as np
 
 
 YLIM = 0.3
-XLIM = 0.65
+XLIM = 0.6
 
 dwd = '/Volumes/Macintosh HD/_GitHub/journey-of-food/data/temporadas/'
 aux = '/Volumes/Macintosh HD/_GitHub/journey-of-food/data/aux/'
@@ -26,7 +26,6 @@ data = pd.concat(dataList)
 data.fillna(0, inplace=True)
 
 weight = pd.read_csv(aux+'weight.csv', encoding ='utf-8', delimiter = ',', index_col=0)
-
 data.ENE = data.ENE.map(weight.score) 
 data.FEB = data.FEB.map(weight.score) 
 data.MAR = data.MAR.map(weight.score) 

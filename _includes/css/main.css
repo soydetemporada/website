@@ -484,6 +484,25 @@ footer .footer-below {
   font-weight: lighter;
   font-family: 'Roboto';
 }
+
+div.grafica-barras{
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
+    margin:1px;
+
+}
+.chart div.grafica-texto{
+    color:black;
+    background-color: white;
+    display: inline-block;
+    margin:1px;
+    text-align: center;
+    font-size:12px;
+    vertical-align: top;
+    padding:0px;
+}
+
 @media(min-width:768px) {
   header .container {
     padding-top: 11em;
@@ -555,19 +574,19 @@ footer .footer-below {
   stroke-width: 2px;
 }
 .line.export{
-    stroke: blue;
+    stroke: #617D1A;
 }
 .line.import{
-        stroke: green;
+        stroke: #C25C30;
 }
 .dotImport{
-    fill:green;
-    stroke:black
+    fill:#FAFAFA;
+    stroke:#C25C30
 }
 
 .dotExport{
-    fill:blue;
-    stroke:black
+    fill:#FAFAFA;
+    stroke:#617D1A
 }
 .d3-tooltip{
     display: none;
