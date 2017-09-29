@@ -17,6 +17,5 @@ Ilustraciones para el proyecto Journey of Food de Visualizar'17 de Medialab Prad
 
 
 ---
-<div style="margint:auto;"> <img src="cc.png" alt="Crative Commons By-Share alike" />
+<img src="cc.png" alt="Crative Commons By-Share alike" />
 Licenciados bajo [Crative Commons By-Share alike](http://creativecommons.org/licenses/by-sa/4.0/)
-</div>
