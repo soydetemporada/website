@@ -546,3 +546,37 @@ footer .footer-below {
     display: none;
   }
 }
+
+.axis { font: 14px sans-serif; }
+
+.line {
+  fill: none;
+
+  stroke-width: 2px;
+}
+.line.export{
+    stroke: blue;
+}
+.line.import{
+        stroke: green;
+}
+.dotImport{
+    fill:green;
+    stroke:black
+}
+
+.dotExport{
+    fill:blue;
+    stroke:black
+}
+.d3-tooltip{
+    display: none;
+    background-color:black;
+    color:white;
+    position:fixed;
+    top:100px;
+    left:100px;
+    width:40px;
+    height: 25px;
+    z-index: 1000;
+}
