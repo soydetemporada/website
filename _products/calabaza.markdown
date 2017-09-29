@@ -7,16 +7,43 @@ description:
 layout: product
 ---
 
-# Descripción
-Aunque sea el producto más grande del huerto, es muy sensible a las temporadas frías. Su mejor temporada es el verano y el inició de otoño.
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Description</h3>
+      </div>
+      <div class="panel-body">
+        Aunque sea el producto más grande del huerto, es muy sensible a las temporadas frías. Su mejor temporada es el verano y el inició de otoño.
+      </div>
+    </div>
 
-# Tiempo de cultivo
-cuatro a cinco meses
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Tiempo de cultivo</h3>
+      </div>
+      <div class="panel-body">
+        Cuatro a cinco meses
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Principales provincias productoras</h3>
+      </div>
+      <div class="panel-body">
+        <div class="chart"></div>
+      </div>
+    </div>
 
-# Curiosidad
-
-# Principales provincias productoras
-<div class="chart"></div>
-
-# Import-export
-<svg class="import-export" width="600" height="350"></svg>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Importación y Exportación</h3>
+      </div>
+      <div class="panel-body">
+        <svg class="import-export" width="600" height="350"></svg>
+      </div>
+    </div>
+  </div>
+</div>

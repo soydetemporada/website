@@ -215,6 +215,12 @@ section.success {
   text-decoration: none;
   font-weight: normal;
 }
+#product-page .row >div {
+    margin: 1em 0;
+}
+#product-page h3{
+  text-transform: none;
+}
 #contact{
   background: #{{ site.color.primary }};
   border-bottom: 1px #c0c0c0 solid;
@@ -407,6 +413,17 @@ footer .footer-below {
 .modal.fade.in {
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
+}
+.panel-default > .panel-heading{
+  background: none;
+  border: none;
+  padding-top: 1em;
+}
+.panel-default > .panel-heading h3{
+  font-weight: 400;
+}
+.panel-body{
+  padding-top: 0.5em;
 }
 .section-label {
   border-bottom: 1px solid;
