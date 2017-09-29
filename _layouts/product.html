@@ -34,7 +34,47 @@
         </ul>
       </div>
 
-      {{ content }}
+      <div class="row">
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Description</h3>
+            </div>
+            <div class="panel-body">
+              {{page.descripcion}}
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Tiempo de cultivo</h3>
+            </div>
+            <div class="panel-body">
+              {{page.tiempo_cultivo}}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Principales provincias productoras</h3>
+            </div>
+            <div class="panel-body">
+              <div class="chart"></div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Importación y Exportación</h3>
+            </div>
+            <div class="panel-body">
+              <svg class="import-export" width="600" height="350"></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
   {% include contact.html %}
