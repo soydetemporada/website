@@ -3,20 +3,8 @@ modal-id: 11
 img: calabaza.png
 alt: image-alt
 category: Verdura
-description:
 layout: product
+descripcion: "Aunque sea el producto más grande del huerto, es muy sensible a las temporadas frías. Su mejor temporada es el verano y el inició de otoño."
+tiempo_cultivo: "Cuatro a cinco meses"
+curiosidades:
 ---
-
-# Descripción
-Aunque sea el producto más grande del huerto, es muy sensible a las temporadas frías. Su mejor temporada es el verano y el inició de otoño.
-
-# Tiempo de cultivo
-cuatro a cinco meses
-
-# Curiosidad
-
-# Principales provincias productoras
-<div class="chart"></div>
-
-# Import-export
-<svg class="import-export" width="600" height="350"></svg>
