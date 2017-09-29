@@ -26,15 +26,15 @@ Ahora, ¿*cómo saber qué comer y cuándo*? Buscando calendarios en la web, uno
 ## Descripción detallada
 
 #### Análisis de la situación
-Nos hemos puesto en contacto con los autores del [calendario de temporada oficial del Ministerio de Agricultura](http://www.alimentacion.es/es/campanas/frutas/frutas_verduras_temporada/) para que nos aclaren la metodología usada para elaborarlo. Nuestra solicitud ha sido rechazada, por eso vamos a lanzar una campaña en las redes sociales para presionarles en cambiar los errores en su calendario. El objetivo es que de ahora en adelante, **se especifique en todos los calendarios el tipo y la zona de cultivo**. 
+Nos hemos puesto en contacto con los autores del [calendario de temporada oficial del Ministerio de Agricultura](http://www.alimentacion.es/es/campanas/frutas/frutas_verduras_temporada/) para que nos aclaren la metodología usada para elaborarlo. Nuestra solicitud ha sido rechazada, por eso vamos a lanzar una campaña en las redes sociales para presionarles en cambiar los errores en su calendario. El objetivo es que de ahora en adelante, **se especifique en todos los calendarios el tipo y la zona de cultivo**.
 
 Por otra parte, analizaremos los [datos de importación y exportación de frutas y hortalizas de FEPEX](http://www.fepex.es/datos-del-sector/exportacion-importacion-espa%C3%B1ola-frutas-hortalizas). El análisis nos permitirá saber cuáles son los alimentos que más se importan y de éstos cuáles se producen en España. Tener esta información es necesario para **concienciar** al público.
 
 #### Los datos
 Como faltan datos oficiales, tenemos que hablar con agricultores para saber cual es la temporada de cultivo de cada producto, y así coger la información la fuente. A nivél oficial, existen dos conjuntos de datos:
 
-- La [Encuesta sobre Superficies y Rendimientos de Cultivos (ESYRCE)](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/espana2016web_tcm7-452544.pdf) del Ministerio de Agricultura nos ofrece los siguientes datos: la producción de cada verdura y fruta por comunidad autónoma y por tipo de cultivo (secano, regadío o invernadero) en hectarios cultivados. 
- 
+- La [Encuesta sobre Superficies y Rendimientos de Cultivos (ESYRCE)](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/espana2016web_tcm7-452544.pdf) del Ministerio de Agricultura nos ofrece los siguientes datos: la producción de cada verdura y fruta por comunidad autónoma y por tipo de cultivo (secano, regadío o invernadero) en hectarios cultivados.
+
 - Los [Avances de superficies y producciones de cultivos](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/avances-superficies-producciones-agricolas/) del Ministerio de Agricultura determinan con periodicidad mensual los avances de superficies y producciones, dentro de un calendario establecido al efecto en función de las épocas de siembra y recolección a lo largo de la geografía española.
 
 - [La encuesta](https://docs.google.com/forms/d/e/1FAIpQLSe-ysO45blE7-ADPvRiqTWUlGIr00dXId429akjXojanchIoA/viewform). Para elaborar un nuevo calendario, hemos creado un formulario a rellenar por agricultores y gente que tiene conocimientos en huertos comunicando la mejor temporada de recolección de cada producto.
@@ -76,18 +76,22 @@ Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un cale
 - **[Data Cuisine](http://data-cuisine.net/)**
 
 ## Equipo
-- [Jimena García]
-- [Raimundo Abril](https://twitter.com/Raiskv/)
 - [Diego Andrés Ramírez Aragon](https://twitter.com/lowfill/)
-- [Pau Valiente](https://twitter.com/paucc/)
 - [Flora Fosset](https://twitter.com/florafosset/)
+- [Jimena García](https://twitter.com/_JimmyJazzzz)
+- [Pau Valiente](https://twitter.com/paucc/)
+- [Raimundo Abril](https://twitter.com/Raiskv/)
+
+## Mentores
+- [Alejandro Zappala](https://twitter.com/alayzappala)
+- [Jesús David Navarro Rodríguez](https://twitter.com/jesusda/)
+- [Sergio Galán](https://twitter.com/sergioeclectico)
+
 
 ----------------------------------------------------------------------------------------------------
 
 
-
 # The journey of food to your pantry
-##### Project proposal for the workshop "Visualizar 17" at Medialab Prado (Madrid)
 
 ## Project summary
 It’s been decades that citizens of urban centers disconnected from the agricultural world and the natural rhythm of plants. Summer or winter, there’s always exotic fruits in the supermarkets stands. There are two methods to consume one type of fruit or vegetable during the whole year: **importing it** or **cultivating it in a heated greenhouse**. Both ways generate greenhouse gases, damaging more and more our environment.
@@ -99,22 +103,3 @@ A food product that traveled thousands of kilometers and was conserved during th
 Now, *how do we know what to eat and when*? Looking at Spanish seasonal calendars on the web, we are confronted to a big blend of contradictory information. The reason is that a seasonal calendar can be elaborated from **different variables**, and every author picks whichever he wants: national or local climate, open air or greenhouse farming, heated greenhouse or not, etc.
 
 We need a tool that shows what can be eaten from local farming and in-season. This project’s goal is to elaborate an app that allows to know what are the fruits and vegetables than are being harvested in every *region of Spain*, depending on the *season* and the *type of culture*. That way, we’ll offer a tool for the ones who want to eat responsibly, limiting the excessive transport of food and the farming in heated greenhouses.
-
-
-## Project description
-
-
-## Technical requirements
-It's important that the team includes a programmer specialised in webapps. An illustrator is not essential but it would be really appreciated.
-
-
-## Profile of collaborators needed
-Anyone with motivation and who likes teamwork!
-
-These specific profiles could be useful:
-- **Journalists** (investigation on incorrect calendars and the national situation)
-- **Climatologists** (investigation on weather in each region of Spain)
-- **Farmers** o people with experience in the farming world
-- **Illustrators** (drawings of products and of seasonal calendar)
-- **Designers**
-- **Programmers**
