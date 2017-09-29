@@ -18,6 +18,10 @@
   <section id="product-page">
     <div class="container">
       <div class="row">
+        <ol class="breadcrumb">
+          <li><a href="{{site.url}}">Buscador</a></li>
+          <li class="active">{{page.title}}</li>
+        </ol>
         <ul class="month-filter">
           {% assign currentMonth = 'now' | date: "%_m" | plus: 0%}
           {% assign months_c = "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre" | split: ',' %}

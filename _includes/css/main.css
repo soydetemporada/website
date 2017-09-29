@@ -124,6 +124,9 @@ header .intro-text .skills {
 .navbar-default, .navbar-inverse {
   border: 0;
 }
+.breadcrumb{
+  background: none;
+}
 section {
   padding: 2em 0;
 }
