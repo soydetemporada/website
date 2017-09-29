@@ -4,7 +4,7 @@ import numpy as np
 
 
 YLIM = 0.3
-XLIM = 0.6
+XLIM = 0.5
 
 dwd = '/Volumes/Macintosh HD/_GitHub/journey-of-food/data/temporadas/'
 aux = '/Volumes/Macintosh HD/_GitHub/journey-of-food/data/aux/'
