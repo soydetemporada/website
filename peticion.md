@@ -11,14 +11,16 @@ Nuestro equipo se ha puesto a investigar para intentar entender el origen de est
 
 Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base de datos usada en la elaboración de este calendario. Nos dijeron de contactar con las Cooperativas Agrarias, que elaboraron el calendario en su tiempo. Ninguno de los dos organismos pudo explicar el origen de los errores y no mostraron voluntad de rectificar el calendario.
 
-**Pedimos al MAPAMA que rectifique el calendario de su portal lo antes posible o en su defecto que lo retire de la web ya que sigue llevando a confusión a millones de personas. Ayúdanos a hacer escuchar nuestro mensaje y compártelo en las redes sociales.**
+**Pedimos al MAPAMA que rectifique el calendario de su portal lo antes posible o en su defecto que lo retire de la web ya que sigue llevando a confusión a millones de personas.**
 
-### Propuestas tweet
+### Ayúdanos a hacer escuchar nuestro mensaje y compártelo en las redes sociales
 
-@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. Cambiad vuestro calendario #visualizar17. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. Cambiad vuestro calendario #visualizar17" |  url_encode }}){:target="_blank"}
+@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, por favor revisad vuestro calendario. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, por favor revisad vuestro calendario." | url_encode }}){:target="_blank"}
 
-@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, por favor corregid vuestro calendario. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, por favor corregid vuestro calendario" | url_encode }}){:target="_blank"}
+Según el calendario de @mapamagob, el mejor momento para comer calabacín y berenjena es pleno invierno. Pues esto muestra el contrario detemporada.soy [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"Según el calendario de @mapamagob, el mejor momento para comer calabacín y berenjena es pleno invierno. Pues esto muestra el contrario detemporada.soy"  | url_encode }}){:target="_blank"}
 
-@mapamagob quiero tener acceso a info correcta sobre productos de temporada. Tomate no es de invierno, corríjan su calendario. #visualizar17. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a info correcta sobre productos de temporada. Tomate no es de invierno, corríjan su calendario. #visualizar17"  | url_encode }}){:target="_blank"}
+@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. Revisad vuestro calendario #visualizar17 [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. Revisad vuestro calendario #visualizar17" |  url_encode }}){:target="_blank"}
 
-@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos #visualizar17 @datalabx. [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos #visualizar17 @datalabx" |  url_encode }}){:target="_blank"}
+
+
+@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos #visualizar17 @datalabx [<i class="fa fa-twitter"></i>](https://twitter.com/intent/tweet?text={{"@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos #visualizar17 @datalabx" |  url_encode }}){:target="_blank"}
