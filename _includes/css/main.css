@@ -498,9 +498,9 @@ footer .footer-below {
   background-color: #{{site.color.highlight}};
   /* color barra */
   text-align: right;
-  padding: 10px;
+  padding: 0px;
   /*define ancho de la barra */
-  margin: 3px;
+
   /* separación entre barras */
   color: rgba(0, 0, 0, 0);
   font-weight: lighter;
@@ -511,14 +511,17 @@ div.grafica-barras{
     display: inline-block;
     height: 40px;
     overflow: hidden;
-    margin:1px;
+    margin:0px;
+    margin-right:2px;
+
 
 }
 .chart div.grafica-texto{
     color:black;
     background-color: white;
     display: inline-block;
-    margin:1px;
+    margin:0px;
+    margin-right:2px;
     text-align: center;
     font-size:12px;
     vertical-align: top;
@@ -633,12 +636,12 @@ div.grafica-barras{
 }
 .d3-tooltip{
     display: none;
-    background-color:black;
+    background-color:#333;
     color:white;
-    position:fixed;
-    top:100px;
-    left:100px;
-    width:40px;
-    height: 25px;
+    position:absolute;
+
     z-index: 1000;
+    padding:5px;
+    border-radius: 4px;
+
 }
