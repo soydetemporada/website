@@ -142,7 +142,7 @@ function dibujaGrafico(container, ficheroDeDatos) {
       .scaleLinear()
       .domain([0, 100])
       .range([0, largoGrafico-10]);
-     var arrayColores=['#000','#333','#888','#aaa']
+     var arrayColores=['#84390B','#AB5A28','#CA7947','#FFCAA9']
     var enterSel = d3
       .select(container)
       .selectAll("div.grafica-barras")
