@@ -219,11 +219,11 @@ function graficaImportExport(container, path) {
   g.selectAll('.source-text')
     .data([{}])
     .enter()
-    .append('text')
+    .append('div')
     .classed('source-text', true)
-    .attr('x', margin.left)
-    .attr('y', height + margin.bottom)
-    .text('Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos.')
+    .style('font-style', '10px')
+    .style('color', '#D8D8D8')
+    .html('Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos.')
 }
 
 function dibujaGrafico(container, ficheroDeDatos) {
@@ -295,11 +295,10 @@ function dibujaGrafico(container, ficheroDeDatos) {
   d3.select(container).selectAll('.source-text')
     .data([{}])
     .enter()
-    .append('text')
-    .classed('source-text', true)
-    .attr('x', 20)
-    .attr('y', $(container).height() - 30;)
-    .text('Fuente: Ministerio de Agricultura (2015). Anuario de Estadística.')
+    .append('div')
+    .style('font-style', '10px')
+    .style('color', '#D8D8D8')
+    .html('Fuente: Ministerio de Agricultura (2015). Anuario de Estadística.')
 }
 
 function isOverflown(element) {
