@@ -18,14 +18,12 @@ Con este proyecto, aportamos una herramienta para apoyar el consumo responsablem
 
 
 ### Metodología
-Para elaborar el calendario, hemos contactado con personas del mundo agrícola para que nos comuniquen las temporadas de los productos en su zona a través de una encuesta. Hemos hablado con agricultores, grupos de consumo, observatorios agroalimentarios y consejos de producción ecológica.
+Para elaborar el calendario, hemos contactado con personas del mundo agrícola para que nos comuniquen las temporadas de los productos en su zona. Hemos hablado con agricultores, grupos de consumo, observatorios agroalimentarios y consejos de producción ecológica. Para ganar tiempo, hemos recolectado los datos a través de una encuesta online.
 
-Por ahora han participado a la encuesta más de 15 personas y organismos de varias comunidades autónomas: Andalucía, Asturias, Extremadura, Madrid, Navarra y País Vasco. El formuliario sigue accesible [aquí](https://martinez.typeform.com/to/ABbL1V) y se agradece la colaboración de cualquier persona que tenga conocimientos sobre el ciclo de las plantas.
-
-Una vez recolectadas suficiente respuestas de cada región del país, podremos elaborar una herramienta más precisa que ira mostrando los productos de temporada dependiendo de la ubicación del usuario.
+Por ahora han participado a la encuesta más de 15 personas y organismos de varias comunidades autónomas: Andalucía, Asturias, Extremadura, Madrid, Navarra y País Vasco. El formuliario sigue accesible [aquí](https://goo.gl/forms/TQiNrQp6pvbUiLWI2) y se agradece la colaboración de cualquier persona que tenga conocimientos sobre natural el ciclo de las plantas. Se hizo una media de todos los resultados para crear un sólo calendario que junte información de todas las zonas.
 
 ### Obstáculos
-El freno más grande al cual nos hemos enfrentado hasta ahora es la falta de datos existentes y de respuestas a la encuesta.
+El problema más grande al cual nos hemos enfrentado hasta ahora es la falta de datos existentes y de respuestas a la encuesta. Una vez recolectadas suficiente respuestas de cada región del país, podremos elaborar una herramienta más precisa que ira mostrando los productos de temporada dependiendo de la ubicación del usuario.
 
 ### Valores
 Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o comentario estará bienvenido para mejorar la herramienta. Se puede contactar con nosotros aquí.
