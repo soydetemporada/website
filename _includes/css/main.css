@@ -569,6 +569,7 @@ footer .footer-below {
     stroke:black
 }
 .d3-tooltip{
+    display: none;
     background-color:black;
     color:white;
     position:fixed;
