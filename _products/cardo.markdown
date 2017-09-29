@@ -8,6 +8,7 @@ layout: product
 ---
 
 # Descripción
+El cardo es un producto típico del invierno que se consumía mucho en el pasado y está volviendo a ser de moda por sus calidades nutritivas.
 
 # Tiempo de cultivo
 
@@ -17,3 +18,4 @@ layout: product
 <div class="chart"></div>
 
 # Import-export
+<svg class="import-export" width="600" height="350"></svg>

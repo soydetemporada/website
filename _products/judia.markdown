@@ -8,8 +8,10 @@ layout: product
 ---
 
 # Descripción
+La judía está en el TOP 10 de los productos más importados en 2015.
 
 # Tiempo de cultivo
+Dos o tres meses
 
 # Curiosidad
 
@@ -17,3 +19,4 @@ layout: product
 <div class="chart"></div>
 
 # Import-export
+<svg class="import-export" width="600" height="350"></svg>

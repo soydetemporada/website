@@ -9,7 +9,7 @@ layout: product
 ---
 
 # Descripción
-El brócoli pertenece a la familia de las coles, y como todos los coles, prefiere las temporadas templadas y frías. Se disfruta en otoño e invierno.
+El brócoli o brécol pertenece a la familia de las coles, y como todos los coles, prefiere las temporadas templadas y frías. Se disfruta en otoño e invierno.
 
 # Tiempo de cultivo
 Cinco a seis meses
@@ -20,3 +20,4 @@ Cinco a seis meses
 <div class="chart"></div>
 
 # Import-export
+<svg class="import-export" width="600" height="350"></svg>

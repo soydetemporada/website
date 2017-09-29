@@ -18,3 +18,4 @@ Es un fruto mediterráneo que tiene una temporada muy corta: de julio a septiemb
 <div class="chart"></div>
 
 # Import-export
+<svg class="import-export" width="600" height="350"></svg>

@@ -10,6 +10,7 @@ layout: product
 # Descripción
 
 # Tiempo de cultivo
+Tres meses
 
 # Curiosidad
 
@@ -17,3 +18,4 @@ layout: product
 <div class="chart"></div>
 
 # Import-export
+<svg class="import-export" width="600" height="350"></svg>

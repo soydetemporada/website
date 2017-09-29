@@ -11,7 +11,7 @@ layout: product
 # Descripción
 
 # Tiempo de cultivo
-Seis a siete meses
+Cinco a seis meses
 
 # Curiosidad
 
@@ -19,3 +19,4 @@ Seis a siete meses
 <div class="chart"></div>
 
 # Import-export
+<svg class="import-export" width="600" height="350"></svg>

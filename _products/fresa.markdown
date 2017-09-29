@@ -18,3 +18,4 @@ Contrariamente a lo que se suele pensar, la temporada de la fresa no es el perio
 <div class="chart"></div>
 
 # Import-export
+<svg class="import-export" width="600" height="350"></svg>

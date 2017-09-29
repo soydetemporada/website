@@ -19,5 +19,4 @@ La historia del ajo en Europa es muy curiosa, ya que ha pasado de ser un enemigo
 <div class="chart"></div>
 
 # Principal importador
-Italia
 <svg class="import-export" width="600" height="350"></svg>

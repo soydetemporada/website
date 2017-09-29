@@ -8,8 +8,10 @@ layout: product
 ---
 
 # Descripción
+La patata es el producto que se importó más en 2015. Venía mayormente de China.
 
 # Tiempo de cultivo
+Tres o cuatro meses
 
 # Curiosidad
 
@@ -17,3 +19,4 @@ layout: product
 <div class="chart"></div>
 
 # Import-export
+<svg class="import-export" width="600" height="350"></svg>

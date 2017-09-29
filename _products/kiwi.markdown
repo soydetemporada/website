@@ -8,6 +8,7 @@ layout: product
 ---
 
 # Descripción
+El kiwi está en el TOP 10 de los productos más importados en 2015 y la mayoría viene de Nueva Zelanda. Un viaje de unos 20.000km para llegar a tu nevera.
 
 # Tiempo de cultivo
 
@@ -17,3 +18,4 @@ layout: product
 <div class="chart"></div>
 
 # Import-export
+<svg class="import-export" width="600" height="350"></svg>

@@ -8,6 +8,7 @@ layout: product
 ---
 
 # Descripción
+El col, o repollo, es un producto típico de Europa que se produce durante los meses fríos del año.
 
 # Tiempo de cultivo
 Cinco a seis meses
@@ -18,3 +19,4 @@ Cinco a seis meses
 <div class="chart"></div>
 
 # Import-export
+<svg class="import-export" width="600" height="350"></svg>
