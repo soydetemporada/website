@@ -152,3 +152,26 @@ function dibujaGrafico(container, ficheroDeDatos) {
     //TODO poner el último a mano
   });
 }
+
+function cleanLatin(src){
+  src = src.replace('á','a');
+  src = src.replace('é','e');
+  src = src.replace('í','i');
+  src = src.replace('ó','o');
+  src = src.replace('ú','u');
+  src = src.replace('ñ','n');
+  return src;
+}
+function updateCalendario(product,source){
+  d3.csv(source+"/data/temporadas/calendario.csv", function(calendario) {
+    product = cleanLatin(product);
+    console.log(product);
+    for (var i = 0,id=1; i < calendario.length; i++,id++) {
+      if(calendario[i].PRODUCTO.toLowerCase() == product){
+        console.log(calendario[i]);
+        break;
+      }
+    }
+
+  });
+}

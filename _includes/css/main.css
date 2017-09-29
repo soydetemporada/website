@@ -519,6 +519,7 @@ footer .footer-below {
   #portfolio .portfolio-item img {
   }
 }
+
 @media(max-width:767px) {
   section {
     padding: 1em 0;

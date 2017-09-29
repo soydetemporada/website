@@ -17,6 +17,18 @@
   </header>
   <section id="product-page">
     <div class="container">
+        <div class="row month-filter">
+          {% assign currentMonth = 'now' | date: "%_m" | plus: 0%}
+          {% assign months_c = "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre" | split: ',' %}
+          {% for month in months_c %}
+            {% assign current = '' %}
+            {% if forloop.index == currentMonth %}
+              {% assign current = 'active' %}
+            {% endif%}
+            <div class="col-lg-1 desktop text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month}}</div>
+            <div class="col-xs-3 mobile text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</div>
+          {% endfor %}
+        </div>
       <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
             {{ content }}
@@ -32,7 +44,8 @@
     {% assign product_name = page.img | replace: '.png','' %}
     dibujaGrafico(".chart","{{site.url}}/data/producto/{{product_name}}/production/grafico.csv");
     graficaImportExport(".import-export","{{site.url}}/data/producto/{{product_name}}/{{product_name}}_import_export_mes.csv");
-  });
+    updateCalendario("{{page.title | downcase }}","{{site.url}}");
+});
   </script>
 </body>
 
