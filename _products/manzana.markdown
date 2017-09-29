@@ -3,7 +3,7 @@ modal-id: 36
 img: manzana.png
 alt: image-alt
 category: Fruta
-description:
+descripcion: "La manzana es el tercer producto que se importa más en España, viene mayormente de Francia."
 layout: product
 ---
 
