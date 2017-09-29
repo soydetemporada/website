@@ -3,14 +3,14 @@
 57,Murcia,172010,30
 46,Ciudad Real,77600,13
 70,Sevilla,60000,41
-54,Valencia/València,40843,46
+54,Valencia,40843,46
 49,Toledo,31374,45
 66,Granada,17075,18
 59,Badajoz,15091,6
-53,Castellón/Castelló,13590,12
-52,Alacant/Alicante,11415,3
+53,Castellón,13590,12
+52,Alicante,11415,3
 65,Córdoba,11152,14
-30,Illes Balears,10877,7
+30,Islas Baleares,10877,7
 67,Huelva,8750,21
 64,Cádiz,7360,11
 27,Tarragona,5970,43
@@ -38,9 +38,9 @@
 3,Pontevedra,0,36
 6,Asturias,0,33
 8,Cantabria,0,39
-10,Araba/Álava,0,1
+10,Álava,0,1
 15,Navarra,0,31
-12,Bizkaia,0,48
+12,Vizcaya,0,48
 48,Guadalajara,0,19
 35,Palencia,0,34
 20,Teruel,0,44

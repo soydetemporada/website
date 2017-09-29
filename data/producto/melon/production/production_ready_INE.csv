@@ -3,11 +3,11 @@
 46,Ciudad Real,187500,13
 63,Almería,114855,4
 59,Badajoz,36790,6
-52,Alacant/Alicante,29071,3
+52,Alicante,29071,3
 49,Toledo,24631,45
 69,Málaga,15798,29
 45,Albacete,11571,2
-53,Castellón/Castelló,11471,12
+53,Castellón,11471,12
 70,Sevilla,9000,41
 65,Córdoba,8064,14
 66,Granada,7548,18
@@ -15,8 +15,8 @@
 67,Huelva,5800,21
 60,Cáceres,5302,10
 43,Madrid,5160,28
-30,Illes Balears,4685,7
-54,Valencia/València,3244,46
+30,Islas Baleares,4685,7
+54,Valencia,3244,46
 27,Tarragona,2420,43
 68,Jaén,1660,23
 26,Lleida,1496,25
@@ -39,9 +39,9 @@
 8,Cantabria,0,39
 11,Gipuzkoa,0,20
 2,Ourense,0,32
-10,Araba/Álava,0,1
+10,Álava,0,1
 35,Palencia,0,34
-12,Bizkaia,0,48
+12,Vizcaya,0,48
 33,Burgos,0,9
 34,León,0,24
 38,Soria,0,42
