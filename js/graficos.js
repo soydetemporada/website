@@ -297,8 +297,8 @@ function dibujaGrafico(container, ficheroDeDatos) {
     .enter()
     .append('text')
     .classed('source-text', true)
-    .attr('x', margin.left)
-    .attr('y', height + margin.bottom)
+    .attr('x', 20)
+    .attr('y', $(container).height() - 30;)
     .text('Fuente: Ministerio de Agricultura (2015). Anuario de Estadística.')
 }
 
@@ -389,7 +389,7 @@ function tiempoCultivo(producto,container,path){
       .attr('y1', height/2)
       .attr('x2', function(d, i) { return xScale(i) + xScale.bandwidth(); })
       .attr('y2', height/2)
-      .style('stroke', function(d, i) { return i < meses ? 'green' : 'grey'; })
+      .style('stroke', function(d, i) { return i < meses ? '#89BC10' : '#D8D8D8'; })
       .style('stroke-linecap', 'round')
       .style('stroke-width', 6);
 
