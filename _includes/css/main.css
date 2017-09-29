@@ -635,10 +635,18 @@ div.grafica-barras{
     fill:#FAFAFA;
     stroke:#C25C30
 }
+.textImport{
+    fill: #C25C30;
+    font-weight: bold;
+}
 
 .dotExport{
     fill:#FAFAFA;
     stroke:#617D1A
+}
+.textExport{
+    fill: #617D1A;
+    font-weight: bold;
 }
 .d3-tooltip{
     display: none;

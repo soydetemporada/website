@@ -79,8 +79,8 @@ function graficaImportExport(container,path){
               .classed('d3-tooltip',true);*/
 /*** import label **/
         g.append("text").text("Importación").attr("transform", function(){
-            return "translate(" + xx(data[1].Mes) + "," + (yy(data[11].Importado) -20) + ")";
-        })
+            return "translate(" + ( xx(data[9].Mes)+5) + "," + 0 + ")";
+        }).classed("textImport",true)
 
         var g1 = g.selectAll("g.dotImport") //g1 is the update section
               .data(data)
@@ -96,8 +96,8 @@ function graficaImportExport(container,path){
 
 /*** export label **/
         g.append("text").text("Exportación").attr("transform", function(){
-            return "translate(" + xx(data[1].Mes) + "," + (yy(data[11].Exportado) -20) + ")";
-        })
+            return "translate(" + (xx(data[6].Mes) +5)+ "," + 0 + ")";
+        }).classed("textExport",true)
         var g1 = g.selectAll("g.dotExport") //g1 is the update section
               .data(data)
 
@@ -141,7 +141,7 @@ function dibujaGrafico(container, ficheroDeDatos) {
     var x = d3
       .scaleLinear()
       .domain([0, 100])
-      .range([0, largoGrafico-10]);
+      .range([0, largoGrafico-20]);
      var arrayColores=['#A83232','#C25C30','#D98236','#D9A036']
     var enterSel = d3
       .select(container)
@@ -159,7 +159,7 @@ function dibujaGrafico(container, ficheroDeDatos) {
       .classed("grafica-barras",true)
 
 
-      var enterSel2 = d3
+      var enterSelText = d3
         .select(container)
         .selectAll("div.grafica-texto")
         .data(data)
@@ -170,12 +170,17 @@ function dibujaGrafico(container, ficheroDeDatos) {
           return x(d.Percent) + "px";
         })
         .style('opacity',0)
-        enterSel2.transition().delay(1000).style('opacity',1)
+        enterSelText.transition().delay(1000).style('opacity',1)
 
 
-    enterSel2.text(function(d) {
+
+    enterSelText.text(function(d) {
       return d.Provincia + " " + d.Percent + "%";
     });
+    enterSelText.style('writing-mode',function(d){
+        if(x(d.Percent<20) ) return 'vertical-rl';
+        else  'horizontal-tb'
+    })
     enterSel
       .transition()
       .delay(0)
@@ -186,6 +191,10 @@ function dibujaGrafico(container, ficheroDeDatos) {
 
     //TODO poner el último a mano
   });
+}
+
+function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
 }
 
 function cleanLatin(src){
