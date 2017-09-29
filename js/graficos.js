@@ -216,14 +216,7 @@ function graficaImportExport(container, path) {
       .attr("r", 5);
   });
 
-  g.selectAll('.source-text')
-    .data([{}])
-    .enter()
-    .append('text')
-    .classed('source-text', true)
-    .attr('x', margin.left)
-    .attr('y', height + margin.bottom)
-    .text('Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos.')
+
 }
 
 function dibujaGrafico(container, ficheroDeDatos) {
@@ -291,15 +284,6 @@ function dibujaGrafico(container, ficheroDeDatos) {
       .style("opacity", 1);
 
   });
-
-  d3.select(container).selectAll('.source-text')
-    .data([{}])
-    .enter()
-    .append('text')
-    .classed('source-text', true)
-    .attr('x', 20)
-    .attr('y', $(container).height() - 30)
-    .text('Fuente: Ministerio de Agricultura (2015). Anuario de Estadística.')
 }
 
 function isOverflown(element) {
