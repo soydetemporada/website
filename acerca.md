@@ -5,11 +5,9 @@ css-id: acerca
 cabezote: /img/acerca-cabezote.jpg
 ---
 
-## El proyecto
-<br>
 Este proyecto se ha desarrollado en el marco del evento [Visualizar 17](http://medialab-prado.es/article/visualizar17-migraciones-proyectos-seleccionados), un taller colaborativo y de datos abiertos organizado por el Medialab Prado del Ayuntamiento de Madrid. Tuvo lugar del 15 al 30 de septiembre 2017.
 
-### Introducción
+### INTRODUCCIÓN
 Hace décadas que los habitantes de centros urbanos se desconectaron del mundo agrícola y del ritmo natural de la tierra. Sea verano o invierno, norte o sur, en Europa siempre es posible encontrar fruta exótica en los estantes de supermercados. Hay dos maneras de conseguir ésto: importando o cultivando en invernaderos climatizados. Los dos métodos tienen impacto sobre el planeta, generan residuos y gases de efecto invernadero que destrozan cada vez más el medio ambiente. Tenemos que deshacernos de la "comodidad" a la que nos hemos acostumbrado y volver a consumir como lo hacían nuestros abuelos: siguiendo el ritmo de la naturaleza.
 
 Ahora, ¿cómo saber qué comer y cuándo? Buscando calendarios en la web, uno se enfrenta a una gran cantidad de datos e informaciones contradictorias. Este proyecto tiene por objetivo elaborar un calendario fiable, completo y lo más preciso posible. El objetivo original era elaborar varios calendarios dependiendo de la zona de cultivo, pero por falta de datos, hemos decidido elaborar un sólo calendario para toda la península.
@@ -17,12 +15,12 @@ Ahora, ¿cómo saber qué comer y cuándo? Buscando calendarios en la web, uno s
 Con este proyecto, queremos aportar una herramienta para apoyar el consumo responsable, limitando el transporte excesivo de alimentos y el cultivo en invernaderos climatizados.
 
 
-### Metodología
+### METODOLOGÍA
 Para elaborar el calendario, hemos contactado con personas del mundo agrícola para que nos comuniquen las temporadas de los productos en su zona. Hemos hablado con agricultores, grupos de consumo, observatorios agroalimentarios y consejos de producción ecológica. Para ganar tiempo, hemos recolectado los datos a través de una encuesta online.
 
 Por ahora han participado a la encuesta más de 15 personas y organismos de varias comunidades autónomas: Andalucía, Asturias, Extremadura, Madrid, Navarra y País Vasco. El formulario sigue accesible [aquí](https://goo.gl/forms/TQiNrQp6pvbUiLWI2) y se agradece la colaboración de cualquier persona que tenga conocimientos sobre el ciclo natural de las plantas. Se hizo una media de todos los resultados para crear un sólo calendario que junte información de todas las zonas.
 
-### Datos
+### DATOS
 Para elaborar la ficha de cada producto, se han usado datos de producción, importación y exportación de organismos públicos y privados a través de sus directorios web. Entre las principales fuentes de datos se encuentran [Mercasa](http://mercasa.es/), [Ministerio de Economía, Industria y Competitividad](http://datacomex.comercio.es/principal_comex_es.aspx) y [Ministerio de Agricultura y Pesca, Alimentación y Media Ambiente](http://www.mapama.gob.es/es/).
 
 A pesar de contar con fuentes oficiales para recopilar estos datos, fue necesario un esfuerzo importante a la hora de descargar y organizar la información. Los principales problemas encontrados fueron:
@@ -30,12 +28,12 @@ A pesar de contar con fuentes oficiales para recopilar estos datos, fue necesari
  * **Falta de acceso** no hemos encontrado una fuente de datos que proporcione buenos datos. La plataforma Datacomex, a pesar de ser un esfuerzo a considerar, no permite el indexado de grandes tablas y los límites al número de celdas su uso a nivel profesional. Existe una opción de descargar directamente la información cruda de la Agencia Tributaria pero no se considera por tiempo y complejidad. Sin duda es uno de los posibles puntos de desarrollo futuro.
  * **Calidad del dato** pues en la mayoría de las webs accedemos a información organizada y agregada previamente en sus propios ficheros.
 
-### Próximos pasos
+### PRÓXIMOS PASOS
 Sin duda el problema más grande al cual nos hemos enfrentado hasta ahora es la falta de datos existentes y de respuestas a la encuesta. Una vez recolectadas suficiente respuestas de cada región del país, podremos elaborar una herramienta más precisa que irá mostrando los productos de temporada dependiendo de la ubicación del usuario.
 
 Esto es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o comentario estará bienvenido para mejorar la herramienta. Se puede contactar con nosotros aquí.
 
-### Equipo
+### EQUIPO
 <div class="row">
 
 {% for colaborador in site.data.colaboradores %}
@@ -66,7 +64,7 @@ Esto es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, quej
 {% endfor %}
 </div>
 
-### Agradecimientos
+### AGRADECIMIENTOS
 <div class="row">
   <div class="col-sm-4 col-xs-12" >
   <h5>MENTORES</h5>
