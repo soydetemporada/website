@@ -102,10 +102,23 @@ Es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o c
   <br>
   <h5>OTROS</h5>
   <ul>
-    <li>Mumomío</li>
+    <li> <a href="http://www.mumumio.com/" target="_blank"> Mumumío </a> </li>
   </ul>
   </div>
 </div>
 
 
-##### ÍCONOS Y FOTOGRAFÍAS
+<div class="col-sm-4 col-xs-12" >
+<h5>CREATIVE COMMONS</h5>
+<ul>
+  {% for fotografo in site.data.fotografias %}
+  <li>
+    {% if fotografo.url %}
+      <a href="{{fotografo.url}}">{{fotografo.nombre}}</a>
+    {% else %}
+      {{fotografia.nombre}}
+    {% endif%}
+  </li>
+  {% endfor %}
+</ul>
+</div>
