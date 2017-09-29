@@ -573,19 +573,19 @@ div.grafica-barras{
   stroke-width: 2px;
 }
 .line.export{
-    stroke: blue;
+    stroke: #617D1A;
 }
 .line.import{
-        stroke: green;
+        stroke: #C25C30;
 }
 .dotImport{
-    fill:green;
-    stroke:black
+    fill:#FAFAFA;
+    stroke:##C25C30
 }
 
 .dotExport{
-    fill:blue;
-    stroke:black
+    fill:#FAFAFA;
+    stroke:#617D1A
 }
 .d3-tooltip{
     display: none;
