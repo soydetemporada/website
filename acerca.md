@@ -22,6 +22,15 @@ Para elaborar el calendario, hemos contactado con personas del mundo agrícola p
 
 Por ahora han participado a la encuesta más de 15 personas y organismos de varias comunidades autónomas: Andalucía, Asturias, Extremadura, Madrid, Navarra y País Vasco. El formuliario sigue accesible [aquí](https://goo.gl/forms/TQiNrQp6pvbUiLWI2) y se agradece la colaboración de cualquier persona que tenga conocimientos sobre natural el ciclo de las plantas. Se hizo una media de todos los resultados para crear un sólo calendario que junte información de todas las zonas.
 
+### Datos
+Para elaborar esta web se han usado datos de organismos públicos y privados a través de sus directorios web. Entre las principales fuentes de datos se encuentran [Mercasa](http://mercasa.es/), [Ministerio de Economía, Industria y Competitividad](http://datacomex.comercio.es/principal_comex_es.aspx) y [Ministerio de Agricultura y Pesca, Alimentación y Media Ambiente](http://www.mapama.gob.es/es/)
+
+A pesar de contar con fuentes oficiales para recopilar estos datos, es necesario un esfuerzo importante a la hora de descargar y organizar la información, los principales problemas encontrados son:
+* Falta de actualización, los datos tardan en consolidarse, y hay que trabajar con datos provisionales si se quieren estadísticas actuales. Para este proyecto se han usado datos definitivos del año 2015 para elaborar las estadísticas.
+* Falta de acceso, en la mayoría de las webs accedemos a información organizada y agregada previamente y en sus propios documentos. No hemos encontrado una fuente con datos de buena calidad. La plataforma Datacomex, a pesar de ser un esfuerzo a considerar, no permite el indexado de grandes tablas y los límites al número de celdas impiden mucho su uso profesional. Existe una opción de descargar directamente la información de la Agencia Tributaria pero no se considera por tiempo. Sin duda es uno de los posibles puntos de desarrollo.
+
+
+
 ### Obstáculos
 El problema más grande al cual nos hemos enfrentado hasta ahora es la falta de datos existentes y de respuestas a la encuesta. Una vez recolectadas suficiente respuestas de cada región del país, podremos elaborar una herramienta más precisa que ira mostrando los productos de temporada dependiendo de la ubicación del usuario.
 
