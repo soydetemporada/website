@@ -298,7 +298,7 @@ function dibujaGrafico(container, ficheroDeDatos) {
     .append('text')
     .classed('source-text', true)
     .attr('x', 20)
-    .attr('y', $(container).height() - 30;)
+    .attr('y', $(container).height() - 30)
     .text('Fuente: Ministerio de Agricultura (2015). Anuario de Estadística.')
 }
 
