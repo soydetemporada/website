@@ -134,9 +134,10 @@ function graficaImportExport(container, path) {
       .append("text")
       .text("Importación")
       .attr("transform", function() {
-        return "translate(" + (xx(data[9].Mes) + 5) + "," + 0 + ")";
+        return "translate(" + (xx(data[11].Mes)) + "," + 0 + ")";
       })
-      .classed("textImport", true);
+      .classed("textImport", true)
+      .style("text-anchor", "end" );
 
     var element = g
       .selectAll("circle.dotImport") //g1 is the update section
@@ -175,9 +176,12 @@ function graficaImportExport(container, path) {
       .append("text")
       .text("Exportación")
       .attr("transform", function() {
-        return "translate(" + (xx(data[6].Mes) + 5) + "," + 0 + ")";
+        return "translate(" + (xx(data[11].Mes)) + "," + 18 + ")";
       })
-      .classed("textExport", true);
+      .classed("textExport", true)
+      .style("text-anchor", "end" );
+
+
 
     var element = g
       .selectAll("circle.dotExport") //g1 is the update section
