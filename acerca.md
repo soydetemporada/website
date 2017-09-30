@@ -70,6 +70,7 @@ Esto es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, quej
   <h5>MENTORES</h5>
   <ul>
     <li> <a href="https://twitter.com/alayzappala" target="_blank"> Alejandro Zappala </a> </li>
+    <li> <a href="https://twitter.com/maritrinez" target="_blank">Beatriz Martínez</a></li>
     <li> <a href="https://twitter.com/jesusda" target="_blank"> Jesús David Navarro </a> J</li>
     <li> <a href="https://twitter.com/sergioeclectico" target="_blank"> Sergio Galán </a> </li>
   </ul>
