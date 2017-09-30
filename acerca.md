@@ -31,7 +31,7 @@ A pesar de contar con fuentes oficiales para recopilar estos datos, fue necesari
 ### PRÓXIMOS PASOS
 Sin duda el problema más grande al cual nos hemos enfrentado hasta ahora es la falta de datos existentes y de respuestas a la encuesta. Una vez recolectadas suficiente respuestas de cada región del país, podremos elaborar una herramienta más precisa que irá mostrando los productos de temporada dependiendo de la ubicación del usuario.
 
-Esto es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o comentario estará bienvenido para mejorar la herramienta. Se puede contactar con nosotros aquí.
+Esto es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o comentario estará bienvenido para mejorar la herramienta. [Contácta con nosotros]({{site.url}}/contacto).
 
 ### EQUIPO
 <div class="row">
@@ -110,18 +110,47 @@ Esto es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, quej
   </div>
 </div>
 
-
-<div class="col-sm-4 col-xs-12" >
-<h5>CREATIVE COMMONS</h5>
-<ul>
-  {% for fotografo in site.data.fotografias %}
-  <li>
-    {% if fotografo.url %}
-      <a href="{{fotografo.url}}">{{fotografo.nombre}}</a>
-    {% else %}
-      {{fotografia.nombre}}
-    {% endif%}
-  </li>
-  {% endfor %}
-</ul>
+<div class="row">
+  <div class="col-sm-4 col-xs-12" >
+  <h5>CREATIVE COMMONS</h5>
+  <ul>
+    {% for fotografo in site.data.fotografias limit:14%}
+    <li>
+      {% if fotografo.url %}
+        <a href="{{fotografo.url}}">{{fotografo.nombre}}</a>
+      {% else %}
+        {{fotografia.nombre}}
+      {% endif%}
+    </li>
+    {% endfor %}
+  </ul>
+  </div>
+  <div class="col-sm-4 col-xs-12" >
+  <h5>&nbsp;</h5>
+  <ul>
+    {% for fotografo in site.data.fotografias limit:14 offset:14 %}
+    <li>
+      {% if fotografo.url %}
+        <a href="{{fotografo.url}}">{{fotografo.nombre}}</a>
+      {% else %}
+        {{fotografia.nombre}}
+      {% endif%}
+    </li>
+    {% endfor %}
+  </ul>
+  </div>
+  <div class="col-sm-4 col-xs-12" >
+  <h5>&nbsp;</h5>
+  <ul>
+    {% for fotografo in site.data.fotografias offset:28%}
+    <li>
+      {% if fotografo.url %}
+        <a href="{{fotografo.url}}">{{fotografo.nombre}}</a>
+      {% else %}
+        {{fotografia.nombre}}
+      {% endif%}
+    </li>
+    {% endfor %}
+  </ul>
+  </div>
 </div>

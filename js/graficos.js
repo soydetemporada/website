@@ -134,7 +134,7 @@ function graficaImportExport(container, path) {
       .append("text")
       .text("Importación")
       .attr("transform", function() {
-        return "translate(" + (xx(data[11].Mes)) + "," + 0 + ")";
+        return "translate(" + (xx(data[11].Mes)) + "," + 18 + ")";
       })
       .classed("textImport", true)
       .style("text-anchor", "end" );
@@ -176,7 +176,7 @@ function graficaImportExport(container, path) {
       .append("text")
       .text("Exportación")
       .attr("transform", function() {
-        return "translate(" + (xx(data[11].Mes)) + "," + 18 + ")";
+        return "translate(" + (xx(data[11].Mes)) + "," + 0 + ")";
       })
       .classed("textExport", true)
       .style("text-anchor", "end" );

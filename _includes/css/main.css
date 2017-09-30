@@ -323,8 +323,11 @@ footer .footer-above {
   padding-top: 50px;
   background-color: #{{site.color.primary}};
 }
+.footer-col img{
+  display: inline-block;
+}
 footer .footer-col {
-  margin-bottom: 50px;
+  margin-bottom: 1em;
 }
 footer .footer-below {
   padding: 25px 0;
@@ -442,11 +445,16 @@ footer .footer-below {
 .section-label h3 {
   font-size: 20px;
 }
-
+.peticion{
+  margin: 1em;
+  background: #{{site.color.primary}};
+  padding: 1em;
+  border-radius: 6px;
+}
 .fuente{
   font-size: 70%;
   float:right;
-  margin-top: 0.5em;  
+  margin-top: 0.5em;
 }
 
 .id, .temporada {
@@ -558,6 +566,47 @@ div.grafica-barras{
     vertical-align: top;
     padding:0px;
 }
+.axis { font: 14px sans-serif; }
+
+.line {
+  fill: none;
+
+  stroke-width: 2px;
+}
+.line.export{
+    stroke: #617D1A;
+}
+.line.import{
+        stroke: #C25C30;
+}
+.dotImport{
+    fill:#FAFAFA;
+    stroke:#C25C30
+}
+.textImport{
+    fill: #C25C30;
+    font-weight: bold;
+}
+
+.dotExport{
+    fill:#FAFAFA;
+    stroke:#617D1A
+}
+.textExport{
+    fill: #617D1A;
+    font-weight: bold;
+}
+.d3-tooltip{
+    display: none;
+    background-color:#333;
+    color:white;
+    position:absolute;
+
+    z-index: 1000;
+    padding:5px;
+    border-radius: 4px;
+
+}
 
 @media(min-width:768px) {
   header .container {
@@ -625,6 +674,9 @@ div.grafica-barras{
   #product-page ul.month-filter{
     padding: 0 0 0 1em;
   }
+  footer .footer-col .pull-right{
+    float: none !important;
+  }
 }
 @media(max-width:768px) {
   .mobile {
@@ -633,46 +685,4 @@ div.grafica-barras{
   .desktop {
     display: none;
   }
-}
-
-.axis { font: 14px sans-serif; }
-
-.line {
-  fill: none;
-
-  stroke-width: 2px;
-}
-.line.export{
-    stroke: #617D1A;
-}
-.line.import{
-        stroke: #C25C30;
-}
-.dotImport{
-    fill:#FAFAFA;
-    stroke:#C25C30
-}
-.textImport{
-    fill: #C25C30;
-    font-weight: bold;
-}
-
-.dotExport{
-    fill:#FAFAFA;
-    stroke:#617D1A
-}
-.textExport{
-    fill: #617D1A;
-    font-weight: bold;
-}
-.d3-tooltip{
-    display: none;
-    background-color:#333;
-    color:white;
-    position:absolute;
-
-    z-index: 1000;
-    padding:5px;
-    border-radius: 4px;
-
 }
