@@ -1,5 +1,5 @@
 ---
-title: Contácto
+title: Contacto
 layout: page
 css-id: contacto
 cabezote: /img/investigacion-cabezote.jpg
