@@ -7,6 +7,16 @@
     <meta name="keywords" content="{{ site.keywords }}" />
     {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
 
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101255297-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', 'UA-101255297-2');
+    </script>
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@medialab">
     <meta name="twitter:creator" content="@florafosset">
