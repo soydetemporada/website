@@ -12,7 +12,8 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 p.small {
