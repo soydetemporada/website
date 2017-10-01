@@ -1,10 +1,10 @@
 ---
-title: el recorrido del tomate
+title:
 layout: page
 css-id: investigacion
 cabezote: /img/investigacion-cabezote.jpg
 ---
-# “Vamos a hacer una agricultura familiar. Vamos a vivir dignamente”
+## “Vamos a hacer una agricultura familiar. Vamos a vivir dignamente”
 <br>
 Hablar con Antonio es como escuchar una voz del futuro –tampoco muy lejano, echémosle unos veinte o treinta años-, que hubiera vuelto para recordar una incómoda lección: “estábamos advertidos, pero no hicimos nada”. Lleva diez años dedicándose, entre otras cosas, al cultivo ecológico de tomates, calabacines y judías en la Alpujarra Granadina, mientras ve cómo esta tierra, “hecha gracias a la mano del hombre y a la riquísima herencia recibida de los moriscos”, se marchita. Especialmente desde que se declaró el Parque nacional de Sierra Nevada, en 1999, cuando la agricultura intensiva de tomates cherry o calabacines empezó a sustituir, progresivamente, a sus castaños centenarios y a empobrecer el agua de los manantiales.
 
