@@ -158,6 +158,7 @@ section.success {
   max-width: 400px;
   text-align: center;
   font-weight: bold;
+  text-decoration: none;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   position: absolute;

@@ -5,7 +5,7 @@ Notas web
 - [x] el favicon no aparece en cada página
 
 Buscador
-- [ ] quitar underlink en el nombre de los productos
+- [x] quitar underlink en el nombre de los productos
 - [ ] cambiar el estilo de los productos casi fuera de temporada
 - [ ] pensar en un nuevo hover productos
 - [ ] cambiar el color del hover del botón contacto
