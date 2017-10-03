@@ -30,7 +30,13 @@
     <meta property="og:image" content="{{site.url}}/img/verduras-rrss.jpg" />
     <meta property="og:description" content="{{site.description}} {{site.url}}">
 
-    <link rel="icon" type="image/png" href="{{site.url}}/img/products/cereza.png" />
+    <link rel="icon" type="image/png" href="{{site.url}}/img/icons/favicon-16.png" />
+    <!-- Alternative way -->
+    <!--link rel="icon" sizes="16x16 32x32 48x48 64x64 128x128" type="image/svg+xml" href="{{site.url}}/img/icons/favicon.svg"-->
+    {% assign icons = "16,32,48,64,128" | split: ','%}
+    {% for icon in icons %}
+    <link rel="icon" sizes="{{icon}}x{{icon}}" type="image/png" href="{{site.url}}/img/icons/favicon-{{icon}}.png">
+    {% endfor %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
 
