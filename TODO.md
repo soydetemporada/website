@@ -13,8 +13,10 @@ Buscador
 
 Detalle
 - [ ] terminar descripciones de productos
-- [ ] quitar contacto en cada detalle
+- [ ] quitar contacto al final de la página
 - [ ] ¿añadir precio medio en temporada?
+- [ ] Maíz: el calendario está todo el gris
+- [ ] Quitar el hover en el calendario (inutil porque no es un boton)
 
 Investigación
 - [x] arreglar mayúsculas
