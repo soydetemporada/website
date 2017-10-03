@@ -2,7 +2,7 @@
 Notas web
 - [x] Google analytics
 - [ ] crear icono para cuando el link se guarda en el escritorio
-- [ ] el favicon no aparece en cada página
+- [x] el favicon no aparece en cada página
 
 Buscador
 - [ ] quitar underlink en el nombre de los productos
