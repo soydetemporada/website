@@ -23,6 +23,7 @@ Detalle
 - [ ] ¿añadir precio medio en temporada?
 - [ ] Recetas??
 - [ ] Actualizaciones de calendario, agregar geolocalización, mapa por cluster de provincias.
+- [ ] Añadir indicador de precio
 
 Investigación
 - [x] arreglar mayúsculas
