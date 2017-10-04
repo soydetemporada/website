@@ -15,17 +15,17 @@ Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base 
 
 ### Ayúdanos a hacer escuchar nuestro mensaje y compártelo en las redes sociales
 <div class="peticion">
-  @mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, por favor revisad vuestro calendario. <a href="https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, por favor revisad vuestro calendario." | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+  @mapamagob @mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 
 <div class="peticion">
-  Según el calendario de @mapamagob, el mejor momento para comer calabacín y berenjena es pleno invierno. ¡Pues esto hay que corregirlo! <a href="https://twitter.com/intent/tweet?text={{"Según el calendario de @mapamagob, el mejor momento para comer calabacín y berenjena es pleno invierno. ¡Pues esto hay que corregirlo!" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+  Según el calendario de @mapamagob el mejor momento para comer calabacín es pleno invierno. Esto hay que corregirlo!  http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"Según el calendario de @mapamagob el mejor momento para comer calabacín es pleno invierno. Esto hay que corregirlo!  http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 
 <div class="peticion">
-  @mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. Revisad vuestro calendario #visualizar17 <a href="https://twitter.com/intent/tweet?text={{"@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. Revisad vuestro calendario #visualizar17" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+  @mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. http://soydetemporada.es/ #visualizar17  <a href="https://twitter.com/intent/tweet?text={{"@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. http://soydetemporada.es/ #visualizar17 " | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 
 <div class="peticion">
-  @mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos #visualizar17 @datalabx <a href="https://twitter.com/intent/tweet?text={{"@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos #visualizar17 @datalabx" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+  @mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
