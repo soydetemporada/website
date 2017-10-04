@@ -1,5 +1,5 @@
 ---
-title: para calendarios fiables
+title: para tener calendarios fiables
 layout: page
 css-id: peticion
 cabezote: /img/peticion-cabezote.jpg
@@ -14,8 +14,17 @@ Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base 
 **Pedimos al MAPAMA que rectifique el calendario de su portal indicando la disponibilidad de los alimentos según su ciclo natural, o en su defecto que lo retire de la web ya que sigue llevando a confusión a millones de personas.**
 
 ### Ayúdanos a hacer escuchar nuestro mensaje y compártelo en las redes sociales
+
 <div class="peticion">
-  @mapamagob @mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+  @mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. http://soydetemporada.es/ #visualizar17  <a href="https://twitter.com/intent/tweet?text={{"@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. http://soydetemporada.es/ #visualizar17 " | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+</div>
+
+<div class="peticion">
+  @mapamagob Quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+</div>
+
+<div class="peticion">
+La mejor forma de proteger nuestra agricultura es diciendo la verdad. @mapamagob por favor revisen su calendario de temporada. #visualizar17 <a href="https://twitter.com/intent/tweet?text={{"La mejor forma de proteger nuestra agricultura es diciendo la verdad. @mapamagob por favor revisen su calendario de temporada. #visualizar17" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 
 <div class="peticion">
@@ -23,9 +32,5 @@ Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base 
 </div>
 
 <div class="peticion">
-  @mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. http://soydetemporada.es/ #visualizar17  <a href="https://twitter.com/intent/tweet?text={{"@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. http://soydetemporada.es/ #visualizar17 " | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
-</div>
-
-<div class="peticion">
-  @mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+  @mapamagob Hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
