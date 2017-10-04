@@ -1,11 +1,10 @@
 ---
-title:
+title: “Vamos a hacer una agricultura familiar. Vamos a vivir dignamente”
 layout: page
 css-id: investigacion
 cabezote: /img/investigacion-cabezote.jpg
 ---
-## “Vamos a hacer una agricultura familiar. Vamos a vivir dignamente”
-<br>
+
 Hablar con Antonio es como escuchar una voz del futuro –tampoco muy lejano, echémosle unos veinte o treinta años-, que hubiera vuelto para recordar una incómoda lección: “estábamos advertidos, pero no hicimos nada”. Lleva diez años dedicándose, entre otras cosas, al cultivo ecológico de tomates, calabacines y judías en la Alpujarra Granadina, mientras ve cómo esta tierra, “hecha gracias a la mano del hombre y a la riquísima herencia recibida de los moriscos”, se marchita. Especialmente desde que se declaró el Parque nacional de Sierra Nevada, en 1999, cuando la agricultura intensiva de tomates cherry o calabacines empezó a sustituir, progresivamente, a sus castaños centenarios y a empobrecer el agua de los manantiales.
 
 *"Lo que menos importa son las consecuencias. En veinte años nadie va a conocer la Alpujarra tal y como es hoy en día y, además, beberemos un agua mucho peor"*. Para Antonio, los principales responsables de esta situación son quienes gestionan el espacio natural y la Junta de Andalucía, que es quien controla el Parque; y considera que la solución debería pasar por dejar de apoyar un modelo de producción intensiva, como el que se desarrolla en el llamado Mar de Plástico, en el Poniente Almeriense.
