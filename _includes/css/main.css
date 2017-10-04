@@ -158,6 +158,7 @@ section.success {
   max-width: 400px;
   text-align: center;
   font-weight: bold;
+  text-decoration: none;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   position: absolute;
@@ -218,11 +219,16 @@ section.success {
 }
 #product-page .month-filter li{
   border: 1px #{{site.color.primary}} solid;
+  cursor: default;
 }
 
 #product-page .month:hover{
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 300;
+}
+#product-page .month-filter .active:hover{
+  font-weight: bold;
+  text-decoration: underline;
 }
 #product-page .row >div {
     margin: 2em 0;
