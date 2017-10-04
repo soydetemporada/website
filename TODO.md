@@ -35,4 +35,4 @@ Contacto
 - [x] corregir contácto
 
 Petición
-- [ ] Trabajar los tweets
+- [x] Trabajar los tweets
