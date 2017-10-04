@@ -14,11 +14,15 @@ Buscador
 
 Detalle
 - [x] Maíz: el calendario está todo el gris. **El problema era que en los archivos figura como Maíz dulce, no como maíz**
+- [ ] Similar problema para la COL? No funciona calendario.
 - [x] Quitar el hover en el calendario (inutil porque no es un boton)
 - [ ] terminar descripciones de productos
+- [ ] Productos sin datos:nabo import,champinon import,remolacha import,cardo import,coliflor import,caqui produccion,mora produccion
 - [ ] quitar contacto al final de la página
 ¿Sólo contacto o la parte de colabora también?
 - [ ] ¿añadir precio medio en temporada?
+- [ ] Recetas??
+- [ ] Actualizaciones de calendario, agregar geolocalización, mapa por cluster de provincias.
 
 Investigación
 - [x] arreglar mayúsculas
