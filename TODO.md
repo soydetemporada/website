@@ -29,6 +29,7 @@ Detalle
 Investigación
 - [ ] trabajar texto
 - [ ] añadir gráficos
+- [x] arreglar gráfico de tableau 
 - [x] añadir fotos
 - [x] arreglar mayúsculas
 
