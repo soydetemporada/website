@@ -31,7 +31,7 @@ Muestra de ello es que, en el Estado español, el 76% de estas ayudas se han con
 
 <div class="row">
   <div class="col-sm-12 col-xs-12">
-    <img class="img-responsive img-centered" src="{{site.url}}/img/empresas.beneficiarias">
+    <img class="img-responsive img-centered" src="{{site.url}}/img/empresas-beneficiarias.jpg">
   </div>
 </div>
 
