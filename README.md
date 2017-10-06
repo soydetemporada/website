@@ -1,4 +1,4 @@
-##### [See in english below](#the-journey-of-food-to-your-pantry)
+[See in english below](#the-journey-of-food-to-your-pantry)
 
 
 # Soy de temporada
@@ -76,9 +76,9 @@ Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un cale
 - **[Data Cuisine](http://data-cuisine.net/)**
 
 ## Equipo
-- [Diego Andrés Ramírez Aragon](https://twitter.com/lowfill/)
 - [Flora Fosset](https://twitter.com/florafosset/)
 - [Jimena García](https://twitter.com/_JimmyJazzzz)
+- [Diego Andrés Ramírez Aragon](https://twitter.com/lowfill/)
 - [Pau Valiente](https://twitter.com/paucc/)
 - [Raimundo Abril](https://twitter.com/Raiskv/)
 
