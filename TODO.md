@@ -1,7 +1,7 @@
 
 Notas web
 - [ ] Agregar política de cookies por el uso de Google Analytics
-- [ ] Copiar el repo al github de medialab-prado
+- [ ] Copiar el repo al github de medialab-prado. **Intenté hacer push al repositorio de Medialab, pero no tengo permisos**
 - [x] Google analytics
 - [x] el favicon no aparece en cada página
 - [x] crear icono para cuando el link se guarda en el escritorio. ** Se creó la carpeta img/icons con las distintas resoluciones. En head.html en cometario está una versión alternativa si se tiene un svg **
@@ -29,7 +29,7 @@ Detalle
 Investigación
 - [ ] trabajar texto
 - [ ] añadir gráficos
-- [x] arreglar gráfico de tableau 
+- [x] arreglar gráfico de tableau
 - [x] añadir fotos
 - [x] arreglar mayúsculas
 
