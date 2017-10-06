@@ -1,7 +1,7 @@
 
 Notas web
-- [ ] Agregar política de cookies por el uso de Google Analytics
 - [ ] Copiar el repo al github de medialab-prado. **Intenté hacer push al repositorio de Medialab, pero no tengo permisos**
+- [x] Agregar política de cookies por el uso de Google Analytics
 - [x] Google analytics
 - [x] el favicon no aparece en cada página
 - [x] crear icono para cuando el link se guarda en el escritorio. ** Se creó la carpeta img/icons con las distintas resoluciones. En head.html en cometario está una versión alternativa si se tiene un svg **
@@ -10,7 +10,7 @@ Notas web
 Buscador
 - [ ] cambiar el estilo de los productos casi fuera de temporada. ¿Qué ideas tenemos con respecto a esto?
 - [ ] pensar en un nuevo hover productos
-- [x] cambiar el color del hover del botón contacto
+- [ ] cambiar el color del hover del botón contacto
 - [x] quitar underlink en el nombre de los productos
 
 
