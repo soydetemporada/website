@@ -467,9 +467,8 @@ footer .footer-below {
   display: none;
 }
 .icon-temporada{
-  /*float: left;*/
   position: static;
-  color: #589A0D
+  color: #CA7947
 }
 .en-temporada {}
 .inicio-temporada img, .fin-temporada img {
