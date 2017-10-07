@@ -19,6 +19,7 @@ Con este proyecto, queremos aportar una herramienta para apoyar el consumo respo
 Para elaborar el calendario, hemos contactado con personas del mundo agrícola para que nos comuniquen las temporadas de los productos en su zona. Hemos hablado con agricultores, grupos de consumo, observatorios agroalimentarios y consejos de producción ecológica. Para ganar tiempo, hemos recolectado los datos a través de una encuesta online.
 
 Por ahora han participado a la encuesta más de 15 personas y organismos de varias comunidades autónomas: Andalucía, Asturias, Extremadura, Madrid, Murcia, Navarra y País Vasco. El formulario sigue accesible [aquí](https://goo.gl/forms/TQiNrQp6pvbUiLWI2) y se agradece la colaboración de cualquier persona que tenga conocimientos sobre el ciclo natural de las plantas. Se hizo una media de todos los resultados para crear un sólo calendario que junte información de todas las zonas.
+
 <br>
 <div class="row">
   <div class="col-sm-12 col-xs-12">
