@@ -24,13 +24,13 @@ Desde la última reforma de la PAC, en 2003, el sistema de ayudas se ha desacopl
 <br>
 
 Diego Juste, jefe de prensa de la Unión de Pequeños Agrarios y Ganaderos (UPA), comenta que, tras la última reforma de la PAC, se han conseguido algunos avances puesto que, desde entonces, se exige que las ayudas se destinen a los agricultores activos (antes, no era un requisito trabajar las tierras que se poseyeran). Pero desde UPA señalan que se debe ir más allá: “Se debería tener en cuenta, por ejemplo, cuánto empleo genera la explotación, si apuesta por la producción agroecológica, o si se trata de una agricultura familiar”. Para este último modelo de producción, el Parlamento Europeo cifra unas ayudas anuales de 500 a un máximo 1.500 euros anuales, frente a los 916.000 euros de media que perciben los máximos beneficiarios.
-
+<br>
 <div class="row">
   <div class="col-sm-12 col-xs-12">
   <img class="img-responsive img-centered" src="{{site.url}}/img/empresas-beneficiarias.jpg">
 </div>
 </div>
-
+<br>
 Además de estas desigualdades, los pequeños y medianos agricultores también tienen que afrontar otras tantas dificultades a las que, en ocasiones, no pueden hacer frente económicamente. España es el país europeo con más siniestralidad por factores climatológicos de Europa, con la consecuente devastación que supone para los cultivos, pero muchos pequeños y medianos agricultores no pueden permitirse un seguro agrario contra estos accidentes. “El seguro agrario no les compensa a muchos agricultores porque es muy caro. La mala situación de los precios hace que no les salga rentable y, además, van a peor, por no hablar del impacto del cambio climático.”, señala Juste. Este año, el Ministerio de Agricultura ha establecido recortes del 10% en las subvenciones a estos seguros.
 
 Para quienes apuestan por la agricultura ecológica como Antonio, además de todos estos factores se les añade, también, el gasto de la certificación. “Fíjate a dónde llega el punto en que se riza el rizo, que tú por hacer agricultura ecológica tienes que pagar una cuota que son 300 y pico euros al año, mientras que la convencional no paga nada”.
@@ -38,6 +38,14 @@ Para quienes apuestan por la agricultura ecológica como Antonio, además de tod
 ### “El mercado es muy cabrón”
 
 Ante este panorama, ¿qué solución cabría esperar? Para Antonio, la primera demanda debería ser establecer precios más justos y estables contra la imprevisibilidad constante en la que vive el campo. “El mercado es muy cabrón. Cuando no hay una cosa, vale un montón y luego, cuando hay, no vale nada”. Pone como ejemplo el caso de los calabacines, ahora muy escasos en Europa, que empezaron a venderse a 30 céntimos y llegaron a dispararse hasta 2,10 euros en el mercado convencional. “Una de las cosas más graves que tiene la agricultura es la incertidumbre con el tema de los precios. Tú sabes lo que vale un saco de insecticida, de amoniaco, el agua…, todo eso tiene un precio. Pero tú luego no tienes ni idea de lo que va a valer tu producto cuando ya lo has producido”.
+
+<br>
+<div class="row">
+  <div class="col-sm-12 col-xs-12">
+  <img class="img-responsive img-centered" src="{{site.url}}/img/cita-antonio.jpg">
+</div>
+</div>
+<br>
 
 Sin embargo, la agricultura ecológica no experimenta estos mismos incrementos. “El calabacín ecológico estaba a 70 céntimos y se mantiene entre los 70 u 80 céntimos. A veces sube hasta el eurito, casi como de limosna”. Y añade: “Es un problema para el agricultor, porque tú el ecológico lo puedes vender en el convencional. Tienes al almacén diciéndote “échame unos calabacines a 2 euros”, y tú dices “el ecológico lo están pagando a 1,20 euros”. ¿Qué hago? Pasa el tren y está en espera, y encima no te puedes ni montar. Porque, ¿qué haces? ¿Desabasteces al mercado ecológico?”.
 
