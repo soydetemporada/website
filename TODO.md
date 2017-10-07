@@ -38,3 +38,4 @@ Contacto
 
 Petición
 - [x] Trabajar los tweets
+- [x] Arreglar petición a mapama

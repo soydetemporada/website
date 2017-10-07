@@ -10,13 +10,12 @@ Este proyecto nace de una observación singular : decenas de calendarios de frut
 Nuestro equipo se ha puesto a investigar para intentar entender el origen de estos errores. Una posible razón sería que los calendarios incorrectos se elaboraron en base al calendario oficial del Ministerio de Agricultura y Pesca, Alimentación y Medio Ambiente (MAPAMA). <a href="http://www.alimentacion.es/es/campanas/frutas/frutas_verduras_temporada/" target="_blank"> Este calendario</a> se elaboró en el marco de una gran campaña de alimentación saludable en 2008 y está lleno de inexactitudes.
 
 Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base de datos usada en la elaboración de este calendario. Nos dijeron de contactar con las Cooperativas Agrarias, que elaboraron el calendario en su tiempo. Ninguno de los dos organismos pudo explicar el origen de los errores y no mostraron voluntad de rectificar el calendario.
-<br>
+
 <div class="row">
-  <div class="col-sm-12 col-xs-12">
-  <img class="img-responsive img-centered" src="{{site.url}}/img/mapama.jpg">
+  <div class="col-sm-12 col-xs-12 highlight">
+    Pedimos al MAPAMA que rectifique el calendario de su portal indicando la disponibilidad de los alimentos según su ciclo natural, o en su defecto que lo retire de la web ya que sigue llevando a confusión a millones de personas.
+  </div>
 </div>
-</div>
-<br>
 
 ### Ayúdanos a hacer escuchar nuestro mensaje
 
@@ -25,7 +24,7 @@ Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base 
 </div>
 
 <div class="peticion">
-  @mapamagob Quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+  @mapamagob Quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob Quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 
 <div class="peticion">
