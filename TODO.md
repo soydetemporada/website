@@ -15,7 +15,7 @@ Buscador
 
 
 Detalle
-
+- [ ] Añadir más interlineado en los textos de descripción (quedan un poco apretados)
 - [ ] Productos sin datos:nabo import,champinon import,remolacha import,cardo import,coliflor import,caqui produccion,mora produccion
 - [ ] ¿Recetas?
 - [ ] Actualizaciones de calendario, agregar geolocalización, mapa por cluster de provincias.
