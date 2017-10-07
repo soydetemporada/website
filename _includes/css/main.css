@@ -467,7 +467,8 @@ footer .footer-below {
   display: none;
 }
 .icon-temporada{
-  float: right;
+  /*float: left;*/
+  position: static;
   color: #589A0D
 }
 .en-temporada {}
