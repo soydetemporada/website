@@ -41,11 +41,11 @@
         <!--<a href="#portfolioModal-{{ forloop.index }}" class="portfolio-link" data-toggle="modal">-->
         <a href="{{ product.url | prepend: site.url }}" class="portfolio-link" data-toggle="modal">
           <div class="caption">
-            <div class="caption-content">
+            <i class="fa icon-temporada"></i> <div class="caption-content">
             </div>
           </div>
           <img src="img/products/{{ product.img }}" class="img-responsive" alt="{{ product.alt }}">
-          <i class="fa icon-temporada"></i> {{product.title}}
+          {{product.title}}
         </a>
 
         <span class="id">{{forloop.index}}</span>
