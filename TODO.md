@@ -8,9 +8,9 @@ Notas web
 
 
 Buscador
-- [ ] cambiar el estilo de los productos casi fuera de temporada. ¿Qué ideas tenemos con respecto a esto?
 - [ ] pensar en un nuevo hover productos
 - [ ] cambiar el color del hover del botón contacto
+- [x] cambiar el estilo de los productos casi fuera de temporada
 - [x] quitar underlink en el nombre de los productos
 
 
@@ -27,8 +27,8 @@ Detalle
 - [x] Quitar el hover en el calendario (inutil porque no es un boton)
 
 Investigación
-- [ ] trabajar texto
-- [ ] añadir gráficos
+- [x] trabajar texto
+- [x] añadir gráficos
 - [x] arreglar gráfico de tableau
 - [x] añadir fotos
 - [x] arreglar mayúsculas
