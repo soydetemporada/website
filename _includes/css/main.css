@@ -468,16 +468,12 @@ footer .footer-below {
 }
 .icon-temporada{
   float: right;
-  color: #ffea00
+  color: #417505
 }
 .en-temporada {}
 .inicio-temporada img, .fin-temporada img {
-  filter: gray;
-  /* IE6-9 */
-  -webkit-filter: grayscale(0.75);
-  /* Google Chrome, Safari 6+ & Opera 15+ */
-  filter: grayscale(0.75);
-  /* Microsoft Edge and Firefox 35+ */
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 .fuera-temporada img {
   /*color: red;*/
