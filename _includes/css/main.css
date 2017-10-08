@@ -700,12 +700,9 @@ div.grafica-barras{
     padding: 2em;
   }
   .inicio-temporada .icon-temporada{
-    position:absolute;
     margin-top: 5px;
   }
-  .inicio-temporada .product-title{
-    float:left;
-  }
+
 
 }
 @media(max-width:768px) {
