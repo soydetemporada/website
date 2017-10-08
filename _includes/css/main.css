@@ -493,6 +493,10 @@ footer .footer-below {
   padding: 1em;
   border-radius: 6px;*/
 }
+#peticion .row {
+  margin-right: 0;
+  margin-left: 0;
+}
 .fuente{
   font-size: 70%;
   float:right;
