@@ -716,6 +716,7 @@ div.grafica-barras{
 @media(max-width:768px) {
   .mobile {
     display: block;
+    padding: inherit !important;
   }
   .desktop {
     display: none;
