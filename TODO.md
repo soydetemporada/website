@@ -37,5 +37,6 @@ Contacto
 - [x] corregir contácto
 
 Petición
+- [ ] Transformar los divs de cada tweet en un enlace
 - [x] Trabajar los tweets
 - [x] Arreglar petición a mapama

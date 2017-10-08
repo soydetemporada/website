@@ -55,14 +55,22 @@ Ante este panorama, ¿qué solución cabría esperar? Para Antonio, la primera d
 </div>
 <br>
 
-Sin embargo, la agricultura ecológica no experimenta estos mismos incrementos. “El calabacín ecológico estaba a 0,70 € y se mantiene entre los 0,70 u 0,80 €. A veces sube hasta el eurito, casi como de limosna”. Y añade: “Es un problema para el agricultor, porque tú el ecológico lo puedes vender en el convencional. Tienes al almacén diciéndote “échame unos calabacines a 2 €, y tú dices “el ecológico lo están pagando a 1,20 €. ¿Qué hago? Pasa el tren y está en espera, y encima no te puedes ni montar. Porque, ¿qué haces? ¿Desabasteces al mercado ecológico?”.
+Sin embargo, la agricultura ecológica no experimenta estos mismos incrementos. “El calabacín ecológico estaba a 0,70 € y se mantiene entre los 0,70 u 0,80 €. A veces sube hasta el eurito, casi como de limosna”. Y añade: “Es un problema para el agricultor, porque tú el ecológico lo puedes vender en el convencional. Tienes al almacén diciéndote *“échame unos calabacines a 2 €*, y tú dices *el ecológico lo están pagando a 1,20 €*". ¿Qué hago? Pasa el tren y está en espera, y encima no te puedes ni montar. Porque, ¿qué haces? ¿Desabasteces al mercado ecológico?”.
 
 ### El vínculo con Marruecos
 
 Encima, el rizo se puede enredar aún más cuando entran en juego los flujos de importaciones y exportaciones. El acuerdo agrícola entre Marruecos y la Unión Europea, con especial incidencia en el mercado agro español, es un ejemplo de ello hasta alcanzar límites que rozan lo insultante. Antonio lo resume así: "Siempre está el mismo rollo, cuando no te justifican el bajo precio de tus productos te dicen "es que ha entrado un barco de Marruecos y ya no valen las habichuelas", y el mercado se va a pique en un pis pas". La gravedad de este asunto no se limita a las consecuencias económicas que sufren los agricultores españoles —teniendo en cuenta, además, que la producción marroquí está regulada en diferentes condiciones—, sino que, como dice Antonio “los que están cultivando en Marruecos son los mismos perros con distinto collar. Y cuando el río suena, agua o piedras lleva”.
 
 Según publica el diario [Público](http://www.publico.es/actualidad/empresarios-espanoles-controlan-16-del.html), empresarios españoles controlan el 16,6% del tomate que se exporta desde Marruecos, a pesar de que la Federación Española de Productores Exportadores de Frutas y Hortalizas (FEPEX) considera perjudicial para los intereses españoles el acuerdo entre ambos países.
-Diego Juste, desde UPA, denuncia que “los agricultores han sido utilizados como moneda de cambio para conseguir el apoyo marroquí en determinadas políticas estratégicas, como en temas de seguridad o terrorismo. Sabemos que tres familias de la oligarquía marroquí, incluido el propio Ministro de Agricultura, controlan las políticas agrícolas. También sabemos que han comprado participaciones en el puerto de Perpiñán, y estamos convencidos de que hacen lo que quieren”. Hay un capítulo del Corán (2:11-12) que recoge: “Cuando se les dice: «no corrompáis las cosas en la Tierra», responden: «pero si sólo las hacemos mejores». ¿Acaso no son los corruptores, aunque no se den cuenta?”.
+Diego Juste, desde UPA, denuncia que “los agricultores han sido utilizados como moneda de cambio para conseguir el apoyo marroquí en determinadas políticas estratégicas, como en temas de seguridad o terrorismo. Sabemos que tres familias de la oligarquía marroquí, incluido el propio Ministro de Agricultura, controlan las políticas agrícolas. También sabemos que han comprado participaciones en el puerto de Perpiñán, y estamos convencidos de que hacen lo que quieren. Hay un capítulo del Corán (2:11-12) que recoge: *"Cuando se les dice: «no corrompáis las cosas en la Tierra"*, responden: *"pero si sólo las hacemos mejores». ¿Acaso no son los corruptores, aunque no se den cuenta?"*."
+
+<br>
+<div class="row">
+  <div class="col-sm-12 col-xs-12">
+  <img class="img-responsive img-centered" src="{{site.url}}/img/importacion.jpg">
+</div>
+</div>
+<br>
 
 Quizá aún estemos a tiempo de hacer que aquella voz del futuro no tenga que volver para reprendernos. Es muy posible que llegue el momento en que nos arrepentiremos de haber maltratado de tantas maneras al origen mismo de nuestras vidas. Pero lo que es seguro es que todavía tenemos la oportunidad de frenar este modelo de consumo tan viciado, empezando por volver a respetar la Tierra y las manos que la trabajan para darnos de comer.  
 
