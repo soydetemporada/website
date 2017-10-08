@@ -520,7 +520,7 @@ footer .footer-below {
 }
 .month-filter li{
   float: left;
-  padding: 1em;
+  padding: 0.6em;
   cursor:pointer;
   min-width: 8%;
   text-align: center;
@@ -528,8 +528,10 @@ footer .footer-below {
 .month-filter>div {
 }
 .month-filter .month:hover, .month-filter .active {
-  text-decoration: underline;
-  font-weight: bold;
+    color: white;
+    background-color: #CA7947;
+    padding: 10px;
+    border-radius: 4px;
 }
 .product-filter {
   margin-bottom: 2em;
