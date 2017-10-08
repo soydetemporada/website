@@ -447,6 +447,7 @@ footer .footer-below {
 }
 .panel-body{
   padding-top: 0.5em;
+  line-height: 1.6em;
 }
 .section-label {
   border-bottom: 1px solid;
