@@ -241,6 +241,11 @@ section.success {
 #product-page h3{
   text-transform: none;
 }
+
+#acerca h3{
+  margin-top: 1.5em;
+}
+
 #contact{
   background: #{{ site.color.primary }};
   border-bottom: 1px #c0c0c0 solid;
