@@ -117,6 +117,7 @@ header .intro-text .skills {
 .navbar-inverse .navbar-nav>li>a {
   color: #{{ site.color.primary-complement }};
   text-decoration:none;
+  padding: 10px 15px;
 }
 .navbar a:focus {
   outline: 0;
@@ -428,7 +429,6 @@ footer .footer-below {
 .navbar-nav>.active>a {
   background-color: #{{ site.color.highlight }} !important;
   border-radius: 6px;
-  padding: 10px 15px;
 }
 
 /* Fix modal mouse wheel issues */
