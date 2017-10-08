@@ -8,6 +8,7 @@ Notas web
 
 
 Buscador
+- [ ] (para más adelante) añadir una zona "Sabías que..." con información que va cambiando
 - [x] cambiar el color del hover del botón contacto
 - [x] cambiar el estilo de los productos casi fuera de temporada
 - [x] quitar underlink en el nombre de los productos
@@ -17,10 +18,11 @@ Detalle
 - [ ] Añadir "Sin información" en los gráficos de los productos que no tienen datos
 - [ ] Darle más padding a los títulos de cajas (descripción, tiempo de cultivo, etc.)
 - [ ] Tomate: añadir posibilidad de compartir el tweet "en que hemisferio vivis"
+- [ ] Coles de Bruselas: título demasiado largo en la versión móbil, **¿se puede encontrar una solución?**
 - [ ] Productos sin datos:nabo import,champinon import,remolacha import,cardo import,coliflor import,caqui produccion,mora produccion
-- [ ] ¿Recetas?
-- [ ] Actualizaciones de calendario, agregar geolocalización, mapa por cluster de provincias.
-- [ ] Añadir indicador de precio
+- [ ] (más adelante) ¿Recetas?
+- [ ] (más adelante) Actualizaciones de calendario, agregar geolocalización, mapa por cluster de provincias.
+- [ ] (más adelante) Añadir indicador de precio
 - [x] Añadir más interlineado en los textos de descripción
 - [X] terminar descripciones de productos
 - [x] quitar contacto y colabora al final de la página (solamente dejarlo en la página principal)
