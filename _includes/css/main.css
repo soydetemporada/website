@@ -445,7 +445,10 @@ footer .footer-below {
 .panel-default > .panel-heading{
   background: none;
   border: none;
-  padding-top: 1em;
+}
+
+.panel {
+  padding: 1.5em;
 }
 .panel-default > .panel-heading h3{
   font-weight: 400;
