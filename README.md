@@ -11,8 +11,9 @@
    * [Análisis de la situación](#análisis-de-la-situación)
    * [Los datos](#los-datos)
    * [La herramienta](#la-herramienta)
-* [Perfiles de colaboradores](#perfiles-de-colaboradores)
 * [Referencias](#referencias)
+* [Equipo](#equipo)
+* [Mentores](#mentores)
 
 ## El proyecto
 Desde hace décadas, los habitantes de centros urbanos se desconectaron del mundo agrícola y del ritmo natural de la tierra. Sea verano o invierno, sur o norte, hoy en día en Europa siempre hay fruta exótica en los estantes de supermercados. Hay dos maneras de tener todo tipo de fruta y verdura todo el año: **importando** o **cultivando en invernaderos climatizados**. Los dos métodos generan gases de efecto invernadero, destrozando cada vez más el medio ambiente.
@@ -43,24 +44,21 @@ Como faltan datos oficiales, tenemos que hablar con agricultores para saber cual
 El resultado final será una aplicación web interactiva adaptada especialmente a los dispositivos móviles, para permitir el acceso **rápido** y **fácil** en cualquier momento. Tendrá cuatro secciones principales:
 
 ##### 1. Buscador
-El usuario podrá buscar la información a través de un formulario con dos preguntas:
-- **Comunidad autónoma**
-- **Por mes** o **Por producto**
+El usuario tendrá un acceso directo a las frutas y verduras que están de temporada el mes actual. También podrá ver los productos que están en temporada tardía o temprana y los productos fuera de temporada.
 
 ##### 2. Investigación
 - **Cómo afecta la importación masiva a los agricultores**
 - **Las subvenciones europeas**
 - **El impacto sobre el medio ambiente**
 
-##### 3. Campaña
-El calendario oficial del Ministerio de Agricultura tiene varios datos erróneos. Entre otros, informan que el tomate y la berenjena son productos que se pueden consumir todo el año excepto durante los meses de verano. **Esto es una información falsa**.
-![tomate y berenjena](https://user-images.githubusercontent.com/22743273/29875652-f482c2f0-8d9a-11e7-9c4b-ff9e8b759dfc.jpg)
+##### 3. Petición
+El calendario oficial del Ministerio de Agricultura tiene varios datos erróneos. Para muestra, un botón:
+![calendario-mapama](https://user-images.githubusercontent.com/22743273/31318236-3e050050-ac4f-11e7-95f4-4051f52764ec.jpg)
 
-El calendario es de 2008, significa que hace casi 10 años que están ofreciendo datos falsos a la ciudadanía y siguen sin querer solucionar la situación. Hemos contactado con ellos para tener acceso a la base de datos usada en la elaboración del calendario pero han rechazado nuestra solicitud. Por eso queremos lanzar, al mismo momento que la herramienta, una campaña ciudadana en las redes sociales para presionar el Ministerio en actualizar este calendario.
+Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base de datos usada en la elaboración de este calendario. Nos dijeron de contactar con las Cooperativas Agrarias, que elaboraron el calendario en su tiempo. Ninguno de los dos organismos pudo explicar el origen de los errores y no mostraron voluntad de rectificar el calendario. A través de una campaña en las redes sociales, vamos a pedir al MAPAMA que rectifique el calendario de su portal indicando la disponibilidad de los alimentos según su ciclo natural, o en su defecto que lo retire de la web ya que sigue llevando a confusión a millones de personas.
 
 ##### 4. Recetas
-Estamos pensando en colaborar con algún blog de recetas con productos de temporada para proponer ideas culinarias al usuario.
-
+Esta sección se desarrollará más adelante. La idea es proponer recetas con los productos de temporada.
 
 #### Para rizar el rizo
 Como plus, nos gustaría poder informar al usuario de variaciones en el calendario por causas meteorológicas. Por ejemplo, cuando ha habido una temporada muy fría y se han retrasado los cultivos en una zona, o bien al contrario, cuando se haya adelantado la recogida de fruta y ya está disponible en los mercados.
@@ -69,7 +67,7 @@ Habrá que poder conseguir automáticamente la localización del usuario y así 
 
 También sería interesante que la aplicación funcione en offline cuando el usuario no tenga cobertura.
 
-Además, diseñaremos un estilo de CSS que permita al usuario imprimirse un calendario anual personalizado (zona y tipo de cultivo).
+Además, nos gustaría diseñar un estilo de CSS que permita al usuario imprimirse un calendario anual personalizado (zona y tipo de cultivo).
 
 ## Referencias
 - **[The Rythm of Food](http://rhythm-of-food.net/)**

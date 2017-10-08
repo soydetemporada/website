@@ -8,8 +8,7 @@ Notas web
 
 
 Buscador
-- [ ] pensar en un nuevo hover productos
-- [ ] cambiar el color del hover del botón contacto
+- [x] cambiar el color del hover del botón contacto
 - [x] cambiar el estilo de los productos casi fuera de temporada
 - [x] quitar underlink en el nombre de los productos
 
@@ -39,5 +38,6 @@ Contacto
 
 Petición
 - [ ] Transformar los divs de cada tweet en un enlace
+- [ ] Reducir el bloque naranja a 750px de ancho (ahora tiene 780px)
 - [x] Trabajar los tweets
 - [x] Arreglar petición a mapama
