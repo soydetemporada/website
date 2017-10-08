@@ -460,10 +460,19 @@ footer .footer-below {
   font-size: 20px;
 }
 .peticion{
-  margin: 1em;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #EAD8CC;
+  /*margin: 1em;
   background: #{{site.color.primary}};
   padding: 1em;
-  border-radius: 6px;
+  border-radius: 6px;*/
 }
 .fuente{
   font-size: 70%;
