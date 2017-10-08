@@ -253,6 +253,10 @@ section.success {
   margin: 1em 0;
   background-color: #{{site.color.highlight}};
 }
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
+  background-color: #93491c;
+  border-color: #93491c;
+}
 .btn-outline {
   margin-top: 15px;
   border: solid 2px #{{ site.color.primary-complement}};
