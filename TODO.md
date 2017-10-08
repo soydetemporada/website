@@ -14,12 +14,14 @@ Buscador
 
 
 Detalle
+- [ ] Añadir "Sin información" en los gráficos de los productos que no tienen datos
+- [ ] Darle más padding a los títulos de cajas (descripción, tiempo de cultivo, etc.)
 - [ ] Tomate: añadir posibilidad de compartir el tweet "en que hemisferio vivis"
-- [ ] Añadir más interlineado en los textos de descripción (quedan un poco apretados)
 - [ ] Productos sin datos:nabo import,champinon import,remolacha import,cardo import,coliflor import,caqui produccion,mora produccion
 - [ ] ¿Recetas?
 - [ ] Actualizaciones de calendario, agregar geolocalización, mapa por cluster de provincias.
 - [ ] Añadir indicador de precio
+- [x] Añadir más interlineado en los textos de descripción
 - [X] terminar descripciones de productos
 - [x] quitar contacto y colabora al final de la página (solamente dejarlo en la página principal)
 - [x] Maíz: el calendario está todo el gris. **El problema era que en los archivos figura como Maíz dulce, no como maíz**
