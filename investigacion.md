@@ -31,7 +31,8 @@ Desde la última reforma de la PAC, en 2003, el sistema de ayudas se ha desacopl
 <iframe style="border: 0px;" src="https://public.tableau.com/views/AyudasagrcolasPAC/Dashboard2?:showVizHome=no&amp;:embed=true?wmode=transparent" class="tableau-responsive" scrolling="no" width="100%" height="512px"></iframe>
 <br>
 
-Diego Juste, jefe de prensa de la [Unión de Pequeños Agrarios y Ganaderos (UPA)](https://www.upa.es/upa/inicio/), comenta que, tras la última reforma de la PAC, se han conseguido algunos avances puesto que, desde entonces, se exige que las ayudas se destinen a los agricultores activos (antes, no era un requisito trabajar las tierras que se poseyeran). Pero desde UPA señalan que se debe ir más allá: “Se debería tener en cuenta, por ejemplo, cuánto empleo genera la explotación, si apuesta por la producción agroecológica, o si se trata de una agricultura familiar”. Para este último modelo de producción, el Parlamento Europeo cifra unas ayudas anuales de 500 a un máximo 1.500 euros anuales, frente a los 916.000 euros de media que perciben los máximos beneficiarios.
+Diego Juste, jefe de prensa de la [Unión de Pequeños Agrarios y Ganaderos](https://www.upa.es/upa/inicio/)(UPA), comenta que, tras la última reforma de la PAC, se han conseguido algunos avances puesto que, desde entonces, se exige que las ayudas se destinen a los agricultores activos (antes, no era un requisito trabajar las tierras que se poseyeran). Pero desde UPA señalan que se debe ir más allá: “Se debería tener en cuenta, por ejemplo, cuánto empleo genera la explotación, si apuesta por la producción agroecológica, o si se trata de una agricultura familiar”. Para este último modelo de producción, el Parlamento Europeo cifra unas ayudas anuales de 500 a un máximo 1.500 euros anuales, frente a los 916.000 euros de media que perciben los máximos beneficiarios.
+
 <br>
 <div class="row">
   <div class="col-sm-12 col-xs-12">

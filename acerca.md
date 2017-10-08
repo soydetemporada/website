@@ -14,7 +14,6 @@ Ahora, ¿cómo saber qué comer y cuándo? Buscando calendarios en la web, uno s
 
 Con este proyecto, queremos aportar una herramienta para apoyar el consumo responsable, limitando el transporte excesivo de alimentos y el cultivo en invernaderos climatizados.
 
-
 ### METODOLOGÍA
 Para elaborar el calendario, hemos contactado con organismos y personas del mundo agrícola para que nos comuniquen las temporadas de los productos en su zona. Hemos hablado con agricultores, grupos de consumo, observatorios agroalimentarios y consejos de producción ecológica. Hemos recolectado los datos a través de una tabla Excel y una encuesta en Google Form.
 
@@ -25,7 +24,6 @@ Por ahora han participado a la encuesta más de 15 agricultores y organismos de 
   <img class="img-responsive img-centered" src="{{site.url}}/img/valores.jpg">
 </div>
 </div>
-<br>
 ### DATOS
 Para elaborar la ficha de cada producto, se han usado datos de producción, importación y exportación de organismos públicos y privados a través de sus directorios web. Entre las principales fuentes de datos se encuentran [Mercasa](http://mercasa.es/), el [Ministerio de Economía, Industria y Competitividad](http://datacomex.comercio.es/principal_comex_es.aspx) y el [Ministerio de Agricultura y Pesca, Alimentación y Media Ambiente](http://www.mapama.gob.es/es/estadistica/temas/publicaciones/anuario-de-estadistica/).
 
