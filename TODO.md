@@ -16,7 +16,7 @@ Buscador
 
 Detalle
 - [ ] Añadir "Sin información" en los gráficos de los productos que no tienen datos
-- [ ] Darle más padding a los títulos de cajas (descripción, tiempo de cultivo, etc.)
+- [ ] Darle más padding a los títulos de las cajas (descripción, tiempo de cultivo, etc.) y al texto
 - [ ] Tomate: añadir posibilidad de compartir el tweet "en que hemisferio vivis"
 - [ ] Coles de Bruselas: título demasiado largo en la versión móbil, **¿se puede encontrar una solución?**
 - [ ] Productos sin datos:nabo import,champinon import,remolacha import,cardo import,coliflor import,caqui produccion,mora produccion
@@ -37,8 +37,9 @@ Investigación
 - [x] añadir fotos
 - [x] arreglar mayúsculas
 
-Contacto
-- [x] corregir contácto
+Acerca
+- [ ] Añadir padding arriba de cada título (intro, metodo, etc.)
+- [ ] Cambiar fotos de los colaboradores
 
 Petición
 - [ ] Transformar los divs de cada tweet en un enlace
