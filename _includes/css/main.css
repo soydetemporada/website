@@ -106,6 +106,10 @@ header .intro-text .skills {
   text-transform: capitalize;
   font-family: 'RobotoLight', sans-serif;
 }
+
+.navbar-right{
+  margin-top: 10px;
+}
 .navbar-header .navbar-brand {
   font-family: 'Amatic SC', cursive;
   text-transform: lowercase;
