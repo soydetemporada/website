@@ -2,6 +2,6 @@
 title: Contacto
 layout: page
 css-id: contacto
-cabezote: /img/investigacion-cabezote.jpg
+cabezote: /img/contacto-cabezote.jpg
 ---
 {% include contact_static.html %}
