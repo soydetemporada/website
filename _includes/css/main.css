@@ -214,6 +214,19 @@ section.success {
 #product-page .month-filter li{
   background-color: #e5e5e5;
 }
+#product-page .month-filter .active{
+  background: none;
+  color: inherit;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 0;
+}
+#product-page .month-filter .month:hover{
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
 #product-page li.inicio-temporada{
   background-color: #C1DA84;
   opacity: 1;
