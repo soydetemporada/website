@@ -31,7 +31,16 @@ $(document).ready(function() {
     }
   });
 
-  $(".grid").imagesLoaded(filterProducts);
+  $(".grid").imagesLoaded(function(){
+    var $loader = $(".loader");
+    var $items = $(".grid");
+    $loader.show();
+    $items.hide();
+    filterProducts();
+    $items.show();
+    $loader.hide();
+
+  });
 
   function organizeProducts() {
     var $grid = $(".grid").isotope({
@@ -62,10 +71,6 @@ $(document).ready(function() {
     filterActive(activeMonth);
   }
   function filterActive(month) {
-    var $loader = $(".loader");
-    var $items = $(".grid");
-    $loader.show();
-    $items.hide();
     month = month || $(".month.active").text();
     d3.csv("data/temporadas/calendario.csv", function(calendario) {
       for (var i = 0,id=1; i < calendario.length; i++,id++) {
@@ -99,9 +104,7 @@ $(document).ready(function() {
             season.text(4);
         }
       }
-      $items.show();
       organizeProducts();
-      $loader.hide();
     });
   }
 });
