@@ -358,10 +358,9 @@ function tiempoCultivo(producto,container,path){
 
   d3.csv(path, function(datos) {
     var meses = datos
-      .filter(function(d) { return d.PRODUCTO.toLowerCase() == producto; })[0].MESES;
+      .filter(function(d) { return d.PRODUCTO.replace(/ /g,"-").toLowerCase() == producto; })[0].MESES;
     meses = meses != 'NA' ? +meses : 0;
-    console.log(meses);
-
+    
     chartWrapper.selectAll('.time-line')
       .data(d3.range(12))
       .enter()

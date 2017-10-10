@@ -195,6 +195,7 @@ section.success {
   margin: 0;
 }
 #portfolio .portfolio-item img {
+  width: 165px;
 }
 #portfolio * {
   z-index: 2;
@@ -665,7 +666,13 @@ div.grafica-barras{
     border-radius: 4px;
 
 }
-
+.loader{
+  display: block;
+  text-align: center;
+}
+.grid{
+  display: none;
+}
 @media(min-width:768px) {
   header .container {
     padding-top: 11em;
@@ -699,6 +706,7 @@ div.grafica-barras{
     margin: 0 0 30px;
   }
   #portfolio .portfolio-item img {
+
   }
 }
 

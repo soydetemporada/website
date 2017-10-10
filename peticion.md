@@ -43,5 +43,5 @@ La mejor forma de proteger nuestra agricultura es diciendo la verdad. @mapamagob
 </div>
 
 <div class="peticion">
-  @mapamagob Hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrediglos http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+  @mapamagob Hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrijánlo http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrijánlo http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
