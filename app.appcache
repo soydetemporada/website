@@ -19,7 +19,7 @@ http://soydetemporada.es/js/moment/moment.js
 http://soydetemporada.es/js/moment/locale/es.js
 https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js
 https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js
-http://soydetemporada.es/js/buscador.js
+#http://soydetemporada.es/js/buscador.js
 http://soydetemporada.es/img/cabezote.jpg
 http://soydetemporada.es/img/products/acelga.png
 http://soydetemporada.es/img/products/aguacate.png
