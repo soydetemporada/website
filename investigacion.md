@@ -1,5 +1,5 @@
 ---
-title: Agricultura familiar: el coste de mantener la tradición y la tierra
+title: "Agricultura familiar: el coste de mantener la tradición y la tierra"
 layout: page
 css-id: investigacion
 cabezote: /img/investigacion-cabezote.jpg
