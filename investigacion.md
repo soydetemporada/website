@@ -1,5 +1,5 @@
 ---
-title: “Vamos a hacer una agricultura familiar. Vamos a vivir dignamente”
+title: Agricultura familiar: el coste de mantener la tradición y la tierra
 layout: page
 css-id: investigacion
 cabezote: /img/investigacion-cabezote.jpg
@@ -11,7 +11,8 @@ cabezote: /img/investigacion-cabezote.jpg
 Hablar con Antonio es como escuchar una voz del futuro —tampoco muy lejano, echémosle unos veinte o treinta años—, que hubiera vuelto para recordar una incómoda lección: “estábamos advertidos, pero no hicimos nada”. Lleva diez años dedicándose, entre otras cosas, al cultivo ecológico de tomates, calabacines y judías en la Alpujarra Granadina, mientras ve cómo esta tierra, “hecha gracias a la mano del hombre y a la riquísima herencia recibida de los moriscos”, se marchita.
 Especialmente desde que se declaró el Parque nacional de Sierra Nevada, en 1999, cuando la agricultura intensiva de tomates cherry o calabacines empezó a sustituir, progresivamente, a sus castaños centenarios y a empobrecer el agua de los manantiales.
 
-**“Lo que menos importa son las consecuencias. En veinte años nadie va a conocer la Alpujarra tal y como es hoy en día”.** Para Antonio, los principales responsables de esta situación son los gestores del espacio natural y la Junta de Andalucía, que controla el Parque; y considera que parte de la solución debería pasar por dejar de apoyar un modelo de producción intensiva, como el que se desarrolla en el llamado *Mar de Plástico*, en el Poniente Almeriense.
+**“Lo que menos importa son las consecuencias. En veinte años nadie va a conocer la Alpujarra tal y como es hoy en día”**. Para Antonio, los principales responsables de esta situación son los gestores del espacio natural y la Junta de Andalucía, que controla el Parque; y considera que parte de la solución debería pasar por dejar de apoyar un modelo de producción intensiva, como el que se desarrolla en el llamado *Mar de Plástico*, en el Poniente Almeriense.
+
 
 <br>
 <div class="row">
@@ -21,11 +22,11 @@ Especialmente desde que se declaró el Parque nacional de Sierra Nevada, en 1999
 </div>
 <br>
 
-### Múltiples causas de un gran problema
+### Un gran problema de múltiples causas
 
 Pero la cuestión de fondo no sólo pasa por los fallos en el marco de la organización institucional, sino por las barreras que existen para establecer precios más justos y evitar la caída de la renta de los agricultores. Sobre este último punto, se pueden encontrar varias pistas en la **Política Agraria Común (PAC)** europea y los efectos de su sistema de subvención.
 
-Desde la última reforma de la PAC, en 2003, el sistema de ayudas se ha desacoplado de la producción hacia un Régimen de pago único ligado a la dimensión de las tierras. Es decir, cuantas más hectáreas se posean, más se cobra. “Existen también subvenciones ecológicas por hectáreas y por tipos. Y resulta que yo ni siquiera las solicito”, cuenta Antonio. “Sólo cuenta la tierra arable en determinadas condiciones. A lo mejor mi finca tiene 5 o 6 hectáreas, pero la mayor parte de ella son castaños o trozos de terreno que no son arables, y resulta que me pongo a echar cuentas y no las solicito. **Y al final quien se las lleva es quien tiene 200 hectáreas**.”. Según los datos del Fondo Español de Garantía Agraria (FEGA), en el año 2013, el 76,5% de estas ayudas se concentraron en el 18,7% de los perceptores, y tan sólo el 0,03% reciben más subvenciones que el 45% total de los beneficiarios.
+Desde la última reforma de la PAC, en 2003, el sistema de ayudas se ha desacoplado de la producción hacia un Régimen de pago único ligado a la dimensión de las tierras. Es decir, cuantas más hectáreas se posean, más se cobra. “Existen también subvenciones ecológicas por hectáreas y por tipos. Y resulta que yo ni siquiera las solicito”, cuenta Antonio. “Sólo cuenta la tierra arable en determinadas condiciones. A lo mejor mi finca tiene 5 o 6 hectáreas, pero la mayor parte de ella son castaños o trozos de terreno que no son arables, y resulta que me pongo a echar cuentas y no las solicito. **Y al final quien se las lleva es quien tiene 200 hectáreas**.”. Según los datos del [Fondo Español de Garantía Agraria](http://www.fega.es/es/PwfGcp/es/accesos_directos/datos_abiertos/index.jsp) (FEGA), en el año 2013, el 76,5% de estas ayudas se concentraron en el 18,7% de los perceptores, y tan sólo el 0,03% reciben más subvenciones que el 45% total de los beneficiarios.
 
 <br>
 <iframe style="border: 0px;" src="https://public.tableau.com/views/AyudasagrcolasPAC/Dashboard2?:showVizHome=no&amp;:embed=true?wmode=transparent" class="tableau-responsive" scrolling="no" width="100%" height="512px"></iframe>
@@ -56,7 +57,7 @@ Ante este panorama, ¿qué solución cabría esperar? Para Antonio, la primera d
 </div>
 <br>
 
-Sin embargo, la agricultura ecológica no experimenta estos mismos incrementos. “El calabacín ecológico estaba a 0,70 € y se mantiene entre los 0,70 u 0,80 €. A veces sube hasta el eurito, casi como de limosna”. Y añade: “Es un problema para el agricultor, porque tú el ecológico lo puedes vender en el convencional. Tienes al almacén diciéndote *“échame unos calabacines a 2 €*, y tú dices *el ecológico lo están pagando a 1,20 €*". ¿Qué hago? Pasa el tren y está en espera, y encima no te puedes ni montar. Porque, ¿qué haces? ¿Desabasteces al mercado ecológico?”.
+Además, el inestable incremento de los precios de determinados productos puede suponer importantes diferencias entre los beneficios de los productores convencionales y los ecológicos, al mantener estos últimos precios más estables. “El calabacín ecológico estaba a 0,70 € y se mantiene entre los 0,70 u 0,80 €. A veces sube hasta el eurito, casi como de limosna”. Y añade: “Es un problema para el agricultor, porque tú el ecológico lo puedes vender en el convencional. Tienes al almacén diciéndote *“échame unos calabacines a 2 €*, y tú dices *el ecológico lo están pagando a 1,20 €*". ¿Qué hago? Pasa el tren y está en espera, y encima no te puedes ni montar. Porque, ¿qué haces? ¿Desabasteces al mercado ecológico?”.
 
 ### El vínculo con Marruecos
 
