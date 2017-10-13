@@ -79,9 +79,9 @@ $(document).ready(function() {
         var icon = $(".product-"+id+" .icon-temporada");
 
         product.removeClass(
-          "temporada inicio-temporada fin-temporada fuera-temporada fa-warning"
+          "temporada inicio-temporada fin-temporada fuera-temporada fa-hourglass-end"
         );
-        icon.removeClass("fa-warning");
+        icon.removeClass("fa-hourglass-end");
         switch (calendario[i][month.toUpperCase()]) {
           case "X":
             product.addClass("en-temporada");
@@ -92,12 +92,12 @@ $(document).ready(function() {
           case "I":
             product.addClass("inicio-temporada");
             season.text(2);
-            icon.addClass("fa-warning");
+            icon.addClass("fa-hourglass-end");
             break;
           case "F":
             product.addClass("fin-temporada");
             season.text(3);
-            icon.addClass("fa-warning");
+            icon.addClass("fa-hourglass-end");
             break;
           default:
             product.addClass("fuera-temporada");
