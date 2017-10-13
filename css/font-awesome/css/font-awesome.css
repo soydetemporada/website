@@ -508,7 +508,7 @@
 .fa-eye-slash:before {
   content: "\f070";
 }
-.fa-hourglass-end:before,
+.fa-hourglass-half:before,
 .fa-exclamation-triangle:before {
   content: "\f071";
 }
