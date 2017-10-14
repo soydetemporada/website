@@ -16,13 +16,13 @@ Buscador
 
 
 Detalle
-- [ ] Añadir "Sin información" en los gráficos de los productos que no tienen datos
 - [ ] Coles de Bruselas: título demasiado largo en la versión móbil, **¿se puede encontrar una solución?**
 - [ ] Tomate: añadir posibilidad de compartir el tweet "en que hemisferio vivis"
 - [ ] Productos sin datos:nabo import,champinon import,remolacha import,cardo import,coliflor import,caqui produccion,mora produccion
 - [ ] (más adelante) ¿Recetas?
 - [ ] (más adelante) Actualizaciones de calendario, agregar geolocalización, mapa por cluster de provincias.
 - [ ] (más adelante) Añadir indicador de precio
+- [x] Añadir "Sin información" en los gráficos de los productos que no tienen datos
 - [x] Darle más padding a los títulos de las cajas (descripción, tiempo de cultivo, etc.) y al texto
 - [x] Añadir más interlineado en los textos de descripción
 - [X] terminar descripciones de productos
