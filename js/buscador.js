@@ -47,13 +47,14 @@ $(document).ready(function() {
       itemSelector: ".portfolio-item",
       getSortData: {
         id: ".id parseInt",
-        temporada: ".temporada parseInt"
+        temporada: ".temporada parseInt",
+        category: ".category",
       },
       percentPosition: true,
       masonry: {
         columnWidth: ".col-sm-2"
       },
-      sortBy: ["temporada", "id"]
+      sortBy: ["temporada","category" ,"id"]
     });
     $grid.isotope("updateSortData").isotope();
   }

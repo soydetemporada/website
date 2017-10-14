@@ -517,7 +517,7 @@ footer .footer-below {
   margin-top: 0.5em;
 }
 
-.id, .temporada {
+.id, .temporada,.category {
   display: none;
 }
 .icon-temporada{
