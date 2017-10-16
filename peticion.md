@@ -31,11 +31,11 @@ Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base 
 </div>
 
 <div class="peticion">
-  @mapamagob Quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob Quiero tener acceso a datos fiables de frutas y verduras de temporada, debéis revisar vuestro calendario http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+  Quiero tener acceso a datos fiables de frutas y verduras de temporada, @Alimentacion_es deben revisar su calendario http://soydetemporada.es/<a href="https://twitter.com/intent/tweet?text={{"Quiero tener acceso a datos fiables de frutas y verduras de temporada, @Alimentacion_es deben revisar su calendario http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 
 <div class="peticion">
-La mejor forma de proteger nuestra agricultura es diciendo la verdad. @mapamagob por favor revisen su calendario de temporada. #visualizar17 <a href="https://twitter.com/intent/tweet?text={{"La mejor forma de proteger nuestra agricultura es diciendo la verdad. @mapamagob por favor revisen su calendario de temporada. #visualizar17" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
+La mejor forma de proteger nuestra agricultura es diciendo la verdad. @Alimentacion_es por favor revisad vuestro calendario de temporada. <a href="https://twitter.com/intent/tweet?text={{"La mejor forma de proteger nuestra agricultura es diciendo la verdad. @Alimentacion_es por favor revisad vuestro calendario de temporada." | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 
 <div class="peticion">
