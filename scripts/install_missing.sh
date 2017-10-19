@@ -1,6 +1,9 @@
 #!/bin/bash
+# Necesary install
 
+# Recommended
 pip install pandas
-pip install numpy
+
+#If not using pip, can use sudo apt-get install python-pandas. (Risk of unstable version, wheels taking forever..)
 
 #

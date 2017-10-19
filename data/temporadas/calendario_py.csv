@@ -1,0 +1,14 @@
+PRODUCTO,ENE,FEB,MAR,ABR,MAY,JUN,JUL,AGO,SEP,OCT,NOV,DIC,SCORE
+BERENJENA,,,,,,X,X,X,X,,,,4.0
+BROCOLI,,,,,X,X,X,X,,,,,4.0
+CALABACIN,,,,,,X,X,X,X,,,,4.0
+CALABAZA,,,,,,,,,X,X,,,2.0
+CEBOLLA,,,,,,,,X,,,,,1.0
+ESPINACA,,,,,,,,X,X,,,,2.0
+HABA,,X,X,,,,,,,,,,2.0
+JUDIA,,,,,,,X,X,X,,,,3.0
+LECHUGA,,,,,,,X,X,,,,,2.0
+PATATA,,,,,,,,X,,,,,1.0
+PEPINO,,,,,,,X,X,,,,,2.0
+PIMIENTO,,,,,,,X,X,X,,,,3.0
+tomate,,,,,,,X,X,X,,,,3.0
