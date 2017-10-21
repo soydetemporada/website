@@ -4,7 +4,7 @@
 Created on Tue Oct 10 19:26:07 2017
 @author: raimundoabrillopez
 
-This file reads the csv files located in ../data/calendario, cleans and organize them
+This file reads the csv files located in ../data/calendar, cleans and organize them
 and then apply a mean so an "average" calendar is obtained.
 
 Writes a calendario_py file that must get the _py trimmed after revision.
@@ -28,7 +28,7 @@ XLIM = 0.5
 currentPWD = os.getcwd()
 dwd = currentPWD[:-7]+'data/seasons/'
 aux = currentPWD[:-7]+'data/aux/'
-pwd = currentPWD[:-7]+'data/calendario/'
+pwd = currentPWD[:-7]+'data/calendar/'
 
 # List calendar files available
 
