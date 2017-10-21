@@ -1,5 +1,5 @@
-<!-- Portfolio Grid Section -->
-<section id="portfolio">
+<!-- Product Grid Section -->
+<section id="product">
   <div class="container">
     <div class="row">
       <ul class="month-filter">
@@ -34,16 +34,14 @@
       <span class="sr-only">Cargando...</span>
     </div>
     <div class="grid row">
-      <div class="portfolio-item col-sm-12 col-xs-12 section-label section-fuera-temporada">
+      <div class="product-item col-sm-12 col-xs-12 section-label section-fuera-temporada">
         <h3>FUERA DE TEMPORADA</h3>
         <span class="id">0</span>
         <span class="temporada">4</span>
       </div>
       {% for product in site.products %}
-      <!-- col-sm-2 col-xs-4  -->
-      <div class="portfolio-item col-sm-2 col-xs-4 product-{{ forloop.index }}">
-        <!--<a href="#portfolioModal-{{ forloop.index }}" class="portfolio-link" data-toggle="modal">-->
-        <a href="{{ product.url | prepend: site.url }}" class="portfolio-link" data-toggle="modal">
+      <div class="product-item col-sm-2 col-xs-4 product-{{ forloop.index }}">
+        <a href="{{ product.url | prepend: site.url }}" class="product-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
             </div>

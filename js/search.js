@@ -47,7 +47,7 @@ $(document).ready(function() {
   */
   function organizeProducts() {
     var $grid = $(".grid").isotope({
-      itemSelector: ".portfolio-item",
+      itemSelector: ".product-item",
       getSortData: {
         id: ".id parseInt",
         temporada: ".temporada parseInt",
