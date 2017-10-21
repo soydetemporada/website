@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  var calendario = null;
+  var calendar = null;
   moment().locale("es");
 
-  $(".month").on("click", filterByMonth);
-  $(".comunidad").on("change", filterProducts);
+  // Initialize event handlers
+  $(".month").on("click", filterByMonthHandler);
   $(".product-filter select").select2({
     placeholder: "Filtrar por producto",
     allowClear: true,
@@ -42,6 +42,9 @@ $(document).ready(function() {
 
   });
 
+  /**
+  * Organize the product grid using isotope
+  */
   function organizeProducts() {
     var $grid = $(".grid").isotope({
       itemSelector: ".portfolio-item",
@@ -58,23 +61,35 @@ $(document).ready(function() {
     });
     $grid.isotope("updateSortData").isotope();
   }
-  function filterByMonth(e) {
+
+  /**
+  * Filter by month handler
+  */
+  function filterByMonthHandler(e) {
     e.preventDefault();
     $(".month").removeClass("active");
     $(e.target).addClass("active");
     filterProducts();
   }
 
+  /**
+  * Filter products handler
+  */
   function filterProducts() {
     var activeMonth = $(".month.active")
       .data("month")
       .trim();
     filterActive(activeMonth);
   }
+
+  /**
+  * Filter products by active month
+  * @param {string} month Active month
+  */
   function filterActive(month) {
     month = month || $(".month.active").text();
-    d3.csv("data/temporadas/calendario.csv", function(calendario) {
-      for (var i = 0,id=1; i < calendario.length; i++,id++) {
+    d3.csv("data/temporadas/calendario.csv", function(calendar) {
+      for (var i = 0,id=1; i < calendar.length; i++,id++) {
         var product = $(".product-" + id);
         var season = $(".product-" + id + " .temporada");
         var icon = $(".product-"+id+" .icon-temporada");
@@ -83,7 +98,7 @@ $(document).ready(function() {
           "temporada inicio-temporada fin-temporada fuera-temporada fa-hourglass-half"
         );
         icon.removeClass("fa-hourglass-half");
-        switch (calendario[i][month.toUpperCase()]) {
+        switch (calendar[i][month.toUpperCase()]) {
           case "X":
             product.addClass("en-temporada");
             season.text(1);
