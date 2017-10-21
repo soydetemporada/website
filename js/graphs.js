@@ -420,5 +420,6 @@ function cleanLatin(src) {
   src = src.replace("ó", "o");
   src = src.replace("ú", "u");
   src = src.replace("ñ", "n");
+  src = src.replace(/-/g, " ");
   return src;
 }
