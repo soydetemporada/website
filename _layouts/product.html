@@ -90,7 +90,7 @@
     {% assign product_name = page.img | replace: '.png','' %}
     graphProduction(".chart","{{site.url}}/data/product/{{product_name}}/production/grafico.csv");
     graphImportExport(".import-export","{{site.url}}/data/product/{{product_name}}/{{product_name}}_import_export_mes.csv");
-    graphProductionTime("{{product_name}}",".tiempo-cultivo","{{site.url}}/data/meses-cultivo.csv");
+    graphProductionTime("{{product_name}}",".tiempo-cultivo","{{site.url}}/data/production-time.csv");
     updateCalendar("{{page.title | downcase }}","{{site.url}}");
 });
   </script>
