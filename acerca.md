@@ -1,7 +1,7 @@
 ---
 title: acerca del proyecto
 layout: page
-css-id: acerca
+css-id: about
 cabezote: /img/acerca-cabezote.jpg
 ---
 
@@ -45,29 +45,29 @@ Las ilustraciones de las frutas y verduras están bajo licencia Creative Commons
 ### EQUIPO
 <div class="row">
 
-{% for colaborador in site.data.colaboradores %}
-  <div class="col-sm-4 col-xs-6 colaborador" >
-    {% if colaborador.foto %}
-      <img class="img-responsive " src="{{colaborador.foto}}" alt="{{colaborador.nombre}}" title="{{colaborador.nombre}}">
+{% for colaborator in site.data.colaboradores %}
+  <div class="col-sm-4 col-xs-6 colaborator" >
+    {% if colaborator.foto %}
+      <img class="img-responsive " src="{{colaborator.foto}}" alt="{{colaborator.nombre}}" title="{{colaborator.nombre}}">
     {% else %}
-      <img class="img-responsive " src="https://robohash.org/{{colaborador.nombre | url_encode}}" alt="{{colaborador.nombre}}" title="{{colaborador.nombre}}">
+      <img class="img-responsive " src="https://robohash.org/{{colaborator.nombre | url_encode}}" alt="{{colaborator.nombre}}" title="{{colaborator.nombre}}">
     {% endif %}
     <div class="pull-left">
-    {{colaborador.nombre | upcase }}<br>
-    {{colaborador.rol}}<br>
+    {{colaborator.nombre | upcase }}<br>
+    {{colaborator.rol}}<br>
     </div>
     <div class="pull-right">
-    {% if colaborador.url %}
-      <a href="{{colaborador.url}}" target="_blank"><i class="fa fa-home"></i></a>
+    {% if colaborator.url %}
+      <a href="{{colaborator.url}}" target="_blank"><i class="fa fa-home"></i></a>
     {% endif %}
-    {% if colaborador.twitter %}
-      <a href="https://twitter.com/{{colaborador.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
+    {% if colaborator.twitter %}
+      <a href="https://twitter.com/{{colaborator.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
     {% endif %}
-    {% if colaborador.facebook %}
-      <a href="{{colaborador.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a>
+    {% if colaborator.facebook %}
+      <a href="{{colaborator.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a>
     {% endif %}
-    {% if colaborador.linkedin %}
-      <a href="{{colaborador.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
+    {% if colaborator.linkedin %}
+      <a href="{{colaborator.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
     {% endif %}
     </div>
   </div>
