@@ -88,7 +88,7 @@ $(document).ready(function() {
   */
   function filterActive(month) {
     month = month || $(".month.active").text();
-    d3.csv("data/temporadas/calendario.csv", function(calendar) {
+    d3.csv("data/seasons/calendario.csv", function(calendar) {
       for (var i = 0,id=1; i < calendar.length; i++,id++) {
         var product = $(".product-" + id);
         var season = $(".product-" + id + " .season");

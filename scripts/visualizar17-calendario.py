@@ -26,7 +26,7 @@ XLIM = 0.5
 # Get paths
 
 currentPWD = os.getcwd()
-dwd = currentPWD[:-7]+'data/temporadas/'
+dwd = currentPWD[:-7]+'data/seasons/'
 aux = currentPWD[:-7]+'data/aux/'
 pwd = currentPWD[:-7]+'data/calendario/'
 

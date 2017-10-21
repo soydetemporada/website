@@ -379,7 +379,7 @@ function updateCalendar(product, path) {
   $("#product-page li").removeClass(
     "in-season start-of-season out-of-season"
   );
-  d3.csv(path + "/data/temporadas/calendario.csv", function(calendar) {
+  d3.csv(path + "/data/seasons/calendario.csv", function(calendar) {
     product = cleanLatin(product);
     for (var i = 0, id = 1; i < calendar.length; i++, id++) {
       if (calendar[i].PRODUCTO.toLowerCase() == product) {
