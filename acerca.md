@@ -45,16 +45,16 @@ Las ilustraciones de las frutas y verduras están bajo licencia Creative Commons
 ### EQUIPO
 <div class="row">
 
-{% for colaborator in site.data.colaboradores %}
+{% for colaborator in site.data.colaborators %}
   <div class="col-sm-4 col-xs-6 colaborator" >
-    {% if colaborator.foto %}
-      <img class="img-responsive " src="{{colaborator.foto}}" alt="{{colaborator.nombre}}" title="{{colaborator.nombre}}">
+    {% if colaborator.photo %}
+      <img class="img-responsive " src="{{colaborator.photo}}" alt="{{colaborator.name}}" title="{{colaborator.name}}">
     {% else %}
-      <img class="img-responsive " src="https://robohash.org/{{colaborator.nombre | url_encode}}" alt="{{colaborator.nombre}}" title="{{colaborator.nombre}}">
+      <img class="img-responsive " src="https://robohash.org/{{colaborator.name | url_encode}}" alt="{{colaborator.name}}" title="{{colaborator.name}}">
     {% endif %}
     <div class="pull-left">
-    {{colaborator.nombre | upcase }}<br>
-    {{colaborator.rol}}<br>
+    {{colaborator.name | upcase }}<br>
+    {{colaborator.role}}<br>
     </div>
     <div class="pull-right">
     {% if colaborator.url %}
@@ -95,12 +95,12 @@ Las ilustraciones de las frutas y verduras están bajo licencia Creative Commons
   <div class="col-sm-4 col-xs-12" >
   <h5>AGRICULTORES</h5>
   <ul>
-    {% for agricultor in site.data.agricultores %}
+    {% for farmer in site.data.farmers %}
     <li>
-      {% if agricultor.url %}
-        <a href="{{agricultor.url}}">{{agricultor.nombre}}</a>
+      {% if farmer.url %}
+        <a href="{{farmer.url}}">{{farmer.name}}</a>
       {% else %}
-        {{agricultor.nombre}}
+        {{farmer.name}}
       {% endif%}
     </li>
     {% endfor %}
@@ -125,12 +125,12 @@ Las ilustraciones de las frutas y verduras están bajo licencia Creative Commons
   <div class="col-sm-4 col-xs-12" >
   <h5>CREATIVE COMMONS</h5>
   <ul>
-    {% for fotografo in site.data.fotografias limit:14%}
+    {% for photographer in site.data.photographers limit:14%}
     <li>
-      {% if fotografo.url %}
-        <a href="{{fotografo.url}}">{{fotografo.nombre}}</a>
+      {% if photographer.url %}
+        <a href="{{photographer.url}}">{{photographer.name}}</a>
       {% else %}
-        {{fotografia.nombre}}
+        {{photographer.name}}
       {% endif%}
     </li>
     {% endfor %}
@@ -139,12 +139,12 @@ Las ilustraciones de las frutas y verduras están bajo licencia Creative Commons
   <div class="col-sm-4 col-xs-12" >
   <h5>&nbsp;</h5>
   <ul>
-    {% for fotografo in site.data.fotografias limit:14 offset:14 %}
+    {% for photographer in site.data.photographers limit:14 offset:14 %}
     <li>
-      {% if fotografo.url %}
-        <a href="{{fotografo.url}}">{{fotografo.nombre}}</a>
+      {% if photographer.url %}
+        <a href="{{photographer.url}}">{{photographer.name}}</a>
       {% else %}
-        {{fotografia.nombre}}
+        {{photographer.name}}
       {% endif%}
     </li>
     {% endfor %}
@@ -153,12 +153,12 @@ Las ilustraciones de las frutas y verduras están bajo licencia Creative Commons
   <div class="col-sm-4 col-xs-12" >
   <h5>&nbsp;</h5>
   <ul>
-    {% for fotografo in site.data.fotografias offset:28%}
+    {% for photographer in site.data.photographers offset:28%}
     <li>
-      {% if fotografo.url %}
-        <a href="{{fotografo.url}}">{{fotografo.nombre}}</a>
+      {% if photographer.url %}
+        <a href="{{photographer.url}}">{{photographer.name}}</a>
       {% else %}
-        {{fotografia.nombre}}
+        {{photographer.name}}
       {% endif%}
     </li>
     {% endfor %}
