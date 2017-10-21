@@ -57,7 +57,7 @@
               <h3 class="panel-title">Tiempo de cultivo</h3>
             </div>
             <div class="panel-body">
-              <div class="tiempo-cultivo"></div>
+              <div class="tiempo-cultivo" data-time="{{product_data.time}}"></div>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@
   $(document).ready(function(){
     graphProduction(".chart","{{site.url}}/data/products/{{product_id}}/production/grafico.csv");
     graphImportExport(".import-export","{{site.url}}/data/products/{{product_id}}/{{product_id}}_import_export_mes.csv");
-    graphProductionTime("{{product_id}}",".tiempo-cultivo","{{site.url}}/data/production-time.csv");
+    graphProductionTime(".tiempo-cultivo");
     updateCalendar("{{product_id }}","{{site.url}}");
 });
   </script>

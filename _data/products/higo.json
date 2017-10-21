@@ -2,5 +2,6 @@
     "name": "Higo",
     "img": "higo.png",
     "category": "Fruta",
-    "description": "Es un fruto mediterr\u00e1neo que tiene una temporada muy corta"
+    "description": "Es un fruto mediterr\u00e1neo que tiene una temporada muy corta",
+    "time":"NA"
 }

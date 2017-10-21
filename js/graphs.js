@@ -311,12 +311,13 @@ function graphProduction(container, path) {
 * @param {string} container Graph container identifier
 * @param {string} path Data source path
 */
-function graphProductionTime(product,container,path){
+function graphProductionTime(container){
   // Dimensions
   var contWidth = $(container).width(),
       margin = { top: 10, right: 10, bottom: 10, left: 5 },
       width = contWidth - margin.left - margin.right,
-      height = 70 - margin.top - margin.bottom;
+      height = 70 - margin.top - margin.bottom,
+      months = $(container).data('time');
 
 
   // Initialize svg
@@ -338,10 +339,6 @@ function graphProductionTime(product,container,path){
     .range([margin.left, width - margin.right])
     .padding(.3);
 
-
-  d3.csv(path, function(data) {
-    var months = data
-      .filter(function(d) { return d.PRODUCTO.replace(/ /g,"-").toLowerCase() == product; })[0].MESES;
     months = months != 'NA' ? +months : 0;
 
     chartWrapper.selectAll('.time-line')
@@ -367,7 +364,6 @@ function graphProductionTime(product,container,path){
       .attr('y', height/2 + 30)
       .text(function(d) { if(d==0){ return "Sin información";}else{return d + ' meses';} })
 
-  });
 }
 
 /**
