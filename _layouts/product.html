@@ -88,8 +88,8 @@
   <script>
   $(document).ready(function(){
     {% assign product_name = page.img | replace: '.png','' %}
-    graphProduction(".chart","{{site.url}}/data/producto/{{product_name}}/production/grafico.csv");
-    graphImportExport(".import-export","{{site.url}}/data/producto/{{product_name}}/{{product_name}}_import_export_mes.csv");
+    graphProduction(".chart","{{site.url}}/data/product/{{product_name}}/production/grafico.csv");
+    graphImportExport(".import-export","{{site.url}}/data/product/{{product_name}}/{{product_name}}_import_export_mes.csv");
     graphProductionTime("{{product_name}}",".tiempo-cultivo","{{site.url}}/data/meses-cultivo.csv");
     updateCalendar("{{page.title | downcase }}","{{site.url}}");
 });
