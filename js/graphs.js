@@ -27,7 +27,12 @@ var mesesNuevos = {
   "01-Dic-2015": 11
 };
 
-function graficaImportExport(container, path) {
+/**
+* Generates import/export graph from the specified path
+* @param {string} container Container identifier
+* @param {string} path Data source path
+*/
+function graphImportExport(container, path) {
   var width = $(container).width();
   var svg = d3.select(container).append('svg')
     .attr("width",width)
@@ -96,7 +101,6 @@ function graficaImportExport(container, path) {
     xx.domain([0, 11]);
     yy.domain([0, 1.1 * d3.max([maxImport, maxExport])]);
 
-    // .tickFormat(d3.time.format("%B"))
     g
       .append("g")
       .attr("transform", "translate(0," + height + ")")
@@ -133,7 +137,7 @@ function graficaImportExport(container, path) {
       .selectAll("body")
       .append("div")
       .classed("d3-tooltip", true);
-    /*** import label **/
+
     g
       .append("text")
       .text("Importación")
@@ -158,7 +162,7 @@ function graficaImportExport(container, path) {
       .attr("r", 0)
       .on("mouseover", function(d) {
         var mouse = d3.mouse(this);
-        var absPositionSvg = $("svg.import-export").position();
+        var absPositionSvg = $(".import-export>svg").position();
         $(".d3-tooltip").css("top", mouse[1] + absPositionSvg.top - 20 + "px");
         $(".d3-tooltip").css(
           "left",
@@ -202,7 +206,7 @@ function graficaImportExport(container, path) {
       .attr("r", 0)
       .on("mouseover", function(d) {
         var mouse = d3.mouse(this);
-        var absPositionSvg = $("svg.import-export").position();
+        var absPositionSvg = $(".import-export>svg").position();
         $(".d3-tooltip").css("top", mouse[1] + absPositionSvg.top - 20 + "px");
         $(".d3-tooltip").css(
           "left",
@@ -222,13 +226,17 @@ function graficaImportExport(container, path) {
 
 
 }
+/**
+* Generates production graph from the specified path
+*
+* @param {string} container Container identifier
+* @param {string} path Data source path
+*/
+function graphProduction(container, path) {
+  var width = $(container).width();
+  if (path === undefined) path = "data/grafico.csv";
 
-function dibujaGrafico(container, ficheroDeDatos) {
-  var colorTexto = "#333";
-  var largoGrafico = $(container).width();
-  if (ficheroDeDatos === undefined) ficheroDeDatos = "data/grafico.csv";
-
-  d3.csv(ficheroDeDatos, function(error, data) {
+  d3.csv(path, function(error, data) {
     if (error) {
       $(container).empty();
       $(container).append("Sin información");
@@ -246,11 +254,11 @@ function dibujaGrafico(container, ficheroDeDatos) {
     var x = d3
       .scaleLinear()
       .domain([0, 100])
-      .range([0, largoGrafico - 10]);
-    var arrayColores = ["#A83232", "#C25C30", "#D98236", "#D9A036"];
+      .range([0, width - 10]);
+    var colors = ["#A83232", "#C25C30", "#D98236", "#D9A036"];
     var enterSel = d3
       .select(container)
-      .selectAll("div.grafica-barras")
+      .selectAll("div.bar-graph")
       .data(data)
       .enter()
       .append("div")
@@ -259,17 +267,17 @@ function dibujaGrafico(container, ficheroDeDatos) {
       })
       .style("opacity", 0)
       .style("background-color", function(d, i) {
-        return arrayColores[i];
+        return colors[i];
       })
-      .classed("grafica-barras", true);
+      .classed("bar-graph", true);
 
     var enterSelText = d3
       .select(container)
-      .selectAll("div.grafica-texto")
+      .selectAll("div.graph-text")
       .data(data)
       .enter()
       .append("div")
-      .classed("grafica-texto", true)
+      .classed("graph-text", true)
       .style("width", function(d) {
         return x(d.Percent) + "px";
       })
@@ -296,49 +304,14 @@ function dibujaGrafico(container, ficheroDeDatos) {
   });
 }
 
-function isOverflown(element) {
-  return (
-    element.scrollHeight > element.clientHeight ||
-    element.scrollWidth > element.clientWidth
-  );
-}
-
-function cleanLatin(src) {
-  src = src.replace("á", "a");
-  src = src.replace("é", "e");
-  src = src.replace("í", "i");
-  src = src.replace("ó", "o");
-  src = src.replace("ú", "u");
-  src = src.replace("ñ", "n");
-  return src;
-}
-
-function updateCalendario(product, source) {
-  $("#product-page li").removeClass(
-    "in-season start-of-season out-of-season"
-  );
-  d3.csv(source + "/data/temporadas/calendario.csv", function(calendario) {
-    product = cleanLatin(product);
-    for (var i = 0, id = 1; i < calendario.length; i++, id++) {
-      if (calendario[i].PRODUCTO.toLowerCase() == product) {
-        $("#product-page .month").each(function(index, item) {
-          $item = $(item);
-          switch (calendario[i][$item.data("month").toUpperCase()]) {
-            case "Y":
-              $item.closest("li").addClass("start-of-season");
-              break;
-            case "X":
-              $item.closest("li").addClass("in-season");
-              break;
-          }
-        });
-        break;
-      }
-    }
-  });
-}
-
-function tiempoCultivo(producto,container,path){
+/**
+* Generates the time of production graph
+*
+* @param {string} product Product name
+* @param {string} container Graph container identifier
+* @param {string} path Data source path
+*/
+function graphProductionTime(product,container,path){
   // Dimensions
   var contWidth = $(container).width(),
       margin = { top: 10, right: 10, bottom: 10, left: 5 },
@@ -366,10 +339,10 @@ function tiempoCultivo(producto,container,path){
     .padding(.3);
 
 
-  d3.csv(path, function(datos) {
-    var meses = datos
-      .filter(function(d) { return d.PRODUCTO.replace(/ /g,"-").toLowerCase() == producto; })[0].MESES;
-    meses = meses != 'NA' ? +meses : 0;
+  d3.csv(path, function(data) {
+    var months = data
+      .filter(function(d) { return d.PRODUCTO.replace(/ /g,"-").toLowerCase() == product; })[0].MESES;
+    months = months != 'NA' ? +months : 0;
 
     chartWrapper.selectAll('.time-line')
       .data(d3.range(12))
@@ -377,17 +350,17 @@ function tiempoCultivo(producto,container,path){
       .append('line')
       .attr('class', 'time-line')
       .classed('high', function(d, i) {
-        return i < meses ? true : false; })
+        return i < months ? true : false; })
       .attr('x1', function(d, i) { return xScale(i); })
       .attr('y1', height/2)
       .attr('x2', function(d, i) { return xScale(i) + xScale.bandwidth(); })
       .attr('y2', height/2)
-      .style('stroke', function(d, i) { return i < meses ? '#89BC10' : '#D8D8D8'; })
+      .style('stroke', function(d, i) { return i < months ? '#89BC10' : '#D8D8D8'; })
       .style('stroke-linecap', 'round')
       .style('stroke-width', 6);
 
     chartWrapper.selectAll('.time-line-label')
-      .data([meses])
+      .data([months])
       .enter()
       .append('text')
       .attr('x', xScale(0))
@@ -395,4 +368,61 @@ function tiempoCultivo(producto,container,path){
       .text(function(d) { if(d==0){ return "Sin información";}else{return d + ' meses';} })
 
   });
+}
+
+/**
+* Updates calendar bar in product page
+* @param {string} product Product name
+* @param {string} path Product's data path
+*/
+function updateCalendar(product, path) {
+  $("#product-page li").removeClass(
+    "in-season start-of-season out-of-season"
+  );
+  d3.csv(path + "/data/temporadas/calendario.csv", function(calendar) {
+    product = cleanLatin(product);
+    for (var i = 0, id = 1; i < calendar.length; i++, id++) {
+      if (calendar[i].PRODUCTO.toLowerCase() == product) {
+        $("#product-page .month").each(function(index, item) {
+          $item = $(item);
+          switch (calendar[i][$item.data("month").toUpperCase()]) {
+            case "Y":
+              $item.closest("li").addClass("start-of-season");
+              break;
+            case "X":
+              $item.closest("li").addClass("in-season");
+              break;
+          }
+        });
+        break;
+      }
+    }
+  });
+}
+
+/**
+* Helper function to the detect if the current element is overflown
+* @param {object} element Element to be checked
+* @return {boolean}
+*/
+function isOverflown(element) {
+  return (
+    element.scrollHeight > element.clientHeight ||
+    element.scrollWidth > element.clientWidth
+  );
+}
+
+/**
+* Helper function to clear latin characters
+* @param {string} src Source string
+* @param {string}
+*/
+function cleanLatin(src) {
+  src = src.replace("á", "a");
+  src = src.replace("é", "e");
+  src = src.replace("í", "i");
+  src = src.replace("ó", "o");
+  src = src.replace("ú", "u");
+  src = src.replace("ñ", "n");
+  return src;
 }

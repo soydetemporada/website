@@ -543,7 +543,7 @@ footer .footer-below {
   font-family: 'Roboto';
 }
 
-div.grafica-barras{
+div.bar-graph{
     display: inline-block;
     height: 40px;
     overflow: hidden;
@@ -552,7 +552,7 @@ div.grafica-barras{
 
 
 }
-.chart div.grafica-texto{
+.chart div.graph-text{
     color:black;
     background-color: white;
     display: inline-block;
@@ -602,7 +602,6 @@ div.grafica-barras{
     z-index: 1000;
     padding:5px;
     border-radius: 4px;
-
 }
 .loader{
   display: block;
