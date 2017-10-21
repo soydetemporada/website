@@ -234,7 +234,7 @@ function dibujaGrafico(container, ficheroDeDatos) {
       $(container).append("Sin información");
       return;
     }
-    
+
     var mdata = data;
     var numbers = [];
     mdata.forEach(function(el) {
@@ -315,7 +315,7 @@ function cleanLatin(src) {
 
 function updateCalendario(product, source) {
   $("#product-page li").removeClass(
-    "en-temporada inicio-temporada fin-temporada"
+    "in-season start-of-season out-of-season"
   );
   d3.csv(source + "/data/temporadas/calendario.csv", function(calendario) {
     product = cleanLatin(product);
@@ -325,10 +325,10 @@ function updateCalendario(product, source) {
           $item = $(item);
           switch (calendario[i][$item.data("month").toUpperCase()]) {
             case "Y":
-              $item.closest("li").addClass("inicio-temporada");
+              $item.closest("li").addClass("start-of-season");
               break;
             case "X":
-              $item.closest("li").addClass("en-temporada");
+              $item.closest("li").addClass("in-season");
               break;
           }
         });

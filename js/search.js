@@ -50,14 +50,14 @@ $(document).ready(function() {
       itemSelector: ".product-item",
       getSortData: {
         id: ".id parseInt",
-        temporada: ".temporada parseInt",
+        season: ".season parseInt",
         category: ".category",
       },
       percentPosition: true,
       masonry: {
         columnWidth: ".col-sm-2"
       },
-      sortBy: ["temporada","category" ,"id"]
+      sortBy: ["season","category" ,"id"]
     });
     $grid.isotope("updateSortData").isotope();
   }
@@ -91,32 +91,32 @@ $(document).ready(function() {
     d3.csv("data/temporadas/calendario.csv", function(calendar) {
       for (var i = 0,id=1; i < calendar.length; i++,id++) {
         var product = $(".product-" + id);
-        var season = $(".product-" + id + " .temporada");
-        var icon = $(".product-"+id+" .icon-temporada");
+        var season = $(".product-" + id + " .season");
+        var icon = $(".product-"+id+" .icon-season");
 
         product.removeClass(
-          "temporada inicio-temporada fin-temporada fuera-temporada fa-hourglass-half"
+          "season start-of-season end-of-season out-of-season fa-hourglass-half"
         );
         icon.removeClass("fa-hourglass-half");
         switch (calendar[i][month.toUpperCase()]) {
           case "X":
-            product.addClass("en-temporada");
+            product.addClass("in-season");
             season.text(1);
             break;
           //TODO remove
           case "Y":
           case "I":
-            product.addClass("inicio-temporada");
+            product.addClass("start-of-season");
             season.text(2);
             icon.addClass("fa-hourglass-half");
             break;
           case "F":
-            product.addClass("fin-temporada");
+            product.addClass("end-of-season");
             season.text(3);
             icon.addClass("fa-hourglass-half");
             break;
           default:
-            product.addClass("fuera-temporada");
+            product.addClass("out-of-season");
             season.text(4);
         }
       }

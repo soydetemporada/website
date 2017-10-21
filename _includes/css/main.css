@@ -228,11 +228,11 @@ section.success {
   padding: 0;
 }
 
-#product-page li.inicio-temporada{
+#product-page li.start-of-season{
   background-color: #C1DA84;
   opacity: 1;
 }
-#product-page li.en-temporada{
+#product-page li.in-season{
   background-color: #89BC10;
   opacity: 1;
 }
@@ -398,69 +398,11 @@ footer .footer-below {
 .scroll-top .btn:focus {
   outline: 0;
 }
-.product-modal .modal-content {
-  padding: 2em 0;
-  min-height: 100%;
-  border: 0;
-  border-radius: 0;
-  text-align: center;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.product-modal .modal-content h2 {
-  margin: 0;
-  font-size: 3em;
-}
-.product-modal .modal-content img {
-  margin-bottom: 30px;
-}
-.product-modal .modal-content .item-details {
-  margin: 30px 0;
-}
-.product-modal .close-modal {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  width: 35px;
-  height: 35px;
-  background-color: transparent;
-  cursor: pointer;
-}
-.product-modal .close-modal:hover {
-  opacity: .3;
-}
-.product-modal .close-modal .lr {
-  z-index: 1051;
-  width: 1px;
-  height: 35px;
-  margin-left: 35px;
-  background-color: #{{ site.color.secondary }};
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.product-modal .close-modal .lr .rl {
-  z-index: 1052;
-  width: 1px;
-  height: 35px;
-  background-color: #{{ site.color.secondary }};
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
 .navbar-nav>.active>a {
   background-color: #{{ site.color.highlight }} !important;
   border-radius: 6px;
 }
 
-/* Fix modal mouse wheel issues */
-
-/* https://github.com/twbs/bootstrap/issues/16297 */
-.modal.fade.in {
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-}
 .panel-default > .panel-heading{
   background: none;
   border: none;
@@ -517,19 +459,19 @@ footer .footer-below {
   margin-top: 0.5em;
 }
 
-.id, .temporada,.category {
+.id, .season,.category {
   display: none;
 }
-.icon-temporada{
+.icon-season{
   position: static;
   color: #CA7947
 }
-.en-temporada {}
-.inicio-temporada img, .fin-temporada img {
+.in-season {}
+.start-of-season img, .end-of-season img {
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
-.fuera-temporada img {
+.out-of-season img {
   /*color: red;*/
   filter: gray;
   /* IE6-9 */
@@ -538,9 +480,6 @@ footer .footer-below {
   filter: grayscale(1);
   /* Microsoft Edge and Firefox 35+ */
   opacity: 0.75;
-}
-.comunidad {
-  margin: 1em;
 }
 .month-filter {
   text-transform: uppercase;
@@ -745,7 +684,7 @@ div.grafica-barras{
   .highlight{
     padding: 2em;
   }
-  .inicio-temporada .icon-temporada{
+  .start-of-season .icon-season{
     margin-top: 5px;
   }
 
