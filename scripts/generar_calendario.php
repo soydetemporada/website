@@ -1,6 +1,6 @@
 <?php
 
-$source = __DIR__ ."/../data/temporadas/";
+$source = __DIR__ ."/../data/seasons/";
 
 $files = scandir($source);
 

@@ -4,8 +4,11 @@
 
 <body id="page-top" class="index">
   {% include nav-page.html %}
+  {% assign product_id = page.id | replace: '/products/',''%}
+  {% assign product_data = site.data.products[product_id] %}
+
   <!-- Header -->
-  {% assign cabezote = "/img/products/cabezotes/" | append: page.img | replace: 'png', 'jpg' %}
+  {% assign cabezote = "/img/products/cabezotes/" | append: product_data.img | replace: 'png', 'jpg' %}
   <header id="product-header-{{page.index}}" style="background-image:url('{{ cabezote | prepend: site.url }}')">
     <div class="container">
       <div class="row ">
@@ -20,7 +23,7 @@
       <div class="row">
         <ol class="breadcrumb">
           <li><a href="{{site.url}}">Buscador</a></li>
-          <li class="active">{{page.title}}</li>
+          <li class="active">{{product_data.name}}</li>
         </ol>
         <ul class="month-filter">
           {% assign currentMonth = 'now' | date: "%_m" | plus: 0%}
@@ -45,7 +48,7 @@
               <h3 class="panel-title">En pocas palabras</h3>
             </div>
             <div class="panel-body">
-              {{page.descripcion}}
+              {{product_data.description}}
             </div>
           </div>
 
@@ -54,7 +57,7 @@
               <h3 class="panel-title">Tiempo de cultivo</h3>
             </div>
             <div class="panel-body">
-              <div class="tiempo-cultivo"></div>
+              <div class="tiempo-cultivo" data-time="{{product_data.time}}"></div>
             </div>
           </div>
         </div>
@@ -65,7 +68,7 @@
             </div>
             <div class="panel-body">
               <div class="chart"></div>
-              <small class="fuente">Fuente: Ministerio de Agricultura (2015). Anuario de Estadística.</small>
+              <small class="source">Fuente: Ministerio de Agricultura (2015). Anuario de Estadística.</small>
             </div>
           </div>
 
@@ -75,7 +78,7 @@
             </div>
             <div class="panel-body">
               <div class="import-export"></div>
-              <small class="fuente">Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos.</small>
+              <small class="source">Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos.</small>
             </div>
           </div>
         </div>
@@ -87,11 +90,10 @@
   {% include footer.html %} {% include js.html %}
   <script>
   $(document).ready(function(){
-    {% assign product_name = page.img | replace: '.png','' %}
-    dibujaGrafico(".chart","{{site.url}}/data/producto/{{product_name}}/production/grafico.csv");
-    graficaImportExport(".import-export","{{site.url}}/data/producto/{{product_name}}/{{product_name}}_import_export_mes.csv");
-    updateCalendario("{{page.title | downcase }}","{{site.url}}");
-    tiempoCultivo("{{product_name}}",".tiempo-cultivo","{{site.url}}/data/meses-cultivo.csv");
+    graphProduction(".chart","{{site.url}}/data/products/{{product_id}}/production/grafico.csv");
+    graphImportExport(".import-export","{{site.url}}/data/products/{{product_id}}/{{product_id}}_import_export_mes.csv");
+    graphProductionTime(".tiempo-cultivo");
+    updateCalendar("{{product_id }}","{{site.url}}");
 });
   </script>
 </body>

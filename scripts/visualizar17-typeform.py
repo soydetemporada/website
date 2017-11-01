@@ -6,7 +6,7 @@ Created on Tue Oct 10 19:26:07 2017
 
 This file reads the export csv from typeform and transforms it in a file with the same structure
 we use to generate calendars. You need to have your temporada-alimentos-report.csv in the raw folder.
-Writes different calendar files to ../data/calendario/, one per answer.
+Writes different calendar files to ../data/calendar/, one per answer.
 
 To be improved> Add header with geodata.
 
@@ -24,7 +24,7 @@ locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
 currentPWD = os.getcwd()
 dwd = currentPWD[:-7]+'data/raw/'
 aux = currentPWD[:-7]+'data/aux/'
-cwd = currentPWD[:-7]+'data/calendario/'
+cwd = currentPWD[:-7]+'data/calendar/'
 hwd = currentPWD[:-7]+'data/'
 
 #Get typeform file

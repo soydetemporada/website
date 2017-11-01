@@ -149,14 +149,14 @@ section.success {
   color: #{{site.color.primary-complement}};
   background: #{{ site.color.primary }};
 }
-#portfolio{
+#product{
 
 }
-#portfolio .portfolio-item {
+#product .product-item {
   right: 0;
   margin: 0 0 15px;
 }
-#portfolio .portfolio-item .portfolio-link {
+#product .product-item .product-link {
   display: block;
   position: relative;
   margin: 0 auto;
@@ -165,7 +165,7 @@ section.success {
   font-weight: bold;
   text-decoration: none;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
+#product .product-item .product-link .caption {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -175,10 +175,10 @@ section.success {
   -moz-transition: all ease .5s;
   transition: all ease .5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#product .product-item .product-link .caption:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#product .product-item .product-link .caption .caption-content {
   position: relative;
   width: 100%;
   height: 20px;
@@ -187,20 +187,20 @@ section.success {
   font-size: 20px;
   color: #fff;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#product .product-item .product-link .caption .caption-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#product .product-item .product-link .caption .caption-content h3,
+#product .product-item .product-link .caption .caption-content h4 {
   margin: 0;
 }
-#portfolio .portfolio-item img {
+#product .product-item img {
   width: 165px;
 }
-#portfolio * {
+#product * {
   z-index: 2;
 }
-#portfolio .month-filter{
+#product .month-filter{
   padding-bottom: 3em;
 }
 #product {
@@ -228,11 +228,11 @@ section.success {
   padding: 0;
 }
 
-#product-page li.inicio-temporada{
+#product-page li.start-of-season{
   background-color: #C1DA84;
   opacity: 1;
 }
-#product-page li.en-temporada{
+#product-page li.in-season{
   background-color: #89BC10;
   opacity: 1;
 }
@@ -256,7 +256,7 @@ section.success {
   text-transform: none;
 }
 
-#acerca h3{
+#about h3{
   margin-top: 1.5em;
 }
 
@@ -398,69 +398,11 @@ footer .footer-below {
 .scroll-top .btn:focus {
   outline: 0;
 }
-.portfolio-modal .modal-content {
-  padding: 2em 0;
-  min-height: 100%;
-  border: 0;
-  border-radius: 0;
-  text-align: center;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.portfolio-modal .modal-content h2 {
-  margin: 0;
-  font-size: 3em;
-}
-.portfolio-modal .modal-content img {
-  margin-bottom: 30px;
-}
-.portfolio-modal .modal-content .item-details {
-  margin: 30px 0;
-}
-.portfolio-modal .close-modal {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  width: 35px;
-  height: 35px;
-  background-color: transparent;
-  cursor: pointer;
-}
-.portfolio-modal .close-modal:hover {
-  opacity: .3;
-}
-.portfolio-modal .close-modal .lr {
-  z-index: 1051;
-  width: 1px;
-  height: 35px;
-  margin-left: 35px;
-  background-color: #{{ site.color.secondary }};
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.portfolio-modal .close-modal .lr .rl {
-  z-index: 1052;
-  width: 1px;
-  height: 35px;
-  background-color: #{{ site.color.secondary }};
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
 .navbar-nav>.active>a {
   background-color: #{{ site.color.highlight }} !important;
   border-radius: 6px;
 }
 
-/* Fix modal mouse wheel issues */
-
-/* https://github.com/twbs/bootstrap/issues/16297 */
-.modal.fade.in {
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-}
 .panel-default > .panel-heading{
   background: none;
   border: none;
@@ -492,7 +434,7 @@ footer .footer-below {
   text-align:center;
   font-size: 20px;
 }
-.peticion{
+.demand{
   margin-left: 0px;
   margin-top: 20px;
   margin-right: 0px;
@@ -507,29 +449,29 @@ footer .footer-below {
   padding: 1em;
   border-radius: 6px;*/
 }
-#peticion .row {
+#demand .row {
   margin-right: 0;
   margin-left: 0;
 }
-.fuente{
+.source{
   font-size: 70%;
   float:right;
   margin-top: 0.5em;
 }
 
-.id, .temporada,.category {
+.id, .season,.category {
   display: none;
 }
-.icon-temporada{
+.icon-season{
   position: static;
   color: #CA7947
 }
-.en-temporada {}
-.inicio-temporada img, .fin-temporada img {
+.in-season {}
+.start-of-season img, .end-of-season img {
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
-.fuera-temporada img {
+.out-of-season img {
   /*color: red;*/
   filter: gray;
   /* IE6-9 */
@@ -538,9 +480,6 @@ footer .footer-below {
   filter: grayscale(1);
   /* Microsoft Edge and Firefox 35+ */
   opacity: 0.75;
-}
-.comunidad {
-  margin: 1em;
 }
 .month-filter {
   text-transform: uppercase;
@@ -567,21 +506,21 @@ footer .footer-below {
 .product-filter {
   margin-bottom: 2em;
 }
-.colaborador {
+.colaborator {
   text-align: center;
   margin-top: 1.5em;
 }
-.colaborador img {
+.colaborator img {
   padding-bottom: 1em;
 }
-.colaborador .pull-left {
+.colaborator .pull-left {
   text-align: left;
 }
-#acerca-header {
+#about-header {
   background-size: cover;
   background-position: 0 -22em;
 }
-#acerca ul {
+#about ul {
   list-style: none;
   padding-left: 0.2em;
 }
@@ -604,7 +543,7 @@ footer .footer-below {
   font-family: 'Roboto';
 }
 
-div.grafica-barras{
+div.bar-graph{
     display: inline-block;
     height: 40px;
     overflow: hidden;
@@ -613,7 +552,7 @@ div.grafica-barras{
 
 
 }
-.chart div.grafica-texto{
+.chart div.graph-text{
     color:black;
     background-color: white;
     display: inline-block;
@@ -663,7 +602,6 @@ div.grafica-barras{
     z-index: 1000;
     padding:5px;
     border-radius: 4px;
-
 }
 .loader{
   display: block;
@@ -701,10 +639,10 @@ div.grafica-barras{
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-  #portfolio .portfolio-item {
+  #product .product-item {
     margin: 0 0 30px;
   }
-  #portfolio .portfolio-item img {
+  #product .product-item img {
 
   }
 }
@@ -727,10 +665,10 @@ div.grafica-barras{
     width: 25%;
     padding: 0.5em;
   }
-  #acerca-header {
+  #about-header {
     background-position: bottom;
   }
-  #portfolio .month-filter{
+  #product .month-filter{
     padding-bottom: 7em;
   }
   #product-page .month-filter li{
@@ -745,7 +683,7 @@ div.grafica-barras{
   .highlight{
     padding: 2em;
   }
-  .inicio-temporada .icon-temporada{
+  .start-of-season .icon-season{
     margin-top: 5px;
   }
 

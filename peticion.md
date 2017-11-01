@@ -1,7 +1,7 @@
 ---
 title: para tener calendarios fiables
 layout: page
-css-id: peticion
+css-id: demand
 cabezote: /img/peticion-cabezote.jpg
 ---
 
@@ -26,22 +26,22 @@ Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base 
 
 ### Ayúdanos a hacer escuchar nuestro mensaje
 
-<div class="peticion">
+<div class="demand">
   @mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. http://soydetemporada.es/ #visualizar17  <a href="https://twitter.com/intent/tweet?text={{"@mapamagob ¿En qué hemisferío vivís? En España la temporada del tomate es verano, no invierno. http://soydetemporada.es/ #visualizar17 " | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 
-<div class="peticion">
+<div class="demand">
   Quiero tener acceso a datos fiables de frutas y verduras de temporada, @Alimentacion_es deben revisar su calendario http://soydetemporada.es/<a href="https://twitter.com/intent/tweet?text={{"Quiero tener acceso a datos fiables de frutas y verduras de temporada, @Alimentacion_es deben revisar su calendario http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 
-<div class="peticion">
+<div class="demand">
 La mejor forma de proteger nuestra agricultura es diciendo la verdad. @Alimentacion_es por favor revisad vuestro calendario de temporada. <a href="https://twitter.com/intent/tweet?text={{"La mejor forma de proteger nuestra agricultura es diciendo la verdad. @Alimentacion_es por favor revisad vuestro calendario de temporada." | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 
-<div class="peticion">
+<div class="demand">
   Según el calendario de @mapamagob el mejor momento para comer calabacín es pleno invierno. Esto hay que corregirlo!  http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"Según el calendario de @mapamagob el mejor momento para comer calabacín es pleno invierno. Esto hay que corregirlo!  http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 
-<div class="peticion">
+<div class="demand">
   @mapamagob Hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrijánlo http://soydetemporada.es/ <a href="https://twitter.com/intent/tweet?text={{"@mapamagob hay datos incorrectos en vuestro calendario de frutas y verduras de temporada, por favor corrijánlo http://soydetemporada.es/" | url_encode }}" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>

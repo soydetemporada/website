@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Sat Oct 20 2017 08:32:08 GMT+0000 (UTC)
+# Time: Sat Oct 20 2017 08:33:08 GMT+0000 (UTC)
 
 CACHE:
 http://soydetemporada.es/css/font-awesome/css/font-awesome.min.css
@@ -14,7 +14,7 @@ https://d3js.org/d3.v4.min.js
 http://soydetemporada.es/js/bootstrap.min.js
 http://soydetemporada.es/js/jquery.easing.min.js
 http://soydetemporada.es/js/freelancer.js
-http://soydetemporada.es/js/graficos.js
+http://soydetemporada.es/js/graphs.js
 http://soydetemporada.es/js/moment/moment.js
 http://soydetemporada.es/js/moment/locale/es.js
 https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js

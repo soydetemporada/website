@@ -1,5 +1,5 @@
-<!-- Portfolio Grid Section -->
-<section id="portfolio">
+<!-- Product Grid Section -->
+<section id="product">
   <div class="container">
     <div class="row">
       <ul class="month-filter">
@@ -22,8 +22,10 @@
         <form>
           <select placeholder="Filtrar por producto" class="form-control">
               <option></option>
-            {% for product in site.products %}
-              <option value="{{forloop.index}}">{{product.title}}</option>
+            {% assign products = site.data.products | sort %}
+            {% for product_hash in products %}
+              {% assign product = product_hash[1] %}
+              <option value="{{forloop.index}}">{{product.name}}</option>
             {% endfor %}
           </select>
         </form>
@@ -34,27 +36,27 @@
       <span class="sr-only">Cargando...</span>
     </div>
     <div class="grid row">
-      <div class="portfolio-item col-sm-12 col-xs-12 section-label section-fuera-temporada">
+      <div class="product-item col-sm-12 col-xs-12 section-label section-out-season">
         <h3>FUERA DE TEMPORADA</h3>
         <span class="id">0</span>
-        <span class="temporada">4</span>
+        <span class="season">4</span>
       </div>
       {% for product in site.products %}
-      <!-- col-sm-2 col-xs-4  -->
-      <div class="portfolio-item col-sm-2 col-xs-4 product-{{ forloop.index }}">
-        <!--<a href="#portfolioModal-{{ forloop.index }}" class="portfolio-link" data-toggle="modal">-->
-        <a href="{{ product.url | prepend: site.url }}" class="portfolio-link" data-toggle="modal">
+        {% assign product_id = product.id | replace: '/products/',''%}
+        {% assign product_data = site.data.products[product_id] %}
+      <div class="product-item col-sm-2 col-xs-4 product-{{ forloop.index }}">
+        <a href="{{ product.url | prepend: site.url }}" class="product-link" title="{{product_data.name}}">
           <div class="caption">
             <div class="caption-content">
             </div>
           </div>
-          <img src="img/products/{{ product.img }}" class="img-responsive" alt="{{ product.alt }}">
-          <i class="fa icon-temporada"></i> <span class="product-title">{{product.title}}</span>
+          <img src="img/products/{{ product_data.img }}" class="img-responsive" alt="{{ product_data.name }}" title="{{ product_data.name }}">
+          <i class="fa icon-season"></i> <span class="product-title">{{product_data.name}}</span>
         </a>
 
         <span class="id">{{forloop.index}}</span>
-        <span class="temporada">{{forloop.index}}</span>
-        <span class="category">{{product.category}}</span>
+        <span class="season">{{forloop.index}}</span>
+        <span class="category">{{product_data.category}}</span>
       </div>
       {% endfor %}
     </div>
