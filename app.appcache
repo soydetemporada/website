@@ -1,14 +1,17 @@
 CACHE MANIFEST
 
-# Time: Sat Oct 20 2017 08:33:08 GMT+0000 (UTC)
+# Time: Wed Nov 01 2017 17:00:54 GMT+0000 (UTC)
 
 CACHE:
+http://soydetemporada.es/app.appcache
+http://soydetemporada.es/style.css
 http://soydetemporada.es/css/font-awesome/css/font-awesome.min.css
 http://fonts.googleapis.com/css?family=Roboto:300,300i,400
 http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic
 http://fonts.googleapis.com/css?family=Amatic+SC:400,700
 https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css
 http://soydetemporada.es/js/cookieconsent.min.js
+https://www.googletagmanager.com/gtag/js?id=UA-101255297-2
 http://soydetemporada.es/js/jquery-1.11.0.js
 https://d3js.org/d3.v4.min.js
 http://soydetemporada.es/js/bootstrap.min.js
@@ -18,8 +21,10 @@ http://soydetemporada.es/js/graphs.js
 http://soydetemporada.es/js/moment/moment.js
 http://soydetemporada.es/js/moment/locale/es.js
 https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js
+https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js
 https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js
 http://soydetemporada.es/js/search.js
+http://soydetemporada.es/img/products/endibia.png
 http://soydetemporada.es/img/cabezote.jpg
 http://soydetemporada.es/img/products/acelga.png
 http://soydetemporada.es/img/products/aguacate.png
@@ -40,7 +45,6 @@ http://soydetemporada.es/img/products/champinon.png
 http://soydetemporada.es/img/products/col-de-bruselas.png
 http://soydetemporada.es/img/products/col.png
 http://soydetemporada.es/img/products/coliflor.png
-http://soydetemporada.es/img/products/endibia.png
 http://soydetemporada.es/img/products/esparrago.png
 http://soydetemporada.es/img/products/espinaca.png
 http://soydetemporada.es/img/products/frambuesa.png
@@ -49,15 +53,15 @@ http://soydetemporada.es/img/products/guisante.png
 http://soydetemporada.es/img/products/haba.png
 http://soydetemporada.es/img/products/higo.png
 http://soydetemporada.es/img/products/judia.png
+http://soydetemporada.es/css/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0
 http://soydetemporada.es/img/products/kiwi.png
-http://soydetemporada.es/css/font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0
 http://soydetemporada.es/img/products/lechuga.png
 http://soydetemporada.es/img/products/lima.png
 http://soydetemporada.es/img/products/limon.png
 http://soydetemporada.es/img/products/maiz.png
+http://soydetemporada.es/img/products/melocoton.png
 http://soydetemporada.es/img/products/mandarina.png
 http://soydetemporada.es/img/products/manzana.png
-http://soydetemporada.es/img/products/melocoton.png
 http://soydetemporada.es/img/products/melon.png
 http://soydetemporada.es/img/products/mora.png
 http://soydetemporada.es/img/products/nabo.png
@@ -78,6 +82,7 @@ http://soydetemporada.es/img/products/zanahoria.png
 http://soydetemporada.es/img/medialablogo.png
 http://soydetemporada.es/img/datalablogo.png
 http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/dark-bottom.css
+http://soydetemporada.es/css/font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0
 
 NETWORK:
 *
