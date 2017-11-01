@@ -14,6 +14,9 @@ Ahora, ¿cómo saber qué comer y cuándo? Buscando calendarios en la web, uno s
 
 Con este proyecto, queremos aportar una herramienta para apoyar el consumo responsable, limitando el transporte excesivo de alimentos y el cultivo en invernaderos climatizados.
 
+### ¿PORQUÉ COMER DE TEMPORADA?
+Comer productos de temporada es bueno para tu salud, tu bolsillo y el medio ambiente. Además de ayudar a reducir las emisiones de CO2 y apoyar la sostenibilidad de la tierra, consumes productos que han sido recogidos en su punto óptimo de maduración a un precio justo y que favorece la economía local.
+
 ### METODOLOGÍA
 Para elaborar el calendario, hemos contactado con organismos y personas del mundo agrícola para que nos comuniquen las temporadas de los productos en su zona. Hemos hablado con agricultores, grupos de consumo, observatorios agroalimentarios y consejos de producción ecológica. Hemos recolectado los datos a través de una tabla Excel y una encuesta en Google Form.
 
