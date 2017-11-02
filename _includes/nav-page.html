@@ -21,14 +21,17 @@
                     <li class="page-scroll {% if page.path contains 'products' %} active {% endif %}">
                         <a href="{{ site.url }}#products">Buscador</a>
                     </li>
+                    <li class="page-scroll {% if page.css-id == 'about' %} active {% endif %}">
+                        <a href="{{site.url}}/acerca">¿Por qué?</a>
+                    </li>
                     <li class="page-scroll {% if page.css-id == 'research' %} active {% endif %}">
                         <a href="{{site.url}}/investigacion">Investigación</a>
                     </li>
                     <li class="page-scroll {% if page.css-id == 'demand' %} active {% endif %}">
                         <a href="{{site.url}}/peticion">Petición </a>
                     </li>
-                    <li class="page-scroll {% if page.css-id == 'about' %} active {% endif %}">
-                        <a href="{{site.url}}/acerca">Acerca</a>
+                    <li class="page-scroll {% if page.css-id == 'faq' %} active {% endif %}">
+                        <a href="{{site.url}}/faq">FAQ</a>
                     </li>
                 </ul>
             </div>

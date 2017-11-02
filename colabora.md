@@ -1,6 +1,6 @@
 ---
 title: Colabora
-layout: contact
+layout: page_simple
 css-id: help
 cabezote: /img/investigacion-cabezote.jpg
 ---

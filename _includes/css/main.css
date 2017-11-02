@@ -263,7 +263,6 @@ section.success {
 #contact{
   background: #{{ site.color.primary }};
   border-bottom: 1px #c0c0c0 solid;
-  padding: 4em 0;
 }
 #contact h1,
 #contact h2,
@@ -272,6 +271,10 @@ section.success {
 }
 #contact a{
   text-decoration: none;
+}
+
+.page-simple{
+  padding-top: 7em;
 }
 .btn-success{
   margin: 1em 0;
@@ -349,6 +352,9 @@ footer {
 footer a, footer a:hover, footer a:focus, footer a:active, footer a.active {
   outline: 0;
   color: #fff;
+}
+footer .navbar-inverse .navbar-nav > li > a{
+  padding: .5em;
 }
 footer h3 {
   margin-bottom: 30px;
@@ -520,9 +526,26 @@ footer .footer-below {
   background-size: cover;
   background-position: 0 -22em;
 }
+#about-header .container h1{
+  content: '&nbsp;';
+}
 #about ul {
   list-style: none;
   padding-left: 0.2em;
+}
+#faq .panel{
+  padding: initial;
+}
+#faq .panel-default > .panel-heading{
+  background: #ecf0f1;
+  border: initial;
+}
+#faq .panel-title {
+  font-weight: 400;
+  font-size: 19px;
+}
+#faq .panel-title > a{
+  text-decoration: none;
 }
 .mobile {
   display: none;
@@ -668,6 +691,7 @@ div.bar-graph{
   #about-header {
     background-position: bottom;
   }
+
   #product .month-filter{
     padding-bottom: 7em;
   }
