@@ -701,6 +701,9 @@ div.bar-graph{
   #product-page ul.month-filter{
     padding: 0 0 0 1em;
   }
+  .product-filter > div {
+    padding-top: 1em;
+  }
   footer .footer-col .pull-right{
     float: none !important;
   }
