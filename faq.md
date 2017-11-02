@@ -6,6 +6,23 @@ css-id: faq
 
 ### PREGUNTAS FREQUENTES
 <br>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Quiero imprimir el calendario
+        </a>
+      </h4>
+    </div>
+  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+    <div class="panel-body">
+      <p>
+        Actualmente, el calendario solamente está accesible a través de la web. Paciencia, estamos trabajando la elaboración de un calendario descargable en versión PDF en varios formatos y os avisaremos a través de nuestra <a href="https://twitter.com/soydetemporada" target="_blank"> cuenta Twitter</a> una vez que esté disponible.
+      </p>
+    </div>
+  </div>
+</div>
+
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
@@ -21,23 +38,7 @@ css-id: faq
         Para empezar, es importante saber que el ritmo de la tierra no es como un reloj: una cosecha puede adelantarse o retrasarse dependiendo de las condiciones climatológicas y de la variedad del producto. Las temporadas de los productos presentes en este calendario se elaboraron a partir de las respuestas que recolectamos sobre cada producto, haciendo una media de toda la información que recibimos. Para ciertos alimentos, hemos recibido pocas respuestas y puede ser que la temporada presentada no sea totalmente de acuerdo con la situación en todas las regiones del país. Por lo tanto, no excluimos la posibilidad que hayan errores en el calendario.
       </p>
       <p>
-        Lo bueno de este proyecto es que vosotros mismos podéis colaborar y participar a mejorar la fiabilidad del calendario. ¿Cómo hacerlo? Rellenando este formulario con la temporada de los productos que conocéis y la provincia en la cual se cultivan estos últimos. Así, permitís enriquecer nuestra base de datos y tener datos precisos de cada región del país para poder, en un futuro, añadir un filtro de zona geográfica.
-      </p>
-    </div>
-  </div>
-</div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Quiero imprimir el calendario
-        </a>
-      </h4>
-    </div>
-  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-    <div class="panel-body">
-      <p>
-        Actualmente, el calendario solamente está accesible a través de la web. Paciencia, estamos trabajando la elaboración de un calendario descargable en versión PDF en varios formatos y os avisaremos a través de nuestra cuenta Twitter una vez que esté disponible.
+        Lo bueno de este proyecto es que vosotros mismos podéis colaborar y participar a mejorar la fiabilidad del calendario. ¿Cómo hacerlo? Rellenando <a href="http://soydetemporada.es/colabora/" target="_blank"> este formulario</a> con la temporada de los productos que conocéis y la provincia en la cual se cultivan estos últimos. Así, permitís enriquecer nuestra base de datos y tener datos precisos de cada región del país para poder, en un futuro, añadir un filtro de zona geográfica.
       </p>
     </div>
   </div>
@@ -54,9 +55,74 @@ css-id: faq
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
         <p>
-          Este proyecto es un prototipo en constante evolución. Se empezó con una lista de 53 frutas y verduras comunas pero vamos a ir añadiendo nuevos productos poco a poco. Tenemos en la lista de espera: cebolleta, ciruela, berro, hinojo, mango, chirimoya y granada. Si queréis que añadamos información sobre un producto que no está en la lista, no dudéis en avisarnos.
+          Este proyecto es un prototipo en constante evolución. Se empezó con una lista de 53 frutas y verduras comunas pero vamos a ir añadiendo nuevos productos poco a poco. Tenemos en la lista de espera: cebolleta, ciruela, berro, hinojo, mango, chirimoya y granada. Si queréis que añadamos información sobre un producto que no está en la lista, no dudéis en <a href="http://soydetemporada.es/contacto/" target="_blank"> avisarnos </a>.
         </p>
       </div>
     </div>
   </div>
 <!--  fin -->
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingThree">
+    <h4 class="panel-title">
+      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        ¿Qué pasa con el plátano?
+      </a>
+    </h4>
+  </div>
+  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+    <div class="panel-body">
+      <p>
+        Muchos usuarios nos han preguntado porque el plátano no está en la lista de productos. La razón es que a día de hoy, el calendario sólo incluye productos que se cultivan en la península española y el 99,9%* de los plátanos vienen de las Islas Canarias. Este proyecto parte de la idea que consumir responsable significa comer de temporada pero también comer local. Por esta razón, no quisimos mezclar datos de territorios alejados y con climas radicalmente diferentes. Tenemos ganas de elaborar un calendario para los productos de temporada en Canarias pero aún no hemos recopilado suficientes datos sobre las temporadas allí para hacerlo. Si eres Canario y te sientes perjudicado, manda el <a href="http://soydetemporada.es/colabora/" target="_blank">formulario de participación</a> a todos los agricultores que conoces para que lo rellenen y que juntemos suficientes datos para montar otro calendario.
+        *Fuente: <a href="http://www.mapama.gob.es/es/estadistica/temas/publicaciones/anuario-de-estadistica/" target="_blank"> Ministerio de Agricultura </a>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingThree">
+    <h4 class="panel-title">
+      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Vivo en Canarias, ¿el calendario me vale?
+      </a>
+    </h4>
+  </div>
+  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+    <div class="panel-body">
+      <p>
+        Por falta de colaboradores canarios, el calendario solamente incluye productos que se cultivan en la península española. Nos encantaría hacer una versión del calendario para las Islas Canarias así que si conoces el ciclo natural de las plantas allí, no dudes en rellenar el <a href="http://soydetemporada.es/colabora/" target="_blank">formulario</a>.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingThree">
+    <h4 class="panel-title">
+      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        ¿Qué significa el icono del reloj de arena que aparece en ciertos productos?
+      </a>
+    </h4>
+  </div>
+  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+    <div class="panel-body">
+      <p>
+        Cuando se muestra este icono al lado de un producto, significa que está entrando o saliendo de su temporada plena. La cosecha de una fruta o verdura puede variar bastante según las condiciones climáticas y no podemos saber con exactitud cuando un producto va a estar disponible. El reloj de arena avisa que el producto podría estar aún fuera de temporada.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingThree">
+    <h4 class="panel-title">
+      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        El cambio climático
+      </a>
+    </h4>
+  </div>
+  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+    <div class="panel-body">
+      <p>
+        Mucha gente nos ha preguntado si habíamos incluido la evolución del clima en el calendario. En la versión actual del proyecto, no valoramos cómo los cambios climáticos pueden afectar a la temporada de los productos pero no encantaría poder añadir información sobre el tema en un futuro, incluso hacer un artículo con voces de agricultores que nos expliquen cómo les están afectando los cambios.
+      </p>
+    </div>
+  </div>
+</div>
