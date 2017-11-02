@@ -39,13 +39,17 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 
-social:
+share:
   - title: facebook
     url: http://www.facebook.com/sharer.php?u=[url]
   - title: twitter
     url: https://twitter.com/intent/tweet?text=Un%20calendario%20de%20productos%20de%20temporada%20fiable%20y%20transparente.%20Para%20uso%20cotidiano.%20Made%20in%20%23visualizar17.[url]
   - title: linkedin
     url: http://www.linkedin.com/shareArticle?url=[url]
+
+social:
+  - title: twitter
+    url: https://twitter.com/soydetemporada
   - title: github
     url: https://github.com/ffosset/journey-of-food/
 

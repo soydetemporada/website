@@ -4,31 +4,41 @@
             <div class="container">
                 <div class="row">
                   <div class="footer-col col-md-4">
-                      <a href="http://medialab-prado.es" target="_blank"><img class="img-responsive" width="100px" src="{{"/img/medialablogo.png" | prepend: site.url }}"></a>
-                      <a href="https://twitter.com/datalabx" target="_blank"><img class="img-responsive" width="100px" src="{{"/img/datalablogo.png" | prepend: site.url }}"></a>
-                  </div>
-                  <div class="footer-col col-md-4">
+                        <br>
                         <b>Compártelo</b>
                         <ul class="list-inline">
-                            {% for network in site.social %}
+                            {% for network in site.share %}
                             <li>
-                                <a href="{{ network.url | replace: '[url]',site.url }}" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                                <a href="{{ network.url | replace: '[url]',site.url }}" class="btn-social" target="_blank"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                             </li>
 		                    {% endfor %}
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                      <div class="nav navbar-inverse pull-right">
-                      <ul class="nav navbar-nav">
-                        <li><a href="{{site.url}}/equipo">Equipo</a></li>
-                        <li><a href="{{site.url}}/agradecimientos">Colaboradores</a></li>
-                        <li><a href="{{site.url}}/colabora">Colabora</a></li>
-                        <li><a href="{{site.url}}/contacto">Contacto</a></li>
-                      </ul>
-                    </div>
+                        <a href="http://medialab-prado.es" target="_blank"><img class="img-responsive" width="100px" src="{{"/img/medialablogo.png" | prepend: site.url }}"></a>
+                        <a href="https://twitter.com/datalabx" target="_blank"><img class="img-responsive" width="100px" src="{{"/img/datalablogo.png" | prepend: site.url }}"></a>
+                        <br>
+                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                      </div>
+                    <div class="footer-col col-md-4">
                       <div class="pull-right">
-                      Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        <ul class="list-inline">
+                            {% for network in site.social %}
+                            <li>
+                                <a href="{{ network.url | replace: '[url]',site.url }}" class="btn-social" target="_blank"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                            </li>
+		                    {% endfor %}
+                        </ul>
                     </div>
+                    <div class="nav navbar-inverse pull-right">
+                    <ul class="nav navbar-nav">
+                      <li><a href="{{site.url}}/equipo">Equipo</a></li>
+                      <li><a href="{{site.url}}/agradecimientos">Colaboradores</a></li>
+                      <li><a href="{{site.url}}/colabora">Colabora</a></li>
+                      <li><a href="{{site.url}}/contacto">Contacto</a></li>
+                    </ul>
+                  </div>
+                    
                     </div>
                 </div>
             </div>
