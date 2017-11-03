@@ -6,22 +6,20 @@ css-id: about
 cabezote: /img/porque-cabezote.jpg
 ---
 
-Este proyecto se ha desarrollado en el marco del evento [Visualizar 17](http://medialab-prado.es/article/visualizar17-migraciones-proyectos-seleccionados), un taller colaborativo y de datos abiertos organizado por el Medialab Prado del Ayuntamiento de Madrid. Tuvo lugar del 15 al 30 de septiembre 2017.
+### ¿PORQUÉ COMER DE TEMPORADA?
+Comer productos de temporada es bueno para tu salud, tu bolsillo y el medio ambiente. Además de ayudar a reducir las emisiones de CO2 y apoyar la sostenibilidad de la tierra, consumes productos que han sido recogidos en su punto óptimo de maduración a un precio justo y que favorece la economía local.
 
-### INTRODUCCIÓN
+### ¿POR QUÉ ESTE PROYECTO?
 Hace décadas que los habitantes de centros urbanos se desconectaron del mundo agrícola y del ritmo natural de la tierra. Sea verano o invierno, norte o sur, en Europa siempre es posible encontrar fruta exótica en los estantes de supermercados. Hay dos maneras de conseguir ésto: importando o cultivando en invernaderos climatizados. Los dos métodos tienen impacto sobre el planeta, generan residuos y gases de efecto invernadero que destrozan cada vez más el medio ambiente. Tenemos que deshacernos de la comodidad a la que nos hemos acostumbrado y **volver a consumir como lo hacían nuestros abuelos: siguiendo el ritmo de la naturaleza**.
 
 Ahora, ¿cómo saber qué comer y cuándo? Buscando calendarios en la web, uno se enfrenta a una gran cantidad de datos e informaciones contradictorias. Este proyecto tiene por objetivo elaborar un calendario fiable, completo y lo más preciso posible. El objetivo original era elaborar varios calendarios dependiendo de la zona de cultivo, pero por falta de datos, hemos decidido elaborar un sólo calendario para toda la península.
 
 Con este proyecto, queremos aportar una herramienta para apoyar el consumo responsable, limitando el transporte excesivo de alimentos y el cultivo en invernaderos climatizados.
 
-### ¿PORQUÉ COMER DE TEMPORADA?
-Comer productos de temporada es bueno para tu salud, tu bolsillo y el medio ambiente. Además de ayudar a reducir las emisiones de CO2 y apoyar la sostenibilidad de la tierra, consumes productos que han sido recogidos en su punto óptimo de maduración a un precio justo y que favorece la economía local.
-
 ### METODOLOGÍA
 Para elaborar el calendario, hemos contactado con organismos y personas del mundo agrícola para que nos comuniquen las temporadas de los productos en su zona. Hemos hablado con agricultores, grupos de consumo, observatorios agroalimentarios y consejos de producción ecológica. Hemos recolectado los datos a través de una tabla Excel y una encuesta en Google Form.
 
-Por ahora han participado a la encuesta más de 15 agricultores y organismos de varias comunidades autónomas: Andalucía, Asturias, Extremadura, Madrid, Murcia, Navarra y País Vasco. El formulario es accesible [aquí](https://goo.gl/forms/TQiNrQp6pvbUiLWI2) y se agradece la colaboración de cualquier persona que tenga conocimientos sobre el ciclo natural de las plantas. Se hizo una media de todos los resultados para crear un sólo calendario que junte información de todas las zonas.
+Por ahora han participado a la encuesta más de 20 agricultores y organismos de varias comunidades autónomas: Andalucía, Asturias, Extremadura, Madrid, Murcia, Navarra y País Vasco. El formulario es accesible [aquí]({{site.url}}/colabora) y se agradece la colaboración de cualquier persona que tenga conocimientos sobre el ciclo natural de las plantas. Se hizo una media de todos los resultados para crear un sólo calendario que junte información de todas las zonas de la península española.
 <br>
 <div class="row">
   <div class="col-sm-12 col-xs-12">
