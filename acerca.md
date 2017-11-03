@@ -3,6 +3,7 @@ title: Acerca
 layout: page_simple
 css-id: team
 ---
+<br>
 Este proyecto se ha desarrollado en el marco del evento [Visualizar 17](http://medialab-prado.es/article/visualizar17-migraciones-proyectos-seleccionados), un taller colaborativo y de datos abiertos organizado por el Medialab Prado del Ayuntamiento de Madrid. Tuvo lugar del 15 al 30 de septiembre 2017.
 
 ### EQUIPO
@@ -36,7 +37,7 @@ Este proyecto se ha desarrollado en el marco del evento [Visualizar 17](http://m
   </div>
 {% endfor %}
 </div>
-
+<br>
 ### COLABORADORES
 <div class="row">
   <div class="col-sm-4 col-xs-12" >
