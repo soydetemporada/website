@@ -1,7 +1,21 @@
 {
-    "name": "Sand\u00eda",
     "img": "sandia.png",
+    "precio": {
+        "01-02-2017": NaN,
+        "01-11-2016": NaN,
+        "01-05-2017": NaN,
+        "01-07-2017": NaN,
+        "01-08-2017": NaN,
+        "01-01-2017": NaN,
+        "01-06-2017": NaN,
+        "01-04-2017": NaN,
+        "01-10-2017": 0.81,
+        "01-12-2016": NaN,
+        "01-03-2017": NaN,
+        "01-09-2017": 0.79
+    },
+    "time": 5,
     "category": "Fruta",
-    "description": "La sand\u00eda es una fruta t\u00edpica de verano. Florece en Mayo-Junio y madura unos 40 d\u00edas despu\u00e9s, que es cuando podemos coger nuestra sand\u00eda. Es uno de los productos m\u00e1s exportados por Espa\u00f1a, principalmente a nuestros vecinos europeos Alemania, Francia y Pa\u00edses bajos. Al mismo tiempo, es un producto que tambi\u00e9n importamos, sobre todo de Marruecos y Senegal.",
-    "time": 5
+    "name": "Sand\u00eda",
+    "description": "La sand\u00eda es una fruta t\u00edpica de verano. Florece en Mayo-Junio y madura unos 40 d\u00edas despu\u00e9s, que es cuando podemos coger nuestra sand\u00eda. Es uno de los productos m\u00e1s exportados por Espa\u00f1a, principalmente a nuestros vecinos europeos Alemania, Francia y Pa\u00edses bajos. Al mismo tiempo, es un producto que tambi\u00e9n importamos, sobre todo de Marruecos y Senegal."
 }

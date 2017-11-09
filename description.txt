@@ -1,0 +1,23 @@
+00 SOY DE TEMPORADA
+
+TITULO
+SOY DE TEMPORADA
+
+DESCRIPTOR (UNA FRASE) + HASHTAGS (HASTA 5)
+Es un proyecto para visualizar y concienciar sobre el calendario natural de frutas y hortalizas. temporada,responsable,frutas,hortalizas,calendario,
+
+FICHA
+Responsables: Flora Fosset (http://fosset.co/), Jimena García (https://twitter.com/_JimmyJazzzz), Diego Ramírez (https://lowfill.org), Pau Valiente (http://www.pau.cc/), Rai Abril (https://github.com/raiabril)
+Coordinador del programa: Flora Fosset (http://fosset.co/)
+Mentores: Alejandro Zappala (https://twitter.com/alayzappala), Beatriz Martínez (https://twitter.com/maritrinez), Jesús David Navarro (https://twitter.com/jesusda), Sergio Galán (https://twitter.com/sergioeclectico)
+Fechas: 16 Sep - 30 Sep 2017
+twitter/instagram:
+webs: http://soydetemporada.es/
+mail: soydetemporada@gmail.com
+
+
+*si hay alguna otra info importante (página de fb, youtube, otro tipo de colaboradores, etc) añadidlo por favor.
+Toda la info sobre el proyecto se encuentra en: http://soydetemporada.es/acerca/
+
+MEMORIA (maximo 250-300 palabras)
+INTRODUCCIÓNHace décadas que los habitantes de centros urbanos se desconectaron del mundo agrícola y del ritmo natural de la tierra. Sea verano o invierno, norte o sur, en Europa siempre es posible encontrar fruta exótica en los estantes de los supermercados, y esto es gracias a un modelo productivo y logístico con un alto impacto medioambiental. Es necesario plantear un modelo de consumo sostenible y respetuoso que siga el ciclo natural de las plantas. Ahora, ¿cómo saber qué comer y cuándo? Buscando calendarios en la web, uno se enfrenta a una gran cantidad de datos e informaciones contradictorias. Este proyecto tiene por objetivo principal elaborar un calendario fiable, completo y lo más preciso posible. Con este proyecto, queremos aportar una herramienta para apoyar el consumo responsable, limitando el transporte excesivo de alimentos y el cultivo en invernaderos climatizados.METODOLOGÍAPara elaborar el calendario, hemos contactado con organismos y personas del mundo agrícola para que nos comuniquen las temporadas de los productos en su zona. Hemos hablado con agricultores, grupos de consumo, observatorios agroalimentarios y consejos de producción ecológica. Hemos recolectado los datos a través de una tabla Excel y una encuesta online.Por ahora han participado a la encuesta más de 15 agricultores y organismos de varias comunidades autónomas: Andalucía, Asturias, Extremadura, Madrid, Murcia, Navarra y País Vasco. Se hizo una media de todos los resultados para crear un sólo calendario que junte información de todas las zonas. Los datos usados para la elaboración de las fichas se han obtenido de diversos organismos públicos y privados. Los principales son Mercasa, el Ministerio de Economía, Industria y Competitividad y el Ministerio de Agricultura y Pesca, Alimentación y Media Ambiente.PRÓXIMOS PASOSEsto es un proyecto colaborativo, evolutivo y transparente. Rellenando la encuesta con el calendario de los productos en tu zona, nos ayudarás a mejorar la información mostrada a los usuarios en función de su localización.

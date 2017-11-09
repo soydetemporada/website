@@ -1,0 +1,219 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="ProgId content=Excel.Sheet">
+<style>
+                         table
+                         {mso-displayed-decimal-separator:"\.";
+                         mso-displayed-thousand-separator:"\,";}
+             
+                         @page
+                                 {margin:1.0in .75in 1.0in .75in;
+                                 mso-header-margin:.5in;
+                                 mso-footer-margin:.5in;}
+                         tr
+                                 {mso-height-source:auto;}
+                         td
+                                 {border:.5pt solid black;
+                                 font-family:"Calibri";
+                                 font-size:9.0pt;}
+                                 
+                         col
+                                 {mso-width-source:auto;}
+                         br
+                                 {mso-data-placement:same-cell;}
+                         .basestyle
+                                 {mso-number-format:General;
+                                 text-align:general;
+                                 vertical-align:bottom;
+                                 white-space:nowrap;
+                                 mso-rotate:0;
+                                 mso-background-source:auto;
+                                 mso-pattern:auto;
+                                 color:windowtext;
+                                 
+                                 font-weight:400;
+                                 font-style:normal;
+                                 text-decoration:none;
+                                 
+                                 font-family:"Calibri";
+                                 font-size:9.0pt;
+                                 mso-generic-font-family:auto;
+                                 mso-font-charset:0;
+                                 border:none;
+                                 mso-protection:locked visible;
+                                 mso-style-name:Normal;
+                                 mso-style-id:0;}
+             
+                           .col-heading
+                                 {mso-style-parent:basestyle;
+                                 font-weight:700;
+                                 
+                                 font-family:"Calibri";
+                                 font-size:9.0pt;
+                                 mso-generic-font-family:auto;
+                                 mso-font-charset:0;
+                                 text-align:left;
+                                 vertical-align:middle;
+                                 border:.5pt solid black;
+                                 white-space:normal;
+                                 mso-pattern:auto none;}
+             
+                           .row-heading
+                                 {mso-style-parent:basestyle;
+                                 font-weight:700;
+                                 
+                                 font-family:"Calibri";
+                                 font-size:9.0pt;
+                                 mso-generic-font-family:auto;
+                                 mso-font-charset:0;
+                                 text-align:left;
+                                 vertical-align:top;
+                                 border-top:.5pt solid black;
+                                 border-right:.5pt solid black;
+                                 border-bottom:.5pt solid black;
+                                 border-left:.5pt solid black;
+                                 white-space:normal;
+                                 mso-pattern:auto none;}
+             
+                           .dataitem
+                                 {
+                                 font-family:"Calibri";
+                                 font-size:9.0pt;
+                                 mso-generic-font-family:auto;
+                                 mso-font-charset:0;
+                                 mso-number-format:"\#\,\#\#0";
+                                                             
+                                 vertical-align:top;
+                                 border:.5pt solid black;
+                                 }
+             </style>
+</head>
+<body>
+<p>
+<img height="30" width="100" src="http://estacom.icex.es:80/estacom/images/logo.jpg"></p>
+<h2>ESTACOM - Estad&iacute;stica a medida</h2>
+<p>&Uacute;ltimos Datos Cargados:&nbsp;<b>Agosto / 2017</b> - Datos Definitivos hasta:&nbsp;<b>2015</b>
+<br>Los valores para exportaciones son&nbsp;<b>FOB</b>&nbsp;, y para importaciones&nbsp;<b>CIF</b>
+<br>SE = Se aplicar el Secreto Estad&iacute;stico</p>
+<p>
+<table border="0">
+<tr bgcolor="#C0C0C0">
+<th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Par&aacute;metro</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Valor</th>
+</tr>
+<tr bgcolor="#C0C0C0">
+<td align="right" valign="top" nowrap>PRODUCTOS<property label="" name="" value=""></property>
+</td><td align="right" valign="top" nowrap> 070951 - SETAS, Y DEMAS HONGOS; TRUFAS, FRESCAS O RE<property label="" name="" value=""></property>
+</td>
+</tr>
+<tr>
+<td align="right" valign="top" nowrap>INTENSIDAD TECNOL&Oacute;GICA<property label="" name="" value=""></property>
+</td><td align="right" valign="top" nowrap>TODOS INTENSIDAD TECNOL&Oacute;GICA<property label="" name="" value=""></property>
+</td>
+</tr>
+<tr bgcolor="#C0C0C0">
+<td align="right" valign="top" nowrap>PROVINCIA<property label="" name="" value=""></property>
+</td><td align="right" valign="top" nowrap>ESPA&Ntilde;A<property label="" name="" value=""></property>
+</td>
+</tr>
+<tr>
+<td align="right" valign="top" nowrap>MODO DE TRANSPORTE<property label="" name="" value=""></property>
+</td><td align="right" valign="top" nowrap>TODOS MODO TRANSPORTE<property label="" name="" value=""></property>
+</td>
+</tr>
+<tr bgcolor="#C0C0C0">
+<td align="right" valign="top" nowrap>COLUMNAS<property label="" name="" value=""></property>
+</td><td align="right" valign="top" nowrap>FLUJO,MEDIDA<property label="" name="" value=""></property>
+</td>
+</tr>
+<tr>
+<td align="right" valign="top" nowrap>MEDIDAS<property label="" name="" value=""></property>
+</td><td align="right" valign="top" nowrap>PESO, TM<property label="" name="" value=""></property>
+</td>
+</tr>
+<tr bgcolor="#C0C0C0">
+<td align="right" valign="top" nowrap>DIVISA<property label="" name="" value=""></property>
+</td><td align="right" valign="top" nowrap>EUROS<property label="" name="" value=""></property>
+</td>
+</tr>
+<tr>
+<td align="right" valign="top" nowrap>FLUJO<property label="" name="" value=""></property>
+</td><td align="right" valign="top" nowrap>EXPORTACI&Oacute;N, IMPORTACI&Oacute;N, SALDO, COBERTURA<property label="" name="" value=""></property>
+</td>
+</tr>
+<tr bgcolor="#C0C0C0">
+<td align="right" valign="top" nowrap>FILAS<property label="" name="" value=""></property>
+</td><td align="right" valign="top" nowrap>TIEMPO<property label="" name="" value=""></property>
+</td>
+</tr>
+<tr>
+<td align="right" valign="top" nowrap>PAISES<property label="" name="" value=""></property>
+</td><td align="right" valign="top" nowrap>TODOS LOS PA&Iacute;SES<property label="" name="" value=""></property>
+</td>
+</tr>
+<tr bgcolor="#C0C0C0">
+<td align="right" valign="top" nowrap>PERIODO<property label="" name="" value=""></property>
+</td><td align="right" valign="top" nowrap>2015<property label="" name="" value=""></property>
+</td>
+</tr>
+<br>
+</table>
+</p>
+<p>
+<table border="0">
+<tr bgcolor="#C0C0C0">
+<th text-align="center" vertical-align="top" nowrap bgcolor="#FFFFFF" colspan="1" rowspan="3">&nbsp;</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="4" rowspan="1" bgcolor="#F0F0F0">Flujo</th>
+</tr>
+<tr>
+<th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Exportaci&oacute;n</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Importaci&oacute;n</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Saldo</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Cobertura</th>
+</tr>
+<tr bgcolor="#C0C0C0">
+<th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Measures</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Measures</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Measures</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Measures</th>
+</tr>
+<tr>
+<th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Tiempo</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Peso, Tm</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Peso, Tm</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Peso, Tm</th><th class="col-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Peso, Tm</th>
+</tr>
+<tr bgcolor="#C0C0C0">
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">2015</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="2659.361812">2.659,36</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="1659.91571">1.659,92</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr>
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Enero</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="188.0453">188,05</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="142.49425">142,49</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr bgcolor="#C0C0C0">
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Febrero</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="222.22772">222,23</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="151.7186">151,72</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr>
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Marzo</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="257.68983">257,69</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="148.6603">148,66</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr bgcolor="#C0C0C0">
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Abril</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="226.395132">226,40</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="141.4329">141,43</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr>
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Mayo</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="194.53287">194,53</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="159.01684">159,02</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr bgcolor="#C0C0C0">
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Junio</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="178.96902">178,97</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="132.53714">132,54</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr>
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Julio</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="294.38132">294,38</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="162.78659">162,79</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr bgcolor="#C0C0C0">
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Agosto</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="201.63851">201,64</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="142.01961">142,02</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr>
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Septiembre</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="251.78376">251,78</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="137.70601">137,71</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr bgcolor="#C0C0C0">
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Octubre</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="234.30576">234,31</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="94.72862">94,73</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr>
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#F0F0F0">Noviembre</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="174.28284">174,28</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="128.67065">128,67</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+<tr bgcolor="#C0C0C0">
+<th class="row-heading" text-align="left" vertical-align="top" nowrap colspan="1" rowspan="1" bgcolor="#C0C0C0">Diciembre</th><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="235.10975">235,11</td><td align="right" valign="top" nowrap class="dataitem" style="mso-number-format:\#\,\#\#0\.00" x:num="118.1442">118,14</td><td align="right" valign="top" nowrap></td><td align="right" valign="top" nowrap></td>
+</tr>
+</table>
+</p>
+</body>
+</html>

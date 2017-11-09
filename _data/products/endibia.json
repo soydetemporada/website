@@ -1,7 +1,21 @@
 {
-    "name": "Endibia",
     "img": "endibia.png",
+    "precio": {
+        "01-02-2017": 1.6,
+        "01-11-2016": 1.6,
+        "01-05-2017": 1.6,
+        "01-07-2017": 1.57,
+        "01-08-2017": 1.56,
+        "01-01-2017": 1.59,
+        "01-06-2017": 1.59,
+        "01-04-2017": 1.6,
+        "01-10-2017": 1.55,
+        "01-12-2016": 1.6,
+        "01-03-2017": 1.6,
+        "01-09-2017": 1.54
+    },
+    "time": "NA",
     "category": "Verdura",
-    "description": "Su temporada \u00f3ptima empieza en los meses de oto\u00f1o hasta  los meses de verano. Aunque es aconsejable consumirla lo antes posible, puede aguantar en el frigor\u00edfico unos cinco d\u00edas.",
-    "time": "NA"
+    "name": "Endibia",
+    "description": "Su temporada \u00f3ptima empieza en los meses de oto\u00f1o hasta  los meses de verano. Aunque es aconsejable consumirla lo antes posible, puede aguantar en el frigor\u00edfico unos cinco d\u00edas."
 }

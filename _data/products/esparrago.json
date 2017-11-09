@@ -1,7 +1,21 @@
 {
-    "name": "Esparrago",
     "img": "esparrago.png",
+    "precio": {
+        "01-02-2017": 3.39,
+        "01-11-2016": 3.06,
+        "01-05-2017": 2.46,
+        "01-07-2017": 2.68,
+        "01-08-2017": 2.97,
+        "01-01-2017": 3.21,
+        "01-06-2017": 2.36,
+        "01-04-2017": 2.83,
+        "01-10-2017": 2.91,
+        "01-12-2016": 3.08,
+        "01-03-2017": 3.12,
+        "01-09-2017": 2.92
+    },
+    "time": 12,
     "category": "Verdura",
-    "description": "Los esp\u00e1rragos tienen una temporada muy corta, solamente se pueden comer al inicio de la primavera. El resto del a\u00f1o, se importan mayormente desde Per\u00fa, generando emisiones de CO2 innecesarias.",
-    "time": 12
+    "name": "Esparrago",
+    "description": "Los esp\u00e1rragos tienen una temporada muy corta, solamente se pueden comer al inicio de la primavera. El resto del a\u00f1o, se importan mayormente desde Per\u00fa, generando emisiones de CO2 innecesarias."
 }

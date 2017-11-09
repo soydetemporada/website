@@ -1,7 +1,21 @@
 {
-    "name": "Pimiento",
     "img": "pimiento.png",
+    "precio": {
+        "01-02-2017": 2.61,
+        "01-11-2016": 2.13,
+        "01-05-2017": 2.41,
+        "01-07-2017": 2.26,
+        "01-08-2017": 2.29,
+        "01-01-2017": 2.33,
+        "01-06-2017": 2.25,
+        "01-04-2017": 2.55,
+        "01-10-2017": 2.28,
+        "01-12-2016": 2.23,
+        "01-03-2017": 2.62,
+        "01-09-2017": 2.26
+    },
+    "time": 5,
     "category": "Verdura",
-    "description": "El pimiento es una hortaliza que se presenta en innumerables formas, tama\u00f1os, colores y sabores. Aunque China es el mayor productor del mundo, esta hortaliza proviene de Centroam\u00e9rica. En Espa\u00f1a, la mayor parte de la producci\u00f3n industrial de pimientos se obtiene en invernaderos por las necesidades de luz, humedad y temperatura. Es por ello que, adem\u00e1s de ser Espa\u00f1a uno de los principales exportadores de Europa, es f\u00e1cil encontrarlos en cualquier momento del a\u00f1o aunque su temporada natural es el verano.",
-    "time":5
+    "name": "Pimiento",
+    "description": "El pimiento es una hortaliza que se presenta en innumerables formas, tama\u00f1os, colores y sabores. Aunque China es el mayor productor del mundo, esta hortaliza proviene de Centroam\u00e9rica. En Espa\u00f1a, la mayor parte de la producci\u00f3n industrial de pimientos se obtiene en invernaderos por las necesidades de luz, humedad y temperatura. Es por ello que, adem\u00e1s de ser Espa\u00f1a uno de los principales exportadores de Europa, es f\u00e1cil encontrarlos en cualquier momento del a\u00f1o aunque su temporada natural es el verano."
 }

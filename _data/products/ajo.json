@@ -1,7 +1,21 @@
 {
-    "name": "Ajo",
     "img": "ajo.png",
+    "precio": {
+        "01-02-2017": 5.63,
+        "01-11-2016": 5.6,
+        "01-05-2017": 5.62,
+        "01-07-2017": 5.46,
+        "01-08-2017": 5.38,
+        "01-01-2017": 5.64,
+        "01-06-2017": 5.54,
+        "01-04-2017": 5.63,
+        "01-10-2017": 5.3,
+        "01-12-2016": 5.65,
+        "01-03-2017": 5.61,
+        "01-09-2017": 5.29
+    },
+    "time": 4,
     "category": "Verdura",
-    "description": "El ajo se recolecta en primavera y se almacena para poder consumirlo todo el a\u00f1o. En buenas condiciones, se puede conservar durante mucho tiempo. Aunque su olor fuerte pueda molestar a algunos, tiene un mont\u00f3n de beneficios para la salud y es un antibiotico natural.",
-    "time": 4
+    "name": "Ajo",
+    "description": "El ajo se recolecta en primavera y se almacena para poder consumirlo todo el a\u00f1o. En buenas condiciones, se puede conservar durante mucho tiempo. Aunque su olor fuerte pueda molestar a algunos, tiene un mont\u00f3n de beneficios para la salud y es un antibiotico natural."
 }

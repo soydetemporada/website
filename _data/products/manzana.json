@@ -1,7 +1,21 @@
 {
-    "name": "Manzana",
     "img": "manzana.png",
+    "precio": {
+        "01-02-2017": NaN,
+        "01-11-2016": NaN,
+        "01-05-2017": NaN,
+        "01-07-2017": NaN,
+        "01-08-2017": NaN,
+        "01-01-2017": NaN,
+        "01-06-2017": NaN,
+        "01-04-2017": NaN,
+        "01-10-2017": 1.95,
+        "01-12-2016": NaN,
+        "01-03-2017": NaN,
+        "01-09-2017": 1.91
+    },
+    "time": "NA",
     "category": "Fruta",
-    "description": "La manzana es una de las frutas m\u00e1s famosas y antiguas de la historia, y se dice que los seres humanos ya la cultivaban y difund\u00edan antes del Paleol\u00edtico. Esta fruta es una de las m\u00e1s completas desde una perspectiva nutritiva por sus extraordinarias propiedades, e incluso un grupo de cient\u00edficos de la Universidad china de Hong Kong han llegado a afirmar que alarga la vida. Un truco para saber si la manzana est\u00e1 en su punto \u00f3ptimo de madurez es comprobar si, al cogerla por el medio, su carne se mantiene firme o su piel se arruga muy poco. Por el contrario, una muestra de que la fruta no se encuentra en buen estado es si aparecen con muchas arrugas, puntos blandos o manchas, aunque las peque\u00f1as motitas que tienen algunas variedades no afectan en absoluto a su calidad.",
-    "time":"NA"
+    "name": "Manzana",
+    "description": "La manzana es una de las frutas m\u00e1s famosas y antiguas de la historia, y se dice que los seres humanos ya la cultivaban y difund\u00edan antes del Paleol\u00edtico. Esta fruta es una de las m\u00e1s completas desde una perspectiva nutritiva por sus extraordinarias propiedades, e incluso un grupo de cient\u00edficos de la Universidad china de Hong Kong han llegado a afirmar que alarga la vida. Un truco para saber si la manzana est\u00e1 en su punto \u00f3ptimo de madurez es comprobar si, al cogerla por el medio, su carne se mantiene firme o su piel se arruga muy poco. Por el contrario, una muestra de que la fruta no se encuentra en buen estado es si aparecen con muchas arrugas, puntos blandos o manchas, aunque las peque\u00f1as motitas que tienen algunas variedades no afectan en absoluto a su calidad."
 }

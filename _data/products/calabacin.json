@@ -1,7 +1,21 @@
 {
-    "name": "Calabacin",
     "img": "calabacin.png",
+    "precio": {
+        "01-02-2017": 3.08,
+        "01-11-2016": 1.62,
+        "01-05-2017": 1.44,
+        "01-07-2017": 1.4,
+        "01-08-2017": 1.37,
+        "01-01-2017": 2.73,
+        "01-06-2017": 1.42,
+        "01-04-2017": 1.59,
+        "01-10-2017": 2.2,
+        "01-12-2016": 2.08,
+        "01-03-2017": 1.94,
+        "01-09-2017": 1.54
+    },
+    "time": 4,
     "category": "Verdura",
-    "description": "La temporada perfecta para consumir calabac\u00edn es el verano porque necesita climas calurosos para crecer. Las flores de la planta tambi\u00e9n son comestibles y tienen un sabor muy delicado.",
-    "time": 4
+    "name": "Calabacin",
+    "description": "La temporada perfecta para consumir calabac\u00edn es el verano porque necesita climas calurosos para crecer. Las flores de la planta tambi\u00e9n son comestibles y tienen un sabor muy delicado."
 }

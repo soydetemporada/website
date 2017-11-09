@@ -1,7 +1,21 @@
 {
-    "name": "Pepino",
     "img": "pepino.png",
+    "precio": {
+        "01-02-2017": 2.0,
+        "01-11-2016": 1.53,
+        "01-05-2017": 1.67,
+        "01-07-2017": 1.46,
+        "01-08-2017": 1.42,
+        "01-01-2017": 1.77,
+        "01-06-2017": 1.54,
+        "01-04-2017": 1.89,
+        "01-10-2017": 1.52,
+        "01-12-2016": 1.68,
+        "01-03-2017": 2.08,
+        "01-09-2017": 1.48
+    },
+    "time": 2,
     "category": "Verdura",
-    "description": "El pepino es una hortaliza t\u00edpica del verano, cuando los huertos producen a pleno rendimiento, gracias al calor y buen riego. Originaria de India, es una hortaliza t\u00edpica de la dieta mediterr\u00e1nea. Se consume crudo o encurtido, y est\u00e1 presente en ensaladas, gazpachos, sopas fr\u00edas y dem\u00e1s platos de verano por su elevada composici\u00f3n en agua. Muy rico y nutritivo para combatir el calor!",
-    "time":2
+    "name": "Pepino",
+    "description": "El pepino es una hortaliza t\u00edpica del verano, cuando los huertos producen a pleno rendimiento, gracias al calor y buen riego. Originaria de India, es una hortaliza t\u00edpica de la dieta mediterr\u00e1nea. Se consume crudo o encurtido, y est\u00e1 presente en ensaladas, gazpachos, sopas fr\u00edas y dem\u00e1s platos de verano por su elevada composici\u00f3n en agua. Muy rico y nutritivo para combatir el calor!"
 }

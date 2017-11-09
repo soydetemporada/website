@@ -1,7 +1,21 @@
 {
-    "name": "Mel\u00f3n",
     "img": "melon.png",
+    "precio": {
+        "01-02-2017": NaN,
+        "01-11-2016": NaN,
+        "01-05-2017": NaN,
+        "01-07-2017": NaN,
+        "01-08-2017": NaN,
+        "01-01-2017": NaN,
+        "01-06-2017": NaN,
+        "01-04-2017": NaN,
+        "01-10-2017": 1.46,
+        "01-12-2016": NaN,
+        "01-03-2017": NaN,
+        "01-09-2017": 1.33
+    },
+    "time": 3,
     "category": "Fruta",
-    "description": "El mel\u00f3n es, sin duda, sin\u00f3nimo de verano. Existen m\u00faltiples clases de esta fruta depedendiendo de su lugar de procedencia y sus caracter\u00edsticas de cultivo aunque, en el Estado espa\u00f1ol, la variedad m\u00e1s com\u00fan es el de piel de sapo, y es uno de los tipos de melones m\u00e1s grandes, con un peso de 2,5kg de media. El 80% de su composici\u00f3n es agua siendo, por tanto, un hidratante excelente; y su escasa aportaci\u00f3n de calor\u00edas se debe a que su contenido es escaso en az\u00facares. Es una fruta muy exigente en cuanto a calor y horas de luz. Para escoger un buen mel\u00f3n, es importante fijarse en que sean duros, pues lo contrario significa que est\u00e1n pasados. Tambi\u00e9n es conveniente fijarse en el color de su corteza",
-    "time":3
+    "name": "Mel\u00f3n",
+    "description": "El mel\u00f3n es, sin duda, sin\u00f3nimo de verano. Existen m\u00faltiples clases de esta fruta depedendiendo de su lugar de procedencia y sus caracter\u00edsticas de cultivo aunque, en el Estado espa\u00f1ol, la variedad m\u00e1s com\u00fan es el de piel de sapo, y es uno de los tipos de melones m\u00e1s grandes, con un peso de 2,5kg de media. El 80% de su composici\u00f3n es agua siendo, por tanto, un hidratante excelente; y su escasa aportaci\u00f3n de calor\u00edas se debe a que su contenido es escaso en az\u00facares. Es una fruta muy exigente en cuanto a calor y horas de luz. Para escoger un buen mel\u00f3n, es importante fijarse en que sean duros, pues lo contrario significa que est\u00e1n pasados. Tambi\u00e9n es conveniente fijarse en el color de su corteza"
 }

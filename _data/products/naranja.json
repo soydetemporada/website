@@ -1,7 +1,21 @@
 {
-    "name": "Naranja",
     "img": "naranja.png",
+    "precio": {
+        "01-02-2017": NaN,
+        "01-11-2016": NaN,
+        "01-05-2017": NaN,
+        "01-07-2017": NaN,
+        "01-08-2017": NaN,
+        "01-01-2017": NaN,
+        "01-06-2017": NaN,
+        "01-04-2017": NaN,
+        "01-10-2017": 1.88,
+        "01-12-2016": NaN,
+        "01-03-2017": NaN,
+        "01-09-2017": 1.85
+    },
+    "time": "NA",
     "category": "Fruta",
-    "description": "Las mejores estaciones para consumir las naranjas son oto\u00f1o e invierno. Se aprecia en la textura y sobre todo en la frescura y sabor cuando una naranja est\u00e1 fuera de temporada, o peor, ha sido congelada. La naranja es uno de los productos que Espa\u00f1a m\u00e1s exporta y a la vez m\u00e1s importa. Muy arraigada a nuestra cultura, todo un icono del levante y de los palacios andaluces, y que podemos encontrar en una gran variedad de platos dulces o salados. \u00bfHas probado el remoj\u00f3n con bacalao?",
-    "time":"NA"
+    "name": "Naranja",
+    "description": "Las mejores estaciones para consumir las naranjas son oto\u00f1o e invierno. Se aprecia en la textura y sobre todo en la frescura y sabor cuando una naranja est\u00e1 fuera de temporada, o peor, ha sido congelada. La naranja es uno de los productos que Espa\u00f1a m\u00e1s exporta y a la vez m\u00e1s importa. Muy arraigada a nuestra cultura, todo un icono del levante y de los palacios andaluces, y que podemos encontrar en una gran variedad de platos dulces o salados. \u00bfHas probado el remoj\u00f3n con bacalao?"
 }

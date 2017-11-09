@@ -1,7 +1,21 @@
 {
-    "name": "Col",
     "img": "col.png",
+    "precio": {
+        "01-02-2017": 1.28,
+        "01-11-2016": 1.19,
+        "01-05-2017": 1.27,
+        "01-07-2017": 1.24,
+        "01-08-2017": 1.25,
+        "01-01-2017": 1.21,
+        "01-06-2017": 1.24,
+        "01-04-2017": 1.26,
+        "01-10-2017": 1.25,
+        "01-12-2016": 1.18,
+        "01-03-2017": 1.26,
+        "01-09-2017": 1.26
+    },
+    "time": 6,
     "category": "Verdura",
-    "description": "La col, o repollo, es un producto t\u00edpico de Europa que se produce durante los meses fr\u00edos del a\u00f1o. Es un producto muy saludable que sorprendentemente, lleva vitamina C que la naranja y m\u00e1s calcio que la leche.",
-    "time": 6
+    "name": "Col",
+    "description": "La col, o repollo, es un producto t\u00edpico de Europa que se produce durante los meses fr\u00edos del a\u00f1o. Es un producto muy saludable que sorprendentemente, lleva vitamina C que la naranja y m\u00e1s calcio que la leche."
 }

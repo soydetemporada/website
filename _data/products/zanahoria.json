@@ -1,7 +1,21 @@
 {
-    "name": "Zanahoria",
     "img": "zanahoria.png",
+    "precio": {
+        "01-02-2017": 1.02,
+        "01-11-2016": 1.02,
+        "01-05-2017": 1.01,
+        "01-07-2017": 0.99,
+        "01-08-2017": 0.98,
+        "01-01-2017": 1.01,
+        "01-06-2017": 0.99,
+        "01-04-2017": 1.01,
+        "01-10-2017": 0.97,
+        "01-12-2016": 1.02,
+        "01-03-2017": 1.0,
+        "01-09-2017": 0.97
+    },
+    "time": 4,
     "category": "Verdura",
-    "description": "La zanahoria es un producto que podemos encontrar la mayor parte del a\u00f1o y resulta curioso que aunque su color habitual es el naranja, es posible encontrarlas en otros colores. En China, el principal productor del mundo es habitual encontrarlas blancas o p\u00farpura. Disfr\u00fatala cada d\u00eda cruda, frita, cocida, en tartas, guisos o ensaladas.",
-    "time": 4
+    "name": "Zanahoria",
+    "description": "La zanahoria es un producto que podemos encontrar la mayor parte del a\u00f1o y resulta curioso que aunque su color habitual es el naranja, es posible encontrarlas en otros colores. En China, el principal productor del mundo es habitual encontrarlas blancas o p\u00farpura. Disfr\u00fatala cada d\u00eda cruda, frita, cocida, en tartas, guisos o ensaladas."
 }

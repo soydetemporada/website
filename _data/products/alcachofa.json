@@ -1,7 +1,21 @@
 {
-    "name": "Alcachofa",
     "img": "alcachofa.png",
+    "precio": {
+        "01-02-2017": 3.54,
+        "01-11-2016": 2.9,
+        "01-05-2017": 2.12,
+        "01-07-2017": 2.84,
+        "01-08-2017": 3.22,
+        "01-01-2017": 3.05,
+        "01-06-2017": NaN,
+        "01-04-2017": 2.18,
+        "01-10-2017": 3.35,
+        "01-12-2016": 2.83,
+        "01-03-2017": 2.79,
+        "01-09-2017": 3.42
+    },
+    "time": 12,
     "category": "Verdura",
-    "description": "La alcachofa tiene dos temporadas ideales, una en oto\u00f1o y otra en primavera, dependiendo del clima de la zona donde se produce. La planta puede vivir varios a\u00f1os y alcanzar hasta los 2 metros de altura, y es en su punta donde nacen las alcachofas.",
-    "time": 12
+    "name": "Alcachofa",
+    "description": "La alcachofa tiene dos temporadas ideales, una en oto\u00f1o y otra en primavera, dependiendo del clima de la zona donde se produce. La planta puede vivir varios a\u00f1os y alcanzar hasta los 2 metros de altura, y es en su punta donde nacen las alcachofas."
 }
