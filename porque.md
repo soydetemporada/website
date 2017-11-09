@@ -6,7 +6,7 @@ css-id: about
 cabezote: /img/porque-cabezote.jpg
 ---
 
-### ¿POR QUÉ COMER DE TEMPORADA?
+### ¿PORQUÉ COMER DE TEMPORADA?
 Comer productos de temporada es bueno para tu salud, tu bolsillo y el medio ambiente. Además de ayudar a reducir las emisiones de CO2 y apoyar la sostenibilidad de la tierra, consumes productos que han sido recogidos en su punto óptimo de maduración a un precio justo y que favorece la economía local.
 
 ### ¿POR QUÉ ESTE PROYECTO?
