@@ -1,0 +1,68 @@
+.demand{
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #EAD8CC;
+}
+.colaborator {
+  text-align: center;
+  margin-top: 1.5em;
+}
+.colaborator img {
+  padding-bottom: 1em;
+}
+.colaborator .pull-left {
+  text-align: left;
+}
+
+#about h3{
+  margin-top: 1.5em;
+}
+
+#contact{
+  background: $color-primary;
+  border-bottom: 1px #c0c0c0 solid;
+}
+#contact h1,
+#contact h2,
+#contact h3{
+  text-transform: none;
+}
+#contact a{
+  text-decoration: none;
+}
+
+#demand .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+#about-header {
+  background-size: cover;
+  background-position: 0 -22em;
+}
+#about-header .container h1{
+  content: '&nbsp;';
+}
+#about ul {
+  list-style: none;
+  padding-left: 0.2em;
+}
+#faq .panel{
+  padding: initial;
+}
+#faq .panel-default > .panel-heading{
+  background: #ecf0f1;
+  border: initial;
+}
+#faq .panel-title {
+  font-weight: 400;
+  font-size: 19px;
+}
+#faq .panel-title > a{
+  text-decoration: none;
+}

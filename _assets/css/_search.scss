@@ -1,0 +1,47 @@
+.id, .season,.category {
+  display: none;
+}
+.icon-season{
+  position: static;
+  color: #CA7947
+}
+.in-season {}
+.start-of-season img, .end-of-season img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.out-of-season img {
+  /*color: red;*/
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1);
+  /* Microsoft Edge and Firefox 35+ */
+  opacity: 0.75;
+}
+.month-filter {
+  text-transform: uppercase;
+  font-size: 14px;
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 2em;
+}
+.month-filter li{
+  float: left;
+  padding: 0.6em;
+  cursor:pointer;
+  min-width: 8%;
+  text-align: center;
+}
+.month-filter>div {
+}
+.month-filter .month:hover, .month-filter .active {
+    color: white;
+    background-color: #CA7947;
+    padding: 10px;
+    border-radius: 4px;
+}
+.product-filter {
+  margin-bottom: 2em;
+}

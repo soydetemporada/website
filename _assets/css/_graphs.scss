@@ -1,0 +1,82 @@
+.chart {
+  div {
+    font: 14px sans-serif;
+    background-color: $color-highlight;
+    /* color barra */
+    text-align: right;
+    padding: 0px;
+    /*define ancho de la barra */
+
+    /* separación entre barras */
+    color: rgba(0, 0, 0, 0);
+    font-weight: lighter;
+    font-family: 'Roboto';
+  }
+
+    div.bar-graph{
+        display: inline-block;
+        height: 40px;
+        overflow: hidden;
+        margin:0px;
+        margin-right:2px;
+    }
+    div.graph-text{
+        color:black;
+        background-color: white;
+        display: inline-block;
+        margin:0px;
+        margin-right:2px;
+        text-align: center;
+        font-size:12px;
+        vertical-align: top;
+        padding:0px;
+    }
+}
+
+.axis { font: 14px sans-serif; }
+
+.line {
+  fill: none;
+
+  stroke-width: 2px;
+}
+.line.export{
+    stroke: #617D1A;
+}
+.line.import{
+        stroke: #C25C30;
+}
+.dotImport{
+    fill:#FAFAFA;
+    stroke:#C25C30
+}
+.textImport{
+    fill: #C25C30;
+    font-weight: bold;
+}
+
+.dotExport{
+    fill:#FAFAFA;
+    stroke:#617D1A
+}
+.textExport{
+    fill: #617D1A;
+    font-weight: bold;
+}
+.d3-tooltip{
+    display: none;
+    background-color:#333;
+    color:white;
+    position:absolute;
+
+    z-index: 1000;
+    padding:5px;
+    border-radius: 4px;
+}
+.loader{
+  display: block;
+  text-align: center;
+}
+.grid{
+  display: none;
+}

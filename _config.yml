@@ -21,14 +21,6 @@ cookie-consent: yes
 # - comment the line below if you want to stick with the default PHP contact form
 contact: static
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: FAFAFA
-  primary-complement: 3F3F3F
-  primary-rgb: "147,73,28"
-  secondary: 3F3F3F
-  secondary-dark: 233140
-  highlight: CA7947
 
 # Footer settings
 footer:
@@ -73,3 +65,10 @@ defaults:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Assets configuration
+assets:
+    
+# jekyll plugins
+plugins:
+  - jekyll-assets

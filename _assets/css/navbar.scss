@@ -1,0 +1,57 @@
+.navbar-inverse {
+  background-color:$color-primary;
+  .navbar-toggle,
+  .navbar-toggle:hover{
+    border-color: #c0c0c0;
+    background-color: $color-highlight;
+  }
+  .navbar-nav{
+    > li >a {
+      color: $color-primary-complement;
+      text-decoration:none;
+      padding: 10px 15px;
+    }
+    .active > a,
+    .active > a:hover{
+      color: #fff;
+    }
+  }
+  .navbar-brand:hover{
+    color: $color-primary-complement;
+  }
+}
+.navbar {
+  font-weight: 200;
+  font-family: 'RobotoLight', sans-serif;
+  a:focus {
+    outline: 0;
+  }
+  .navbar-nav {
+    letter-spacing: 1px;
+  }
+  .navbar-nav li a:focus {
+    outline: 0;
+  }
+  .active > a {
+    background-color: $color-highlight !important;
+    border-radius: 6px;
+  }
+
+}
+
+.navbar-right{
+  margin-top: 10px;
+}
+.navbar-header {
+  .navbar-brand {
+    font-family: 'Amatic SC', cursive;
+    text-transform: lowercase;
+    color: $color-primary-complement;
+  }
+}
+.navbar-brand {
+  text-decoration: none;
+}
+.navbar-default, .navbar-inverse {
+  border: 0;
+}

@@ -1,0 +1,92 @@
+@media(min-width:768px) {
+  header .container {
+    padding-top: 11em;
+    padding-bottom: 5em;
+  }
+  header .intro-text .name {
+    font-size: 4.75em;
+  }
+  header .intro-text .skills {
+    font-size: 1.75em;
+  }
+  .navbar-fixed-top {
+    padding: 25px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+  }
+  .navbar-fixed-top .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+  .navbar-fixed-top.navbar-shrink {
+    padding: 10px 0;
+  }
+  .navbar-fixed-top.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+  #product .product-item {
+    margin: 0 0 30px;
+  }
+  #product .product-item img {
+
+  }
+}
+
+@media(max-width:767px) {
+  section {
+    padding: 1em 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+  header .container {
+    padding-top: 4em;
+    padding-bottom: 2em;
+  }
+  header h1 {
+    font-size: 3.5em;
+  }
+  .month-filter li{
+    width: 25%;
+    padding: 0.5em;
+  }
+  #about-header {
+    background-position: bottom;
+  }
+
+  #product .month-filter{
+    padding-bottom: 7em;
+  }
+  #product-page .month-filter li{
+    width: 23%;
+  }
+  #product-page ul.month-filter{
+    padding: 0 0 0 1em;
+  }
+  .product-filter > div {
+    padding-top: 1em;
+  }
+  footer .footer-col .pull-right{
+    float: none !important;
+  }
+  .highlight{
+    padding: 2em;
+  }
+  .start-of-season .icon-season{
+    margin-top: 5px;
+  }
+
+
+}
+@media(max-width:768px) {
+  .mobile {
+    display: block;
+    padding: inherit !important;
+  }
+  .desktop {
+    display: none;
+  }
+}

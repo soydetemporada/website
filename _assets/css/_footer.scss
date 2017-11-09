@@ -1,0 +1,28 @@
+footer {
+  color: #000;
+  background-color: $color-primary;
+  h3{
+    margin-bottom: 30px;
+  }
+  a, a:hover, a:focus, a:active, a.active{
+    outline: 0;
+    color: #fff;
+  }
+  .footer-above{
+    padding-top: 2em;
+    background-color: $color-primary;
+  }
+  .footer-col {
+    margin-bottom: 1em;
+  }
+  .footer-below {
+    padding: 25px 0;
+  }
+  .navbar-inverse .navbar-nav > li > a{
+    padding: .5em;
+  }
+}
+
+.footer-col img{
+  display: inline-block;
+}
