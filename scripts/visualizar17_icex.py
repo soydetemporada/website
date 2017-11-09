@@ -1,10 +1,6 @@
-import matplotlib.pyplot as plt
-import matplotlib
 import os
 import pandas as pd
 import numpy as np
-%matplotlib inline
-matplotlib.style.use('ggplot')
 import datetime
 import locale
 import time
