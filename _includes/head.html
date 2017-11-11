@@ -36,7 +36,8 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    {% css main %}
+    <link rel="stylesheet" href="{{ '/css/fonts.css' | prepend: site.url}}">
+    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.url}}">
 
     <!-- Google verification -->
     {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}

@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Una herramienta de búsqueda de productos de temporada en tu región",
   "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome-sass": "^4.7.0",
     "moment": "^2.18.1"
   },
   "repository": {
@@ -19,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ffosset/journey-of-food/issues"
   },
-  "homepage": "https://github.com/ffosset/journey-of-food#readme"
+  "homepage": "https://github.com/ffosset/journey-of-food#readme",
+  "scripts": {
+    "postinstall": "./npm-postinstall.sh"
+  }
 }

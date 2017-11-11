@@ -1,0 +1,20 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+// Fonts configuration
+$icon-font-path: "{{site.url}}/css/fonts/bootstrap/";
+$fa-font-path: "{{site.url}}/css/fonts/font-awesome/";
+
+@import 'config';
+@import 'bootstrap';
+@import 'font-awesome';
+@import 'general';
+@import 'navbar';
+@import 'footer';
+@import 'graphs';
+@import 'search';
+@import 'product';
+@import 'pages';
+@import 'responsive';
