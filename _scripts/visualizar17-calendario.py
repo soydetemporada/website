@@ -4,8 +4,10 @@
 Created on Tue Oct 10 19:26:07 2017
 @author: raimundoabrillopez
 
-This file reads the csv files located in ../data/calendar, cleans and organize them
+This file reads the csv files located in ../data/calendar/, cleans and organize them
 and then apply a mean so an "average" calendar is obtained.
+
+Check if you need to run visualizar17-typeform.py first in order to have the calendars ready.
 
 Writes a calendario_py file that must get the _py trimmed after revision.
 
