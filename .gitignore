@@ -1,1 +1,8 @@
 node_modules/
+_site
+Gemfile.lock
+_sass/_bootstrap-compass.scss
+_sass/_bootstrap-mincer.scss
+_sass/_bootstrap-sprockets.scss
+_sass/_font-awesome-compass.scss
+_sass/_font-awesome-sprockets.scss
