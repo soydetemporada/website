@@ -1,14 +1,14 @@
 # Site settings
-title: Soy de temporada
+title: Soy de temporada (beta)
 email: equipo@soydetemporada.es
-url: http://soydetemporada.es
+url: https://soydetemporada.lowfill.org
 github: https://github.com/ffosset/journey-of-food/
 description: "Un calendario de productos de temporada fiable y transparente. Para uso cotidiano. Made in #visualizar17."
 keywords: "food, journey, comida, españa, temporada, visualizar"
 meta_author: Colaboradores Journey of Food
 
 # Backend configuration
-backend_url: https://api-soydetemporada.lowfill.org/
+backend_url: https://soydetemporada.lowfill.org/backend
 
 # Google webmaster tools
 google_verify:
@@ -55,7 +55,7 @@ credits: 'visualizar@medialab-prado.es'
 collections:
   products:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
@@ -71,7 +71,7 @@ permalink: pretty
 
 # Assets configuration
 sass:
-    style: compressed
+#    style: compressed
 
 # jekyll plugins
 plugins:

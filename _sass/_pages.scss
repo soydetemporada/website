@@ -1,4 +1,4 @@
-.demand{
+.demand {
   margin-left: 0px;
   margin-top: 20px;
   margin-right: 0px;
@@ -7,7 +7,7 @@
   padding-right: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
-  background: #EAD8CC;
+  background: #ead8cc;
 }
 .colaborator {
   text-align: center;
@@ -20,21 +20,25 @@
   text-align: left;
 }
 
-#about h3{
+#about h3 {
   margin-top: 1.5em;
 }
 
-#contact{
+#contact {
   background: $color-primary;
   border-bottom: 1px #c0c0c0 solid;
 }
 #contact h1,
 #contact h2,
-#contact h3{
+#contact h3 {
   text-transform: none;
 }
-#contact a{
+#contact a {
   text-decoration: none;
+}
+#contact .alert-success,
+#contact .alert-danger {
+  display: none;
 }
 
 #demand .row {
@@ -45,17 +49,17 @@
   background-size: cover;
   background-position: 0 -22em;
 }
-#about-header .container h1{
-  content: '&nbsp;';
+#about-header .container h1 {
+  content: "&nbsp;";
 }
 #about ul {
   list-style: none;
   padding-left: 0.2em;
 }
-#faq .panel{
+#faq .panel {
   padding: initial;
 }
-#faq .panel-default > .panel-heading{
+#faq .panel-default > .panel-heading {
   background: #ecf0f1;
   border: initial;
 }
@@ -63,6 +67,6 @@
   font-weight: 400;
   font-size: 19px;
 }
-#faq .panel-title > a{
+#faq .panel-title > a {
   text-decoration: none;
 }
