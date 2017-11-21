@@ -8,7 +8,7 @@ keywords: "food, journey, comida, españa, temporada, visualizar"
 meta_author: Colaboradores Journey of Food
 
 # Backend configuration
-backend_url: https://api-soydetemporada.lowfill.org/
+backend_url: https://api-soydetemporada.lowfill.org
 
 # Google webmaster tools
 google_verify:
