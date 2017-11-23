@@ -38,12 +38,11 @@ cabezote: /img/investigacion-cabezote.jpg
       {% for month in months_c %}
         {% assign current = '' %}
         {% if forloop.index == currentMonth %}
-          {% assign current = 'active' %}
+          {% assign current = 'in-season' %}
         {% endif%}
-        <div class="col-xs-2 month-container">
-          <span class="desktop text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month}}</span>
-          <span class="mobile text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</span>
-          <br>
+        <div class="col-md-2 col-xs-3 month-container {{current}}">
+          <span class="desktop text-center month " data-month="{{month | slice: 0,3}}">{{month}}</span>
+          <span class="mobile text-center month " data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</span>
           <i class="fa fa-hourglass-start"></i>
           <i class="fa fa-hourglass-end"></i>
           <input type="hidden" name="{{month | slice:0,3}}" value="X">

@@ -118,6 +118,25 @@
 #faq .panel-title > a {
   text-decoration: none;
 }
+#colabora .product-filter{
+  margin-bottom: 0em;
+}
 #colabora .month-container{
   margin: 1em 0;
+  padding: 0.5em;
+  text-align: center;
+}
+#colabora .month-container .month::after{
+  content:'';
+  display: table;
+}
+#colabora .in-season{
+  background-color: $color-in-season;
+  border-radius: 0.5em;
+  opacity: 1;
+}
+#colabora .start-of-season{
+  background-color: $color-start-season;
+  border-radius: 0.5em;
+  opacity: 1;
 }
