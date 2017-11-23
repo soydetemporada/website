@@ -4,11 +4,6 @@ $(document).ready(function() {
 
   // Initialize event handlers
   $(".month").on("click", filterByMonthHandler);
-  $(".product-filter select").select2({
-    placeholder: "Filtrar por producto",
-    allowClear: true,
-    minimumInputLength: 2
-  });
 
   $(".product-filter select").on("change.select2", function(e) {
     var selected = parseInt($(e.target).val());

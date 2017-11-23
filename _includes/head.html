@@ -1,60 +1,57 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title | capitalize }} | {% endif %}{{ site.title }}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="keywords" content="{{ site.keywords }}" />
-    {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% if page.title %}{{ page.title | capitalize }} | {% endif %}{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="keywords" content="{{ site.keywords }}" /> {% if site.meta_author %}
+  <meta name="author" content="{{ site.meta_author }}">{% endif %}
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@medialab">
-    <meta name="twitter:creator" content="@florafosset">
-    <meta name="twitter:title" content="{{site.title}}">
-    <meta name="twitter:description" content="{{site.description}} {{site.url}}">
-    <meta name="twitter:image" content="{{site.url}}/img/verduras-rrss.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@medialab">
+  <meta name="twitter:creator" content="@florafosset">
+  <meta name="twitter:title" content="{{site.title}}">
+  <meta name="twitter:description" content="{{site.description}} {{site.url}}">
+  <meta name="twitter:image" content="{{site.url}}/img/verduras-rrss.jpg">
 
-    <meta property="og:title" content="{{site.title}}" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="{{site.url}}" />
-    <meta property="og:image" content="{{site.url}}/img/verduras-rrss.jpg" />
-    <meta property="og:description" content="{{site.description}} {{site.url}}">
+  <meta property="og:title" content="{{site.title}}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{site.url}}" />
+  <meta property="og:image" content="{{site.url}}/img/verduras-rrss.jpg" />
+  <meta property="og:description" content="{{site.description}} {{site.url}}">
 
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-title" content="{{site.title}}"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="{{site.title}}" />
 
-    <link rel="manifest" href="{{site.url}}/manifest.json">
-    <link rel="icon" type="image/png" href="{{site.url}}/img/icons/favicon-16.png" />
-    <!-- Alternative way -->
-    <!--link rel="icon" sizes="16x16 32x32 48x48 64x64 128x128" type="image/svg+xml" href="{{site.url}}/img/icons/favicon.svg"-->
-    {% assign icons = "16,32,48,64,128" | split: ','%}
-    {% for icon in icons %}
-    <link rel="icon" sizes="{{icon}}x{{icon}}" type="image/png" href="{{site.url}}/img/icons/favicon-{{icon}}.png">
-    {% endfor %}
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
+  <link rel="manifest" href="{{site.url}}/manifest.json">
+  <link rel="icon" type="image/png" href="{{site.url}}/img/icons/favicon-16.png" />
+  <!-- Alternative way -->
+  <!--link rel="icon" sizes="16x16 32x32 48x48 64x64 128x128" type="image/svg+xml" href="{{site.url}}/img/icons/favicon.svg"-->
+  {% assign icons = "16,32,48,64,128" | split: ','%} {% for icon in icons %}
+  <link rel="icon" sizes="{{icon}}x{{icon}}" type="image/png" href="{{site.url}}/img/icons/favicon-{{icon}}.png"> {% endfor %}
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
 
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="{{ '/css/fonts.css' | prepend: site.url}}">
-    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.url}}">
+  <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link rel="stylesheet" href="{{ '/css/fonts.css' | prepend: site.url}}">
+  <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.url}}">
 
-    <!-- Google verification -->
-    {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+  <!-- Google verification -->
+  {% if site.google_verify %}
+  <meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
-    <!-- Bing Verification -->
-    {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+  <!-- Bing Verification -->
+  {% if site.bing_verify %}
+  <meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 
-    <!-- Custom Fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css" rel="stylesheet" />
+  <!-- Custom Fonts -->
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    {% if site.cookie-consent %}
-      {% include cookie-consent.html %}
-    {% endif %}
+  {% if site.cookie-consent %} {% include cookie-consent.html %} {% endif %}
 </head>

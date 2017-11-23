@@ -41,7 +41,6 @@ $(function() {
 // Contact form processing
 $(function() {
   if (window.location.hash) {
-    console.log(window.location.hash);
     if (window.location.hash == "#error") {
       $("#contact .alert-danger").show();
     } else if (window.location.hash == "#success") {
@@ -49,6 +48,14 @@ $(function() {
     }
   }
 });
+// select2
+$(function(){
+  $(".product-filter select").select2({
+    placeholder: "Filtrar por producto",
+    allowClear: true,
+    minimumInputLength: 2
+  });
+})
 
 // Closes the Responsive Menu on Menu Item Click
 $(".navbar-collapse ul li a").click(function() {
