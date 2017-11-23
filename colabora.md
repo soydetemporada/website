@@ -20,7 +20,7 @@ cabezote: /img/investigacion-cabezote.jpg
 <div class="row control-group product-filter">
   <div class="form-group col-xs-12 floating-label-form-group controls">
     <label>¿Qué producto quiéres agregar?</label>
-    <select placeholder="Filtrar por producto" class="form-control">
+    <select name="producto[]" placeholder="Filtrar por producto" class="form-control">
         <option></option>
       {% assign products = site.data.products | sort %}
       {% for product_hash in products %}
@@ -43,6 +43,10 @@ cabezote: /img/investigacion-cabezote.jpg
         <div class="col-xs-2 month-container">
           <span class="desktop text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month}}</span>
           <span class="mobile text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</span>
+          <br>
+          <i class="fa fa-hourglass-start"></i>
+          <i class="fa fa-hourglass-end"></i>
+          <input type="hidden" name="{{month | slice:0,3}}" value="X">
         </div>
         {% endfor %}
     <p class="help-block text-danger"></p>
