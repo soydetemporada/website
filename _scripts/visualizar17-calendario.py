@@ -28,7 +28,7 @@ XLIM = 0.5
 # Get paths
 
 currentPWD = os.getcwd()
-currentPWD = '/Volumes/MacintoshHD/_GitHub/journey-of-food/scripts'
+#currentPWD = '/Volumes/MacintoshHD/_GitHub/journey-of-food/scripts'
 
 dwd = currentPWD[:-7]+'/data/seasons/'
 aux = currentPWD[:-7]+'/data/aux/'
@@ -119,7 +119,6 @@ pivot = data.groupby('TIPO DE PRODUCTO').mean()
 pivot = pivot.round(2)
 
 pivot['COUNT'] = data.groupby('TIPO DE PRODUCTO')['SCORE'].count()
-pivot
 # Map according to limits
 
 def mapear(x):
