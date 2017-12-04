@@ -4,7 +4,6 @@
     <div class="row">
       <ul class="month-filter">
         {% assign currentMonth = 'now' | date: "%_m" | plus: 0%}
-	{{currentMonth}}
         {% assign months_c = "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre" | split: ',' %}
         {% for month in months_c %}
           {% assign current = '' %}
