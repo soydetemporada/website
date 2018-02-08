@@ -2,9 +2,9 @@
 title: Soy de temporada
 email: equipo@soydetemporada.es
 url: http://soydetemporada.es
-github: https://github.com/ffosset/journey-of-food/
+github: https://github.com/soydetemporada/
 description: "Un calendario de productos de temporada fiable y transparente. Para uso cotidiano. Made in #visualizar17."
-keywords: "food, journey, comida, españa, temporada, visualizar"
+keywords: "calendario, temporada, frutas, verduras, consumo, sostenible, españa, visualizar"
 meta_author: Colaboradores Journey of Food
 
 # Backend configuration
@@ -46,7 +46,7 @@ social:
   - title: twitter
     url: https://twitter.com/soydetemporada
   - title: github
-    url: https://github.com/ffosset/journey-of-food/
+    url: https://github.com/soydetemporada/
 
 
 # Credits content
