@@ -75,3 +75,4 @@ sass:
 
 # jekyll plugins
 plugins:
+  - jekyll-sitemap
