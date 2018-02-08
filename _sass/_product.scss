@@ -78,11 +78,11 @@
 }
 
 #product-page li.start-of-season{
-  background-color: #C1DA84;
+  background-color: $color-start-season;
   opacity: 1;
 }
 #product-page li.in-season{
-  background-color: #89BC10;
+  background-color: $color-in-season;
   opacity: 1;
 }
 #product-page .month-filter li{
