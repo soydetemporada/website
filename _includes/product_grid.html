@@ -3,16 +3,12 @@
   <div class="container">
     <div class="row">
       <ul class="month-filter">
-        {% assign currentMonth = 'now' | date: "%_m" | plus: 0%}
         {% assign months_c = "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre" | split: ',' %}
         {% for month in months_c %}
           {% assign current = '' %}
-          {% if forloop.index == currentMonth %}
-            {% assign current = 'active' %}
-          {% endif%}
           <li>
-            <span class="desktop text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month}}</span>
-            <span class="mobile text-center month {{current}}" data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</span>
+            <span class="desktop text-center month" data-month="{{month | slice: 0,3}}">{{month}}</span>
+            <span class="mobile text-center month" data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</span>
           </li>
           {% endfor %}
       </ul>
