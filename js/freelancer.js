@@ -61,3 +61,14 @@ $(function(){
 $(".navbar-collapse ul li a").click(function() {
   $(".navbar-toggle:visible").click();
 });
+
+$(function(){
+  moment().locale("es");
+  $(".month").each(function(){
+    var activeMonth = $(this).data('month').trim().toLowerCase();
+    if(activeMonth +"." == moment().format("MMM")){
+      $(this).addClass('active');
+      return;
+    }
+  });
+});
