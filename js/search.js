@@ -36,7 +36,7 @@ $(document).ready(function() {
     var $items = $(".grid");
     $loader.show();
     $items.hide();
-    filterProducts();
+    filterProducts(true);
     $items.show();
     $loader.hide();
 
@@ -73,13 +73,32 @@ $(document).ready(function() {
   }
 
   /**
+  * Initialize the active month based on the browser date
+  */
+  function initializeActiveMonth(){
+    $(".month").each(function(){
+      var activeMonth = $(this).data('month').trim().toLowerCase();
+      if(activeMonth +"." == moment().format("MMM")){
+        $(this).addClass('active');
+        filterActive(activeMonth);
+        return;
+      }
+    });
+  }
+  /**
   * Filter products handler
   */
-  function filterProducts() {
-    var activeMonth = $(".month.active")
-      .data("month")
-      .trim();
-    filterActive(activeMonth);
+  function filterProducts(firstLoad) {
+    var initActive = firstLoad || false;
+    if(initActive){
+      initializeActiveMonth();
+    }
+    else{
+      var activeMonth = $(".month.active")
+        .data("month")
+        .trim();
+      filterActive(activeMonth);
+    }
   }
 
   /**
