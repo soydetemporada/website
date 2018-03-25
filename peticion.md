@@ -6,7 +6,9 @@ cabezote: /img/peticion-cabezote.jpg
 ---
 <div class="row">
   <div class="col-sm-12 col-xs-12 highlight">
-    **ACTUALIZACIÓN**: En febrero 2018 descubrimos que el calendario del MAPAMA había sido actualizado. El nuevo documento presenta - según la leyenda - los productos según su mayor o menor nivel de comercialización. Esto significa que no muestra el ciclo natural de cada producto sino el momento donde se produce más. Consideramos que no debería tener la denominación "Calendario de temporada" ya que sigue sin mostrar la temporada natural de cada producto.
+    ACTUALIZACIÓN: En febrero 2018 descubrimos que el calendario del MAPAMA había sido actualizado. El nuevo documento presenta los productos según su mayor o menor nivel de comercialización (lo dice en la leyenda). Esto significa que no muestra el ciclo natural de cada producto sino el momento cuando se produce más.
+
+    Consideramos que no debería tener la denominación "calendario de temporada" ya que sigue sin mostrar la temporada natural de las frutas y verduras.
   </div>
 </div>
 
