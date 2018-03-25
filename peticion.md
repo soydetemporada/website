@@ -4,6 +4,13 @@ layout: page
 css-id: demand
 cabezote: /img/peticion-cabezote.jpg
 ---
+<div class="row">
+  <div class="col-sm-12 col-xs-12 highlight">
+    **ACTUALIZACIÓN**: En febrero 2018 descubrimos que el calendario del MAPAMA había sido actualizado. El nuevo documento presenta - según la leyenda - los productos según su mayor o menor nivel de comercialización. Esto significa que no muestra el ciclo natural de cada producto sino el momento donde se produce más. Consideramos que no debería tener la denominación "Calendario de temporada" ya que sigue sin mostrar la temporada natural de cada producto.
+  </div>
+</div>
+
+
 
 Este proyecto nace de una observación singular : decenas de calendarios de frutas y verduras de temporada en España presentan datos erróneos. Indican que la temporada plena de varios productos es la opuesta a la real, presentando por ejemplo el tomate, el calabacín y la berenjena como productos que tienen su temporada alta en pleno invierno.
 
@@ -18,11 +25,8 @@ Nuestro equipo se ha puesto a investigar para intentar entender el origen de est
 <br>
 Hemos contactado con el MAPAMA para pedirles acceso a la metodología y la base de datos usada en la elaboración de este calendario. Nos dijeron de contactar con las Cooperativas Agrarias, que elaboraron el calendario en su tiempo. Ninguno de los dos organismos pudo explicar el origen de los errores y no mostraron voluntad de rectificar el calendario.
 
-<div class="row">
-  <div class="col-sm-12 col-xs-12 highlight">
-    Pedimos al MAPAMA que rectifique el calendario de su portal indicando la disponibilidad de los alimentos según su ciclo natural, o en su defecto que lo retire de la web ya que sigue llevando a confusión a millones de personas.
-  </div>
-</div>
+Pedimos al MAPAMA que rectifique el calendario de su portal indicando la disponibilidad de los alimentos según su ciclo natural, o en su defecto que lo retire de la web ya que sigue llevando a confusión a millones de personas.
+
 
 ### Ayúdanos a hacer escuchar nuestro mensaje
 
