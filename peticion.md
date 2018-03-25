@@ -6,15 +6,13 @@ cabezote: /img/peticion-cabezote.jpg
 ---
 <div class="row">
   <div class="col-sm-12 col-xs-12 highlight">
-    ACTUALIZACIÓN: En febrero 2018 descubrimos que el calendario del MAPAMA había sido actualizado. El nuevo documento presenta los productos según su mayor o menor nivel de comercialización (lo dice en la leyenda). Esto significa que no muestra el ciclo natural de cada producto sino el momento cuando se produce más.
-
-    Consideramos que no debería tener la denominación "calendario de temporada" ya que sigue sin mostrar la temporada natural de las frutas y verduras.
+    ACTUALIZACIÓN: En febrero 2018 nos dimos cuenta que el MAPAMA había actualizado su calendario. El nuevo documento presenta los productos según su nivel de comercialización (indicado en la leyenda). Esto significa que no muestra el ciclo natural de cada producto sino el momento en el que se produce más. Consideramos que no debería tener la denominación "calendario de temporada" ya que sigue sin mostrar la temporada natural de las frutas y verduras.
   </div>
 </div>
 
 
 
-Este proyecto nace de una observación singular : decenas de calendarios de frutas y verduras de temporada en España presentan datos erróneos. Indican que la temporada plena de varios productos es la opuesta a la real, presentando por ejemplo el tomate, el calabacín y la berenjena como productos que tienen su temporada alta en pleno invierno.
+Este proyecto nace de una observación singular: decenas de calendarios de frutas y verduras de temporada en España presentan datos erróneos. Indican que la temporada plena de varios productos es la opuesta a la real, presentando por ejemplo el tomate, el calabacín y la berenjena como productos que tienen su temporada alta en pleno invierno.
 
 Nuestro equipo se ha puesto a investigar para intentar entender el origen de estos errores. Una posible razón sería que los calendarios incorrectos se elaboraron en base al <a href="http://www.alimentacion.es/es/campanas/frutas/frutas_verduras_temporada/" target="_blank"> calendario oficial del Ministerio de Agricultura y Pesca, Alimentación y Medio Ambiente</a> (MAPAMA). Este calendario se elaboró en el marco de una gran campaña de alimentación saludable en 2008 y está lleno de inexactitudes. Para muestra, un botón:
 
