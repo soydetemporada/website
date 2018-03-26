@@ -5,7 +5,8 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "font-awesome-sass": "^4.7.0",
-    "moment": "^2.18.1"
+    "moment": "^2.18.1",
+    "select2": "^4.0.6-rc.1"
   },
   "repository": {
     "type": "git",
