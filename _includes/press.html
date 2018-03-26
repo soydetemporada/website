@@ -1,0 +1,22 @@
+ <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Hablan de nosotros</h2>
+                    {% for press in site.data.press %}
+                      <div class="col-sm-3 col-xs-6 press" >
+                        {% if press.url %}
+                        <a href="{{press.url}}" target="_blank">
+                        {% endif%}
+                          <img class="img-responsive" src="{{site.url}}/{{press.photo}}" alt="{{press.name}}" title="{{press.name}}">
+                        {% if press.url %}
+                          </a>
+                        {% endif%}    
+                      </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+        </div>
+    </section>
