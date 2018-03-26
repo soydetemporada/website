@@ -1,0 +1,58 @@
+ID,TIPO DE PRODUCTO,ENE,FEB,MAR,ABR,MAY,JUN,JUL,AGO,SEP,OCT,NOV,DIC
+1,ACELGA,x,x,x,x,x,x,x,x,x,x,x,x
+2,AGUACATE,,,,,,,,,,,,
+3,AJO,,,,,,,,,,,,
+4,ALBARICOQUE,,,,,,,,,,,,
+5,ALCACHOFA,,,,x,x,x,x,,,,,
+6,APIO,,,,,,,,,,,,
+7,BATATA,,,,,,,,,,,,
+8,BERENJENA,,,,,,x,x,x,x,x,,
+9,BRÓCOLI,x,x,x,x,x,x,x,,,,x,x
+10,CALABACIN,,,,,,x,x,x,x,x,,
+11,CALABAZA,,,,,,,,,,,,
+12,CARDO,,,,,,,,,,,,
+13,CAQUÍ,,,,,,,,,,,,
+14,CEBOLLA,,,,,,,,,,,,
+15,CEREZA,,,,,,,,,,,,
+16,CHAMPIÑÓN,,,,,,,,,,,,
+17,COL CHINA,,,,,,,,,,,,
+18,COL COMÚN,x,x,x,x,x,x,x,x,x,x,x,x
+19,COL DE BRUSELAS,x,x,x,x,,,,,,,x,x
+20,COLIFLOR,x,x,x,x,x,x,x,x,x,x,x,x
+21,ENDÍBIA,,,,,,,,,,,,
+22,ESPÁRRAGO,,,,,,,,,,,,
+23,ESPINACA,x,x,x,x,x,x,x,,,,x,x
+24,FRAMBUESA,,,,,,,,,,,,
+25,FRESA,,,,,,,,,,,,
+26,GUISANTES,,,x,x,x,x,x,x,,,,
+27,HABAS,,,,x,x,x,,,,,,
+28,HIGOS,,,,,,,,,,,,
+29,JUDÍAS,,,,,,,,,,,,
+30,KIWI,,,,,,,,,,,,
+31,LECHUGA,x,x,x,x,x,x,x,x,x,x,x,x
+32,LIMÓN,,,,,,,,,,,,
+33,LIMA,,,,,,,,,,,,
+34,MAIZ DULCE,,,,,,,,,,,,
+35,MANDARINA,,,,,,,,,,,,
+X,MANZANA,,,,,,,,,,,,
+37,MELOCOTÓN,,,,,,,,,,,,
+38,MELÓN,,,,,,,,,,,,
+39,MORA,,,,,,,,,,,,
+40,NABO,x,x,x,,,,,,,,x,x
+41,NARANJA,,,,,,,,,,,,
+42,NECTARINA,,,,,,,,,,,,
+43,PAPAYA,,,,,,,,,,,,
+44,PATATA,,,,,,,,,,,,
+45,PEPINO,,,,,,,x,x,x,x,,
+46,PERA,,,,,,,,,,,,
+47,PIMIENTO,,,,,,x,x,x,x,x,x,
+48,PIÑA,,,,,,,,,,,,
+49,PLATANO,,,,,,,,,,,,
+50,POMELO,,,,,,,,,,,,
+51,PUERRO,,,,,,,,,,,,
+52,RÁBANO,,,,x,x,x,x,x,x,x,,
+53,REMOLACHA,x,x,x,,,,x,x,x,x,x,x
+54,SANDÍA,,,,,,,,,,,,
+55,TOMATE,,,,,,,x,x,x,x,x,
+56,UVA,,,,,,,,,,,,
+57,ZANAHORIA,x,x,x,,,x,x,x,x,x,x,x
