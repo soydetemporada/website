@@ -59,8 +59,7 @@ css-id: faq
     <div id="no-product" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNoProduct">
       <div class="panel-body">
         <p>
-          Este proyecto es un prototipo en constante evolución. Se empezó con una lista de 53 frutas y verduras comunas pero vamos a ir añadiendo nuevos productos poco a poco. Tenemos en la lista de espera: cebolleta, ciruela, berro, hinojo, mango, chirimoya y
-          granada. Si queréis que añadamos información sobre un producto que no está en la lista, no dudéis en <a href="http://soydetemporada.es/contacto/" target="_blank"> avisarnos </a>.
+          Este proyecto es un prototipo en constante evolución. Se empezó con una lista de 53 frutas y verduras comunas pero vamos a ir añadiendo nuevos productos poco a poco. Podéis ver la lista de productos en espera <a href="https://github.com/soydetemporada/website/issues/13" target="_blank">aquí</a>. Si queréis que añadamos información sobre un producto que no está en la lista, no dudéis en <a href="http://soydetemporada.es/contacto/" target="_blank"> avisarnos </a>.
         </p>
       </div>
     </div>
