@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body id="page-top" class="index">
+  {% include nav-page.html %}
+  {% assign product_id = page.id | replace: '/products/',''%}
+  {% assign product_data = site.data.products[product_id] %}
+
+  <!-- Header -->
+  {% assign cabezote = "/img/products/cabezotes/" | append: product_data.img | replace: 'png', 'jpg' %}
+  <header id="product-header-{{page.index}}" style="background-image:url('{{ cabezote | prepend: site.url }}')">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-12 text-center">
+          <h1>{{page.title}}</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="product-page">
+    <div class="container">
+      <div class="row">
+        <ol class="breadcrumb">
+          <li><a href="{{site.url}}">Buscador</a></li>
+          <li class="active">{{product_data.name}}</li>
+        </ol>
+        <ul class="month-filter">
+          {% assign months_c = "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre" | split: ',' %}
+          {% for month in months_c %}
+            <li>
+              <span class="desktop text-center month" data-month="{{month | slice: 0,3}}">{{month}}</span>
+              <span class="mobile text-center month" data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</span>
+            </li>
+            {% endfor %}
+        </ul>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">En pocas palabras</h3>
+            </div>
+            <div class="panel-body">
+              {{product_data.description}}
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Tiempo de cultivo</h3>
+            </div>
+            <div class="panel-body">
+              <div class="tiempo-cultivo" data-time="{{product_data.time}}"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Top 3 de las provincias productoras</h3>
+            </div>
+            <div class="panel-body">
+              <div class="chart"></div>
+              <small class="source">Fuente: Ministerio de Agricultura (2015). Anuario de Estadística.</small>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">¿Cuánto se importa, cuánto se exporta?</h3>
+            </div>
+            <div class="panel-body">
+              <div class="import-export"></div>
+              <small class="source">Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  {% include footer.html %} {% include js.html %}
+  <script>
+  $(document).ready(function(){
+    graphProduction(".chart","{{site.url}}/data/products/{{product_id}}/production/grafico.csv");
+    graphImportExport(".import-export","{{site.url}}/data/products/{{product_id}}/{{product_id}}_import_export_mes.csv");
+    graphProductionTime(".tiempo-cultivo");
+    updateCalendar("{{product_id }}","{{site.url}}");
+});
+  </script>
+</body>
+
+</html>

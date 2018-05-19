@@ -56,6 +56,9 @@ collections:
   products:
     output: true
     permalink: /:collection/:path/
+  recipes:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:

@@ -7,6 +7,13 @@ use Box\Spout\Common\Type;
 
 function clean_title($item){
   $item = str_replace(" ","_",$item);
+  $item = str_replace("á","a",$item);
+  $item = str_replace("é","e",$item);
+  $item = str_replace("í","i",$item);
+  $item = str_replace("ó","o",$item);
+  $item = str_replace("ú","u",$item);
+  $item = str_replace("ñ","n",$item);
+  $item = str_replace(",","",$item);
   $item = strtolower($item);
   return $item;
 }
@@ -46,7 +53,12 @@ foreach ($reader->getSheetIterator() as $sheet) {
             // Generate recipe data
             $file_name = "{$target_data}/{$title}.json";
             $mr = fopen($file_name,'w');
-            fputs($mr,json_encode($row,JSON_PRETTY_PRINT));
+            $row['name']=ucfirst($row['title']);
+            unset($row['title']);
+            print_r($row);
+            $recipe = json_encode($row,JSON_PRETTY_PRINT);
+            $recipe = str_replace("\/","/",$recipe);
+            fputs($mr,$recipe);
             fclose($mr);
             echo "DONE\n\n";
         } catch (Exception $exception) {

@@ -1,0 +1,86 @@
+#recipes{
+
+}
+#recipes .recipe-item {
+  height: 212px;
+  padding: 0;
+}
+#recipes .recipe-item .panel-heading{
+  /*border-bottom: 1px solid #ddd;*/
+}
+
+#recipes .recipe-item .panel-body{
+  padding:0;
+}
+
+#recipes .recipe-item .recipe-link {
+  text-decoration: none;
+}
+#recipes .recipe-item .panel-title {
+  text-decoration: none;
+}
+
+#recipes .recipe-item .recipe-title {
+}
+
+#recipes .recipe-item img {
+  width: auto;
+}
+#recipes * {
+  z-index: 2;
+}
+#recipes .month-filter{
+  padding-bottom: 3em;
+}
+#recipes {
+  text-align:center;
+}
+#recipes p {
+  margin: 1em 0;
+}
+#recipe-page h1{
+  text-transform: none;
+}
+#recipe-page .month-filter li{
+  background-color: #e5e5e5;
+}
+#recipe-page .month-filter .active{
+  background: none;
+  color: inherit;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 0;
+}
+#recipe-page .month-filter .month:hover{
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+#recipe-page li.start-of-season{
+  background-color: $color-start-season;
+  opacity: 1;
+}
+#recipe-page li.in-season{
+  background-color: $color-in-season;
+  opacity: 1;
+}
+#recipe-page .month-filter li{
+  border: 1px $color-primary solid;
+  cursor: default;
+}
+
+#recipe-page .month:hover{
+  text-decoration: none;
+  font-weight: 300;
+}
+#recipe-page .month-filter .active:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+#recipe-page .row >div {
+    margin: 2em 0;
+}
+#recipe-page h3{
+  text-transform: none;
+}
