@@ -59,8 +59,7 @@ css-id: faq
     <div id="no-product" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNoProduct">
       <div class="panel-body">
         <p>
-          Este proyecto es un prototipo en constante evolución. Se empezó con una lista de 53 frutas y verduras comunas pero vamos a ir añadiendo nuevos productos poco a poco. Tenemos en la lista de espera: cebolleta, ciruela, berro, hinojo, mango, chirimoya y
-          granada. Si queréis que añadamos información sobre un producto que no está en la lista, no dudéis en <a href="http://soydetemporada.es/contacto/" target="_blank"> avisarnos </a>.
+          Este proyecto es un prototipo en constante evolución. Se empezó con una lista de 53 frutas y verduras comunes pero vamos a ir añadiendo nuevos productos poco a poco. Podéis ver la lista de productos en espera <a href="https://github.com/soydetemporada/website/issues/13" target="_blank">aquí</a>. Si queréis que añadamos información sobre un producto que no está en la lista, no dudéis en <a href="http://soydetemporada.es/contacto/" target="_blank"> avisarnos </a>.
         </p>
       </div>
     </div>
@@ -77,9 +76,9 @@ css-id: faq
     <div id="platano" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPlatano">
       <div class="panel-body">
         <p>
-          Muchos usuarios nos han preguntado porque el plátano no está en la lista de productos. La razón es que a día de hoy, el calendario sólo incluye productos que se cultivan en la península española y el 99,9%* de los plátanos vienen de las Islas Canarias.
+          Muchos usuarios nos han preguntado por qué el plátano no está en la lista de productos. La razón es que a día de hoy, el calendario sólo incluye productos que se cultivan en la península española y el 99,9%* de los plátanos vienen de las Islas Canarias.
           Este proyecto parte de la idea que consumir responsable significa comer de temporada pero también comer local. Por esta razón, no quisimos mezclar datos de territorios alejados y con climas radicalmente diferentes. Tenemos ganas de elaborar
-          un calendario para los productos de temporada en Canarias pero aún no hemos recopilado suficientes datos sobre las temporadas allí para hacerlo. Si eres Canario y te sientes perjudicado, manda el <a href="http://soydetemporada.es/colabora/"
+          un calendario para los productos de temporada en Canarias pero aún no hemos recopilado suficientes datos sobre las temporadas allí para hacerlo. Si eres canario y te sientes perjudicado, manda el <a href="http://soydetemporada.es/colabora/"
             target="_blank">formulario de participación</a> a todos los agricultores que conoces para que lo rellenen y que juntemos suficientes datos para montar otro calendario. *Fuente: <a href="http://www.mapama.gob.es/es/estadistica/temas/publicaciones/anuario-de-estadistica/"
             target="_blank"> Ministerio de Agricultura </a>
         </p>

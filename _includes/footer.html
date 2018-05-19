@@ -21,21 +21,22 @@
                         Licencia Creative Commons (<a href ="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"> CC BY-NC 4.0 </a>)
                       </div>
                     <div class="footer-col col-md-4">
-                      <div class="pull-right">
-                        <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                <a href="{{ network.url | replace: '[url]',site.url }}" class="btn-social" target="_blank"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                            </li>
-		                    {% endfor %}
-                        </ul>
-                    </div>
                     <div class="nav navbar-inverse pull-right">
-                    <ul class="nav navbar-nav">
-                      <li><a href="{{site.url}}/acerca">Acerca</a></li>
-                      <li><a href="{{site.url}}/colabora">Colabora</a></li>
-                      <li><a href="{{site.url}}/contacto">Contacto</a></li>
-                    </ul>
+                      <ul class="nav navbar-nav">
+                        <li><a href="{{site.url}}/acerca">Acerca</a></li>
+                        <li><a href="{{site.url}}/colabora">Colabora</a></li>
+                        <li><a href="{{site.url}}/contacto">Contacto</a></li>
+                      </ul>
+                      <ul class="nav navbar-nav">
+                        <li><a class="active" href="{{site.url}}/data/calendario-verduras.pdf"><i class="fa fa-download"></i>&nbsp;Calendario de verduras</a></li>
+                      </ul>
+                      <ul class="nav navbar-nav" style="clear:both">
+                        {% for network in site.social %}
+                        <li>
+                            <a href="{{ network.url | replace: '[url]',site.url }}" class="" target="_blank"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                      </ul>
                   </div>
 
                     </div>
