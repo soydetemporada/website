@@ -1,0 +1,43 @@
+TIPO DE PRODUCTO,ENE,FEB,MAR,ABR,MAY,JUN,JUL,AGO,SEP,OCT,NOV,DIC
+ACELGA,,,,,Y,X,X,X,X,X,Y,
+ACHICORIA,,,,,,,,,,,,
+AJO,,,,,,X,X,,,,,
+ALCACHOFA,,,,,,,,,,,,
+APIO,,,,,,,,,,,,
+APIONABO,,,,,,,,,,,,
+BATATA,,,,,,,,,,,,
+BERENJENA,,,,,Y,Y,X,X,X,Y,,
+BERRO,,,,,,,,,,,,
+BORRAJA,,,,,,,,,,,,
+BRÓCOLI,,,,,,,Y,Y,X,X,X,Y
+CALABACIN,,,,,Y,X,X,X,X,Y,,
+CALABAZA,,,,,,,Y,Y,X,X,,
+CANÓNIGO,,,,,,,,,,,,
+CARDO,,,,,,,,,,,,
+CEBOLLA,,,,,,,,X,X,,,
+CEBOLLETA,,,,,,,,,,,,
+CHAMPIÑÓN,,,,,,,,,,,,
+CHIRIVÍA,,,,,,,,Y,X,X,X,X
+COL,X,Y,Y,,,,,X,X,X,X,X
+COL DE BRUSELAS,X,Y,Y,,,,,,,,Y,X
+COLIFLOR,X,X,Y,,,,,,Y,X,X,X
+ENDÍBIA,,,,,,,,,,,,
+ESPÁRRAGO,,,,,,,,,,,,
+ESPINACA,,,,,,,,Y,X,X,,
+GUISANTE,,,Y,X,X,X,Y,,,,,
+HABA,,,,,,,,Y,X,X,X,Y
+HINOJO,,,,,,,,,,,,
+JUDÍA,,,,,,Y,X,X,X,,,
+LECHUGA,,,,Y,X,X,X,X,X,Y,,
+MAIZ DULCE,,,,,,,,,,,,
+NABO,,,,,,,,,,,,
+PATATA,,,,,,Y,Y,X,X,X,,
+PEPINO,,,,,Y,X,X,X,X,Y,,
+PIMIENTO,,,,,Y,X,X,X,X,Y,,
+PUERRO,X,Y,Y,,,,Y,Y,X,X,X,X
+RÁBANO,X,X,Y,,,,,,Y,Y,X,X
+REMOLACHA,,,,X,X,X,X,X,X,X,,
+ROMANESCO,,,,,,,,,,,,
+RÚCULA,,,,,,,,,,,,
+TOMATE,,,,,,Y,X,X,X,Y,,
+ZANAHORIA,,,,X,X,X,X,X,X,X,X,Y
