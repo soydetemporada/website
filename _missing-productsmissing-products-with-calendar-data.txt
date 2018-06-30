@@ -1,0 +1,1 @@
+['col-china', 'cebolleta', 'papaya', 'pina', 'platano', 'chirivia', 'granada']
