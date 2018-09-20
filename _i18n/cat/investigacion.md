@@ -1,9 +1,3 @@
----
-title: "Agricultura familiar: el cost de mantenir la tradició i la terra"
-layout: page
-css-id: research
-cabezote: /img/investigacion-cabezote.jpg
----
 
 ### El model d’agricultura intensiva debilita greument la capacitat econòmica i productiva de molts petits i mitjans agricultors, que estan cada vegada més limitats per la precarietat dels preus dels seus productes, la competència del lliure mercat i el deteriorament de les terres.
 

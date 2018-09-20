@@ -1,9 +1,3 @@
----
-title: Galetes
-layout: page
-css-id: cookies
-cabezote: /img/cabezote.jpg
----
 
 Per fer una anàlisi dels usuaris que visiten aquest lloc, estem utilitzant Google Analytics, que instal·la als dispositius dels usuaris petits fitxers de dades, anomenats galetes.
 

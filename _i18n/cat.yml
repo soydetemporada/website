@@ -4,3 +4,15 @@ global:
   investigacion: Investigació
   faq: PMF
   recetas: Receptes
+
+titles:
+  buscador: Cercador
+  porque: Per què?
+  investigacion: "Agricultura familiar: el cost de mantenir la tradició i la terra"
+  faq: PMF
+  recetas: Receptes
+  acerca: Acerca
+  colabora: Col·labora
+  contacto: Contacto
+  cookies: Galetes
+  peticion: "para tener calendarios fiables"

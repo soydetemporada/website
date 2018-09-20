@@ -1,10 +1,3 @@
----
-title: Per què?
-hide-title: true
-layout: page
-css-id: about
-cabezote: /img/porque-cabezote.jpg
----
 
 ### PER QUÈ MENJAR DE TEMPORADA?
 Menjar productes de temporada és bo per a la salut, la butxaca i el medi ambient. A més d’ajudar a reduir les emissions de CO2 i donar suport a la sostenibilitat de la terra, consumiu productes recollits en el punt òptim de maduració a un preu just i que afavoreixen l’economia local.

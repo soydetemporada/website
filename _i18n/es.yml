@@ -4,3 +4,15 @@ global:
   investigacion: Investigación
   faq: FAQ
   recetas: Recetas
+
+titles:
+  buscador: Buscador
+  porque: "¿Por qué?"
+  investigacion: "Agricultura familiar: el coste de mantener la tradición y la tierra"
+  faq: FAQ
+  recetas: Recetas
+  acerca: Acerca
+  colabora: Colabora
+  contacto: Contacto
+  cookies: Cookies
+  peticion: "para tener calendarios fiables"

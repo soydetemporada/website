@@ -1,8 +1,3 @@
----
-title: PMF
-layout: page_simple
-css-id: faq
----
 
 ### PREGUNTES FREQÜENTS
 <br>
