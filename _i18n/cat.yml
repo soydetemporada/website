@@ -26,7 +26,7 @@ titles:
   peticion: "para tener calendarios fiables"
 
 home:
-  months: "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre"
+  months: "Gener,Febrer,Març,Abril,Maig,Juny,Juliol,Agost,Setembre,Octubre,Novembre,Desembre"
   filtrar: "Filtrar por producto"
   entrando_saliendo: "Producto entrando o saliendo de temporada"
   cargando: "Cargando..."
@@ -44,3 +44,6 @@ product:
   fuente_top: "Fuente: Ministerio de Agricultura (2015). Anuario de Estadística."
   importa_exporta: "¿Cuánto se importa, cuánto se exporta?"
   fuente_importa_exporta: "Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos."
+
+products:
+  acelga: Bleda
