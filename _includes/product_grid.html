@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <ul class="month-filter">
-        {% assign months_c = "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre" | split: ',' %}
+        {% assign months_c = site.translations[site.lang]['home']['months'] | split: ',' %}
         {% for month in months_c %}
           {% assign current = '' %}
           <li>
@@ -16,7 +16,7 @@
     <div class="row product-filter">
       <div class="col-lg-3">
         <form>
-          <select placeholder="Filtrar por producto" class="form-control">
+          <select placeholder="{% t home.filtrar %}" class="form-control">
               <option></option>
             {% assign products = site.data.products | sort %}
             {% for product_hash in products %}
@@ -27,16 +27,16 @@
         </form>
       </div>
       <div class="col-lg-4">
-        <i class="fa fa-hourglass-half icon-season start-of-season"></i> Producto entrando o saliendo de temporada
+        <i class="fa fa-hourglass-half icon-season start-of-season"></i> {% t home.entrando_saliendo %}
       </div>
     </div>
     <div class="loader">
       <i class="fa fa-spinner fa-spin fa-fw fa-3x"></i>
-      <span class="sr-only">Cargando...</span>
+      <span class="sr-only">{% t home.cargando %}</span>
     </div>
     <div class="grid row">
       <div class="product-item col-sm-12 col-xs-12 section-label section-out-season">
-        <h3>FUERA DE TEMPORADA</h3>
+        <h3>{% t home.fuera_temporada %}</h3>
         <span class="id">0</span>
         <span class="season">4</span>
       </div>

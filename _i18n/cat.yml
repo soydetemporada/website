@@ -1,9 +1,17 @@
 global:
-  buscador: Cercador
-  porque: Per què?
-  investigacion: Investigació
-  faq: PMF
-  recetas: Receptes
+  header: "¿Qué puedo comer este mes?"
+  contactanos: "Contáctanos"
+  colabora: Colabora
+  compartelo: "Compártelo"
+  licencia: "Licencia Creative Commons"
+  acerca: Acerca
+  contacto: Contacto
+  menu:
+    buscador: Cercador
+    porque: Per què?
+    investigacion: Investigació
+    faq: PMF
+    recetas: Receptes
 
 titles:
   buscador: Cercador
@@ -16,3 +24,23 @@ titles:
   contacto: Contacto
   cookies: Galetes
   peticion: "para tener calendarios fiables"
+
+home:
+  months: "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre"
+  filtrar: "Filtrar por producto"
+  entrando_saliendo: "Producto entrando o saliendo de temporada"
+  cargando: "Cargando..."
+  fuera_temporada: "FUERA DE TEMPORADA"
+  contact:
+    title: "¿Has visto algún error en el calendario?"
+    subtitle: "Queremos que sea lo más fiable posible, no dudes en avisarnos."
+  press:
+    title: "Hablan de nosotros"
+
+product:
+  pocas_palabras: "En pocas palabras"
+  tiempo_cultivo: "Tiempo de cultivo"
+  top_3: "Top 3 de las provincias productoras"
+  fuente_top: "Fuente: Ministerio de Agricultura (2015). Anuario de Estadística."
+  importa_exporta: "¿Cuánto se importa, cuánto se exporta?"
+  fuente_importa_exporta: "Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos."

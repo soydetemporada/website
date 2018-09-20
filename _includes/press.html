@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Hablan de nosotros</h2>
+                    <h2>{% t home.press.title %}</h2>
                     {% for press in site.data.press %}
                       <div class="col-sm-3 col-xs-6 press" >
                         {% if press.url %}
@@ -12,7 +12,7 @@
                           <img class="img-responsive" src="{{site.url}}/{{press.photo}}" alt="{{press.name}}" title="{{press.name}}">
                         {% if press.url %}
                           </a>
-                        {% endif%}    
+                        {% endif%}
                       </div>
                     {% endfor %}
 

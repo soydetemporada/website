@@ -5,7 +5,7 @@
                 <div class="row">
                   <div class="footer-col col-md-4">
                         <br>
-                        <b>Compártelo</b>
+                        <b>{% t global.compartelo %}</b>
                         <ul class="list-inline">
                             {% for network in site.share %}
                             <li>
@@ -18,7 +18,7 @@
                         <a href="http://medialab-prado.es" target="_blank"><img class="img-responsive" width="100px" src="{{"/img/medialablogo.png" | prepend: site.url }}"></a>
                         <a href="https://twitter.com/datalabx" target="_blank"><img class="img-responsive" width="100px" src="{{"/img/datalablogo.png" | prepend: site.url }}"></a>
                         <br>
-                        Licencia Creative Commons (<a href ="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"> CC BY-NC 4.0 </a>)
+                        {% t global.licencia %} (<a href ="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"> CC BY-NC 4.0 </a>)
                       </div>
                     <div class="footer-col col-md-4">
                       <div class="pull-right">
@@ -32,9 +32,9 @@
                     </div>
                     <div class="nav navbar-inverse pull-right">
                     <ul class="nav navbar-nav">
-                      <li><a href="{{site.url}}/acerca">Acerca</a></li>
-                      <li><a href="{{site.url}}/colabora">Colabora</a></li>
-                      <li><a href="{{site.url}}/contacto">Contacto</a></li>
+                      <li><a href="{% tl acerca %}">{% t global.acerca %}</a></li>
+                      <li><a href="{% tl colabora %}">{% t global.colabora %}</a></li>
+                      <li><a href="{% tl contacto %}">{% t global.contacto %}</a></li>
                     </ul>
                   </div>
 
