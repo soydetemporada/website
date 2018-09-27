@@ -19,7 +19,7 @@ css-id: faq
     <div id="imprimir" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingImprimir">
       <div class="panel-body">
         <p>
-          Actualmente, el calendario solamente está accesible a través de la web. Paciencia, estamos trabajando la elaboración de un calendario descargable en versión PDF en varios formatos y os avisaremos a través de nuestra <a href='https://twitter.com/soydetemporada'
+          Ya está accesible la versión impresa del calendario de verduras, podéis descargarla <a href="https://soydetemporada.es/data/calendario-verduras.pdf" target="_blank">aquí</a>. Aún no hemos terminado el calendario de frutas, os avisaremos a través de nuestra <a href='https://twitter.com/soydetemporada'
             target='_blank'>cuenta en Twitter</a> una vez que esté disponible.
         </p>
       </div>

@@ -28,35 +28,50 @@ XLIM = 0.5
 # Get paths
 
 currentPWD = os.getcwd()
-#currentPWD = '/Volumes/MacintoshHD/_GitHub/journey-of-food/scripts'
+dwd = currentPWD[:-8]+'/data/seasons'
+aux = currentPWD[:-8]+'/data/aux'
+pwd = currentPWD[:-8]+'/data/calendar'
+missing = currentPWD[:-8]+'/_missing-products'
 
-dwd = currentPWD[:-7]+'/data/seasons/'
-aux = currentPWD[:-7]+'/data/aux/'
-pwd = currentPWD[:-7]+'/data/calendar/'
+#currentPWD = '/Volumes/MacintoshHD/_GitHub/website'
+#dwd = currentPWD +'/data/seasons'
+#aux = currentPWD + '/data/aux'
+#pwd = currentPWD +'/data/calendar'
+#missing = currentPWD +'/_missing-products'
 
 # List calendar files available
+files = os.listdir(pwd)
 
-os.chdir(pwd)
-files = os.listdir()
 filesCSV = []
 for file in files:
     if file.endswith('csv'):
         filesCSV.append(file)
 
+print('\n\nArchivos a procesar:')
+print(filesCSV)
+
 # Create Dataframe from files
 
 dataList = []
 data = pd.DataFrame()
-for file in filesCSV:
-    data = pd.read_csv(file, encoding ='utf-8', delimiter = ',',index_col=0)
-    data['Ciudad'] = file.split('.')[0]
-    dataList.append(data)
+try:
+    for file in filesCSV:
+        data = pd.read_csv(pwd+'/'+file, encoding ='utf-8', delimiter = ',',index_col=0)
+        data['Ciudad'] = file.split('.')[0]
+        data.columns = ['TIPO DE PRODUCTO', 'ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL',
+           'AGO', 'SEP', 'OCT', 'NOV', 'DIC', 'Ciudad']
+        dataList.append(data)
+except:
+    print('Error in ' + file)
+
 data = pd.concat(dataList)
 data.fillna(0, inplace=True)
 
+
 # Find differences of x,X,y,Y and assign y=0.5, x=1
 
-weight = pd.read_csv(aux+'weight.csv', encoding ='utf-8', delimiter = ',', index_col=0)
+weight = pd.read_csv(aux+'/weight.csv', encoding ='utf-8', delimiter = ',', index_col=0)
+
 data.ENE = data.ENE.map(weight.score)
 data.FEB = data.FEB.map(weight.score)
 data.MAR = data.MAR.map(weight.score)
@@ -91,7 +106,6 @@ data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace(' 
 data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace('col-comun','col'))
 data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace('cabalaza','calabaza'))
 
-
 data = data.loc[data.SCORE>0]
 
 data = data.reset_index(drop=True)
@@ -99,14 +113,25 @@ data = data.reset_index(drop=True)
 # Ensure products
 #data['TIPO DE PRODUCTO'].unique()
 
-_products = os.listdir(currentPWD[:-7]+'/_products')
+_products = os.listdir(currentPWD[:-8]+'/_products')
 _productList = []
 
 for fichero in _products:
     if fichero.endswith('.markdown'):
         _productList.append(fichero.split('.')[0])
+
+print('\n\nProductos a procesar:')
+print(_productList)
+
 #_productList
 data['drop'] = data['TIPO DE PRODUCTO'].apply(lambda x: x in _productList)
+missing_products = list(data[data['drop']==False]['TIPO DE PRODUCTO'].unique())
+
+print('\n\nProductos fuera:')
+print(missing_products)
+
+with open(missing+'missing-products-with-calendar-data.txt','w') as myfile:
+    myfile.write(str(missing_products))
 data = data[data['drop']==True]
 #Only use answers with values
 
@@ -155,4 +180,7 @@ pivot.sort_index(inplace=True)
 pivot.drop('drop',axis=1,inplace=True)
 
 # Save to file
-pivot.to_csv(dwd+'calendario_py.csv',encoding='utf-8')
+pivot.to_csv(dwd+'/calendario_py.csv',encoding='utf-8')
+
+print('\n\nResultado:')
+print(pivot.head())

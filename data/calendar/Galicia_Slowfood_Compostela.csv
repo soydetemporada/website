@@ -1,0 +1,43 @@
+ID,TIPO DE PRODUCTO,ENE,FEB,MAR,ABR,MAY,JUN,JUL,AGO,SEP,OCT,NOV,DIC
+1,ACELGA,,,,,Y,X,X,X,X,X,Y,
+2,ACHICORIA,,,,,,,,,,,,
+3,AJO,,,,,,X,X,,,,,
+4,ALCACHOFA,,,,,,,,,,,,
+5,APIO,,,,,,,,,,,,
+6,APIONABO,,,,,,,,,,,,
+7,BATATA,,,,,,,,,,,,
+8,BERENJENA,,,,,Y,Y,X,X,X,Y,,
+9,BERRO,,,,,,,,,,,,
+10,BORRAJA,,,,,,,,,,,,
+11,BRÓCOLI,,,,,,,Y,Y,X,X,X,Y
+12,CALABACIN,,,,,Y,X,X,X,X,Y,,
+13,CALABAZA,,,,,,,Y,Y,X,X,,
+14,CANÓNIGO,,,,,,,,,,,,
+15,CARDO,,,,,,,,,,,,
+16,CEBOLLA,,,,,,,,X,X,,,
+17,CEBOLLETA,,,,,,,,,,,,
+18,CHAMPIÑÓN,,,,,,,,,,,,
+19,CHIRIVÍA,,,,,,,,Y,X,X,X,X
+20,COL,X,Y,Y,,,,,X,X,X,X,X
+21,COL DE BRUSELAS,X,Y,Y,,,,,,,,Y,X
+22,COLIFLOR,X,X,Y,,,,,,Y,X,X,X
+23,ENDÍBIA,,,,,,,,,,,,
+24,ESPÁRRAGO,,,,,,,,,,,,
+25,ESPINACA,,,,,,,,Y,X,X,,
+26,GUISANTE,,,Y,X,X,X,Y,,,,,
+27,HABA,,,,,,,,Y,X,X,X,Y
+28,HINOJO,,,,,,,,,,,,
+29,JUDÍA,,,,,,Y,X,X,X,,,
+30,LECHUGA,,,,Y,X,X,X,X,X,Y,,
+31,MAIZ DULCE,,,,,,,,,,,,
+32,NABO,,,,,,,,,,,,
+33,PATATA,,,,,,Y,Y,X,X,X,,
+34,PEPINO,,,,,Y,X,X,X,X,Y,,
+35,PIMIENTO,,,,,Y,X,X,X,X,Y,,
+36,PUERRO,X,Y,Y,,,,Y,Y,X,X,X,X
+37,RÁBANO,X,X,Y,,,,,,Y,Y,X,X
+38,REMOLACHA,,,,X,X,X,X,X,X,X,,
+39,ROMANESCO,,,,,,,,,,,,
+40,RÚCULA,,,,,,,,,,,,
+41,TOMATE,,,,,,Y,X,X,X,Y,,
+42,ZANAHORIA,,,,X,X,X,X,X,X,X,X,Y
