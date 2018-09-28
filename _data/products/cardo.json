@@ -3,5 +3,7 @@
     "img": "cardo.png",
     "category": "Verdura",
     "description": "El cardo es un producto de invierno t\u00edpico de la gastronom\u00eda del norte de Espa\u00f1a. Se consum\u00eda mucho en el pasado y est\u00e1 volviendo a ser de moda por sus calidades nutritivas.",
-    "time": "NA"
+    "time": "NA",
+    "name_cat": "Card",
+    "description_cat": "El card és un producte d’hivern típic de la gastronomia del nord d’Espanya. Se’n consumia molt en el passat i està tornant a estar de moda per les qualitats nutritives que té.",
 }

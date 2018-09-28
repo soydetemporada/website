@@ -3,5 +3,7 @@
     "img": "nabo.png",
     "category": "Verdura",
     "description": "El nabo es un tub\u00e9rculo de climas templados y fr\u00edos, se cultiva en Europa desde hace milenios. Era alimento de consumo diario hasta que lleg\u00f3 la patata desde Am\u00e9rica. Hoy en d\u00eda, se cultiva en todo el mundo para alimentar al ganado, por su alta producci\u00f3n, facilidad de cultivo y porque produce cuando no hay pasto disponible. Se puede cocinar en guisos, pur\u00e9s, o incluso fritos como chips. Hay incluso algunas recetas utilizando sus ricas hojas.",
-    "time":3
+    "time":3,
+    "name_cat": "Nap",
+    "description_cat": "El nap és un tubercle de climes temperats i freds. Es cultiva a Europa des de fa mil·lennis. Era aliment de consum diari fins que va arribar la patata des d’Amèrica. Avui dia, se’n cultiva a tot el món per alimentar el bestiar, per l’alta producció i facilitat de cultiu i perquè es produeix quan no hi ha pastura disponible. Es pot cuinar en guisats i purés, o fins i tot fregit com a xips. Hi ha fins i tot algunes receptes que n’utilitzen les exquisides fulles.",
 }

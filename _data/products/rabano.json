@@ -3,5 +3,7 @@
     "img": "rabano.png",
     "category": "Verdura",
     "description": "El r\u00e1bano es una planta cultivada en casi todo el mundo por sus exquisitas ra\u00edces. Principalmente al principio del verano, aunque est\u00e1 muy extendido su cultivo en invernaderos. En algunos pa\u00edses orientales como Jap\u00f3n, el r\u00e1bano es uno de los ingredientes principales de sus platos t\u00edpicos. \u00bfSab\u00edas que el wasabi se obtiene de un r\u00e1bano picante?",
-    "time":1
+    "time":1,
+    "name_cat": "Rave",
+    "description_cat": "El rave és una planta cultivada a gairebé tot el món per les exquisides arrels. Principalment al principi de l’estiu, tot i que n’està molt estès el cultiu en hivernacles. En alguns països orientals com el Japó, el rave és un dels ingredients principals dels plats típics. Sabies que el wasabi s’obté d’un rave picant?",
 }

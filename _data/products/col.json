@@ -17,5 +17,7 @@
     "time": 6,
     "category": "Verdura",
     "name": "Col",
-    "description": "La col, o repollo, es un producto t\u00edpico de Europa que se produce durante los meses fr\u00edos del a\u00f1o. Es un producto muy saludable que sorprendentemente, lleva vitamina C que la naranja y m\u00e1s calcio que la leche."
+    "description": "La col, o repollo, es un producto t\u00edpico de Europa que se produce durante los meses fr\u00edos del a\u00f1o. Es un producto muy saludable que sorprendentemente, lleva vitamina C que la naranja y m\u00e1s calcio que la leche.",
+    "name_cat": "Col",
+    "description_cat": "La col és un producte típic d’Europa que es produeix durant els mesos freds de l’any. És un producte molt saludable que sorprenentment porta més vitamina C que la taronja i més calci que la llet.",
 }

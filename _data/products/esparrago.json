@@ -17,5 +17,7 @@
     "time": 12,
     "category": "Verdura",
     "name": "Espárrago",
-    "description": "Los esp\u00e1rragos tienen una temporada muy corta, solamente se pueden comer al inicio de la primavera. El resto del a\u00f1o, se importan mayormente desde Per\u00fa, generando emisiones de CO2 innecesarias."
+    "description": "Los esp\u00e1rragos tienen una temporada muy corta, solamente se pueden comer al inicio de la primavera. El resto del a\u00f1o, se importan mayormente desde Per\u00fa, generando emisiones de CO2 innecesarias.",
+    "name_cat": "Espàrrec",
+    "description_cat": "Els espàrrecs tenen una temporada molt curta, només se’n poden menjar a l’inici de la primavera. La resta de l’any s’importen sobretot des del Perú i es generen emissions de CO2 innecessàries.",
 }

@@ -3,5 +3,7 @@
     "img": "apio.png",
     "category": "Verdura",
     "description": "El apio tiene la curiosidad de quitar m\u00e1s calorias de las que aporta cuande se come",
-    "time": 4
+    "time": 4,
+    "name_cat": "Api",
+    "description_cat": "L’api té la curiositat de treure més calories de les que aporta quan es menja.",
 }
