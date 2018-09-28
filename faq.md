@@ -5,7 +5,7 @@ css-id: faq
 
 namespace: faq
 permalink: /faq/
-permalink_cat: /pmf/
+permalink_cat: /faq/
 
 ---
 {% translate_file faq.md %}
