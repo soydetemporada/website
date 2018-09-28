@@ -51,7 +51,6 @@ $(function() {
 // select2
 $(function(){
   $(".product-filter select").select2({
-    placeholder: "Filtrar por producto",
     allowClear: true,
     minimumInputLength: 2
   });
@@ -70,5 +69,9 @@ $(function(){
       $(this).addClass('active');
       return;
     }
+  });
+  $("#lang").on('change',function(){
+    selected = $(this).val();
+    location.href = location.origin + selected;
   });
 });

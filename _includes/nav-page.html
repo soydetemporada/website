@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+                <a class="navbar-brand" href="{% tl home %}">{{ site.title }}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,6 +34,28 @@
                     -->
                     <li class="page-scroll {% if page.css-id == 'faq' %} active {% endif %}">
                         <a href="{% tl faq %}">{% t global.menu.faq %}</a>
+                    </li>
+                    <li>
+                      <select id="lang" data-current="{{site.lang}}">
+                        {%for lang in site.languages %}
+                          {% if lang == site.lang %}
+                            <option selected disabled>{{lang | upcase }}</option>
+                          {% else %}
+                            {% assign lang_suffix = '' %}
+                            {% assign lang_prefix = '' %}
+                            {% if lang != 'es' %}
+                              {% assign lang_suffix = "_" | append: lang %}
+                              {% assign lang_prefix = "/" | append: lang  %}
+                            {% endif %}
+                            {% assign permalink_key = "permalink" | append: lang_suffix %}
+                            {% if page[permalink_key] %}
+                              <option value="{{ page[permalink_key] | prepend: lang_prefix }}">{{lang | upcase }}</option>
+                            {% else %}
+                              <option value="{{ page.url | prepend: lang_prefix }}">{{lang | upcase }}</option>
+                            {% endif %}
+                          {% endif %}
+                        {% endfor %}
+                      </select>
                     </li>
                 </ul>
             </div>

@@ -13,7 +13,6 @@
   {% include nav-page.html %}
   {% assign product_id = page.id | replace: '/products/',''%}
   {% assign product_data = site.data.products[product_id] %}
-
   <!-- Header -->
   {% assign cabezote = "/img/products/cabezotes/" | append: product_data.img | replace: 'png', 'jpg' %}
   <header id="product-header-{{page.index}}" style="background-image:url('{{ cabezote | prepend: site.url }}')">
@@ -34,10 +33,11 @@
         </ol>
         <ul class="month-filter">
           {% assign months_c = site.translations[site.lang]['home']['months'] | split: ',' %}
+          {% assign months_b = site.translations['es']['home']['months'] | split: ',' %}
           {% for month in months_c %}
             <li>
-              <span class="desktop text-center month" data-month="{{month | slice: 0,3}}">{{month}}</span>
-              <span class="mobile text-center month" data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</span>
+              <span class="desktop text-center month" data-month="{{months_b[forloop.index0] | slice: 0,3}}">{{month}}</span>
+              <span class="mobile text-center month" data-month="{{months_b[forloop.index0] | slice: 0,3}}">{{month | slice: 0,3}}</span>
             </li>
             {% endfor %}
         </ul>

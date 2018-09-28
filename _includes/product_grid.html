@@ -24,7 +24,7 @@
     <div class="row product-filter">
       <div class="col-lg-3">
         <form>
-          <select placeholder="{% t home.filtrar %}" class="form-control">
+          <select data-placeholder="{% t home.filtrar %}" class="form-control">
               <option></option>
             {% assign products = site.data.products | sort %}
             {% for product_hash in products %}

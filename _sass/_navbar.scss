@@ -15,6 +15,13 @@
     .active > a:hover{
       color: #fff;
     }
+    select {
+      background: transparent;
+      border: 1px solid #c0c0c0;
+      border-radius: 5px;
+      padding-top: 0.2em;
+      margin: 0.5em;
+    }
   }
   .navbar-brand:hover{
     color: $color-primary-complement;
