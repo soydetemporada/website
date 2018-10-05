@@ -44,3 +44,14 @@ product:
   fuente_top: "Fuente: Ministerio de Agricultura (2015). Anuario de Estadística."
   importa_exporta: "¿Cuánto se importa, cuánto se exporta?"
   fuente_importa_exporta: "Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos."
+
+colaborators:
+  coordinacion: "Coordinación y Diseño"
+  investigacion: "Investigación y Redacción"
+  programacion: "Programación"
+  design: "Diseño UX"
+  analisis_datos: "Análisis de datos"
+
+cookies:
+  cookie_banner: "Les cookies sempre estan de temporada, i aquest lloc usa dos o tres"
+  cookie_info: "Més informació"

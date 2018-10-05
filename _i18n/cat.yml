@@ -45,9 +45,6 @@ product:
   importa_exporta: "Quant s'importa, quant s'exporta?"
   fuente_importa_exporta: "Font: Ministeri d'Economia (2015). Inclou producció en hivernacles."
 
-products:
-  acelga: Bleda
-
 colaborators:
   coordinacion: "Coordinació i Disseny"
   investigacion: "Investigació i Redacció"
