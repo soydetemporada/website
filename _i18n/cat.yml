@@ -52,6 +52,11 @@ colaborators:
   design: "Disseny UX"
   analisis_datos: "Anàlisi de dades"
 
+contact:
+  name: Nom
+  email: "Correu electrònic"
+  message: Missatge
+
 cookies:
   cookie_banner: "Les cookies sempre estan de temporada, i aquest lloc usa dos o tres"
   cookie_info: "Més informació"

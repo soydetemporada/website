@@ -25,6 +25,11 @@ titles:
   cookies: Cookies
   peticion: "para tener calendarios fiables"
 
+contact:
+  name: "Nombre"
+  email: "Dirección de correo"
+  message: "Mensaje" 
+
 home:
   months: "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre"
   filtrar: "Filtrar por producto"
