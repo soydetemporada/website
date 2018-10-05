@@ -47,3 +47,14 @@ product:
 
 products:
   acelga: Bleda
+
+colaborators:
+  coordinacion: "Coordinació i Disseny"
+  investigacion: "Investigació i Redacció"
+  programacion: "Programació"
+  design: "Disseny UX"
+  analisis_datos: "Anàlisi de dades"
+
+cookies:
+  cookie_banner: "Les cookies sempre estan de temporada, i aquest lloc usa dos o tres"
+  cookie_info: "Més informació"
