@@ -67,7 +67,6 @@ except:
 data = pd.concat(dataList)
 data.fillna(0, inplace=True)
 
-
 # Find differences of x,X,y,Y and assign y=0.5, x=1
 
 weight = pd.read_csv(aux+'/weight.csv', encoding ='utf-8', delimiter = ',', index_col=0)
@@ -91,12 +90,12 @@ data.fillna(0,inplace=True)
 
 data['SCORE']=data.ENE+data.FEB+data.MAR+data.ABR+data.MAY+data.JUN+data.JUL+data.AGO+data.SEP+data.OCT+data.NOV+data.DIC
 data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.lower())
-data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace('ó','o'))
-data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace('á','a'))
-data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace('é','e'))
-data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace('í','i'))
-data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace('ú','u'))
-data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace('ñ','n'))
+data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace(u'ó','o'))
+data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace(u'á','a'))
+data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace(u'é','e'))
+data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace(u'í','i'))
+data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace(u'ú','u'))
+data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace(u'ñ','n'))
 data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace('habas','haba'))
 data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace('maiz dulce','maiz'))
 data['TIPO DE PRODUCTO'] = data['TIPO DE PRODUCTO'].apply(lambda x: x.replace('guisantes','guisante'))
