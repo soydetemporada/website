@@ -73,11 +73,14 @@ permalink: pretty
 sass:
     style: compressed
 
+# Excludes
+exclude: ["Gemfile", "Gemfile.lock", "node_modules","vendor","vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/","app.appcache.old","ilustraciones-originales","package.json","webpack.config.js","npm-postinstall.sh","yarn.lock","README.md","AGREGAR_PRODUCTO.txt"]
+
 # jekyll plugins
 plugins:
   - jekyll-multiple-languages-plugin
 #  - jekyll-sitemap
 
 baseurl: ""
-languages: ["es","cat"]
+languages: ["es","cat","en"]
 exclude_from_localizations: ["app.appcache.old","apple-touch-icon-114x114.png","apple-touch-icon-120x120.png","apple-touch-icon-144x144.png","apple-touch-icon-152x152.png","apple-touch-icon-180x180.png","apple-touch-icon-57x57.png","apple-touch-icon-60x60.png","apple-touch-icon-72x72.png","cat","composer.json","composer.lock","css","data","img","ilustraciones-originales","js","launcher-icon-1x.png","launcher-icon-2x.png","launcher-icon-4x.png","manifest.json","node_modules","npm-postinstall.sh","package.json","Textos.txt","vendor","webpack.config.js","old","descripcion.txt"]
