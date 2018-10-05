@@ -25,6 +25,11 @@ titles:
   cookies: Cookies
   peticion: "para tener calendarios fiables"
 
+contact:
+  name: "Nombre"
+  email: "Dirección de correo"
+  message: "Mensaje" 
+
 home:
   months: "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre"
   filtrar: "Filtrar por producto"
@@ -44,3 +49,14 @@ product:
   fuente_top: "Fuente: Ministerio de Agricultura (2015). Anuario de Estadística."
   importa_exporta: "¿Cuánto se importa, cuánto se exporta?"
   fuente_importa_exporta: "Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos."
+
+colaborators:
+  coordinacion: "Coordinación y Diseño"
+  investigacion: "Investigación y Redacción"
+  programacion: "Programación"
+  design: "Diseño UX"
+  analisis_datos: "Análisis de datos"
+
+cookies:
+  cookie_banner: "Las cookies siempre están de temporada, y este sitio usa dos o tres"
+  cookie_info: "Más información"

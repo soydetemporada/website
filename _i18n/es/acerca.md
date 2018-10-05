@@ -16,7 +16,7 @@ Este proyecto se ha desarrollado en el marco del evento [Visualizar 17](http://m
     {% endif %}
     <div class="pull-left">
     {{colaborator.name | upcase }}<br>
-    {{colaborator.role}}<br>
+    {% t colaborator.role %}<br>
     </div>
     <div class="pull-right">
     {% if colaborator.url %}
