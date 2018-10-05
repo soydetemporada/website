@@ -1,3 +1,10 @@
+{% assign lang_suffix = '' %}
+{% if site.lang != 'es' %}
+  {% assign lang_suffix = "_" | append: site.lang %}
+{% endif %}
+{% assign name_key = "name" | append: lang_suffix %}
+{% assign description_key = "description" | append: lang_suffix %}
+
 <!DOCTYPE html>
 <html>
 {% include head.html %}
@@ -6,14 +13,13 @@
   {% include nav-page.html %}
   {% assign product_id = page.id | replace: '/products/',''%}
   {% assign product_data = site.data.products[product_id] %}
-
   <!-- Header -->
   {% assign cabezote = "/img/products/cabezotes/" | append: product_data.img | replace: 'png', 'jpg' %}
   <header id="product-header-{{page.index}}" style="background-image:url('{{ cabezote | prepend: site.url }}')">
     <div class="container">
       <div class="row ">
         <div class="col-lg-12 text-center">
-          <h1>{{page.title}}</h1>
+          <h1>{{product_data[name_key]}}</h1>
         </div>
       </div>
     </div>
@@ -22,15 +28,16 @@
     <div class="container">
       <div class="row">
         <ol class="breadcrumb">
-          <li><a href="{{site.url}}">Buscador</a></li>
-          <li class="active">{{product_data.name}}</li>
+          <li><a href="{% tl home %}">{% t global.menu.buscador %}</a></li>
+          <li class="active">{{product_data[name_key]}}</li>
         </ol>
         <ul class="month-filter">
-          {% assign months_c = "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre" | split: ',' %}
+          {% assign months_c = site.translations[site.lang]['home']['months'] | split: ',' %}
+          {% assign months_b = site.translations['es']['home']['months'] | split: ',' %}
           {% for month in months_c %}
             <li>
-              <span class="desktop text-center month" data-month="{{month | slice: 0,3}}">{{month}}</span>
-              <span class="mobile text-center month" data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</span>
+              <span class="desktop text-center month" data-month="{{months_b[forloop.index0] | slice: 0,3}}">{{month}}</span>
+              <span class="mobile text-center month" data-month="{{months_b[forloop.index0] | slice: 0,3}}">{{month | slice: 0,3}}</span>
             </li>
             {% endfor %}
         </ul>
@@ -40,16 +47,16 @@
         <div class="col-md-6">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">En pocas palabras</h3>
+              <h3 class="panel-title">{%t product.pocas_palabras %}</h3>
             </div>
             <div class="panel-body">
-              {{product_data.description}}
+              {{product_data[description_key]}}
             </div>
           </div>
 
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Tiempo de cultivo</h3>
+              <h3 class="panel-title">{%t product.tiempo_cultivo %}</h3>
             </div>
             <div class="panel-body">
               <div class="tiempo-cultivo" data-time="{{product_data.time}}"></div>
@@ -59,21 +66,21 @@
         <div class="col-md-6">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Top 3 de las provincias productoras</h3>
+              <h3 class="panel-title">{% t product.top_3 %}</h3>
             </div>
             <div class="panel-body">
               <div class="chart"></div>
-              <small class="source">Fuente: Ministerio de Agricultura (2015). Anuario de Estadística.</small>
+              <small class="source">{% t product.fuente_top %}</small>
             </div>
           </div>
 
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">¿Cuánto se importa, cuánto se exporta?</h3>
+              <h3 class="panel-title">{% t product.importa_exporta %}</h3>
             </div>
             <div class="panel-body">
               <div class="import-export"></div>
-              <small class="source">Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos.</small>
+              <small class="source">{% t product.fuente_importa_exporta %}</small>
             </div>
           </div>
         </div>

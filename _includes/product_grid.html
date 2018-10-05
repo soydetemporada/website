@@ -1,14 +1,22 @@
+{% assign lang_suffix = '' %}
+{% assign lang_prefix = '' %}
+{% if site.lang != 'es' %}
+  {% assign lang_suffix = "_" | append: site.lang %}
+  {% assign lang_prefix = "/" | append: site.lang  %}
+{% endif %}
+{% assign name_key = "name" | append: lang_suffix %}
 <!-- Product Grid Section -->
 <section id="product">
   <div class="container">
     <div class="row">
       <ul class="month-filter">
-        {% assign months_c = "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre" | split: ',' %}
+        {% assign months_c = site.translations[site.lang]['home']['months'] | split: ',' %}
+        {% assign months_b = site.translations['es']['home']['months'] | split: ',' %}
         {% for month in months_c %}
           {% assign current = '' %}
           <li>
-            <span class="desktop text-center month" data-month="{{month | slice: 0,3}}">{{month}}</span>
-            <span class="mobile text-center month" data-month="{{month | slice: 0,3}}">{{month | slice: 0,3}}</span>
+            <span class="desktop text-center month" data-month="{{months_b[forloop.index0] | slice: 0,3}}">{{month}}</span>
+            <span class="mobile text-center month" data-month="{{months_b[forloop.index0] | slice: 0,3}}">{{month | slice: 0,3}}</span>
           </li>
           {% endfor %}
       </ul>
@@ -16,27 +24,27 @@
     <div class="row product-filter">
       <div class="col-lg-3">
         <form>
-          <select placeholder="Filtrar por producto" class="form-control">
+          <select data-placeholder="{% t home.filtrar %}" class="form-control">
               <option></option>
             {% assign products = site.data.products | sort %}
             {% for product_hash in products %}
               {% assign product = product_hash[1] %}
-              <option value="{{forloop.index}}">{{product.name}}</option>
+              <option value="{{forloop.index}}">{{product[name_key]}}</option>
             {% endfor %}
           </select>
         </form>
       </div>
       <div class="col-lg-4">
-        <i class="fa fa-hourglass-half icon-season start-of-season"></i> Producto entrando o saliendo de temporada
+        <i class="fa fa-hourglass-half icon-season start-of-season"></i> {% t home.entrando_saliendo %}
       </div>
     </div>
     <div class="loader">
       <i class="fa fa-spinner fa-spin fa-fw fa-3x"></i>
-      <span class="sr-only">Cargando...</span>
+      <span class="sr-only">{% t home.cargando %}</span>
     </div>
     <div class="grid row">
       <div class="product-item col-sm-12 col-xs-12 section-label section-out-season">
-        <h3>FUERA DE TEMPORADA</h3>
+        <h3>{% t home.fuera_temporada %}</h3>
         <span class="id">0</span>
         <span class="season">4</span>
       </div>
@@ -44,13 +52,13 @@
         {% assign product_id = product.id | replace: '/products/',''%}
         {% assign product_data = site.data.products[product_id] %}
       <div class="product-item col-sm-2 col-xs-4 product-{{ forloop.index }}">
-        <a href="{{ product.url | prepend: site.url }}" class="product-link" title="{{product_data.name}}">
+        <a href="{{ product.id | prepend: lang_prefix }}" class="product-link" title="{{product_data[name_key]}}">
           <div class="caption">
             <div class="caption-content">
             </div>
           </div>
-          <img src="img/products/{{ product_data.img }}" class="img-responsive" alt="{{ product_data.name }}" title="{{ product_data.name }}">
-          <i class="fa icon-season"></i> <span class="product-title">{{product_data.name}}</span>
+          <img src="/img/products/{{ product_data.img }}" class="img-responsive" alt="{{ product_data[name_key] }}" title="{{ product_data[name_key] }}">
+          <i class="fa icon-season"></i> <span class="product-title">{{product_data[name_key]}}</span>
         </a>
 
         <span class="id">{{forloop.index}}</span>

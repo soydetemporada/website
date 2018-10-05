@@ -17,5 +17,7 @@
     "time": 4,
     "category": "Verdura",
     "name": "Guisante",
-    "description": "Aunque comunmente se consideran verduras, los guisantes pertenecen a la familia de las leguminosas. Los meses de primavera son los m\u00e1s indicados para consumir sus dulces granos que, al ser tan tiernos, a diferencia de otras legumbres, se pueden comer crudos. "
+    "description": "Aunque comunmente se consideran verduras, los guisantes pertenecen a la familia de las leguminosas. Los meses de primavera son los m\u00e1s indicados para consumir sus dulces granos que, al ser tan tiernos, a diferencia de otras legumbres, se pueden comer crudos. ",
+    "name_cat": "Pèsol",
+    "description_cat": "Tot i que comunament es consideren verdura, els pèsols pertanyen a la família de les lleguminoses. Els mesos de primavera són els més indicats per consumir-ne els dolços grans, que, en ser tan tendres, a diferència d’altres llegums, es poden menjar crus.",
 }

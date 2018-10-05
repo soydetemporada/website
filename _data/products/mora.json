@@ -3,5 +3,7 @@
     "img": "mora.png",
     "category": "Fruta",
     "description": "Resulta muy curioso que llamamos mora a dos bayas que vienen de dos especies vegetales totalmente distintas. Por un lado tenemos moras de moredas, \u00e1rboles, y por otro las moras de zarzamora, arbustos. Estas deliciosas frutas se pueden recolectar en verano, sobre todo en la parte final cuando alcanzan un color negro brillante indicando un punto \u00f3ptimo de madurez. Son muy codiciadas para postres, tartas y mermeladas.",
-    "time": "NA"
+    "time": "NA",
+    "name_cat": "Mora",
+    "description_cat": "És molt curiós que anomenem mora a dues baies que venen de dues espècies vegetals totalment diferents. Per una banda tenim mores de morerars, arbres, i, per altra banda, les mores d’esbarzers, arbustos. Aquestes delicioses fruites es poden recol·lectar a l’estiu, sobretot al final, quan assoleixen un color negre brillant que indica un punt òptim de maduresa. Són molt cobejades per a postres, pastissos i melmelades.",
 }

@@ -17,5 +17,7 @@
     "time": 12,
     "category": "Fruta",
     "name": "Aguacate",
-    "description": "Es un fruto tropical que requiere temperaturas muy c\u00e1lidas, por lo cual se cultiva muy poco en la pen\u00ednsula. Peque\u00f1o truco para saber su punto de madurez: quitarle el bot\u00f3n superior y mirar el color del fruto. Si es verde, a\u00fan ser\u00e1 duro. Si es marron, est\u00e1 pasado. Si es amarillo, \u00a1est\u00e1 perfecto!"
+    "description": "Es un fruto tropical que requiere temperaturas muy c\u00e1lidas, por lo cual se cultiva muy poco en la pen\u00ednsula. Peque\u00f1o truco para saber su punto de madurez: quitarle el bot\u00f3n superior y mirar el color del fruto. Si es verde, a\u00fan ser\u00e1 duro. Si es marron, est\u00e1 pasado. Si es amarillo, \u00a1est\u00e1 perfecto!",
+    "name_cat": "Alvocat",
+    "description_cat": "És un fruit tropical que necessita temperatures molt càlides, per la qual cosa es cultiva molt poc a la península. Petit truc per saber-ne el punt de maduresa: treure-li el botó superior i mirar el color del fruit. Si és verd, encara és dur. Si és marró, està passat. Si és groc, perfecte!",
 }

@@ -17,5 +17,7 @@
     "time": 4,
     "category": "Verdura",
     "name": "Zanahoria",
-    "description": "La zanahoria es un producto que podemos encontrar la mayor parte del a\u00f1o y resulta curioso que aunque su color habitual es el naranja, es posible encontrarlas en otros colores. En China, el principal productor del mundo es habitual encontrarlas blancas o p\u00farpura. Disfr\u00fatala cada d\u00eda cruda, frita, cocida, en tartas, guisos o ensaladas."
+    "description": "La zanahoria es un producto que podemos encontrar la mayor parte del a\u00f1o y resulta curioso que aunque su color habitual es el naranja, es posible encontrarlas en otros colores. En China, el principal productor del mundo es habitual encontrarlas blancas o p\u00farpura. Disfr\u00fatala cada d\u00eda cruda, frita, cocida, en tartas, guisos o ensaladas.",
+    "name_cat": "Pastanaga",
+    "description_cat": "La pastanaga és un producte que podem trobar la major part de l’any i resulta curiós que, tot i que el color habitual és el taronja, és possible trobar-ne d’altres colors. A la Xina, el principal productor del món de pastanagues, és habitual trobar-ne de blanques o púrpures. Gaudiu-ne cada dia crua, fregida o cuita en pastissos, guisats o amanides.",
 }

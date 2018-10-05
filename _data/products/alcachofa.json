@@ -17,5 +17,7 @@
     "time": 12,
     "category": "Verdura",
     "name": "Alcachofa",
-    "description": "La alcachofa tiene dos temporadas ideales, una en oto\u00f1o y otra en primavera, dependiendo del clima de la zona donde se produce. La planta puede vivir varios a\u00f1os y alcanzar hasta los 2 metros de altura, y es en su punta donde nacen las alcachofas."
+    "description": "La alcachofa tiene dos temporadas ideales, una en oto\u00f1o y otra en primavera, dependiendo del clima de la zona donde se produce. La planta puede vivir varios a\u00f1os y alcanzar hasta los 2 metros de altura, y es en su punta donde nacen las alcachofas.",
+    "name_cat": "Carxofa",
+    "description_cat": "La carxofa té dues temporades ideals, l’una a la tardor i l’altra a la primavera, depenent del clima de la zona on es produeix. La planta pot viure diversos anys i assolir fins als 2 metres d’altura, i és a la punta on neixen les carxofes.",
 }

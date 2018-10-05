@@ -3,5 +3,7 @@
     "img": "frambuesa.png",
     "category": "Fruta",
     "description": "Los mejores meses para disfrutar frambuesas de temporada son entre julio y octubre. Al tratarse de una fruta muy delicada y perecedera, es conveniente guardarla en un envase llano, sin amontonarla, y consumirla lo antes posible.",
-    "time":"NA"
+    "time":"NA",
+    "name_cat": "Gerd",
+    "description_cat": "Els millors mesos per gaudir els gerds de temporada són entre juliol i octubre. En tractar-se d’una fruita molt delicada i perible, convé guardar-la en un envàs pla, sense amuntegar-la, i consumir-la com més aviat millor.",
 }

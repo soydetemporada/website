@@ -2,6 +2,8 @@
     "name": "Batata",
     "img": "batata.png",
     "category": "Verdura",
-    "description": "Las mejores temporadas para consumir la batata (o boniato) son oto\u00f1o e invierno. Es un tub\u00e9rculo dulce que se puede usar en platos o postres (se recomiendan los bu\u00f1uelos de boniato). La demanda de este producto ha ido aumentado estos \u00faltimos a\u00f1os, incitando cada vez m\u00e1s agricultores a producirla. ",
-    "time": 4
+    "description": "Las mejores temporadas para consumir la batata (o boniato) son oto\u00f1o e invierno. Es un tub\u00e9rculo dulce que se puede usar en platos o postres (se recomiendan los bu\u00f1uelos de boniato). La demanda de este producto ha ido aumentado estos \u00faltimos a\u00f1os, incitando cada vez m\u00e1s agricultores a producirla.",
+    "time": 4,
+    "name_cat": "Batata",
+    "description_cat": "Les temporades per consumir la batata (o moniato) són tardor i hivern. És un tubercle dolç que es pot fer servir en plats o postres (es recomanen els bunyols de moniato). La demanda d’aquest producte ha anat augmentant aquests últims anys i ha incitat cada vegada més agricultors a produir-la.",
 }
