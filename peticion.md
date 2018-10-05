@@ -1,10 +1,10 @@
 ---
-title: titles.peticion
+title: titles.petition
 layout: page
 css-id: demand
 cabezote: /img/peticion-cabezote.jpg
 
-namespace: peticion
+namespace: petition
 permalink: /peticion/
 permalink_cat: /peticion/
 

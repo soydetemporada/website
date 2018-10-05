@@ -1,5 +1,5 @@
 ---
-title: titles.colabora
+title: titles.help_us
 layout: page_simple
 css-id: help
 cabezote: /img/investigacion-cabezote.jpg

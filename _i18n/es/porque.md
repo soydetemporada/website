@@ -35,4 +35,4 @@ Sin duda el problema más grande al cual nos hemos enfrentado hasta ahora es la 
 
 Esto es un proyecto colaborativo, evolutivo y transparente. Cualquier duda, queja o comentario estará bienvenido para mejorar la herramienta. [Contácta con nosotros]({{site.url}}/contacto).
 
-Las ilustraciones de las frutas y verduras están bajo licencia Creative Commons y pueden ser usadas libremente citando los autores de las mismas. Se pueden descargar [aquí](https://github.com/soydetemporada/website/tree/master/ilustraciones-originales/color).
+Las ilustraciones de las frutas y verduras están bajo licencias Creative Commons y pueden ser usadas libremente citando los autores de las mismas. Se pueden descargar [aquí](https://github.com/soydetemporada/website/tree/master/ilustraciones-originales/color).

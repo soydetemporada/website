@@ -1,9 +1,9 @@
 ---
-title: titles.acerca
+title: titles.about
 layout: page_simple
 css-id: team
 
-namespace: acerca
+namespace: about
 permalink: /acerca/
 permalink_cat: /sobre/
 ---

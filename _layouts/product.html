@@ -28,7 +28,7 @@
     <div class="container">
       <div class="row">
         <ol class="breadcrumb">
-          <li><a href="{% tl home %}">{% t global.menu.buscador %}</a></li>
+          <li><a href="{% tl home %}">{% t global.menu.calendar %}</a></li>
           <li class="active">{{product_data[name_key]}}</li>
         </ol>
         <ul class="month-filter">
@@ -47,7 +47,7 @@
         <div class="col-md-6">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">{%t product.pocas_palabras %}</h3>
+              <h3 class="panel-title">{%t product.summary %}</h3>
             </div>
             <div class="panel-body">
               {{product_data[description_key]}}
@@ -56,7 +56,7 @@
 
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">{%t product.tiempo_cultivo %}</h3>
+              <h3 class="panel-title">{%t product.growing_time %}</h3>
             </div>
             <div class="panel-body">
               <div class="tiempo-cultivo" data-time="{{product_data.time}}"></div>
@@ -70,17 +70,17 @@
             </div>
             <div class="panel-body">
               <div class="chart"></div>
-              <small class="source">{% t product.fuente_top %}</small>
+              <small class="source">{% t product.source_top %}</small>
             </div>
           </div>
 
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">{% t product.importa_exporta %}</h3>
+              <h3 class="panel-title">{% t product.import_export %}</h3>
             </div>
             <div class="panel-body">
               <div class="import-export"></div>
-              <small class="source">{% t product.fuente_importa_exporta %}</small>
+              <small class="source">{% t product.source_import_export %}</small>
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@
     <div class="row product-filter">
       <div class="col-lg-3">
         <form>
-          <select data-placeholder="{% t home.filtrar %}" class="form-control">
+          <select data-placeholder="{% t home.filter %}" class="form-control">
               <option></option>
             {% assign products = site.data.products | sort %}
             {% for product_hash in products %}
@@ -35,16 +35,16 @@
         </form>
       </div>
       <div class="col-lg-4">
-        <i class="fa fa-hourglass-half icon-season start-of-season"></i> {% t home.entrando_saliendo %}
+        <i class="fa fa-hourglass-half icon-season start-of-season"></i> {% t home.in_out %}
       </div>
     </div>
     <div class="loader">
       <i class="fa fa-spinner fa-spin fa-fw fa-3x"></i>
-      <span class="sr-only">{% t home.cargando %}</span>
+      <span class="sr-only">{% t home.loading %}</span>
     </div>
     <div class="grid row">
       <div class="product-item col-sm-12 col-xs-12 section-label section-out-season">
-        <h3>{% t home.fuera_temporada %}</h3>
+        <h3>{% t home.out_of_season %}</h3>
         <span class="id">0</span>
         <span class="season">4</span>
       </div>

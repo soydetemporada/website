@@ -1,10 +1,10 @@
 ---
-title: titles.contacto
+title: titles.contact
 layout: page
 css-id: contact
 cabezote: /img/contacto-cabezote.jpg
 
-namespace: contacto
+namespace: contact
 permalink: /contacto/
 permalink_cat: /contacte/
 

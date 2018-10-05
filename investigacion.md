@@ -1,10 +1,10 @@
 ---
-title: titles.investigacion
+title: titles.research
 layout: page
 css-id: research
 cabezote: /img/investigacion-cabezote.jpg
 
-namespace: investigacion
+namespace: research
 permalink: /investigacion/
 permalink_cat: /investigacio/
 ---

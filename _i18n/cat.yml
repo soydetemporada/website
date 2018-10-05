@@ -1,37 +1,37 @@
 global:
   header: "Què puc menjar aquest mes?"
-  contactanos: "Contacte"
-  colabora: Col·labora
-  compartelo: "Comparteix-ho"
-  licencia: "Llicència Creative Commons"
-  acerca: Sobre
-  contacto: Contacte
+  contact_us: "Contacte"
+  help_us: Col·labora
+  share_it: "Comparteix-ho"
+  license: "Llicència Creative Commons"
+  about: Sobre
+  contact: Contacte
   vegetables_calendar: "Calendari de verdures"
   menu:
-    buscador: Calendari
+    calendar: Calendari
     porque: Per què?
-    investigacion: Investigació
+    research: Investigació
     faq: FAQ
-    recetas: Receptes
+    recipes: Receptes
 
 titles:
-  buscador: Cercador
+  calendar: Cercador
   porque: Per què?
-  investigacion: "Agricultura familiar: el cost de mantenir la tradició i la terra"
+  research: "Agricultura familiar: el cost de mantenir la tradició i la terra"
   faq: FAQ
-  recetas: Receptes
-  acerca: Sobre
-  colabora: Col·labora
-  contacto: Contacte
+  recipes: Receptes
+  about: Sobre
+  help_us: Col·labora
+  contact: Contacte
   cookies: Cookies
-  peticion: "para tener calendarios fiables"
+  petition: "para tener calendarios fiables"
 
 home:
   months: "Gener,Febrer,Març,Abril,Maig,Juny,Juliol,Agost,Setembre,Octubre,Novembre,Desembre"
-  filtrar: "Filtrar per producte"
-  entrando_saliendo: "Producte entrant o sortint de temporada"
-  cargando: "Carregant..."
-  fuera_temporada: "FORA DE TEMPORADA"
+  filter: "Filtrar per producte"
+  in_out: "Producte entrant o sortint de temporada"
+  loading: "Carregant..."
+  out_of_season: "FORA DE TEMPORADA"
   contact:
     title: "Has vist algun error al calendari?"
     subtitle: "Volem que sigui el més fiable possible, no dubtis a avisar-nos."
@@ -39,19 +39,19 @@ home:
     title: "Parlen de nosaltres"
 
 product:
-  pocas_palabras: "En poques paraules"
-  tiempo_cultivo: "Temps de cultiu"
+  summary: "En poques paraules"
+  growing_time: "Temps de cultiu"
   top_3: "Top 3 de les províncies productores"
-  fuente_top: "Font: Ministeri d'Agricultura (2015). Anuari d'Estadística."
-  importa_exporta: "Quant s'importa, quant s'exporta?"
-  fuente_importa_exporta: "Font: Ministeri d'Economia (2015). Inclou producció en hivernacles."
+  source_top: "Font: Ministeri d'Agricultura (2015). Anuari d'Estadística."
+  import_export: "Quant s'importa, quant s'exporta?"
+  source_import_export: "Font: Ministeri d'Economia (2015). Inclou producció en hivernacles."
 
 colaborators:
-  coordinacion: "Coordinació i Disseny"
-  investigacion: "Investigació i Redacció"
-  programacion: "Programació"
+  coordination: "Coordinació i Disseny"
+  research: "Investigació i Redacció"
+  development: "Programació"
   design: "Disseny UX"
-  analisis_datos: "Anàlisi de dades"
+  data_analysis: "Anàlisi de dades"
 
 contact:
   name: Nom
