@@ -18,6 +18,10 @@
     "category": "Verdura",
     "name": "Acelga",
     "description": "Se puede encontrar acelgas de varios colores (rosas, amarillas, blancas...) dependiendo de su variedad. La acelga se adapta bien a cualquier clima, por lo tanto se recolecta durante casi todo el a\u00f1o.",
+
     "name_cat": "Bleda",
-    "description_cat": "Es poden trobar bledes de diversos colors (roses, grogues, blanques...) depenent de la varietat. La bleda s’adapta bé a qualsevol clima; per tant, es recol·lecta durant gairebé tot l’any."
+    "description_cat": "Es poden trobar bledes de diversos colors (roses, grogues, blanques...) depenent de la varietat. La bleda s’adapta bé a qualsevol clima; per tant, es recol·lecta durant gairebé tot l’any.",
+
+    "name_en": "Chard",
+    "description_en": "You can find chards of various colors (pink, yellow, white ...) depending on their variety. Swiss chard adapts well to any climate, therefore it is harvested almost all year round.",
 }

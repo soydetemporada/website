@@ -4,6 +4,10 @@
     "category": "Fruta",
     "description": "La temporada del caqu\u00ed, o persim\u00f3n, se inicia en oto\u00f1o. En algunos lugares, esta fruta se llama \u201cpalosanto\u201d simplemente porque los caquis suelen madurar en noviembre y est\u00e1n disponibles en la festividad de \u201cTodos los Santos\u201d.",
     "time": "NA",
+
     "name_cat": "Caqui",
     "description_cat": "La temporada del caqui s’inicia a la tardor. En alguns llocs, aquesta fruita s’anomena palosanto perquè els caquis solen madurar al novembre i estan disponibles per Tots Sants.",
+
+    "name_en": "Kaki",
+    "description_en": "The season of the kaki, or persimmon, begins in autumn. In some places, this fruit is called Palosanto because the persimmons tend to mature in November and are available in the Todos los Santos festivity.",
 }

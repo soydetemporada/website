@@ -18,6 +18,10 @@
     "category": "Fruta",
     "name": "Manzana",
     "description": "La manzana es una de las frutas m\u00e1s famosas y antiguas de la historia, y se dice que los seres humanos ya la cultivaban y difund\u00edan antes del Paleol\u00edtico. Esta fruta es una de las m\u00e1s completas desde una perspectiva nutritiva por sus extraordinarias propiedades, e incluso un grupo de cient\u00edficos de la Universidad china de Hong Kong han llegado a afirmar que alarga la vida. Un truco para saber si la manzana est\u00e1 en su punto \u00f3ptimo de madurez es comprobar si, al cogerla por el medio, su carne se mantiene firme o su piel se arruga muy poco. Por el contrario, una muestra de que la fruta no se encuentra en buen estado es si aparecen con muchas arrugas, puntos blandos o manchas, aunque las peque\u00f1as motitas que tienen algunas variedades no afectan en absoluto a su calidad.",
+
     "name_cat": "Poma",
     "description_cat": "La poma és una de les fruites més famoses i antigues de la història, i es diu que els éssers humans ja la cultivaven i difonien abans del paleolític. Aquesta fruita és una de les més completes des d’una perspectiva nutritiva per les extraordinàries propietats que té, i fins i tot un grup de científics de la universitat xinesa de Hong Kong han arribat a afirmar que allarga la vida. Un truc per saber si la poma està al punt òptim de maduresa és comprovar si, en agafar-la per la meitat, la carn es manté ferma o la pell s’arruga una miqueta. Al contrari, una mostra que la fruita no està en bon estat és si hi apareixen moltes arrugues, punts tous o taques, tot i que els piquets que tenen algunes varietats no n’afecten en absolut la qualitat.",
+
+    "name_en":"Apple",
+    "description_en":"",
 }

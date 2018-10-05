@@ -18,6 +18,10 @@
     "category": "Fruta",
     "name": "Cereza",
     "description": "La cereza, o picota, llega con el calor y tiene una temporada bastante corta, entre mayo y julio. Las cerezas del Jerte son muy populares en el pa\u00eds y tienen una denominaci\u00f3n de origen protegida (DOP). Espa\u00f1a es uno de los pa\u00edses que m\u00e1s cerezas produce y exporta en el mundo.",
+
     "name_cat": "Cirera",
     "description_cat": "La cirera, o picota, arriba amb la calor i té una temporada bastant curta, entre maig i juliol. Les cireres del Jerte són molt populars al país i tenen una denominació d’origen protegida (DOP). Espanya és un dels països que produeix i exporta més cireres del món.",
+
+    "name_en": "Cherry",
+    "description_en": "Cherries comes with the heat and have a fairly short season, between May and July. Cherries from Jerte are very popular in Spain and have a Protected Designation of Origin (PDO). Spain is one of the biggest cherry exporter country in the world.",
 }
