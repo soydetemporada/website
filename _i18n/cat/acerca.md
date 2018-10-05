@@ -1,10 +1,10 @@
 
 ---
 <br>
-Este proyecto se ha desarrollado en el marco del evento [Visualizar 17](http://medialab-prado.es/article/visualizar17-migraciones-proyectos-seleccionados), un taller colaborativo y de datos abiertos organizado por el Medialab Prado del Ayuntamiento de Madrid. Tuvo lugar del 15 al 30 de septiembre 2017.
+Aquest projecte s'ha desenvolupat en el marc de l'esdeveniment [Visualizar 17](http://medialab-prado.es/article/visualizar17-migraciones-proyectos-seleccionados), un taller col·laboratiu i de dades obertes organitzat pel Medialab Prado de l'Ajuntament de Madrid. Va tenir lloc del 15 al 30 de setembre 2017.
 
 
-### EQUIPO
+### EQUIP
 <div class="row">
 
 {% for colaborator in site.data.colaborators %}
@@ -36,10 +36,10 @@ Este proyecto se ha desarrollado en el marco del evento [Visualizar 17](http://m
 {% endfor %}
 </div>
 <br>
-### COLABORADORES
+### COL·LABORADORS
 <div class="row">
   <div class="col-sm-4 col-xs-12" >
-  <h5>MENTORES</h5>
+  <h5>MENTORS</h5>
   <ul>
     <li> <a href="https://twitter.com/alayzappala" target="_blank"> Alejandro Zappala </a> </li>
     <li> <a href="https://twitter.com/maritrinez" target="_blank">Beatriz Martínez</a></li>
@@ -47,7 +47,7 @@ Este proyecto se ha desarrollado en el marco del evento [Visualizar 17](http://m
     <li> <a href="https://twitter.com/sergioeclectico" target="_blank"> Sergio Galán </a> </li>
   </ul>
   <br>
-  <h5>ILUSTRADORAS</h5>
+  <h5> IL·LUSTRADORES</h5>
   <ul>
     <li> <a href="https://twitter.com/LittleMsNimbus" target="_blank"> Hannah Williams </a> </li>
     <li> <a href="https://twitter.com/sofipros" target="_blank"> Sofía Prosper </a> </li>
@@ -55,7 +55,7 @@ Este proyecto se ha desarrollado en el marco del evento [Visualizar 17](http://m
 
   </div>
   <div class="col-sm-4 col-xs-12" >
-  <h5>AGRICULTORES</h5>
+  <h5>AGRICULTORS</h5>
   <ul>
     {% for farmer in site.data.farmers %}
     <li>
@@ -71,12 +71,12 @@ Este proyecto se ha desarrollado en el marco del evento [Visualizar 17](http://m
   <div class="col-sm-4 col-xs-12" >
   <h5>MEDIALAB PRADO</h5>
   <ul>
-    <li><a href="http://medialab-prado.es/article/visualizar17-migraciones" target="_blank"> La organización de Visualizar 17 </a> </li>
+    <li><a href="http://medialab-prado.es/article/visualizar17-migraciones" target="_blank"> L'organització de Visualitzar 17 </a> </li>
     <li><a href="https://twitter.com/samugranados" target="_blank"> Samuel Granados </a> </li>
     <li><a href="https://twitter.com/pr3ssh" target="_blank"> Pablo Martín </a> </li>
   </ul>
   <br>
-  <h5>OTROS</h5>
+  <h5>ALTRES</h5>
   <ul>
     <li> <a href="http://www.mumumio.com/" target="_blank"> Mumumío </a> </li>
   </ul>
