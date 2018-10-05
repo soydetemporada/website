@@ -1,0 +1,13 @@
+{
+    "name": "Granada",
+    "img": "granada.png",
+    "category": "Fruta",
+    "description": "",
+    "time":3,
+
+    "name_cat": "Magrana",
+    "description_cat": "",
+
+    "name_en": "Pomegranate",
+    "description_en": "",
+}
