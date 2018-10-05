@@ -9,7 +9,6 @@
       {% assign lang_prefix = "/" | append: site.lang  %}
     {% endif %}
     {% assign name_key = "name" | append: lang_suffix %}
-
     {% assign title = product_data[name_key]%}
   {% else %}
     {% assign title_keys = page.title | split: '.' %}
