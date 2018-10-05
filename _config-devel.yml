@@ -55,7 +55,7 @@ credits: 'visualizar@medialab-prado.es'
 collections:
   products:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:name
 
 defaults:
   - scope:
