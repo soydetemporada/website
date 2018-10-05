@@ -18,6 +18,10 @@
     "category": "Verdura",
     "name": "Espinaca",
     "description": "La espinaca de temporada se presenta entre los meses de oto\u00f1o y primavera. Una de sus grandes ventajas es que conserva muy bien sus propiedades en el tiempo y, si se consume cocida en vez de cruda, sus hojas aportan el triple de calcio.",
+
     "name_cat": "Espinac",
     "description_cat": "L’espinac de temporada es presenta entre els mesos de tardor i primavera. Un dels seus grans avantatges és que conserva molt bé les propietats en el temps i, si es consumeix cuit en lloc de cru, les fulles aporten el triple de calci.",
+
+    "name_en": "Spinach",
+    "description_en": "Spinach season occurs between autumn and spring. One of its great advantages is that it preserves its properties very well over time and if consumed cooked instead of raw, its provides three times more calcium.",
 }

@@ -4,6 +4,10 @@
     "category": "Verdura",
     "description": "El br\u00f3coli o br\u00e9col pertenece a la familia de las coles, y como todos los coles, prefiere las temporadas templadas y fr\u00edas. Se disfruta en oto\u00f1o e invierno.",
     "time": 6,
+
     "name_cat": "Bròquil",
     "description_cat": "El bròquil o bròcoli pertany a la família de les cols i, com totes les cols, prefereix les temporades temperades i fredes. Se’n gaudeix a la tardor i a l’hivern.",
+
+    "name_en": "Broccoli",
+    "description_en": "The broccoli belongs to the family of cabbages, and like all cabbages, prefers the temperate and cold seasons. Eat it in autumn and winter.",
 }

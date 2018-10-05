@@ -4,6 +4,10 @@
     "category": "Verdura",
     "description": "El mejor momento para consumir esta 'fruta-legumbre' es durante la primavera. Las habas frescas tienen una temporalidad muy corta, y pueden aguantar en el frigor\u00edfico unos cuatro d\u00edas. Es un producto muy recomendable por sus numerosas propiedades nutricionales",
     "time":3,
+
     "name_cat": "Fava",
     "description_cat": "El millor moment per consumir aquesta fruita llegum és durant la primavera. Les faves fresques tenen una temporalitat molt curta, i poden aguantar a la nevera uns quatre dies. És un producte molt recomanable per les nombroses propietats nutricionals.",
+
+    "name_en": "Bean",
+    "description_en": "The best time to consume this 'fruit-legume' is during the spring. Fresh beans have a very short season, and can be stored in the fridge for about four days. It is a highly recommended product for its numerous nutritional properties",
 }

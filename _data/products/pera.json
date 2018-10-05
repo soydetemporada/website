@@ -18,6 +18,10 @@
     "category": "Fruta",
     "name": "Pera",
     "description": "La pera es uno de los frutos m\u00e1s importantes que se cultivan en regiones templadas. Es curioso pues podemos encontrar peras de invierno o verano seg\u00fan su requerimiento de fr\u00edo para madurar. Por ello podemos encontrar diferentes variedades de pera seg\u00fan la \u00e9poca del a\u00f1o. Las peras de invierno se conservan mucho mejor que sus primas de verano. Podemos encontrarlas en muchos platos t\u00edpicos europeos, tanto en postres, mermeladas como en compotas.",
+    
     "name_cat": "Pera",
     "description_cat": "La pera és un dels fruits més importants que es cultiven en regions temperades. És curiós, ja que podem trobar peres d’hivern o estiu segons el requeriment de fred per madurar. Per això podem trobar diferents varietats de pera segons l’època de l’any. Les peres d’hivern es conserven molt millor que les seves cosines d’estiu. Podem trobar-ne en molts plats típics europeus, tant en postres i melmelades com en compotes.",
+
+    "name_en":"Pear",
+    "description_en":"",
 }

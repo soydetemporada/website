@@ -4,6 +4,10 @@
     "category": "Verdura",
     "description": "Aunque estemos acostumbrados a una sola variedad de maíz, existen al menos 300 variedades conocidas de este producto. El maíz dulce destaca por las altas cantidades de hidratos de carbono que contiene y, también, por su aporte de algunos minerales como el magnesio, el fósforo y el potasio. Puede ser un alimento muy recomendable para las personas que tienen celiaquía, ya que el maíz dulce no contiene glúten.",
     "time":5,
+
     "name_cat": "Blat de moro",
     "description_cat": "Tot i que estem acostumats a una sola varietat de blat de moro, com a mínim hi ha 300 varietats conegudes d’aquest producte. El blat de moro destaca per les altes quantitats d’hidrats de carboni que conté i, també, per l’aportació d’alguns minerals com el magnesi, el fòsfor i el potassi. Pot ser un aliment molt recomanable per a les persones que tenen celiaquia, ja que el blat de moro no conté gluten.",
+
+    "name_en":"Corn",
+    "description_en":"Although we are used to a single variety of corn, there are at least 300 known varieties of this product. Sweet corn stands out for the high amounts of carbohydrates it contains and also for its intake of some minerals such as magnesium, phosphorus and potassium. It can be a highly recommended food for people with celiac disease, since sweet corn does not contain gluten.",
 }
