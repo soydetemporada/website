@@ -74,7 +74,7 @@ sass:
     style: compressed
 
 # Excludes
-exclude: ["Gemfile", "Gemfile.lock", "node_modules","vendor","vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/","app.appcache.old","ilustraciones-originales","package.json","webpack.config.js","npm-postinstall.sh","yarn.lock","README.md","AGREGAR_PRODUCTO.txt"]
+exclude: ["Gemfile", "Gemfile.lock", "node_modules","vendor","vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/","app.appcache.old","ilustraciones-originales","package.json","webpack.config.js","npm-postinstall.sh","yarn.lock","package-lock.json","README.md","AGREGAR_PRODUCTO.txt","generate.sh"]
 
 # jekyll plugins
 plugins:
