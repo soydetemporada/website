@@ -199,7 +199,16 @@ section.success {
   text-align:center;
   font-size: 20px;
 }
-
+.highlight-menu{
+  background-color: #D9A036;
+  color: white;
+  font-weight: normal;
+  border-radius: 5px;
+  margin-top: -0.5em;
+}
+.highlight-menu > a{
+  color: #fff !important;
+}
 .breadcrumb{
   background: none;
 }
@@ -213,7 +222,8 @@ section.success {
   display: none;
 }
 .press{
-  margin: 3em auto;
+  margin: 1em auto;
+  height: 80px;
 }
 .press img{
   margin: 0 auto;

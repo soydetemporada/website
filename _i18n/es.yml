@@ -6,6 +6,7 @@ global:
   licencia: "Licencia Creative Commons"
   acerca: Acerca
   contacto: Contacto
+  vegetables_calendar: "Calendario de verduras"
   menu:
     buscador: Calendario
     porque: "¿Por qué?"
@@ -28,7 +29,7 @@ titles:
 contact:
   name: "Nombre"
   email: "Dirección de correo"
-  message: "Mensaje" 
+  message: "Mensaje"
 
 home:
   months: "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre"
