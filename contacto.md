@@ -1,5 +1,5 @@
 ---
-title: Contacto
+title: titles.contacto
 layout: page
 css-id: contact
 cabezote: /img/contacto-cabezote.jpg

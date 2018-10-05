@@ -1,7 +1,25 @@
 <head>
+  {% assign product_id = page.id | replace: '/products/',''%}
+  {% assign product_data = site.data.products[product_id] %}
+  {% if product_data %}
+    {% assign lang_suffix = '' %}
+    {% assign lang_prefix = '' %}
+    {% if site.lang != 'es' %}
+      {% assign lang_suffix = "_" | append: site.lang %}
+      {% assign lang_prefix = "/" | append: site.lang  %}
+    {% endif %}
+    {% assign name_key = "name" | append: lang_suffix %}
+
+    {% assign title = product_data[name_key]%}
+  {% else %}
+    {% assign title_keys = page.title | split: '.' %}
+    {% assign title_section = title_keys[0] %}
+    {% assign title_key = title_keys[1] %}
+    {% assign title = site.translations[site.lang][title_section][title_key] %}
+  {% endif %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{% t page.title %} | {% endif %}{{ site.title }}</title>
+    <title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
     <meta name="keywords" content="{{ site.keywords }}" />
