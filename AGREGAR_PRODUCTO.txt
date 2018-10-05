@@ -1,0 +1,6 @@
+# Agregar PRODUCTO
+
+- Crear producto en _products
+- Crear producto en _data/products
+- Verificar que la imagen exista en img/products/
+- Incluir el producto en data/seasons/calendario.csv
