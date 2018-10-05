@@ -18,6 +18,10 @@
     "category": "Verdura",
     "name": "Coliflor",
     "description": "Su temporada plena son los meses fr\u00edos de a\u00f1o. En verano, los que se encuentran son muy peque\u00f1os y valen el doble de su precio normal.",
+
     "name_cat": "Coliflor",
     "description_cat": "La temporada plena són els mesos freds de l’any. A l’estiu, les que es troben són molt petites i valen el doble del preu normal.",
+
+    "name_en": "Cauliflower",
+    "description_en": "Its full season is during the cold months of the year. In summer, those that are found are very small and are worth double their normal price.",
 }

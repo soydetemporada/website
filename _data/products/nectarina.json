@@ -18,6 +18,10 @@
     "category": "Fruta",
     "name": "Nectarina",
     "description": "La nectarina es una variante de melocot\u00f3n sin vello ni pelusa, y no una hibridaci\u00f3n entre melocot\u00f3n y ciruela como mucha gente piensa. Se cultiva desde hace siglos, pero no es hasta recientemente cuando su inter\u00e9s ha favorecido incrementos de producci\u00f3n local. Se puede consumir adem\u00e1s de cruda, en multitud de postres, como bizcochos, mermeladas, macedonias de frutas, o tartas. Espa\u00f1a es un gran exportador de nectarinas a nuestros vecinos europeos.",
+
     "name_cat": "Nectarina",
     "description_cat": "La nectarina és una variant de préssec sense pèl ni borrissol i no pas una hibridació entre préssec i pruna com pensa molta gent. Es cultiva des de fa segles, però no és fins fa poc que l’interès n’ha afavorit increments de producció local. Es pot consumir, a més de crua, en moltes postres, com ara pans de pessic, melmelades, macedònies de fruites o pastissos. Espanya és un gran exportador de nectarines als nostres veïns europeus.",
+
+    "name_en":"Nectarine",
+    "description_en":"",
 }

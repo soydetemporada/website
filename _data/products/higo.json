@@ -18,6 +18,10 @@
     "category": "Fruta",
     "name": "Higo",
     "description": "Es un fruto mediterr\u00e1neo que tiene una temporada muy corta",
+
     "name_cat": "Figa",
     "description_cat": "És un fruit mediterrani que té una temporada molt curta.",
+
+    "name_en":"Fig",
+    "description_en":"It is a Mediterranean fruit that has a very short season.",
 }

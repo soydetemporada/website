@@ -4,6 +4,10 @@
     "category": "Verdura",
     "description": "Se pueden encontrar patatas en pr\u00e1cticamente todo el mundo, pues es uno de los alimentos b\u00e1sicos del ser humano, ayudando a combatir el hambre a lo largo de nuestra historia. Su cultivo es milenario, con origen en Am\u00e9rica del Sur, fue introducida en Europa por los primeros colonos espa\u00f1oles en el siglo XVI y ah\u00ed se expandi\u00f3 a todas las colonias y resto de pa\u00edses. En 2015, fue el producto que m\u00e1s se import\u00f3, principalmente desde China, que es el mayor productor del mundo seg\u00fan FAO muy por delante de India y Rusia.",
     "time":4,
+    
     "name_cat": "Patata",
     "description_cat": "Es poden trobar patates a pràcticament tot el món, ja que és un dels aliments bàsics de l’ésser humà: ha ajudat a combatre la gana al llarg de la nostra història. El cultiu és mil·lenari, amb origen a l’Amèrica del Sud. Els primers colons espanyols la van introduir a Europa al segle XVI i allà es va expandir a totes les colònies i resta de països. El 2015 va ser el producte que es va importar més, principalment des de la Xina, que n’és el principal productor del món segons la FAO, molt per davant de l’Índia i Rússia.",
+
+    "name_en":"Potato",
+    "description_en":"",
 }

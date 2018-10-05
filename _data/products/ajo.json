@@ -18,6 +18,10 @@
     "category": "Verdura",
     "name": "Ajo",
     "description": "El ajo se recolecta en primavera y se almacena para poder consumirlo todo el a\u00f1o. En buenas condiciones, se puede conservar durante mucho tiempo. Aunque su olor fuerte pueda molestar a algunos, tiene un mont\u00f3n de beneficios para la salud y es un antibiotico natural.",
+
     "name_cat": "All",
-    "description_cat": "L’all es recol·lecta a la primavera i s’emmagatzema per poder consumir-lo tot l’any. En bones condicions, es pot conservar durant molt de temps. Tot i que l’olor forta pot molestar algunes persones, té un munt de beneficis per a la salut i és un antibiòtic natural.",
+    "description_cat": "Garlic is collected in the spring and stored to be consumed all year. In good condition, it can be stored for a long time. Although its strong smell may bother some people, it has a lot of health benefits and is a natural antibiotic.",
+
+    "name_en": "Garlic",
+    "description_en":"Garlic is collected in the spring and stored to be consumed all year. In good condition, it can be stored for a long time. Although its strong smell may bother some people, it has a lot of health benefits and is a natural antibiotic.",
 }

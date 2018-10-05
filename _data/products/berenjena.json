@@ -18,6 +18,10 @@
     "category": "Verdura",
     "name": "Berenjena",
     "description": "Necesita muchas horas de sol y temperaturas elevadas para crecer, por eso se encuentra principalmente en verano. Las berenjenas que compras en pleno invierno vendr\u00e1n con mucha probabilidad de invernaderos climatizados o de pa\u00edses lejanos.",
+
     "name_cat": "Albergínia",
     "description_cat": "Necessita moltes hores de sol i temperatures elevades per créixer, per això se’n troba principalment a l’estiu. Les albergínies que compreu en ple hivern venen amb molta probabilitat d’hivernacles climatitzats o de països llunyans.",
+
+    "name_en": "Eggplant",
+    "description_en": "It needs many hours of sun and high temperatures to grow, that's why it is mainly found in summer. The eggplants you buy in the middle of winter will most likely come from heated greenhouses or from distant countries.",
 }
