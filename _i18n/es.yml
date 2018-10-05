@@ -1,30 +1,30 @@
 global:
   header: "¿Qué puedo comer este mes?"
-  contactanos: "Contáctanos"
-  colabora: Colabora
-  compartelo: "Compártelo"
-  licencia: "Licencia Creative Commons"
-  acerca: Acerca
-  contacto: Contacto
+  contact_us: "Contáctanos"
+  help_us: Colabora
+  share_it: "Compártelo"
+  license: "Licencia Creative Commons"
+  about: Acerca
+  contact: Contacto
   vegetables_calendar: "Calendario de verduras"
   menu:
-    buscador: Calendario
+    calendar: Calendario
     porque: "¿Por qué?"
-    investigacion: Investigación
+    research: Investigación
     faq: FAQ
-    recetas: Recetas
+    recipes: Recetas
 
 titles:
-  buscador: Buscador
+  calendar: Buscador
   porque: "¿Por qué?"
-  investigacion: "Agricultura familiar: el coste de mantener la tradición y la tierra"
+  research: "Agricultura familiar: el coste de mantener la tradición y la tierra"
   faq: FAQ
-  recetas: Recetas
-  acerca: Acerca
-  colabora: Colabora
-  contacto: Contacto
+  recipes: Recetas
+  about: Acerca
+  help_us: Colabora
+  contact: Contacto
   cookies: Cookies
-  peticion: "para tener calendarios fiables"
+  petition: "para tener calendarios fiables"
 
 contact:
   name: "Nombre"
@@ -33,10 +33,10 @@ contact:
 
 home:
   months: "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre"
-  filtrar: "Filtrar por producto"
-  entrando_saliendo: "Producto entrando o saliendo de temporada"
-  cargando: "Cargando..."
-  fuera_temporada: "FUERA DE TEMPORADA"
+  filter: "Filtrar por producto"
+  in_out: "Producto entrando o saliendo de temporada"
+  loading: "Cargando..."
+  out_of_season: "FUERA DE TEMPORADA"
   contact:
     title: "¿Has visto algún error en el calendario?"
     subtitle: "Queremos que sea lo más fiable posible, no dudes en avisarnos."
@@ -44,19 +44,19 @@ home:
     title: "Hablan de nosotros"
 
 product:
-  pocas_palabras: "En pocas palabras"
-  tiempo_cultivo: "Tiempo de cultivo"
+  summary: "En pocas palabras"
+  growing_time: "Tiempo de cultivo"
   top_3: "Top 3 de las provincias productoras"
-  fuente_top: "Fuente: Ministerio de Agricultura (2015). Anuario de Estadística."
-  importa_exporta: "¿Cuánto se importa, cuánto se exporta?"
-  fuente_importa_exporta: "Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos."
+  source_top: "Fuente: Ministerio de Agricultura (2015). Anuario de Estadística."
+  import_export: "¿Cuánto se importa, cuánto se exporta?"
+  source_import_export: "Fuente: Ministerio de Economía (2015). Incluye producción en invernaderos."
 
 colaborators:
-  coordinacion: "Coordinación y Diseño"
-  investigacion: "Investigación y Redacción"
-  programacion: "Programación"
+  coordination: "Coordinación y Diseño"
+  research: "Investigación y Redacción"
+  development: "Programación"
   design: "Diseño UX"
-  analisis_datos: "Análisis de datos"
+  data_analysis: "Análisis de datos"
 
 cookies:
   cookie_banner: "Las cookies siempre están de temporada, y este sitio usa dos o tres"

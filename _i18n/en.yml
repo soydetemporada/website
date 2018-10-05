@@ -1,47 +1,47 @@
 global:
   header: "What can I eat this month?"
-  contactanos: "Contact us"
-  colabora: "Help us"
-  compartelo: "Share it"
-  licencia: "Creative Commons License"
-  acerca: About
-  contacto: Contact
+  contact_us: "Contact us"
+  help_us: "Help us"
+  share_it: "Share it"
+  license: "Creative Commons License"
+  about: About
+  contact: Contact
   menu:
-    buscador: Calendar
+    calendar: Calendar
     porque: "Why?"
-    investigacion: Investigation
+    research: Investigation
     faq: FAQ
-    recetas: Recipes
+    recipes: Recipes
 
 titles:
-  buscador: Calendar
+  calendar: Calendar
   porque: "Why?"
-  investigacion: "Agricultura familiar: el coste de mantener la tradición y la tierra"
+  research: "Agricultura familiar: el coste de mantener la tradición y la tierra"
   faq: FAQ
-  recetas: Recipes
-  acerca: About
-  colabora: "Help us"
-  contacto: Contact
+  recipes: Recipes
+  about: About
+  help_us: "Help us"
+  contact: Contact
   cookies: Cookies
-  peticion: "para tener calendarios fiables"
+  petition: "para tener calendarios fiables"
 
 home:
   months: "January, February, March, April, May, June, July, August, September, October, November, December"
-  filtrar: "Filter by product"
-  entrando_saliendo: "Product starting or finishing season"
-  cargando: "Loading..."
-  fuera_temporada: "NOT IN SEASON"
+  filter: "Filter by product"
+  in_out: "Product starting or finishing season"
+  loading: "Loading..."
+  out_of_season: "NOT IN SEASON"
   contact:
     title: "¿Have you seen an error in the calendar?"
     subtitle: "We want it to be as reliable as possible, don't hesitate to let us know."
 
 product:
-  pocas_palabras: "In a few words"
-  tiempo_cultivo: "Growing time"
+  summary: "In a few words"
+  growing_time: "Growing time"
   top_3: "Top 3 of the producing provinces"
-  fuente_top: "Source: Ministry of Agriculture (2015). Statistical Yearbook."
-  importa_exporta: "How much is imported, how much is exported?"
-  fuente_importa_exporta: "Source: Ministry of Economy (2015). Includes production in greenhouses."
+  source_top: "Source: Ministry of Agriculture (2015). Statistical Yearbook."
+  import_export: "How much is imported, how much is exported?"
+  source_import_export: "Source: Ministry of Economy (2015). Includes production in greenhouses."
 
 contact:
   name: "Name"
@@ -49,11 +49,11 @@ contact:
   message: "Message"
 
 colaborators:
-  coordinacion: "Coordination and Design"
-  investigacion: "Investigation and Writing"
-  programacion: "Programming"
+  coordination: "Coordination and Design"
+  research: "Investigation and Writing"
+  development: "Programming"
   design: "UX Design"
-  analisis_datos: "Data Analysis"
+  data_analysis: "Data Analysis"
 
 cookies:
   cookie_banner: "Cookies are always in season, and this website uses two or three"
