@@ -1,0 +1,4 @@
+---
+title: Plátano
+layout: product
+---

@@ -50,9 +50,9 @@ ID,TIPO DE PRODUCTO,ENE,FEB,MAR,ABR,MAY,JUN,JUL,AGO,SEP,OCT,NOV,DIC
 49,CIRUELA,,,,,,,,,,,,
 50,FRAMBUESA,,,,,,,,,,,,
 51,FRESA,,,,,,,,,,,,
-52,GRANADA,,,,,,,,,X,X,,
+52,GRANADA,,,,,,,,,X,X,Y,
 53,HIGO,,,,,,,,,,,,
-54,KIWI,,,,,,,,,,,,
+54,KIWI,X,X,Y,,,,,,,,Y,X
 55,LIMA,,,,,,,,,,,,
 56,LIMÓN,,,,,,,,,,,,
 57,MANDARINA,,,,,,,,,,,,
@@ -68,7 +68,7 @@ ID,TIPO DE PRODUCTO,ENE,FEB,MAR,ABR,MAY,JUN,JUL,AGO,SEP,OCT,NOV,DIC
 67,PAPAYA,,,,,,,,,,,,
 68,PERA,,,,,,,,,,,,
 69,PIÑA,,,,,,,,,,,,
-70,PLATANO,,,,,,,,,,,,
+70,PLATANO,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
 71,POMELO,,,,,,,,,,,,
 72,SANDÍA,,,,,,,,,,,,
 73,UVA,,,,,,,,,,,,
