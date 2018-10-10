@@ -1,1 +1,1 @@
-[u'col-china', u'chirivia', u'cebolleta', u'papaya', u'pina', u'platano']
+[u'col-china', u'chirivia', u'cebolleta', u'papaya', u'pina']
