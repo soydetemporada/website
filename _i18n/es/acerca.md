@@ -80,6 +80,9 @@ Este proyecto se ha desarrollado en el marco del evento [Visualizar 17](http://m
   <ul>
     <li> <a href="http://www.mumumio.com/" target="_blank"> Mumumío </a> </li>
   </ul>
+  <ul>
+    <li> <a href="http://nadia-ambaccent.cat/" target="_blank"> Nàdia amb accent  </a> </li>
+  </ul>
   </div>
 </div>
 
