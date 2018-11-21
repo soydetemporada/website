@@ -15,8 +15,8 @@ cardo,X,Y,Y,,,,,,,,X,X,3.7,5
 cebolla,,,Y,Y,Y,Y,Y,X,X,X,Y,Y,5.5,16
 cereza,,,,,X,X,,,,,,,1.9,10
 champinon,,,,,Y,,,,Y,Y,X,,4.5,4
-col,X,X,X,Y,,,,Y,Y,X,X,X,6.5,8
 col-de-bruselas,Y,Y,,,,,,,,Y,Y,X,3.42,6
+col,X,X,X,Y,,,,Y,Y,X,X,X,6.5,8
 coliflor,X,X,X,Y,,,,,,Y,X,X,5.1,15
 endibia,X,X,X,X,X,X,,,X,X,X,X,10.0,1
 esparrago,,,X,X,X,,,,,,,,3.06,8
@@ -45,8 +45,8 @@ patata,,,,,Y,X,X,X,Y,Y,,,4.21,19
 pepino,,,,,,X,X,X,X,,,,3.41,16
 pera,,,,,,,X,X,X,Y,,,3.71,7
 pimiento,,,,,,X,X,X,X,Y,,,3.92,19
-pomelo,Y,Y,Y,Y,,,,,,,,X,3.5,2
 platano,,,,,,,,,,,,,3.5,2
+pomelo,Y,Y,Y,Y,,,,,,,,X,3.5,2
 puerro,X,X,Y,,,,,Y,X,X,X,X,5.7,15
 rabano,,,Y,,Y,Y,Y,,Y,X,X,,4.88,4
 remolacha,Y,Y,Y,Y,Y,Y,X,X,Y,X,X,Y,6.31,8
